@@ -1,0 +1,3732 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: photo-gallery\n"
+"POT-Creation-Date: 15-10-28 03:26+000\n"
+"PO-Revision-Date: 2015-12-15 13:26+0400\n"
+"Last-Translator: admin < a@mail.ru >\n"
+"Language-Team: \n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#: ../photo-gallery-notices.php:188
+msgid "Leave A Review?"
+msgstr "Оставить отзыв?"
+
+#: ../photo-gallery-notices.php:189
+#, php-format
+msgid "We hope you've enjoyed using WordPress %s! Would you consider leaving us a review on WordPress.org?"
+msgstr "Мы надеемся, что вам понравилось, использовать WordPress %s! Оставьте нам свой отзыв о WordPress.org."
+
+#: ../photo-gallery-notices.php:190
+msgid "Sure! I'd love to!"
+msgstr "Конечно! С удовольствием!"
+
+#: ../photo-gallery-notices.php:191
+msgid "I've already left a review"
+msgstr "Я уже оставил отзыв"
+
+#: ../photo-gallery-notices.php:192
+msgid "Maybe Later"
+msgstr "Может быть позже"
+
+#: ../photo-gallery-notices.php:193 ../photo-gallery-notices.php:203
+msgid "Never show again"
+msgstr "Никогда больше не показывать"
+
+#: ../photo-gallery-notices.php:199
+msgid "Hey! How's It Going?"
+msgstr "Привет! Как дела?"
+
+#: ../photo-gallery-notices.php:200
+#, php-format
+msgid "Thank you for using WordPress %s! We hope that you've found everything you need, but if you have any questions:"
+msgstr "Благодарим Вас за использование WordPress %s! Мы надеемся, что Вы нашли все, что нужно, но если у вас есть какие-либо вопросы:"
+
+#: ../photo-gallery-notices.php:201
+msgid "Check out User Guide"
+msgstr "Проверьте Руководство пользователя"
+
+#: ../photo-gallery-notices.php:202
+msgid "Get Some Help"
+msgstr "Получить помощь"
+
+#. Name of the plugin
+msgid "Photo Gallery"
+msgstr "Фотогалерея"
+
+#. URI of the plugin
+msgid "https://web-dorado.com/products/wordpress-photo-gallery-plugin.html"
+msgstr "https://web-dorado.com/products/wordpress-photo-gallery-plugin.html"
+
+#. Description of the plugin
+msgid "This plugin is a fully responsive gallery plugin with advanced functionality.  It allows having different image galleries for your posts and pages. You can create unlimited number of galleries, combine them into albums, and provide descriptions and tags."
+msgstr "Этот плагин является полностью адаптивным плагином галереи с расширенной функциональностью. Это позволяет иметь различные галереи изображений для ваших сообщений и страниц. Вы можете создавать неограниченное количество галерей, объединять их в альбомы, и обеспечивать им описания и теги."
+
+#. Author of the plugin
+msgid "WebDorado"
+msgstr "WebDorado"
+
+#. Author URI of the plugin
+msgid "https://web-dorado.com"
+msgstr "https://web-dorado.com"
+
+#: ../photo-gallery.php:71
+msgid "Add Galleries/Images"
+msgstr "Добавить галереи / Изображения"
+
+#: ../photo-gallery.php:76 .. /admin/views/BWGEViewAlbums_bwge.php:53
+msgid "Albums"
+msgstr "Альбомы"
+
+#: ../photo-gallery.php:81 ../admin/views/BWGEViewAddTags. php:45
+#: ../admin/views/BWGEViewGalleries_bwge.php:857 ..
+#: /admin/views/BWGEViewTags_bwge.php:56
+msgid "Tags"
+msgstr "Ключевые слова"
+
+#: ../photo-gallery.php:86
+msgid "Options"
+msgstr "Опции"
+
+#: ../photo-gallery.php:90 .. /admin/views/BWGEViewThemes_bwge.php:78
+msgid "Themes"
+msgstr "Темы"
+
+#: ../photo-gallery.php:95
+msgid "Generate Shortcode"
+msgstr "Создание кода"
+
+#: ../photo-gallery.php:97
+msgid "Licensing"
+msgstr "Лицензирование"
+
+#: ../photo-gallery.php:100
+msgid "Featured Plugins"
+msgstr "Популярные Плагины"
+
+#: ../photo-gallery.php:101
+msgid "Featured Themes"
+msgstr "Популярные темы"
+
+#: ../photo-gallery.php:103
+msgid "Uninstall"
+msgstr "Удаление"
+
+#: ../photo-gallery.php:2446 ../photo-gallery.php:2615
+msgid "field is required."
+msgstr "Поле, обязательное для заполнения."
+
+#: ../photo-gallery.php:2447
+msgid "You must select an image file."
+msgstr "Вы должны выбрать файл изображения."
+
+#: ../photo-gallery.php:2448
+msgid "You must select an audio file."
+msgstr "Вы должны выбрать звуковой файл."
+
+#: ../photo-gallery.php:2449
+msgid "You do not have Instagram CLIENT_ID. Input its value in Options->Embed options. "
+msgstr "Вы не ввели Instagram client_id. Введите его значение в настройках Настройки-> Embed."
+
+#: ../photo-gallery.php:2450
+msgid "Instagram recent post number must be between 1 and 33."
+msgstr "Номер последних сообщений в Instagram должен быть между 1 и 33."
+
+#: ../photo-gallery.php:2451
+msgid "The gallery is not empty. Please delete all the images first."
+msgstr "Галерея не пустая. Пожалуйста, удалите сначала все изображения."
+
+#: ../photo-gallery.php:2452
+msgid "Please enter url to embed."
+msgstr "Пожалуйста, введите URL для встраивания."
+
+#: ../photo-gallery.php:2453
+msgid "Error: cannot get response from the server."
+msgstr "Ошибка: не могу получить ответ от сервера."
+
+#: ../photo-gallery.php:2454
+msgid "Error: something wrong happened at the server."
+msgstr "Ошибка: что-то случилось на сервере."
+
+#: ../photo-gallery.php:2455
+msgid "Error"
+msgstr "ошибка"
+
+#: ../photo-gallery.php:2456
+msgid "Show order column"
+msgstr "Показать колонку очередности"
+
+#: ../photo-gallery.php:2457 ../admin/views/BWGEViewAlbums_bwge.php:63 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:63
+#: ../admin/views/BWGEViewGalleries_bwge. php:521
+#: ../admin/views/BWGEViewGalleries_bwge.php:725
+msgid "Hide order column"
+msgstr "Скрыть колонку очередности"
+
+#: ../photo-gallery.php:2458
+msgid "Selected"
+msgstr "Выбранный"
+
+#: ../photo-gallery.php:2459 ../framework/BWGELibrary.php:436
+msgid "item"
+msgstr "пункт"
+
+#: ../photo-gallery.php:2460
+msgid "Items Succesfully Saved."
+msgstr "Сохранение успешно"
+
+#: ../photo-gallery.php:2461
+msgid "Item Succesfully Recovered."
+msgstr "Восстановление успешно."
+
+#: ../photo-gallery.php:2462
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:953
+#: ../framework/BWGELibrary.php:94
+msgid "Item Succesfully Published."
+msgstr "Публикация успешна."
+
+#: ../photo-gallery.php:2463
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:990
+#: ../framework/BWGELibrary.php:106
+msgid "Item Succesfully Unpublished."
+msgstr "Публикация успешно отменена."
+
+#: ../photo-gallery.php:2464
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:908
+#: ../framework/BWGELibrary.php:58
+msgid "Item Succesfully Deleted."
+msgstr "Удаление успешно."
+
+#: ../photo-gallery.php:2465
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:944
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:981 ..
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:1018
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:1097
+#: ../framework/BWGELibrary. php:76
+msgid "You must select at least one item."
+msgstr "Вы должны выбрать по крайней мере один элемент."
+
+#: ../photo-gallery.php:2466
+msgid "Items Succesfully resized."
+msgstr "Размер успешно изменен."
+
+#: ../photo-gallery.php:2467
+msgid "Watermarks Succesfully Set."
+msgstr "Водяные знаки успешно добавлены."
+
+#: ../photo-gallery.php:2468
+msgid "Items Succesfully Reset."
+msgstr "Сброс успешно произведен."
+
+#: ../photo-gallery.php:2616
+msgid "This is not a valid email address."
+msgstr "Это неправильный адрес электронной почты."
+
+#: ../photo-gallery.php:2617
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:744
+#: ../frontend/views/BWGEViewAlbum_extended_preview.php:726
+msgid "There are no images matching your search."
+msgstr "Нет изображения, соответствующего Вашему запросу."
+
+#: ../photo-gallery.php:2620
+msgid "Select Tag."
+msgstr "Выберите метку."
+
+#: ../addons/addons.php:5
+msgid "Photo Gallery Facebook"
+msgstr "Фотогалерея Facebook"
+
+#: ../addons/addons.php:7
+msgid "Photo Gallery Facebook is an add-on, which helps to display Facebook photos and videos within Photo Gallery plugin. You can create Facebook-only galleries, embed individual images and videos or include Facebook albums within mixed type albums."
+msgstr "Фотогалерея Facebook является дополнением, которое помогает отобразить Facebook фотографии и видео в пределах плагина Фотогалерея. Вы можете создавать Facebook-галереи, вставлять отдельные изображения и видео или включать альбомы Facebook в альбомы смешанного типа."
+
+#: ../addons/addons.php:12
+msgid "NextGen Gallery Import to Photo Gallery"
+msgstr "Импорт в Фотогалерею из галереи NextGen"
+
+#: ../addons/addons.php:14
+msgid "This addon integrates NextGen with Photo Gallery allowing to import images and related data from NextGen to use with Photo Gallery"
+msgstr "Этот аддон интегрируется с NextGen и позволяет импортировать изображения и связанные с ними данные из NextGen для использования в Фотогалерее"
+
+#: ../addons/addons.php:19
+msgid "Photo Gallery Export / Import"
+msgstr "Экспорт / Импорт Фотогалереи"
+
+#: ../addons/addons.php:21
+msgid "Photo Gallery Export/Import helps to move created galleries and albums from one site to another. This way you can save the gallery/album options and manual modifications."
+msgstr "Экспорт / Импорт Фотогалереи помогает перемещать созданные галереи и альбомы с одного сайта на другой. Таким образом, вы можете сохранить галерею / варианты альбомов и ручные изменения."
+
+#: ../addons/addons.php:30
+msgid "Photo Gallery Add-ons"
+msgstr "Дополнения Фотогалереи"
+
+#: ../addons/addons.php:33
+msgid "Attention"
+msgstr "Внимание"
+
+#: ../addons/addons.php:34
+msgid "Add-ons are supported by premium version of Photo Gallery"
+msgstr "Дополнения поддерживаются премиум-версию Photo Gallery"
+
+#: ../addons/addons.php:69
+msgid "GET THIS ADD ON"
+msgstr "Получить это дополнение"
+
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:727 ..
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:868
+#: /admin/controllers/BWGEControllerOptions_bwge.php:384
+#: /admin/views/BWGEViewTags_bwge.php:52 ../framework/BWGELibrary.php:46
+msgid "Item Succesfully Saved."
+msgstr "Пункт успешно сохранен."
+
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:871 ..
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:911
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:956
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:993
+#: ../framework/BWGELibrary. php:52
+msgid "Error. Please install plugin again."
+msgstr "Ошибка. Пожалуйста, установите плагин снова."
+
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:894 ..
+#: /framework/BWGELibrary.php:118
+msgid "Ordering Succesfully Saved."
+msgstr "Сортировка успешно сохранена."
+
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:941 ..
+#: /framework/BWGELibrary.php:70
+msgid "Items Succesfully Deleted."
+msgstr "Удаление успешно."
+
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:978 ..
+#: /framework/BWGELibrary.php:100
+msgid "Items Succesfully Published."
+msgstr "Публикация успешна."
+
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:1015 ..
+#: /framework/BWGELibrary.php:112
+msgid "Items Succesfully Unpublished."
+msgstr "Публикация отменена."
+
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:1100
+msgid "Thumb Succesfully Resized"
+msgstr "Превью уменьшено успешно"
+
+#: ../admin/views/BWGEViewAddAlbumsGalleries.php:45
+msgid "Albums/Galleries"
+msgstr "Альбомы / Галереи"
+
+#: ../admin/views/BWGEViewAddAlbumsGalleries.php:51 ..
+#: /admin/views/BWGEViewAddAlbumsGalleries.php:77 ../admin/views/BWGEViewAddTags.
+#: php:51 ../admin/views/BWGEViewAddTags.php:68
+#: ../admin/views/BWGEViewAlbums_bwge. php:75
+#: ../admin/views/BWGEViewAlbums_bwge.php:96
+#: /admin/views/BWGEViewGalleries_bwge.php:75
+#: ../admin/views/BWGEViewGalleries_bwge. php:97
+#: ../admin/views/BWGEViewTags_bwge.php:71 ../admin/views/BWGEViewTags_bwge. php:91
+#: ../admin/views/BWGEViewThemes_bwge.php:110
+msgid "Name"
+msgstr "Название"
+
+#: ../admin/views/BWGEViewAddAlbumsGalleries.php:70 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:214
+#: ../admin/views/BWGEViewGalleries_bwge. php:908
+msgid "Type"
+msgstr "Тип"
+
+#: ../admin/views/BWGEViewAddAlbumsGalleries.php:91
+#: ../admin/views/BWGEViewWidget. php:111
+msgid "Album"
+msgstr "Альбом"
+
+#: ../admin/views/BWGEViewAddAlbumsGalleries.php:91
+#: ../admin/views/BWGEViewWidget. php:110
+msgid "Gallery"
+msgstr "Галерея"
+
+#: ../admin/views/BWGEViewAddTags.php:75
+#: ../admin/views/BWGEViewAlbums_bwge.php:104 .
+#: admin/views/BWGEViewGalleries_bwge.php:105
+#: ../admin/views/BWGEViewTags_bwge.php:99
+msgid "Slug"
+msgstr "Слаг"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:40
+msgid "This section allows you to create, edit and delete albums."
+msgstr "Этот раздел позволяет вам создавать, редактировать и удалять альбомы."
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:41
+#: ../admin/views/BWGEViewAlbums_bwge.php:203
+#: ../admin/views/BWGEViewGalleries_bwge.php:41 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:219 ../admin/views/BWGEViewOptions_bwge.
+#: php:31 ../admin/views/BWGEViewTags_bwge.php:44
+#: ../admin/views/BWGEViewThemes_bwge. php:40
+#: ../admin/views/BWGEViewThemes_bwge.php:251
+msgid "Read More in User Manual"
+msgstr "Подробнее в руководстве пользователя"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:55 ../admin/views/BWGEViewGalleries_bwge.
+#: php:55 ../admin/views/BWGEViewThemes_bwge.php:80
+msgid "Add new"
+msgstr "Добавить"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:57 ../admin/views/BWGEViewGalleries_bwge.
+#: php:57 ../admin/views/BWGEViewGalleries_bwge.php:700
+msgid "Changes made in this table should be saved."
+msgstr "Изменения, сделанные в этой таблице, должны быть сохранены."
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:61 ../admin/views/BWGEViewGalleries_bwge.
+#: php:61 ../admin/views/BWGEViewGalleries_bwge.php:723
+#: ../filemanager/view.php:268 ../filemanager/view.php:353
+msgid "Select All"
+msgstr "Выбрать все"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:64 ../admin/views/BWGEViewGalleries_bwge.
+#: php:64
+msgid "Save Order"
+msgstr "Сохранить порядок"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:65 ../admin/views/BWGEViewGalleries_bwge.
+#: php:65 ../admin/views/BWGEViewGalleries_bwge.php:743
+msgid "Publish"
+msgstr "Публиковать"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:66 ../admin/views/BWGEViewGalleries_bwge.
+#: php:66 ../admin/views/BWGEViewGalleries_bwge.php:746
+msgid "Unpublish"
+msgstr "Отменить публик."
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:67 ../admin/views/BWGEViewGalleries_bwge.
+#: php:67 ../admin/views/BWGEViewGalleries_bwge.php:747 ..
+#: /admin/views/BWGEViewThemes_bwge.php:83
+msgid "Do you want to delete selected items?"
+msgstr "Вы хотите удалить выбранные элементы?"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:71
+#: ../admin/views/BWGEViewAlbums_bwge.php:133
+#: ../admin/views/BWGEViewAlbums_bwge.php:168 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:71
+#: ../admin/views/BWGEViewGalleries_bwge. php:134
+#: ../admin/views/BWGEViewGalleries_bwge.php:181
+#: /admin/views/BWGEViewGalleries_bwge.php:753 php:874
+#: ../admin/views/BWGEViewGalleries_bwge.php:980
+#: /admin/views/BWGEViewTags_bwge.php:63 ../admin/views/BWGEViewTags_bwge.php:111
+#: /admin/views/BWGEViewTags_bwge.php:163 ../admin/views/BWGEViewThemes_bwge.php:87
+#: /admin/views/BWGEViewThemes_bwge.php:120
+#: ../admin/views/BWGEViewThemes_bwge.php:167
+msgid "Delete"
+msgstr "Удалить"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:107
+#: ../admin/views/BWGEViewGalleries_bwge. php:91
+#: ../admin/views/BWGEViewGalleries_bwge.php:832 ..
+#: /admin/views/BWGEViewOptions_bwge.php:982
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:113 ../admin/views/BWGEViewBWGEShortcode.
+#: php:209 ../admin/views/BWGEViewGalleries_bwge.php:122 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:863
+msgid "Order"
+msgstr "Порядок"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:121
+#: ../admin/views/BWGEViewGalleries_bwge. php:113
+msgid "Author"
+msgstr "Автор"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:129
+#: ../admin/views/BWGEViewGalleries_bwge. php:130
+#: ../admin/views/BWGEViewGalleries_bwge.php:871
+msgid "Published"
+msgstr "Опубликовано"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:132
+#: ../admin/views/BWGEViewAlbums_bwge.php:155
+#: ../admin/views/BWGEViewAlbums_bwge.php:165 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:133
+#: ../admin/views/BWGEViewGalleries_bwge. php:165
+#: ../admin/views/BWGEViewGalleries_bwge.php:178
+#: /admin/views/BWGEViewGalleries_bwge.php:363 php:924
+#: ../admin/views/BWGEViewTags_bwge.php:110 ../admin/views/BWGEViewTags_bwge.
+#: php:143 ../admin/views/BWGEViewTags_bwge.php:149 php:155
+#: ../admin/views/BWGEViewTags_bwge.php:158
+#: /admin/views/BWGEViewThemes_bwge.php:119
+#: ../admin/views/BWGEViewThemes_bwge.php:138
+#: ../admin/views/BWGEViewThemes_bwge.php:162
+msgid "Edit"
+msgstr "Редактировать"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:197
+msgid "Edit album "
+msgstr "Редактировать альбом"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:197
+msgid "Create new album"
+msgstr "Создать новый альбом"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:202
+msgid "This section allows you to add/edit album."
+msgstr "В этом разделе можно добавлять / редактировать альбомы."
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:271
+#: ../admin/views/BWGEViewGalleries_bwge. php:535
+#: ../admin/views/BWGEViewOptions_bwge.php:94 ..
+#: /admin/views/BWGEViewTags_bwge.php:58 ../admin/views/BWGEViewThemes_bwge.php:264
+msgid "Save"
+msgstr "Сохранить"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:272
+#: ../admin/views/BWGEViewGalleries_bwge. php:538
+#: ../admin/views/BWGEViewThemes_bwge.php:265
+msgid "Apply"
+msgstr "Применить"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:273
+#: ../admin/views/BWGEViewGalleries_bwge. php:540
+#: ../admin/views/BWGEViewGalleries_bwge.php:759 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:773 php:817
+#: ../admin/views/BWGEViewThemes_bwge.php:266
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:278
+#: ../admin/views/BWGEViewGalleries_bwge. php:545
+#: ../admin/views/BWGEViewThemes_bwge.php:293
+msgid "Name:"
+msgstr "Название:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:282
+#: ../admin/views/BWGEViewGalleries_bwge. php:549
+msgid "Slug:"
+msgstr "Слаг"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:286
+#: ../admin/views/BWGEViewGalleries_bwge. php:601
+msgid "Description:"
+msgstr "Описание:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:305
+#: ../admin/views/BWGEViewGalleries_bwge. php:620
+msgid "Author:"
+msgstr "Автор:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:309
+#: ../admin/views/BWGEViewGalleries_bwge. php:624
+msgid "Published:"
+msgstr "Опубликовано:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:312
+#: ../admin/views/BWGEViewGalleries_bwge. php:627
+#: ../admin/views/BWGEViewOptions_bwge.php:147 ..
+#: /admin/views/BWGEViewOptions_bwge.php:177
+#: ../admin/views/BWGEViewOptions_bwge.php:187
+#: ../admin/views/BWGEViewOptions_bwge.php:206
+#: /admin/views/BWGEViewOptions_bwge.php:216 226
+#: ../admin/views/BWGEViewOptions_bwge.php:245
+#: /admin/views/BWGEViewOptions_bwge.php:255 265
+#: ../admin/views/BWGEViewOptions_bwge.php:276
+#: /admin/views/BWGEViewOptions_bwge.php:286 613
+#: ../admin/views/BWGEViewOptions_bwge.php:650
+#: /admin/views/BWGEViewOptions_bwge.php:669 688
+#: ../admin/views/BWGEViewOptions_bwge.php:732
+#: /admin/views/BWGEViewOptions_bwge.php:742 752
+#: ../admin/views/BWGEViewOptions_bwge.php:762
+#: /admin/views/BWGEViewOptions_bwge.php:772 788
+#: ../admin/views/BWGEViewOptions_bwge.php:802
+#: /admin/views/BWGEViewOptions_bwge.php:812 822
+#: ../admin/views/BWGEViewOptions_bwge.php:832
+#: /admin/views/BWGEViewOptions_bwge.php:842 852
+#: ../admin/views/BWGEViewOptions_bwge.php:862
+#: /admin/views/BWGEViewOptions_bwge.php:872 882
+#: ../admin/views/BWGEViewOptions_bwge.php:892
+#: /admin/views/BWGEViewOptions_bwge.php:902 912
+#: ../admin/views/BWGEViewOptions_bwge.php:922
+#: /admin/views/BWGEViewOptions_bwge.php:934 973
+#: ../admin/views/BWGEViewOptions_bwge.php:1004
+#: /admin/views/BWGEViewOptions_bwge.php:1014 1090
+#: ../admin/views/BWGEViewOptions_bwge.php:1100
+#: /admin/views/BWGEViewOptions_bwge.php:1120 1128
+#: ../admin/views/BWGEViewOptions_bwge.php:1149
+#: /admin/views/BWGEViewOptions_bwge.php:1184 1192
+#: ../admin/views/BWGEViewOptions_bwge.php:1227
+#: /admin/views/BWGEViewOptions_bwge.php:1287 1354
+#: ../admin/views/BWGEViewOptions_bwge.php:1364
+#: /admin/views/BWGEViewOptions_bwge.php:1372 1389
+#: ../admin/views/BWGEViewOptions_bwge.php:1397
+#: /admin/views/BWGEViewOptions_bwge.php:1415 1425
+#: ../admin/views/BWGEViewOptions_bwge.php:1449
+#: /admin/views/BWGEViewOptions_bwge.php:1477 1576
+#: ../admin/views/BWGEViewOptions_bwge.php:1586
+#: /admin/views/BWGEViewOptions_bwge.php:1596 1606
+#: ../admin/views/BWGEViewOptions_bwge.php:1616
+#: /admin/views/BWGEViewThemes_bwge.php:382
+#: ../admin/views/BWGEViewThemes_bwge.php:623
+#: ../admin/views/BWGEViewThemes_bwge.php:1364 ../admin/views/BWGEViewThemes_bwge.
+#: php:1596 ../admin/views/BWGEViewThemes_bwge.php:3314
+#: /admin/views/BWGEViewThemes_bwge.php:3359
+#: ../admin/views/BWGEViewWidgetSlideshow. php:144
+#: ../admin/views/BWGEViewWidgetTags.php:125
+#: /admin/views/BWGEViewWidgetTags.php:146
+msgid "No"
+msgstr "Нет"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:314 ../admin/views/BWGEViewBWGEShortcode.
+#: php:230 ../admin/views/BWGEViewGalleries_bwge.php:629 ..
+#: /admin/views/BWGEViewOptions_bwge.php:146
+#: ../admin/views/BWGEViewOptions_bwge.php:156
+#: ../admin/views/BWGEViewOptions_bwge.php:166
+#: /admin/views/BWGEViewOptions_bwge.php:176 186
+#: ../admin/views/BWGEViewOptions_bwge.php:205
+#: /admin/views/BWGEViewOptions_bwge.php:215 225
+#: ../admin/views/BWGEViewOptions_bwge.php:244
+#: /admin/views/BWGEViewOptions_bwge.php:254 264
+#: ../admin/views/BWGEViewOptions_bwge.php:275
+#: /admin/views/BWGEViewOptions_bwge.php:285 612
+#: ../admin/views/BWGEViewOptions_bwge.php:649
+#: /admin/views/BWGEViewOptions_bwge.php:668 687
+#: ../admin/views/BWGEViewOptions_bwge.php:719
+#: /admin/views/BWGEViewOptions_bwge.php:741 751
+#: ../admin/views/BWGEViewOptions_bwge.php:761
+#: /admin/views/BWGEViewOptions_bwge.php:771 787
+#: ../admin/views/BWGEViewOptions_bwge.php:799
+#: /admin/views/BWGEViewOptions_bwge.php:811 821
+#: ../admin/views/BWGEViewOptions_bwge.php:831
+#: /admin/views/BWGEViewOptions_bwge.php:841 851
+#: ../admin/views/BWGEViewOptions_bwge.php:861
+#: /admin/views/BWGEViewOptions_bwge.php:871 881
+#: ../admin/views/BWGEViewOptions_bwge.php:891
+#: /admin/views/BWGEViewOptions_bwge.php:901 911
+#: ../admin/views/BWGEViewOptions_bwge.php:921
+#: /admin/views/BWGEViewOptions_bwge.php:932 972
+#: ../admin/views/BWGEViewOptions_bwge.php:1003
+#: /admin/views/BWGEViewOptions_bwge.php:1013 1089
+#: ../admin/views/BWGEViewOptions_bwge.php:1099
+#: /admin/views/BWGEViewOptions_bwge.php:1119 1127
+#: ../admin/views/BWGEViewOptions_bwge.php:1148
+#: /admin/views/BWGEViewOptions_bwge.php:1183 1191
+#: ../admin/views/BWGEViewOptions_bwge.php:1226
+#: /admin/views/BWGEViewOptions_bwge.php:1288 1353
+#: ../admin/views/BWGEViewOptions_bwge.php:1363
+#: /admin/views/BWGEViewOptions_bwge.php:1371 1388
+#: ../admin/views/BWGEViewOptions_bwge.php:1396
+#: /admin/views/BWGEViewOptions_bwge.php:1414 1424
+#: ../admin/views/BWGEViewOptions_bwge.php:1448
+#: /admin/views/BWGEViewOptions_bwge.php:1476 1575
+#: ../admin/views/BWGEViewOptions_bwge.php:1585
+#: /admin/views/BWGEViewOptions_bwge.php:1595 1605
+#: ../admin/views/BWGEViewOptions_bwge.php:1615
+#: /admin/views/BWGEViewThemes_bwge.php:380
+#: ../admin/views/BWGEViewThemes_bwge.php:621
+#: ../admin/views/BWGEViewThemes_bwge.php:1362 ../admin/views/BWGEViewThemes_bwge.
+#: php:1594 ../admin/views/BWGEViewThemes_bwge.php:3312
+#: /admin/views/BWGEViewThemes_bwge.php:3357 ../admin/views/BWGEViewUninstall_bwge.
+#: php:79 ../admin/views/BWGEViewWidgetSlideshow.php:143
+#: /admin/views/BWGEViewWidgetTags.php:124
+#: ../admin/views/BWGEViewWidgetTags.php:145
+msgid "Yes"
+msgstr "Да"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:318
+#: ../admin/views/BWGEViewGalleries_bwge. php:633
+msgid "Preview image:"
+msgstr "Предварительный просмотр:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:333
+#: ../admin/views/BWGEViewGalleries_bwge. php:646
+msgid "Add Preview Image"
+msgstr "Добавить превью"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:344
+msgid "Albums And Galleries:"
+msgstr "Альбомы и галереи:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:354
+msgid "Add Albums/Galleries"
+msgstr "Добавить Альбомы / галереи"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:366
+msgid "Drag to re-order"
+msgstr "Перетащите чтобы изменить порядок"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:34 ../admin/views/BWGEViewOptions_bwge.
+#: php:307 ../admin/views/BWGEViewOptions_bwge.php:460 ..
+#: /admin/views/BWGEViewThemes_bwge.php:196
+#: ../admin/views/BWGEViewThemes_bwge.php:229
+msgid "None"
+msgstr "Ни одной"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:35
+msgid "Cube Horizontal"
+msgstr "Куб Горизонтальная"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:36
+msgid "Cube Vertical"
+msgstr "Куб Вертикальный"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:37
+msgid "Fade"
+msgstr "Затухание"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:38
+msgid "Slice Horizontal"
+msgstr "Горизонтальные полосы"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:39
+msgid "Slice Vertical"
+msgstr "Вертикальные полосы"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:40
+msgid "Slide Horizontal"
+msgstr "Горизонтальное скольжение"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:41
+msgid "Slide Vertical"
+msgstr "Вертикальное скольжение"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:42
+msgid "Scale Out"
+msgstr "Масштабирование"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:43
+msgid "Scale In"
+msgstr "Увеличение"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:44
+msgid "Block Scale"
+msgstr "Блочное масштабирование"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:45
+msgid "Kaleidoscope"
+msgstr "Калейдоскоп"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:46
+msgid "Fan"
+msgstr "Вентилятор"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:47
+msgid "Blind Horizontal"
+msgstr "Жалюзи горизонтальные"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:48
+msgid "Blind Vertical"
+msgstr "Жалюзи вертикальные"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:49
+#: ../admin/views/BWGEViewBWGEShortcode. php:216
+#: ../admin/views/BWGEViewWidget.php:139 ../framework/BWGELibrary.php:851
+msgid "Random"
+msgstr "Случайный"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:97
+msgid "Display"
+msgstr "Дисплей"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:116 ../admin/views/BWGEViewThemes_bwge.
+#: php:274
+msgid "Thumbnails"
+msgstr "Миниатюры"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:119
+#: ../admin/views/BWGEViewBWGEShortcode. php:123
+#: ../admin/views/BWGEViewBWGEShortcode.php:139 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:147 php:151
+msgid "This view is disabled in free version."
+msgstr "Это мнение отключена в бесплатной версии."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:120
+#: ../admin/views/BWGEViewOptions_bwge. php:983
+#: ../admin/views/BWGEViewThemes_bwge.php:275
+msgid "Masonry"
+msgstr "Кирпичная кладка"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:124 ../admin/views/BWGEViewThemes_bwge.
+#: php:276
+msgid "Mosaic"
+msgstr "Мозаика"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:128
+#: ../admin/views/BWGEViewOptions_bwge. php:109
+#: ../admin/views/BWGEViewThemes_bwge.php:277
+msgid "Slideshow"
+msgstr "Слайд-шоу"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:132 ../admin/views/BWGEViewThemes_bwge.
+#: php:278
+msgid "Image Browser"
+msgstr "Плитка"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:136 ../admin/views/BWGEViewThemes_bwge.
+#: php:279
+msgid "Compact Album"
+msgstr "Компакт. альбом"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:140 ../admin/views/BWGEViewThemes_bwge.
+#: php:280
+msgid "Masonry Album"
+msgstr "Кирпич. альбом"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:144 ../admin/views/BWGEViewThemes_bwge.
+#: php:281
+msgid "Extended Album"
+msgstr "Расшир. альбом"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:148 ../admin/views/BWGEViewThemes_bwge.
+#: php:282
+msgid "Blog Style"
+msgstr "Стиль блога"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:152
+#: ../admin/views/BWGEViewOptions_bwge. php:113
+#: ../admin/views/BWGEViewThemes_bwge.php:285
+msgid "Carousel"
+msgstr "Карусель"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:161
+msgid "Theme:"
+msgstr "Тема:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:164
+msgid "Select Theme"
+msgstr "Выберите тему"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:176
+msgid "Gallery:"
+msgstr "Галерея:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:179
+#: ../admin/views/BWGEViewWidget.php:116
+#: ../admin/views/BWGEViewWidgetSlideshow.php:106
+msgid "Select Gallery"
+msgstr "Выберите галерею"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:191
+msgid "The selected album expanded content will be displayed."
+msgstr "Расширенное содержание выбранного альбома будет отображено."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:191
+msgid "Album:"
+msgstr "Альбом:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:194
+#: ../admin/views/BWGEViewWidget.php:128
+msgid "Select Album"
+msgstr "Выберите альбом"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:206
+msgid "Sort images by:"
+msgstr "Сортировать изображения по:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:210 ../admin/views/BWGEViewThemes_bwge.
+#: php:91
+msgid "Title"
+msgstr "Загл."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:211
+msgid "Date"
+msgstr "Дата"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:212
+#: ../admin/views/BWGEViewGalleries_bwge. php:822
+#: ../admin/views/BWGEViewGalleries_bwge.php:838 ../framework/BWGELibrary. php:849
+msgid "Filename"
+msgstr "Имя файла"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:213 ../framework/BWGELibrary.php:850
+msgid "Size"
+msgstr "Размер"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:215
+msgid "Resolution"
+msgstr "Разрешение"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:221
+msgid "Order images"
+msgstr "Сортировать изображения"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:223
+msgid "Ascending"
+msgstr "Восходящий"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:224
+msgid "Descending"
+msgstr "Нисходящий"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:228
+#: ../admin/views/BWGEViewOptions_bwge. php:183
+msgid "Show search box:"
+msgstr "Показать окно поиска:"
+
+#: ../admin/views/BWGEViewEditThumb.php:155
+msgid "You can't crop this type of image."
+msgstr "Вы не можете обрезать этот тип изображения."
+
+#: ../admin/views/BWGEViewEditThumb.php:224
+msgid "The thumbnail successfully croped."
+msgstr "Миниатюра успешно обрезана."
+
+#: ../admin/views/BWGEViewEditThumb.php:227
+msgid "Select the area for the thumbnail."
+msgstr "Выберите область для миниатюры."
+
+#: ../admin/views/BWGEViewEditThumb.php:240
+msgid "Keep aspect ratio"
+msgstr "Сохранять пропорции"
+
+#: ../admin/views/BWGEViewEditThumb.php:713
+msgid "Grayscale"
+msgstr "Оттенки серого"
+
+#: ../admin/views/BWGEViewEditThumb.php:717
+msgid "Negative"
+msgstr "Негатив"
+
+#: ../admin/views/BWGEViewEditThumb.php:721
+msgid "Removal"
+msgstr "Удаление"
+
+#: ../admin/views/BWGEViewEditThumb.php:725
+msgid "Sepia"
+msgstr "Сепия"
+
+#: ../admin/views/BWGEViewEditThumb.php:729
+msgid "Slate"
+msgstr "Шифер"
+
+#: ../admin/views/BWGEViewEditThumb.php:733
+msgid "Saturate"
+msgstr "Насыщенность"
+
+#: ../admin/views/BWGEViewEditThumb.php:737 ../admin/views/BWGEViewGalleries_bwge.
+#: php:370 ../admin/views/BWGEViewGalleries_bwge.php:925
+msgid "Do you want to reset the image?"
+msgstr "Вы хотите сбросить изображение?"
+
+#: ../admin/views/BWGEViewEditThumb.php:737
+msgid "Reset image"
+msgstr "Сброс изображения"
+
+#: ../admin/views/BWGEViewEditThumb.php:763
+msgid "Brightness"
+msgstr "Яркость"
+
+#: ../admin/views/BWGEViewEditThumb.php:765
+#: ../admin/views/BWGEViewEditThumb.php:790
+msgid "Press for result"
+msgstr "Нажмите для результата"
+
+#: ../admin/views/BWGEViewEditThumb.php:788
+msgid "Contrast"
+msgstr "Контраст"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:40
+msgid "This section allows you to create, edit and delete galleries."
+msgstr "Этот раздел позволяет вам создавать, редактировать и удалять галереи."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:53
+msgid "Galleries"
+msgstr "Галереи"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:116
+msgid "Images count"
+msgstr "Количество фото"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:211
+msgid "Edit gallery "
+msgstr "Редактировать галерею"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:211
+msgid "Create new gallery"
+msgstr "Создать новую галерею"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:218
+msgid "This section allows you to add/edit gallery."
+msgstr "В этом разделе можно добавлять / редактировать галереи."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:354 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:918
+msgid "Crop"
+msgstr "Обрезка"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:371 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:733
+#: ../admin/views/BWGEViewGalleries_bwge. php:930
+#: ../admin/views/BWGEViewThemes_bwge.php:271 ../framework/BWGELibrary.php:189
+#: ../framework/BWGELibrary.php:363 ../framework/BWGELibrary.php:722
+#: /framework/BWGELibrary.php:784
+msgid "Reset"
+msgstr "Сброс"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:475 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:738
+#: ../admin/views/BWGEViewGalleries_bwge. php:955
+msgid "Add tag"
+msgstr "Добавить метку"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:553
+msgid "Gallery content type:"
+msgstr "Тип содержимого галереи:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:556
+msgid "Standard"
+msgstr "Стандарт"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:557
+msgid "Instagram only"
+msgstr "Только Instagram"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:565 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:788
+msgid "Instagram username:"
+msgstr "Имя пользователя Instagram:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:566
+#: ../admin/views/BWGEViewOptions_bwge. php:670
+#: ../admin/views/BWGEViewOptions_bwge.php:679 ..
+#: /admin/views/BWGEViewOptions_bwge.php:689
+#: ../admin/views/BWGEViewOptions_bwge.php:789
+#: ../admin/views/BWGEViewOptions_bwge.php:803
+#: /admin/views/BWGEViewOptions_bwge.php:813 823
+#: ../admin/views/BWGEViewOptions_bwge.php:833
+#: /admin/views/BWGEViewOptions_bwge.php:863 873
+#: ../admin/views/BWGEViewOptions_bwge.php:883
+#: /admin/views/BWGEViewOptions_bwge.php:893 903
+#: ../admin/views/BWGEViewOptions_bwge.php:935
+#: /admin/views/BWGEViewOptions_bwge.php:984 1129
+#: ../admin/views/BWGEViewOptions_bwge.php:1136
+#: /admin/views/BWGEViewOptions_bwge.php:1365
+#: ../admin/views/BWGEViewWidgetSlideshow. php:121
+#: ../admin/views/BWGEViewWidgetSlideshow.php:148
+msgid "This option is disabled in free version."
+msgstr "Эта опция отключена в бесплатной версии."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:569
+msgid "Number of Instagram recent posts to add to gallery: "
+msgstr "Количество последних сообщений Instagram для добавления в галерею:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:573 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:796
+msgid "Instagram embed type:"
+msgstr "Код вставки Instagram:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:576 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:799
+msgid "Content"
+msgstr "Содержание"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:578 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:801
+msgid "Whole post"
+msgstr "Весь пост"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:582
+msgid "Gallery autoupdate option:"
+msgstr "Автообновление галереи:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:585
+msgid "No update"
+msgstr "Не обновлять"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:587
+msgid "Add new media, keep old ones published."
+msgstr "Добавить новые медиафайлы, сохранив опубликованные ранее."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:589
+msgid "Add new media, unpublish old ones."
+msgstr "Добавить новые медиафайлы, отменив публикацию старых."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:595
+msgid "Add Instagram Gallery"
+msgstr "Добавить галерею Instagram"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:707 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:708
+msgid "Add Images"
+msgstr "Добавить изображения"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:717
+msgid "Embed Media"
+msgstr "Встроить медиа"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:718
+msgid "Bulk Embed"
+msgstr "Массовая вставка"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:728
+msgid "Set Watermark"
+msgstr "Установите водяной знак"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:729 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:816
+msgid "Resize"
+msgstr "Изм. размера"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:730
+msgid "Recreate Thumbnail"
+msgstr "Пересоздать миниатюры"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:758 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:774
+msgid "Add to gallery"
+msgstr "Добавить в галерею"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:761
+msgid "Enter YouTube, Vimeo, Instagram, Flickr or Dailymotion URL here."
+msgstr "Вставить YouTube, Vimeo, Flickr, Instagram или Dailymotion URL здесь."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:761
+msgid "Help"
+msgstr "Помощь"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:764
+msgid "Close"
+msgstr "Закрыть"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:765 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:766
+#: ../admin/views/BWGEViewGalleries_bwge. php:767
+#: ../admin/views/BWGEViewGalleries_bwge.php:768
+#: /admin/views/BWGEViewGalleries_bwge.php:769
+msgid "example:"
+msgstr "пример:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:767 ../filemanager/view.php:275
+msgid "Add"
+msgstr "Добавить"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:767
+msgid "post"
+msgstr "пост"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:767
+msgid "to the end of URL if you want to embed the whole Instagram post, not only its content."
+msgstr "до конца URL, если вы хотите встроить весь Instagram пост, а не только его содержание."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:779
+msgid "Bulk embed from:"
+msgstr "Массовое встраивание из:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:781
+msgid "instagram"
+msgstr "Instagram"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:782
+msgid "Instagram"
+msgstr "Instagram"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:789
+msgid "Bulk embed from Instagram is disabled in free version"
+msgstr "Массовое встраивание из Instagram отключено в бесплатной версии"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:792
+msgid "Number of Instagram recent posts to add to gallery:"
+msgstr "Количество последних сообщений Instagram для добавления в галерею:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:810
+msgid "Resize images to: "
+msgstr "Изменить размер изображений до:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:818
+msgid "The maximum size of resized image."
+msgstr "Максимальный размер измененного изображения."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:846
+msgid "Alt/Title"
+msgstr "Alt / Title"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:854
+msgid "Description"
+msgstr "Описание"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:905
+msgid "Date modified"
+msgstr "Дата изменения"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:906
+msgid "Image Resolution"
+msgstr "Разрешение изображения"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:907
+msgid "Image size"
+msgstr "Размер изображения"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:29
+msgid "ready"
+msgstr "готово"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:30
+msgid "friendly"
+msgstr "дружелюбный"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:31
+msgid "Responsive Design and Layout"
+msgstr "Отзывчивый дизайн и верстка"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:32
+msgid "5 Standard Gallery/Album Views"
+msgstr "5 Стандартных видов галерей / альбомов"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:33
+msgid "Watermarking/ Advertising Possibility"
+msgstr "Водяные знаки / Рекламные возможности"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:34
+msgid "Basic Tag Cloud Widget"
+msgstr "Виджет Базовое облако тегов "
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:35
+msgid "Image Download"
+msgstr "Загрузка изображения"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:36
+msgid "Photo Gallery Slideshow Widget"
+msgstr "Виджет Слайд-шоу"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:37
+msgid "Photo Gallery Widget"
+msgstr "Виджет Фотогалерея"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:38
+msgid "Slideshow/Lightbox Effects"
+msgstr "Эффекты слайд-шоу / лайтбокса"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:39
+msgid "Possibility of Editing/Creating New Themes"
+msgstr "Возможность редактирования / создание новых тем"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:40
+msgid "10 Pro Gallery/Album Views"
+msgstr "10 профессиональных видов галерей / альбомов"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:41
+msgid "Image Commenting"
+msgstr "Комментирование изображений"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:42
+msgid "Image Social Sharing"
+msgstr "Шаринг изображений в соцсети"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:43
+msgid "Photo Gallery Tags Cloud Widget"
+msgstr "Виджет Облако тегов"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:44
+msgid "Instagram Integration"
+msgstr "Интеграция с Instagram"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:45
+msgid "Integration"
+msgstr "Интеграция"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:46
+msgid "Add-ons Support"
+msgstr "Поддержка дополнений"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:49
+msgid "Free"
+msgstr "Бесплатная"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:70
+msgid "Pro Version"
+msgstr "Pro-версия"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:97
+msgid "After purchasing the commercial version follow these steps:"
+msgstr "После покупки коммерческой версии выполните следующие действия:"
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:99
+msgid "Deactivate Photo Gallery plugin."
+msgstr "Отключите плагин Фотогалерея."
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:100
+msgid "Delete Photo Gallery plugin."
+msgstr "Удалите плагин Фотогалерея."
+
+#: ../admin/views/BWGEViewLicensing_bwge.php:101
+msgid "Install the downloaded commercial version of the plugin."
+msgstr "Установите загруженную коммерческую версию плагина."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:30
+msgid "This section allows you to change settings for different views and general options."
+msgstr "В этом разделе можно изменить настройки для различных видов и общих параметров."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:91
+msgid "Edit options"
+msgstr "Изменение параметров"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:95
+#: ../admin/views/BWGEViewThemes_bwge.php:267
+msgid "Do you want to reset to default?"
+msgstr "Вы хотите сделать сброс по умолчанию?"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:99
+msgid "Reset all options"
+msgstr "Сброс всех параметров"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:104
+msgid "Global options"
+msgstr "Глобальные настройки"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:105
+msgid "Watermark"
+msgstr "Водяной знак"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:106
+msgid "Advertisement"
+msgstr "Реклама"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:107
+#: ../admin/views/BWGEViewThemes_bwge.php:283
+msgid "Lightbox"
+msgstr "Лайтбокс"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:108
+msgid "Album options"
+msgstr "Опции альбома"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:110
+msgid "Thumbnail options"
+msgstr "Настройка миниатюр"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:111
+msgid "Image options"
+msgstr "Опции изображений"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:112
+msgid "Embed options"
+msgstr "Опции встраивания"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:123
+msgid "Images directory:"
+msgstr "Каталог изображений:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:128
+msgid "Input an existing directory inside the Wordpress directory to store uploaded images.<br />Old directory content will be moved to the new one."
+msgstr "Переместить существующий каталог в каталог Wordpress для хранения загруженных изображений. <br />Содержимое старого каталога будет перемещено в новый."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:133 ../admin/views/BWGEViewOptions_bwge.
+#: php:1550
+msgid "Image dimensions:"
+msgstr "Размеры изображения:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:138
+msgid "The maximum size of the uploaded image (0 for original size)."
+msgstr "Максимальный размер загружаемого изображения (0 - оригинальный размер)."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:143
+msgid "Right click protection:"
+msgstr "Защита от правого клика:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:148
+msgid "Disable image right click possibility."
+msgstr "Отключить возможность правого клика по изображению."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:153
+msgid "Gallery role:"
+msgstr "Роль галереи:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:178
+msgid "Only author can change an image."
+msgstr "Только автор может изменить изображение."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:193
+msgid "Search box width:"
+msgstr "Ширина окна поиска:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:202
+msgid "Show \"Order by\" dropdown list:"
+msgstr "Показать выпад. список сортировки:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:212
+msgid "Show tag box:"
+msgstr "Показать окно тегов:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:222
+msgid "Preload images:"
+msgstr "Предварительная загрузка изображений:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:232
+msgid "Count of images:"
+msgstr "Количество изображений:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:236
+msgid "Count of images to preload (0 for all)."
+msgstr "Количество изображений для предварительной загрузки (0 для всех)."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:241
+msgid "Import from Media Library:"
+msgstr "Импорт из библиотеки мультимедиа:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:246
+msgid "Enable import from Media Library in file manager."
+msgstr "Вкл. импорт из библиотеки мультимедиа в диспетчере файлов."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:251
+msgid "Enable href attribute:"
+msgstr "Вкл. атрибут HREF:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:256
+msgid "Disable this option only if it conflicts with your theme."
+msgstr "Отключите эту опцию, только если она находится в противоречии с вашей темой."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:261
+msgid "Meta auto-fill:"
+msgstr "Автозаполнение МЕТА-данных:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:266
+msgid "Enabling this option the meta description of the image will be automatically filled in image description field."
+msgstr "При включении этой опции мета-данные изображения будут автоматически добавлнены в области описания."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:272
+msgid "Show/hide custom post types:"
+msgstr "Показать / скрыть пользовательские типы публикаций:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:282
+msgid "Show/hide comments for custom post types:"
+msgstr "Показать / скрыть комментарии для пользовательских типов публикаций:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:303
+msgid "Watermark type: "
+msgstr "Тип водяного знака:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:309 ../admin/views/BWGEViewOptions_bwge.
+#: php:462 ../admin/views/BWGEViewThemes_bwge.php:3366 ..
+#: /admin/views/BWGEViewWidgetTags.php:118
+msgid "Text"
+msgstr "Текст"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:311 ../admin/views/BWGEViewOptions_bwge.
+#: php:464 ../admin/views/BWGEViewWidgetTags.php:119
+msgid "Image"
+msgstr "Изобр."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:317
+msgid "Watermark url: "
+msgstr "URL водяного знака:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:330 ../admin/views/BWGEViewOptions_bwge.
+#: php:485
+msgid "Add Image"
+msgstr "Добавить изображение"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:332
+msgid "Only .png format is supported."
+msgstr "Поддерживается только формат .png."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:337
+msgid "Watermark text: "
+msgstr "Текст водяного знака:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:346
+msgid "Watermark size: "
+msgstr "Размер водяного знака:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:350
+msgid "Enter size of watermark in percents according to image."
+msgstr "Введите размер водяного знака в процентах от размера изображения."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:355
+msgid "Watermark font size:"
+msgstr "Размер шрифта водяного знака:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:364
+msgid "Watermark font style: "
+msgstr "Шрифт водяного знака:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:393
+msgid "Watermark color:"
+msgstr "Цвет водяного знака:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:402
+msgid "Watermark opacity:"
+msgstr "Прозрачность водяного знака:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:406
+msgid "Opacity value must be in the range of 0 to 100."
+msgstr "Значение прозрачности должно быть в диапазоне от 0 до 100."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:411
+msgid "Watermark position:"
+msgstr "Позиция водяного знака:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:456
+msgid "Advertisement type:"
+msgstr "Тип объявления:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:470
+msgid "Advertisement url:"
+msgstr "Рекламный URL:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:487
+msgid "Enter absolute image file url or add file from Options page. (.jpg,.jpeg,.png,.gif formats are supported)"
+msgstr "Введите абсолютный URL файла изображения или добавьте файл из страницы Опции. (поддерживаются форматы .jpg, .jpeg, .png, .gif)"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:492
+msgid "Advertisement text:"
+msgstr "Текст объявления:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:501
+msgid "Advertisement link:"
+msgstr "Рекламная ссылка:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:505
+msgid "Enter a URL to open when the advertisement banner is clicked."
+msgstr "Введите URL, который будет открыт при нажатии на рекламный баннер."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:510
+msgid "Advertisement dimensions:"
+msgstr "Размеры рекламы:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:515
+msgid "Maximum values for watermark image width and height."
+msgstr "Максимальные значения для ширины и высоты изображения водяного знака."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:520
+msgid "Advertisement font size:"
+msgstr "Размер шрифта рекламы:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:529
+msgid "Advertisement font style:"
+msgstr "Шрифт рекламы:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:546
+msgid "Advertisement color:"
+msgstr "Цвет рекламы:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:555
+msgid "Advertisement opacity:"
+msgstr "Прозрачность рекламы:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:559
+#: ../admin/views/BWGEViewThemes_bwge.php:403
+#: ../admin/views/BWGEViewThemes_bwge.php:416 ../admin/views/BWGEViewThemes_bwge.
+#: php:560 ../admin/views/BWGEViewThemes_bwge.php:573 ..
+#: /admin/views/BWGEViewThemes_bwge.php:844 930
+#: ../admin/views/BWGEViewThemes_bwge.php:983 php:1052
+#: ../admin/views/BWGEViewThemes_bwge.php:1165
+#: /admin/views/BWGEViewThemes_bwge.php:1383 1396
+#: ../admin/views/BWGEViewThemes_bwge.php:1617
+#: /admin/views/BWGEViewThemes_bwge.php:1657 1736
+#: ../admin/views/BWGEViewThemes_bwge.php:2054
+#: /admin/views/BWGEViewThemes_bwge.php:2225 2261
+#: ../admin/views/BWGEViewThemes_bwge.php:2314
+#: /admin/views/BWGEViewThemes_bwge.php:2341 2626
+#: ../admin/views/BWGEViewThemes_bwge.php:2748
+#: /admin/views/BWGEViewThemes_bwge.php:2878 3305
+msgid "Value must be between 0 to 100."
+msgstr "Значение должно быть в диапазоне от 0 до 100."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:564
+msgid "Advertisement position:"
+msgstr "Положение рекламы:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:609
+msgid "Full width lightbox:"
+msgstr "Полная ширина лайтбокса:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:614
+msgid "Enable full width feature for the lightbox."
+msgstr "Включить лайтбокс во весь экран."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:619
+msgid "Lightbox dimensions:"
+msgstr "Размеры лайтбокса:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:629
+msgid "Lightbox effect:"
+msgstr "Эффект лайтбокса:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:636
+msgid "This effect is disabled in free version."
+msgstr "Этот эффект отключен в бесплатной версии."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:646
+msgid "Lightbox autoplay:"
+msgstr "Автозапуск лайтбокса:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:656 ../admin/views/BWGEViewOptions_bwge.
+#: php:1067 ../admin/views/BWGEViewOptions_bwge.php:1523 ..
+#: /admin/views/BWGEViewWidgetSlideshow.php:138
+msgid "Time interval:"
+msgstr "Врем. интервал:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:665
+msgid "Enable filmstrip:"
+msgstr "Вкл. диафильм:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:675
+msgid "Filmstrip size:"
+msgstr "Размеры диафильма:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:684
+msgid "Display hit counter:"
+msgstr "Отображать счётчик нажатий:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:694 ../admin/views/BWGEViewOptions_bwge.
+#: php:1106
+msgid "Show Next / Previous buttons:"
+msgstr "Показать кнопки Следующий / Предыдущий:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:697 ../admin/views/BWGEViewOptions_bwge.
+#: php:1109
+msgid "On hover"
+msgstr "При наведении курсора"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:698 ../admin/views/BWGEViewOptions_bwge.
+#: php:1110
+msgid "Always"
+msgstr "Всегда"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:704 ../admin/views/BWGEViewOptions_bwge.
+#: php:1116
+msgid "Enable control buttons:"
+msgstr "Вкл. кнопки управления:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:738
+msgid "Enable fullscreen:"
+msgstr "Вкл. на весь экран:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:748
+msgid "Enable info:"
+msgstr "Вкл. данные:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:758
+msgid "Display info by default:"
+msgstr "Отображать данные по умолчанию:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:768
+msgid "Full width info:"
+msgstr "Данные во всю ширину:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:773
+msgid "Display image information based on the lightbox dimensions."
+msgstr "Отображать данные изображения по размерам лайтбокса."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:784
+msgid "Enable rating:"
+msgstr "Вкл. рейтинг:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:794
+msgid "Enable comments:"
+msgstr "Вкл. комментарии:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:808
+msgid "Enable comments moderation:"
+msgstr "Вкл. модерацию комментариев:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:818
+msgid "Enable Email for comments:"
+msgstr "Вкл. e-mail для комментариев:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:828
+msgid "Enable Captcha for comments:"
+msgstr "Вкл. капчу для комментариев:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:838
+msgid "Enable original image display button:"
+msgstr "Вкл. кнопку Отобр. оригин. изобр.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:848
+msgid "Enable download button:"
+msgstr "Вкл. кнопку Скачать:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:858
+msgid "Enable Facebook button:"
+msgstr "Вкл. кнопку Facebook:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:868
+msgid "Enable Twitter button:"
+msgstr "Вкл. кнопку Twitter:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:878
+msgid "Enable Google+ button:"
+msgstr "Вкл. кнопку Google+:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:888
+msgid "Enable Pinterest button:"
+msgstr "Вкл. кнопку Pinterest:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:898
+msgid "Enable Tumblr button:"
+msgstr "Вкл. кнопку Tumblr:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:908
+msgid "Show images count:"
+msgstr "Показать счетчик фото:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:918
+msgid "Enable loop:"
+msgstr "Вкл. цикл:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:928
+msgid "Enable"
+msgstr "Включить"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:951
+msgid "Number of album columns:"
+msgstr "Количество колонок альбома:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:960
+msgid "Albums per page:"
+msgstr "Альбомов на странице:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:969
+msgid "Enable pagination:"
+msgstr "Вкл. нумер. страниц:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:979
+msgid "Album view type:"
+msgstr "Вид альбома:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:989
+msgid "Show title:"
+msgstr "Показать название:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:992 ../admin/views/BWGEViewOptions_bwge.
+#: php:1344
+msgid "Show on hover"
+msgstr "Показать при наведении"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:993 ../admin/views/BWGEViewOptions_bwge.
+#: php:1345
+msgid "Always show"
+msgstr "Показывать всегда"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:994 ../admin/views/BWGEViewOptions_bwge.
+#: php:1346
+msgid "Don't show"
+msgstr "Не показывать"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1000
+msgid "Show album/gallery name:"
+msgstr "Показать название альбома / галереи:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1010
+msgid "Enable extended album description:"
+msgstr "Вкл. расш. опис. альбома:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1020
+msgid "Album thumbnail dimensions:"
+msgstr "Размеры миниатюр альбома:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1030
+msgid "Extended album height:"
+msgstr "Высота расширенного альбома:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1050 ..
+#: /admin/views/BWGEViewWidgetSlideshow.php:126
+msgid "Slideshow effect:"
+msgstr "Эффект слайд-шоу:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1076
+msgid "Slideshow dimensions:"
+msgstr "Размеры слайд-шоу :"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1086
+#: ../admin/views/BWGEViewOptions_bwge. php:1582
+msgid "Enable autoplay:"
+msgstr "Вкл. автозапуск:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1096 ..
+#: /admin/views/BWGEViewWidgetSlideshow.php:142
+msgid "Enable shuffle:"
+msgstr "Вкл. перемешивание:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1125
+msgid "Enable slideshow filmstrip:"
+msgstr "Вкл. диафильм в слайд-шоу:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1133
+msgid "Slideshow filmstrip size:"
+msgstr "Размер диафильма в слайд-шоу:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1146
+#: ../admin/views/BWGEViewOptions_bwge. php:1573
+msgid "Enable image title:"
+msgstr "Вкл. название изображения:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1154 ../admin/views/BWGEViewThemes_bwge.
+#: php:440 ../admin/views/BWGEViewThemes_bwge.php:1420
+msgid "Title position:"
+msgstr "Позиция названия:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1175
+msgid "Image title position on slideshow"
+msgstr "Положение названия изображения на слайд-шоу"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1180
+msgid "Full width title:"
+msgstr "Название во всю ширину:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1185
+msgid "Display image title based on the slideshow dimensions."
+msgstr "Отображать название изображения по ширине слайд-шоу."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1189
+msgid "Enable image description: "
+msgstr "Включить описание изображения:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1197
+msgid "Description position:"
+msgstr "Позиция описания:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1218
+msgid "Image description position on slideshow"
+msgstr "Позиция описания изображения в слайд-шоу"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1223
+msgid "Enable slideshow Music:"
+msgstr "Вкл. музыку в слайд-шоу:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1233
+msgid "Music url:"
+msgstr "URL музыки:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1246
+msgid "Add Music"
+msgstr "Добавить музыку"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1248
+msgid "Only"
+msgstr "Только"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1248
+msgid "formats are supported."
+msgstr "форматы поддерживаются."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1264
+msgid "Masonry:"
+msgstr "Каменная кладка:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1267
+#: ../admin/views/BWGEViewOptions_bwge. php:1278
+msgid "Horizontal"
+msgstr "Горизонтальный"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1268
+#: ../admin/views/BWGEViewOptions_bwge. php:1277
+msgid "Vertical"
+msgstr "Вертикальный"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1274
+msgid "Mosaic:"
+msgstr "Мозаика:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1284
+msgid "Resizable mosaic:"
+msgstr "Мозаика с гибкими размерами:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1294
+msgid "Total width of mosaic:"
+msgstr "Общая ширина мозаики:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1298
+msgid "Width of mosaic as a percentage of container's width."
+msgstr "Ширина мозаики в процентах от ширины контейнера."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1303
+msgid "Number of image columns:"
+msgstr "Количество столбцов изображений:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1312
+msgid "Images per page:"
+msgstr "Изоб. на странице:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1321
+msgid "Generated thumbnail dimensions:"
+msgstr "Создавать миниатюры размером:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1326
+msgid "The maximum size of the generated thumbnail. Its dimensions should be larger than the ones of the frontend thumbnail."
+msgstr "Максимальный размер генерируемого эскиза. Его размеры должны быть больше, чем во фронтэнд-миниатюре."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1331
+msgid "Frontend thumbnail dimensions:"
+msgstr "Размеры фронтэнд-миниатюры:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1336
+msgid "The default size of the thumbnail which will be displayed in the website"
+msgstr "Размер миниатюры, отображаемой на сайте, по умолчанию"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1341
+msgid "Show image title:"
+msgstr "Показать название изображения:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1351
+msgid "Show gallery name:"
+msgstr "Показать название галереи:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1360
+msgid "Show description in Vertical Masonry view:"
+msgstr "Показать описание в вертикальном виде кладки:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1369
+msgid "Enable image pagination:"
+msgstr "Вкл. нумер. страниц изоб.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1377
+msgid "Thumbnail click action:"
+msgstr "Действие при нажатии на миниатюру:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1379
+msgid "Open lightbox"
+msgstr "Открыть лайтбокс"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1380
+msgid "Redirect to url"
+msgstr "Перейти по URL"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1381
+msgid "Do Nothing"
+msgstr "Ничего не делать"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1386
+msgid "Open in a new window:"
+msgstr "Открыть в новом окне:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1394
+msgid "Play icon over the video thumbnail:"
+msgstr "Значок проигрывания на миниатюре видео:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1411
+msgid "Enable image title for Image Browser view:"
+msgstr "Вкл. назв. изобр. для просм. в браузере изоб.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1421
+msgid "Enable image description for Image Browser view:"
+msgstr "Вкл. опис. изоб. для просм. в браузере изоб.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1431
+msgid "Image width for Image Browser view:"
+msgstr "Шир. изоб. для просм. в браузере изоб.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1440
+msgid "The Blog Style view is disabled in free version."
+msgstr "Стиль блога отключен в бесплатной версии."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1445
+msgid "Enable image title for Blog Style view:"
+msgstr "Вкл. назв. изоб. для стиля блога:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1455
+msgid "Image width for Blog Style view:"
+msgstr "Шир. изоб. для стиля блога:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1464
+msgid "Images per page in Blog Style view:"
+msgstr "Изоб. на странице в стиле блога:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1473
+msgid "Enable pagination for Blog Style view:"
+msgstr "Вкл. нумерацию страниц для стиля блога:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1490
+msgid "Gallery autoupdate interval:"
+msgstr "Интервал автообновления галереи:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1494
+msgid "hour"
+msgstr "час"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1496
+msgid "min"
+msgstr "мин"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1497
+msgid "Autoupdatable galleries are disabled in free version."
+msgstr "Автообновление галереи отключено в бесплатной версии."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1507
+msgid "galleries are disabled in free version."
+msgstr "галерей отключено в бесплатной версии."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1532
+msgid "Max. number of images:"
+msgstr "Макс. количество изображений:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1541
+msgid "Carousel image ratio:"
+msgstr "Соотношение сторон изображения в карусели:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1560
+msgid "Fixed width:"
+msgstr "Фиксированная ширина:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1592
+msgid "Container fit:"
+msgstr "Подогнать под контейнер:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1602
+msgid "Next/Previous buttons:"
+msgstr "Кнопки Следующая / Предыдущая:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1612
+msgid "Play/Pause button:"
+msgstr "Кнопки Старт / Пауза:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1625
+msgid "Carousel view is disabled in free version."
+msgstr "Карусель отключена в бесплатной версии."
+
+#: ../admin/views/BWGEViewTags_bwge.php:43
+msgid "This section allows you to create, edit and delete tags."
+msgstr "В этом разделе можно создавать, редактировать и удалять теги."
+
+#: ../admin/views/BWGEViewTags_bwge.php:107
+msgid "Count"
+msgstr "Считать"
+
+#: ../admin/views/BWGEViewTags_bwge.php:126
+msgid "Add Tag"
+msgstr "Добавить тег"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:39
+msgid "This section allows you to create, edit and delete themes."
+msgstr "Этот раздел позволяет вам создавать, редактировать и удалять темы."
+
+#: ../admin/views/BWGEViewThemes_bwge.php:45
+msgid "This feature is disabled for the non-commercial version."
+msgstr "Эта функция отключена для некоммерческой версии."
+
+#: ../admin/views/BWGEViewThemes_bwge.php:117 ../framework/BWGELibrary.php:848
+msgid "Default"
+msgstr "По умолчанию"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:197
+msgid "Solid"
+msgstr "Сполшная"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:198
+msgid "Dotted"
+msgstr "Точечная"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:199
+msgid "Dashed"
+msgstr "Пунктирная"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:200
+#: ../admin/views/BWGEViewThemes_bwge.php:237
+msgid "Double"
+msgstr "Двойная"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:201
+msgid "Groove"
+msgstr "Вдавлено"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:202
+msgid "Ridge"
+msgstr "Выпукло"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:203
+msgid "Inset"
+msgstr "Внутри"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:204
+msgid "Outset"
+msgstr "Снаружи"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:219
+#: ../admin/views/BWGEViewThemes_bwge.php:783
+#: ../admin/views/BWGEViewThemes_bwge.php:2566 ../admin/views/BWGEViewThemes_bwge.
+#: php:3020
+msgid "Left"
+msgstr "Слева"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:220
+msgid "Center"
+msgstr "По центру"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:221
+#: ../admin/views/BWGEViewThemes_bwge.php:781
+#: ../admin/views/BWGEViewThemes_bwge.php:2564 ../admin/views/BWGEViewThemes_bwge.
+#: php:3022
+msgid "Right"
+msgstr "Справа"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:224
+msgid "Lighter"
+msgstr "Легкий"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:225
+msgid "Normal"
+msgstr "Нормальный"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:226
+msgid "Bold"
+msgstr "Жирный"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:230
+msgid "Rotate"
+msgstr "Поворот"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:231
+msgid "Scale"
+msgstr "Масштаб"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:232
+msgid "Skew"
+msgstr "Скос"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:235
+msgid "Chevron"
+msgstr "Полоса"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:236
+msgid "Angle"
+msgstr "Угол"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:240
+msgid "Star"
+msgstr "Звезда"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:241
+msgid "Bell"
+msgstr "Колокол"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:242
+msgid "Circle"
+msgstr "Круг"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:243
+msgid "Flag"
+msgstr "Флаг"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:244
+msgid "Heart"
+msgstr "Сердце"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:245
+msgid "Square"
+msgstr "Квадрат"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:250
+msgid "This section allows you to add/edit theme."
+msgstr "В этом разделе можно добавлять / редактировать темы."
+
+#: ../admin/views/BWGEViewThemes_bwge.php:280
+msgid "This tab is disabled in free version"
+msgstr "Эта вкладка отключена в бесплатной версии"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:284
+msgid "Page Navigation"
+msgstr "Нав. по стран."
+
+#: ../admin/views/BWGEViewThemes_bwge.php:289
+msgid "Parameters"
+msgstr "Параметры"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:304
+#: ../admin/views/BWGEViewThemes_bwge.php:1109
+#: ../admin/views/BWGEViewThemes_bwge.php:1291 ..
+#: /admin/views/BWGEViewThemes_bwge.php:1714 2072
+#: ../admin/views/BWGEViewThemes_bwge.php:3282
+msgid "Margin:"
+msgstr "Отступ:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:310
+#: ../admin/views/BWGEViewThemes_bwge.php:512
+#: ../admin/views/BWGEViewThemes_bwge.php:1116 ../admin/views/BWGEViewThemes_bwge.
+#: php:1284 ../admin/views/BWGEViewThemes_bwge.php:1721 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2079 3289
+msgid "Padding:"
+msgstr "Внутренний отступ:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:316
+#: ../admin/views/BWGEViewThemes_bwge.php:518
+#: ../admin/views/BWGEViewThemes_bwge.php:1123 ../admin/views/BWGEViewThemes_bwge.
+#: php:1298 ../admin/views/BWGEViewThemes_bwge.php:2125 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3243
+msgid "Border width:"
+msgstr "Ширина рамки:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:322
+#: ../admin/views/BWGEViewThemes_bwge.php:524
+#: ../admin/views/BWGEViewThemes_bwge.php:1129 ../admin/views/BWGEViewThemes_bwge.
+#: php:1304 ../admin/views/BWGEViewThemes_bwge.php:2131 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3249
+msgid "Border style:"
+msgstr "Стиль рамки:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:336
+#: ../admin/views/BWGEViewThemes_bwge.php:538
+#: ../admin/views/BWGEViewThemes_bwge.php:1143 ../admin/views/BWGEViewThemes_bwge.
+#: php:1318 ../admin/views/BWGEViewThemes_bwge.php:2145 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3263
+msgid "Border color:"
+msgstr "Цвет рамки:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:342
+#: ../admin/views/BWGEViewThemes_bwge.php:544
+#: ../admin/views/BWGEViewThemes_bwge.php:1149 ../admin/views/BWGEViewThemes_bwge.
+#: php:1324 ../admin/views/BWGEViewThemes_bwge.php:1740 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2151 3269
+msgid "Border radius:"
+msgstr "Радиус рамки:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:345
+#: ../admin/views/BWGEViewThemes_bwge.php:352
+#: ../admin/views/BWGEViewThemes_bwge.php:492 ../admin/views/BWGEViewThemes_bwge.
+#: php:499 ../admin/views/BWGEViewThemes_bwge.php:547 ..
+#: /admin/views/BWGEViewThemes_bwge.php:746 767
+#: ../admin/views/BWGEViewThemes_bwge.php:791 php:825
+#: ../admin/views/BWGEViewThemes_bwge.php:881
+#: /admin/views/BWGEViewThemes_bwge.php:937 944
+#: ../admin/views/BWGEViewThemes_bwge.php:990 php:997
+#: ../admin/views/BWGEViewThemes_bwge.php:1039
+#: /admin/views/BWGEViewThemes_bwge.php:1059 1112
+#: ../admin/views/BWGEViewThemes_bwge.php:1119
+#: /admin/views/BWGEViewThemes_bwge.php:1152 1172
+#: ../admin/views/BWGEViewThemes_bwge.php:1225
+#: /admin/views/BWGEViewThemes_bwge.php:1232 1265
+#: ../admin/views/BWGEViewThemes_bwge.php:1287
+#: /admin/views/BWGEViewThemes_bwge.php:1327 1334
+#: ../admin/views/BWGEViewThemes_bwge.php:1472
+#: /admin/views/BWGEViewThemes_bwge.php:1479 1526
+#: ../admin/views/BWGEViewThemes_bwge.php:1580
+#: /admin/views/BWGEViewThemes_bwge.php:1587 1670
+#: ../admin/views/BWGEViewThemes_bwge.php:1710
+#: /admin/views/BWGEViewThemes_bwge.php:1717 1743
+#: ../admin/views/BWGEViewThemes_bwge.php:1776
+#: /admin/views/BWGEViewThemes_bwge.php:1862 1881
+#: ../admin/views/BWGEViewThemes_bwge.php:1954
+#: /admin/views/BWGEViewThemes_bwge.php:2075 2089
+#: ../admin/views/BWGEViewThemes_bwge.php:2154
+#: /admin/views/BWGEViewThemes_bwge.php:2167 2212
+#: ../admin/views/BWGEViewThemes_bwge.php:2307
+#: /admin/views/BWGEViewThemes_bwge.php:2361 2394
+#: ../admin/views/BWGEViewThemes_bwge.php:2493
+#: /admin/views/BWGEViewThemes_bwge.php:2530 2574
+#: ../admin/views/BWGEViewThemes_bwge.php:2607
+#: /admin/views/BWGEViewThemes_bwge.php:2712 2781
+#: ../admin/views/BWGEViewThemes_bwge.php:2788
+#: /admin/views/BWGEViewThemes_bwge.php:2795 2911
+#: ../admin/views/BWGEViewThemes_bwge.php:2918
+#: /admin/views/BWGEViewThemes_bwge.php:2925 3112
+#: ../admin/views/BWGEViewThemes_bwge.php:3131
+#: /admin/views/BWGEViewThemes_bwge.php:3164 3272
+#: ../admin/views/BWGEViewThemes_bwge.php:3285
+#: /admin/views/BWGEViewThemes_bwge.php:3292 3321
+msgid "Use CSS type values."
+msgstr "Используйте значения типа CSS."
+
+#: ../admin/views/BWGEViewThemes_bwge.php:349
+#: ../admin/views/BWGEViewThemes_bwge.php:1331
+msgid "Shadow:"
+msgstr "Тень:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:356
+#: ../admin/views/BWGEViewThemes_bwge.php:597
+#: ../admin/views/BWGEViewThemes_bwge.php:1338
+msgid "Hover effect:"
+msgstr "Эффект при наведении:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:370
+#: ../admin/views/BWGEViewThemes_bwge.php:611
+#: ../admin/views/BWGEViewThemes_bwge.php:1352 ../admin/views/BWGEViewThemes_bwge.
+#: php:1635
+msgid "Hover effect value:"
+msgstr "Значение эффекта при наведении:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:373
+#: ../admin/views/BWGEViewThemes_bwge.php:1638
+msgid "E.g. Rotate:"
+msgstr "Например, вращение:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:373
+#: ../admin/views/BWGEViewThemes_bwge.php:614
+#: ../admin/views/BWGEViewThemes_bwge.php:1355 ../admin/views/BWGEViewThemes_bwge.
+#: php:1638
+msgid "Scale:"
+msgstr "Масштаб:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:373
+#: ../admin/views/BWGEViewThemes_bwge.php:614
+#: ../admin/views/BWGEViewThemes_bwge.php:1355 ../admin/views/BWGEViewThemes_bwge.
+#: php:1638
+msgid "Skew:"
+msgstr "Скос:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:377
+#: ../admin/views/BWGEViewThemes_bwge.php:618
+msgid "Transition:"
+msgstr "Переход:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:393
+#: ../admin/views/BWGEViewThemes_bwge.php:1374
+#: ../admin/views/BWGEViewThemes_bwge.php:1642
+msgid "Thumbnail background color:"
+msgstr "Цвет фона миниатюр:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:400
+#: ../admin/views/BWGEViewThemes_bwge.php:1380
+#: ../admin/views/BWGEViewThemes_bwge.php:1614
+msgid "Thumbnail transparency:"
+msgstr "Прозрачность миниатюр:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:407
+#: ../admin/views/BWGEViewThemes_bwge.php:1043
+#: ../admin/views/BWGEViewThemes_bwge.php:1387
+msgid "Full background color:"
+msgstr "Цвет основного фона:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:413
+#: ../admin/views/BWGEViewThemes_bwge.php:1049
+msgid "Full background transparency:"
+msgstr "Прозрачность основного фона:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:420
+#: ../admin/views/BWGEViewThemes_bwge.php:577
+#: ../admin/views/BWGEViewThemes_bwge.php:1095 ../admin/views/BWGEViewThemes_bwge.
+#: php:1400 ../admin/views/BWGEViewThemes_bwge.php:2058 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3340
+msgid "Alignment:"
+msgstr "Выравнивание:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:443
+#: ../admin/views/BWGEViewThemes_bwge.php:780
+#: ../admin/views/BWGEViewThemes_bwge.php:1423 ../admin/views/BWGEViewThemes_bwge.
+#: php:2292 ../admin/views/BWGEViewThemes_bwge.php:2563 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2651 2719
+#: ../admin/views/BWGEViewThemes_bwge.php:2849
+#: /admin/views/BWGEViewThemes_bwge.php:3334
+msgid "Top"
+msgstr "Верх"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:445
+#: ../admin/views/BWGEViewThemes_bwge.php:782
+#: ../admin/views/BWGEViewThemes_bwge.php:1425 ../admin/views/BWGEViewThemes_bwge.
+#: php:2294 ../admin/views/BWGEViewThemes_bwge.php:2565 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2653 2721
+#: ../admin/views/BWGEViewThemes_bwge.php:2851
+#: /admin/views/BWGEViewThemes_bwge.php:3336
+msgid "Bottom"
+msgstr "Низ"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:449
+#: ../admin/views/BWGEViewThemes_bwge.php:948
+#: ../admin/views/BWGEViewThemes_bwge.php:1429 ../admin/views/BWGEViewThemes_bwge.
+#: php:1911 ../admin/views/BWGEViewThemes_bwge.php:2963
+msgid "Title font size:"
+msgstr "Размер шрифта названия:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:455
+#: ../admin/views/BWGEViewThemes_bwge.php:1435
+#: ../admin/views/BWGEViewThemes_bwge.php:1917 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2929
+msgid "Title font color:"
+msgstr "Цвет шрифта названия:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:461
+#: ../admin/views/BWGEViewThemes_bwge.php:960
+#: ../admin/views/BWGEViewThemes_bwge.php:1441 ../admin/views/BWGEViewThemes_bwge.
+#: php:1923 ../admin/views/BWGEViewThemes_bwge.php:2935
+msgid "Title font family:"
+msgstr "Семейство шрифтов названия:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:475
+#: ../admin/views/BWGEViewThemes_bwge.php:1455
+#: ../admin/views/BWGEViewThemes_bwge.php:1937 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2949
+msgid "Title font weight:"
+msgstr "Толщина шрифта названия:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:489
+#: ../admin/views/BWGEViewThemes_bwge.php:1469
+msgid "Title box shadow:"
+msgstr "Тень блока названия:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:496
+#: ../admin/views/BWGEViewThemes_bwge.php:1476
+#: ../admin/views/BWGEViewThemes_bwge.php:1872
+msgid "Title margin:"
+msgstr "Отступы названия:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:557
+msgid "Transparency:"
+msgstr "Прозрачность:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:564
+#: ../admin/views/BWGEViewThemes_bwge.php:662
+#: ../admin/views/BWGEViewThemes_bwge.php:1156 ../admin/views/BWGEViewThemes_bwge.
+#: php:1727 ../admin/views/BWGEViewThemes_bwge.php:2045
+msgid "Background color:"
+msgstr "Фоновый цвет:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:570
+#: ../admin/views/BWGEViewThemes_bwge.php:1162
+#: ../admin/views/BWGEViewThemes_bwge.php:1733 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2051
+msgid "Background transparency:"
+msgstr "Прозрачность фона:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:614
+msgid "Rotate:"
+msgstr "Вращение:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:627
+#: ../admin/views/BWGEViewThemes_bwge.php:1001
+#: ../admin/views/BWGEViewThemes_bwge.php:1984 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3004
+msgid "Description font size:"
+msgstr "Размер шрифта описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:633
+#: ../admin/views/BWGEViewThemes_bwge.php:1990
+#: ../admin/views/BWGEViewThemes_bwge.php:2970
+msgid "Description font color:"
+msgstr "Цвет шрифта описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:639
+#: ../admin/views/BWGEViewThemes_bwge.php:1996
+#: ../admin/views/BWGEViewThemes_bwge.php:2976
+msgid "Description font family:"
+msgstr "Семейство шрифтов описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:668
+#: ../admin/views/BWGEViewThemes_bwge.php:2509
+msgid "Right, left buttons size:"
+msgstr "Размеры кнопок вправо / влево :"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:674
+msgid "Play, pause buttons size:"
+msgstr "Размеры кнопок старт / пауза:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:680
+#: ../admin/views/BWGEViewThemes_bwge.php:2177
+msgid "Buttons color:"
+msgstr "Цвет кнопок:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:686
+msgid "Buttons transparency:"
+msgstr "Прозрачность кнопок:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:689
+msgid "alue must be between 0 to 100."
+msgstr "Значение должно быть между 0 до 100."
+
+#: ../admin/views/BWGEViewThemes_bwge.php:693
+msgid "Buttons hover color:"
+msgstr "Цвет кнопок при наведении:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:699
+#: ../admin/views/BWGEViewThemes_bwge.php:2503
+msgid "Right, left buttons width:"
+msgstr "Ширина кнопок вправо / влево:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:705
+#: ../admin/views/BWGEViewThemes_bwge.php:2497
+msgid "Right, left buttons height:"
+msgstr "Высота кнопок вправо / влево:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:711
+#: ../admin/views/BWGEViewThemes_bwge.php:2478
+msgid "Right, left buttons background color:"
+msgstr "Фоновой цвет кнопок вправо / влево:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:717
+msgid "Right, left buttons border width:"
+msgstr "Ширина рамки кнопок враво / влево:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:723
+#: ../admin/views/BWGEViewThemes_bwge.php:2540
+msgid "Right, left buttons border style: "
+msgstr "Стиль рамки кнопок вправо / влево:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:737
+msgid "Right, left buttons border color:"
+msgstr "Цвет рамки кнопок вправо / влево:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:743
+#: ../admin/views/BWGEViewThemes_bwge.php:2527
+msgid "Right, left buttons border radius: "
+msgstr "Радиус рамки кнопок вправо / влево:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:750
+#: ../admin/views/BWGEViewThemes_bwge.php:2464
+msgid "Right, left buttons style:"
+msgstr "Стиль кнопок вправо / влево:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:764
+#: ../admin/views/BWGEViewThemes_bwge.php:2490
+msgid "Right, left buttons box shadow:"
+msgstr "Тень блока кнопок вправо / влево:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:777
+msgid "Filmstrip/Slider bullet position: "
+msgstr "Положение маркеров Диафильма / Слайдера:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:788
+msgid "Filmstrip margin:"
+msgstr "Отступ диафильма:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:795
+msgid "Filmstrip border width:"
+msgstr "Ширина рамки диафильма:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:801
+msgid "Filmstrip border style: "
+msgstr "Стиль рамки диафильма:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:816
+msgid "Filmstrip border color: "
+msgstr "Цвет рамки диафильма:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:822
+msgid "Filmstrip border radius: "
+msgstr "Радиус рамки диафильма:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:829
+msgid "Filmstrip active border width:"
+msgstr "Ширина активной рамки диафильма:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:835
+msgid "Filmstrip active border color:"
+msgstr "Цвет активной рамки диафильма:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:841
+msgid "Filmstrip deactive transparency:"
+msgstr "Прозрачность неактивного диафильма:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:848
+msgid "Filmstrip right, left buttons background color:"
+msgstr "Цвет фона кнопок вправо / влево на диафильме:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:854
+#: ../admin/views/BWGEViewThemes_bwge.php:860
+#: ../admin/views/BWGEViewThemes_bwge.php:2630
+msgid "Filmstrip right, left buttons size: "
+msgstr "Размер кнопок вправо / влево на диафильме:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:866
+msgid "Slider bullet width: "
+msgstr "Ширина маркера слайдера:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:872
+msgid "Slider bullet height: "
+msgstr "Высота маркера слайдера:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:878
+msgid "Slider bullet border radius:"
+msgstr "Радиус рамки маркера слайдера:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:885
+msgid "Slider bullet background color: "
+msgstr "Цвет фона маркера слайдера:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:891
+msgid "Slider bullet margin:"
+msgstr "Отступ маркера слайдера:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:897
+msgid "Slider bullet active background color:"
+msgstr "Цвет фона активного маркера слайдера:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:903
+msgid "Slider bullet active border width: "
+msgstr "Ширина рамки активного маркера слайдера:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:909
+msgid "Slider bullet active border color:"
+msgstr "Цвет рамки активного  маркера слайдера:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:921
+msgid "Title background color:"
+msgstr "Цвет фона названия:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:927
+msgid "Title transparency: "
+msgstr "Прозрачность названия:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:934
+msgid "Title border radius:"
+msgstr "Радиус рамки названия:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:941
+#: ../admin/views/BWGEViewThemes_bwge.php:1878
+msgid "Title padding:"
+msgstr "Внутренний отступ названия:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:954
+msgid "Title color:"
+msgstr "Цвет названия:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:974
+msgid "Description background color:"
+msgstr "Цвет фона описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:980
+msgid "Description transparency: "
+msgstr "Прозрачность описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:987
+msgid "Description border radius: "
+msgstr "Радиус рамки описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:994
+#: ../admin/views/BWGEViewThemes_bwge.php:1229
+#: ../admin/views/BWGEViewThemes_bwge.php:1951
+msgid "Description padding:"
+msgstr "Внутренний отступ описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1007
+msgid "Description color: "
+msgstr "Цвет описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1013
+msgid "Description font family: "
+msgstr "Семейство шрифтов описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1036
+msgid "Full padding:"
+msgstr "Общий внутренний отступ:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1056
+msgid "Full border radius:"
+msgstr "Общий радиус рамки:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1063
+msgid "Full border width:"
+msgstr "Общая ширина рамки:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1069
+msgid "Full border style:"
+msgstr "Общий стиль рамки:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1083
+msgid "Full border color:"
+msgstr "Общий цвет рамки:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1169
+#: ../admin/views/BWGEViewThemes_bwge.php:2086
+#: ../admin/views/BWGEViewThemes_bwge.php:3318
+msgid "Box shadow:"
+msgstr "Тень блока:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1182
+msgid "Title alignment:"
+msgstr "Выравнивание названия:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1196
+#: ../admin/views/BWGEViewThemes_bwge.php:1483
+#: ../admin/views/BWGEViewThemes_bwge.php:2113 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3203
+msgid "Font size:"
+msgstr "Размер шрифта:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1202
+#: ../admin/views/BWGEViewThemes_bwge.php:1489
+#: ../admin/views/BWGEViewThemes_bwge.php:2119 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3209
+msgid "Font color:"
+msgstr "Цвет шрифта:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1208
+#: ../admin/views/BWGEViewThemes_bwge.php:1495
+#: ../admin/views/BWGEViewThemes_bwge.php:2099 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3215
+msgid "Font family:"
+msgstr "Семейство шрифтов:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1222
+msgid "Description margin:"
+msgstr "Отступ описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1236
+msgid "Description border width: "
+msgstr "Ширина рамки описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1242
+msgid "Description border style: "
+msgstr "Стиль рамки описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1256
+msgid "Description border color: "
+msgstr "Цвет рамки описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1262
+msgid "Description border radius:"
+msgstr "Радиус рамки описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1269
+msgid "Description background color: "
+msgstr "Цвет фона описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1294
+#: ../admin/views/BWGEViewThemes_bwge.php:2082
+msgid "se CSS type values."
+msgstr "Используйте значения типа CSS."
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1355
+msgid "E.g. Rotate"
+msgstr "Например, вращение"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1359
+#: ../admin/views/BWGEViewThemes_bwge.php:1591
+msgid "Thumbnail transition:"
+msgstr "Прозрачность миниатю:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1393
+msgid "Full background transparency: "
+msgstr "Общая прозрачность фона:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1509
+#: ../admin/views/BWGEViewThemes_bwge.php:3229
+msgid "Font weight:"
+msgstr "Толщина шрифта:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1523
+#: ../admin/views/BWGEViewThemes_bwge.php:1773
+msgid "Back padding:"
+msgstr "Внутренний отступ подкладки:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1539
+msgid "Thumbnail margin:"
+msgstr "Отступ миниатюры:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1545
+msgid "Thumbnail padding:"
+msgstr "Внутренний отступ миниатюры:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1551
+msgid "Thumbnail border width:"
+msgstr "Ширина рамки миниатюры:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1557
+msgid "Thumbnail border style:"
+msgstr "Стиль рамки миниатюры:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1571
+msgid "Thumbnail border color:"
+msgstr "Цвет рамки миниатюры:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1577
+msgid "Thumbnail border radius:"
+msgstr "Радиус рамки миниатюры:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1584
+msgid "Thumbnail box shadow:"
+msgstr "Тень блока миниатюры:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1600
+msgid "Thumbnail alignment:"
+msgstr "Выравнивание миниатюры:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1621
+msgid "Thumbnail hover effect: "
+msgstr "Эффект наведения на миниатюру:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1648
+msgid "Thumbnails background color:"
+msgstr "Цвет фона миниатюры:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1654
+msgid "Thumbnail background transparency:"
+msgstr "Прозрачность фона мниатюры:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1667
+msgid "Thumbnail div padding:"
+msgstr "Внутренний отступ блока миниатюры:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1674
+msgid "Thumbnail div background color:"
+msgstr "Цвет фона блока миниатюры:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1680
+msgid "Thumbnail div border width:"
+msgstr "Ширина рамки блока миниатюры:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1687
+msgid "Thumbnail div border style:"
+msgstr "Стиль рамки блока миниатюры:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1701
+msgid "Thumbnail div border color:"
+msgstr "Цвет рамки блока миниатюры:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1707
+msgid "Thumbnail div border radius:"
+msgstr "Радиус рамки блока миниатюры:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1747
+msgid "Separator width:"
+msgstr "Ширина разделителя:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1753
+msgid "Separator style:"
+msgstr "Стиль разделителя:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1767
+msgid "Separator color:"
+msgstr "Цвет разделителя:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1780
+msgid "Back font size:"
+msgstr "Размер шрифта заднего плана:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1786
+msgid "Back font color:"
+msgstr "Цвет шрифта заднего плана:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1792
+msgid "Back font family:"
+msgstr "Семейство шрифтов заднего плана:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1806
+msgid "Back font weight:"
+msgstr "Толщина шрифта заднего плана:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1826
+msgid "Text div padding:"
+msgstr "Внутренний отступ текста в блоке:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1833
+msgid "Text div border width:"
+msgstr "Ширина рамки текста в блоке:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1839
+msgid "Text border style:"
+msgstr "Стиль рамки текста:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1853
+msgid "Text border color:"
+msgstr "Цвет рамки текста:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1859
+msgid "Text div border radius:"
+msgstr "Радиус рамки текста в блоке:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1866
+msgid "Text background color:"
+msgstr "Цвет фона текста:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1885
+msgid "Title border width:"
+msgstr "Ширина рамки названия:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1891
+msgid "Title border style:"
+msgstr "Стиль рамки названия:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1905
+msgid "Title border color:"
+msgstr "Цвет рамки названия:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1958
+msgid "Description border width:"
+msgstr "Ширина рамки описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1964
+msgid "Description border style:"
+msgstr "Стиль рамки описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1978
+msgid "Description border color:"
+msgstr "Цвет рамки описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2010
+#: ../admin/views/BWGEViewThemes_bwge.php:2990
+msgid "Description font weight:"
+msgstr "Толщина шрифта описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2024
+msgid "Description more size:"
+msgstr "Размер дополнительного описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2030
+msgid "Description more color:"
+msgstr "Цвет дополнительного описания:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2164
+msgid "Buttons and title margin:"
+msgstr "Отступ кнопок и названий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2171
+msgid "Buttons size:"
+msgstr "Размер кнопок:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2183
+msgid "Buttons and title border width:"
+msgstr "Ширина рамки кнопок и названий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2189
+msgid "Buttons and title border style:"
+msgstr "Стиля рамки кнопок и названий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2203
+msgid "Buttons and title border color:"
+msgstr "Цвет рамки кнопок и названий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2209
+msgid "Buttons and title border radius:"
+msgstr "Радиус рамки кнопок и названий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2216
+msgid "Buttons and title background color:"
+msgstr "Фоновой цвет кнопок и названий"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2222
+msgid "Buttons and title background transparency:"
+msgstr "Прозрачность фона кнопок и названий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2229
+msgid "Buttons or title alignment:"
+msgstr "Выравнивание кнопок или названий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2252
+msgid "Overlay background color:"
+msgstr "Цвет фона наложения:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2258
+msgid "Overlay background transparency:"
+msgstr "Прозрачность фона наложения:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2265
+msgid "Lightbox background color:"
+msgstr "Цвет фона лайтбокса:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2271
+msgid "Control buttons height:"
+msgstr "Высота кнопок управления:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2277
+msgid "Control buttons margin (top):"
+msgstr "Отступ кнопок управления (сверху):"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2283
+msgid "Control buttons margin (left):"
+msgstr "Отступ кнопок управления (слева):"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2289
+msgid "Control buttons position:"
+msgstr "Положение кнопок управления:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2298
+msgid "Control buttons background color: "
+msgstr "Цвет фона кнопок управления:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2304
+msgid "Control buttons container border radius:"
+msgstr "Радиус рамки контейнера кнопок управления:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2311
+msgid "Control buttons container background transparency: "
+msgstr "Прозрачность фона контейнера кнопок управления:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2318
+msgid "Control buttons alignment: "
+msgstr "Выравнивание кнопок управления:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2332
+msgid "Control buttons color:"
+msgstr "Цвет кнопок управления:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2338
+msgid "Control buttons transparency:"
+msgstr "Прозрачность кнопок управления:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2345
+msgid "Toggle button height: "
+msgstr "Высота переключателя:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2351
+msgid "Toggle button width: "
+msgstr "Ширина переключателя:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2357
+msgid "Close button border radius:"
+msgstr "Радиус рамки кнопки Закрыть:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2365
+msgid "Close button border width:"
+msgstr "Ширина рамки кнопки Закрыть:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2371
+msgid "Close button border style: "
+msgstr "Стиль рамки кнопки Закрыть:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2385
+msgid "Close button border color:"
+msgstr "Цвет рамки кнопки Закрыть:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2391
+msgid "Close button box shadow:"
+msgstr "Тень блока кнопки Закрыть:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2398
+msgid "Close button background color:"
+msgstr "Цвет фона кнопки Закрыть:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2404
+msgid "Close button transparency:"
+msgstr "Прозрачность кнопки Закрыть:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2410
+msgid "Close button width:"
+msgstr "Ширина кнопки Закрыть:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2416
+msgid "Close button height:"
+msgstr "Высота кнопки Закрыть:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2422
+msgid "Close button top:"
+msgstr "Верхний отступ кнопки Закрыть:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2428
+msgid "Close button right:"
+msgstr "Правый отступ кнопки Закрыть:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2434
+msgid "Close button size:"
+msgstr "Размер кнопки Закрыть:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2440
+msgid "Close button color:"
+msgstr "Цвет кнопки Закрыть:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2446
+msgid "Fullscreen close button color:"
+msgstr "Полноэкранный цвет кнопки Закрыть:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2452
+msgid "Share buttons color:"
+msgstr "Цвет кнопок Поделиться:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2484
+msgid "Right, left buttons transparency: "
+msgstr "Прозрачность кнопок влево / вправо:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2515
+msgid "Right, left, close buttons hover color:"
+msgstr "Цвет при наведении на кнопки вправо, влево, закрыть:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2521
+msgid "Right, left buttons color:"
+msgstr "Цвет кнопок влево / вправо:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2534
+msgid "Right, left buttons border width: "
+msgstr "Ширину рамки кнопок влево / вправо:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2554
+msgid "Right, left buttons border color: "
+msgstr "Цвет рамки кнопок влево / вправо:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2560
+msgid "Filmstrip position: "
+msgstr "Позиция диафильма:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2571
+msgid "Filmstrip thumbnail margin:"
+msgstr "Отступ между миниатюрами диафильма:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2578
+msgid "Filmstrip thumbnail border width: "
+msgstr "Ширина рамок миниатюр диафильма:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2584
+#: ../admin/views/BWGEViewThemes_bwge.php:2598
+msgid "Filmstrip thumbnail border color:"
+msgstr "Цвет рамок миниатюр диафильма:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2604
+msgid "Filmstrip thumbnail border radius:"
+msgstr "Радиус рамок миниатюр диафильма:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2611
+msgid "Filmstrip thumbnail active border width:"
+msgstr "Ширина рамок активной миниатюры диафильма:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2617
+msgid "Filmstrip thumbnail active border color:"
+msgstr "Цвет рамки активной миниатюры диафильма:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2623
+msgid "Filmstrip thumbnail deactive transparency: "
+msgstr "Прозрачность неактивных миниатюр диафильма:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2636
+msgid "Filmstrip right, left buttons color:"
+msgstr "Цвет кнопок влево / вправо в диафильме:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2642
+msgid "Filmstrip right, left button background color:"
+msgstr "Цвет фона кнопок влево / вправо в диафильме:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2648
+msgid "Rating position: "
+msgstr "Позиция рейтинга:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2657
+msgid "Rating alignment: "
+msgstr "Выравнивание рейтинга:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2671
+msgid "Rating icon:"
+msgstr "Значок рейтинга:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2685
+msgid "Rating color:"
+msgstr "Цвет рейтинга:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2691
+msgid "Rating hover color:"
+msgstr "Цвет при наведении на рейтинг:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2697
+msgid "Rating size:"
+msgstr "Размер рейтинга:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2703
+msgid "Rating icon count:"
+msgstr "Иконка счетчика рейтинга:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2709
+msgid "Rating padding:"
+msgstr "Внутренний отступ рейтинга:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2716
+msgid "Hit counter position:"
+msgstr "Позиция счетчика нажатий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2725
+msgid "Hit counter alignment:"
+msgstr "Выравнивание счетчика нажатий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2739
+msgid "Hit counter background color:"
+msgstr "Цвет фона счетчика нажатий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2745
+msgid "Hit counter background transparency: "
+msgstr "Прозрачность фона счетчика нажатий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2752
+msgid "Hit counter border width: "
+msgstr "Ширина рамки счетчика нажатий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2758
+msgid "Hit counter border style:"
+msgstr "Стиль рамки счетчика нажатий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2772
+msgid "Hit counter border color:"
+msgstr "Цвет рамки счетчика нажатий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2778
+msgid "Hit counter border radius:"
+msgstr "Радиус рамки счетчика нажатий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2785
+msgid "Hit counter padding:"
+msgstr "Внутренний отступ счетчика нажатий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2792
+msgid "Hit counter margin:"
+msgstr "Отступ счетчика нажатий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2799
+msgid "Hit counter font color:"
+msgstr "Цвет шрифта счетчика нажатий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2805
+msgid "Hit counter font family:"
+msgstr "Семейство шрифтов счетчика нажатий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2819
+msgid "Hit counter font weight:"
+msgstr "Толщина шрифта счетчика нажатий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2833
+msgid "Hit counter font size:"
+msgstr "Размера шрифта счетчика нажатий:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2846
+msgid "Info position:"
+msgstr "Позиция информации:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2855
+msgid "Info alignment:"
+msgstr "Выравнивание информации:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2869
+msgid "Info background color:"
+msgstr "Цвет фона информации:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2875
+msgid "Info background transparency:"
+msgstr "Прозрачность фона информации:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2882
+msgid "Info border width:"
+msgstr "Ширина рамки информации:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2888
+msgid "Info border style:"
+msgstr "Стиль рамки информации:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2902
+msgid "Info border color:"
+msgstr "Цвет рамки информации:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2908
+msgid "Info border radius:"
+msgstr "Радиус рамки информации:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2915
+msgid "Info padding:"
+msgstr "Внутренний отступ информации:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2922
+msgid "Info margin:"
+msgstr "Отступ информации:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3011
+msgid "Comments Width:"
+msgstr "Ширина комментариев:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3017
+msgid "Comments position:"
+msgstr "Положение комментариев:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3026
+msgid "Comments background color:"
+msgstr "Цвет фона комментариев:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3032
+msgid "Comments font size:"
+msgstr "Размер шрифта  комментариев:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3038
+msgid "Comments font color:"
+msgstr "Цвет шрифта комментариев:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3044
+msgid "Comments font family:"
+msgstr "Семейство шрифтов комментариев:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3058
+msgid "Comments author font size:"
+msgstr "Размер шрифта автора комментариев:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3065
+msgid "Comments date font size:"
+msgstr "Размер шрифта даты комментариев:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3071
+msgid "Comments body font size:"
+msgstr "Размер шрифта тела комментариев:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3077
+msgid "Comment input border width: "
+msgstr "Ширина рамки поля ввода комментариев:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3083
+msgid "Comment input border style: "
+msgstr "Стиль рамки поля ввода комментариев:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3097
+msgid "Comment input border color:"
+msgstr "Цвет рамки поля ввода комментариев:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3103
+msgid "Comment input border radius:"
+msgstr "Радиус рамки поля ввода комментариев:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3109
+msgid "Comment input padding:"
+msgstr "Внутренний отступ поля ввода комментариев:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3116
+msgid "Comment input background color:"
+msgstr "Цвет фона поля ввода комментариев:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3122
+msgid "Comment button background color:"
+msgstr "Цвет фона кнопки комментирования:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3128
+msgid "Comment button padding:"
+msgstr "Внутренний отступ кнопки комментирования:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3135
+msgid "Comment button border width:"
+msgstr "Ширину рамки кнопки комментирования:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3141
+msgid "Comment button border style:"
+msgstr "Стиль рамки кнопки комментирования:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3155
+msgid "Comment button border color:"
+msgstr "Цвет рамки кнопки комментирования:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3161
+msgid "Comment button border radius:"
+msgstr "Радиус рамки кнопки комментирования:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3168
+msgid "Comment separator width:"
+msgstr "Ширину разделителя комментариев:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3174
+msgid "Comment separator style:"
+msgstr "Стиль разделителя комментариев:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3188
+msgid "Comment separator color:"
+msgstr "Цвет разделителя комментариев:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3296
+msgid "Button background color:"
+msgstr "Цвет фона кнопки:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3302
+msgid "Button background transparency:"
+msgstr "Прозрачность фона кнопки:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3309
+msgid "Button transition:"
+msgstr "Кнопка перехода:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3331
+msgid "Position:"
+msgstr "Положение:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3354
+msgid "Numbering:"
+msgstr "Нумерация:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3363
+msgid "Button text:"
+msgstr "Текст кнопки:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3368
+msgid "Arrow"
+msgstr "Стрелка"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3369
+msgid "Next, previous buttons values."
+msgstr "Значение кнопок следующий / предыдущий."
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:33
+#: ../admin/views/BWGEViewUninstall_bwge. php:155
+msgid "Uninstall Photo Gallery"
+msgstr "Удалить Фотогалерею"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:35
+msgid "Deactivating Photo Gallery plugin does not remove any data that may have been created. To completely remove this plugin, you can uninstall it here."
+msgstr "Отключение плагина Фотогалерея не удаляет данные, которые были созданы. Полностью удалить этот плагин вы можете здесь."
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:38
+msgid "WARNING:"
+msgstr "ВНИМАНИЕ:"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:39
+msgid "Once uninstalled, this can't be undone. You should use a Database Backup plugin of WordPress to back up all the data first."
+msgstr "Удаление не может быть отменено. Вы должны использовать WordPress плагин Database Backup для создания резервной копии всех данных заранее."
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:42
+msgid "The following Database Tables will be deleted:"
+msgstr "Следующие таблицы базы данных будут удалены:"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:47
+msgid "Database Tables"
+msgstr "Таблицы базы данных"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:70
+msgid "Delete the folder containing uploaded images."
+msgstr "Удалить папку, содержащую загруженные изображения."
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:76
+msgid "Do you really want to uninstall Photo Gallery?"
+msgstr "Вы действительно хотите удалить Фотогалерею?"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:83
+msgid ""
+"You are About to Uninstall Photo Gallery from WordPress.\n"
+"This Action Is Not Reversible."
+msgstr "Вы собираетесь удалить Photo Gallery с WordPress. nЭто действие необратимо."
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:133
+msgid "The following Database Tables successfully deleted:"
+msgstr "Следующие таблицы базы данных успешно удалены:"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:149
+msgid "The folder was successfully deleted."
+msgstr "Папка была успешно удалена."
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:149
+msgid "An error occurred when deleting the folder."
+msgstr "Произошла ошибка при удалении папки."
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:156
+msgid "Click Here"
+msgstr "Кликните здесь"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:156
+msgid "To Finish the Uninstallation and Photo Gallery will be Deactivated Automatically."
+msgstr "Для окончания удаления Фотогалерея будет отключаться автоматически."
+
+#: ../admin/views/BWGEViewWidget.php:106
+#: ../admin/views/BWGEViewWidgetSlideshow.php:101
+#: ../admin/views/BWGEViewWidgetTags.php:114
+msgid "Title:"
+msgstr "Название:"
+
+#: ../admin/views/BWGEViewWidget.php:140 ../framework/BWGELibrary.php:521
+msgid "First"
+msgstr "Первый"
+
+#: ../admin/views/BWGEViewWidget.php:141 ../framework/BWGELibrary.php:524
+msgid "Last"
+msgstr "Последний"
+
+#: ../admin/views/BWGEViewWidget.php:145
+msgid "Count:"
+msgstr "Количество:"
+
+#: ../admin/views/BWGEViewWidget.php:149
+#: ../admin/views/BWGEViewWidgetSlideshow.php:117
+#: ../admin/views/BWGEViewWidgetTags.php:139
+msgid "Dimensions:"
+msgstr "Габаритные размеры:"
+
+#: ../admin/views/BWGEViewWidgetSlideshow.php:122
+msgid "Filmstrip height:"
+msgstr "Высота диафильма:"
+
+#: ../admin/views/BWGEViewWidgetTags.php:123
+msgid "Show Tag Names:"
+msgstr "Показать названия тегов:"
+
+#: ../admin/views/BWGEViewWidgetTags.php:129
+msgid "Open in:"
+msgstr "Открыть в:"
+
+#: ../admin/views/BWGEViewWidgetTags.php:130
+msgid "page"
+msgstr "страница"
+
+#: ../admin/views/BWGEViewWidgetTags.php:131
+msgid "lightbox"
+msgstr "лайтбокс"
+
+#: ../admin/views/BWGEViewWidgetTags.php:135
+msgid "Number (0 for all):"
+msgstr "Количество (0 для всех):"
+
+#: ../admin/views/BWGEViewWidgetTags.php:144
+msgid "Transparent Background:"
+msgstr "Прозрачный фон:"
+
+#: ../admin/views/BWGEViewWidgetTags.php:150
+msgid "Background Color:"
+msgstr "Фоновый цвет:"
+
+#: ../admin/views/BWGEViewWidgetTags.php:154
+msgid "Text Color:"
+msgstr "Цвет текста:"
+
+#. Author of the plugin
+msgid "Rob"
+msgstr "Роб"
+
+#: ../filemanager/view.php:63
+msgid "File loading failed"
+msgstr "Загрузка файла не удалось"
+
+#: ../filemanager/view.php:65
+msgid "Are you sure you want to permanently remove selected items?"
+msgstr "Вы уверены, что хотите навсегда удалить выбранные элементы?"
+
+#: ../filemanager/view.php:66
+msgid "This will cancel uploads. Continue?"
+msgstr "Это отменит загрузки. Продолжить?"
+
+#: ../filemanager/view.php:68
+msgid "Enter directory name"
+msgstr "Введите имя каталога"
+
+#: ../filemanager/view.php:69
+msgid "Enter new name"
+msgstr "Введите новое имя"
+
+#: ../filemanager/view.php:70
+msgid "Processing uploaded files..."
+msgstr "Обработка загруженных файлов ..."
+
+#: ../filemanager/view.php:118
+msgid "Up"
+msgstr "Вверх"
+
+#: ../filemanager/view.php:119
+msgid "Make a directory"
+msgstr "Создать каталог"
+
+#: ../filemanager/view.php:120
+msgid "Rename item"
+msgstr "Переименовать"
+
+#: ../filemanager/view.php:122
+msgid "Copy"
+msgstr "Копировать"
+
+#: ../filemanager/view.php:123
+msgid "Cut"
+msgstr "Вырезать"
+
+#: ../filemanager/view.php:124
+msgid "Paste"
+msgstr "Вставить"
+
+#: ../filemanager/view.php:125
+msgid "Remove items"
+msgstr "Удалить элементы"
+
+#: ../filemanager/view.php:128
+msgid "Upload files"
+msgstr "Загрузить файлы"
+
+#: ../filemanager/view.php:133
+msgid "Media library"
+msgstr "Медиа-библиотека"
+
+#: ../filemanager/view.php:142
+msgid "View thumbs"
+msgstr "Посмотреть превью"
+
+#: ../filemanager/view.php:143
+msgid "View list"
+msgstr "Просмотр"
+
+#: ../filemanager/view.php:150
+msgid "To change upload directory go to Options page."
+msgstr "Чтобы изменить каталог загрузки зайдите на страницу Опции."
+
+#: ../filemanager/view.php:275
+msgid "Add selected images to gallery"
+msgstr "Добавить выбранные изображения в галерею"
+
+#: ../filemanager/view.php:285 ../filemanager/view.php:368
+msgid "Thumbnail Maximum Dimensions:"
+msgstr "Максимальные размеры миниатюры:"
+
+#: ../filemanager/view.php:290 ../filemanager/view.php:373 ..
+#: /frontend/views/BWGEViewAlbum_compact_preview.php:603
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:584
+msgid "Back"
+msgstr "Назад"
+
+#: ../filemanager/view.php:293 ../filemanager/view.php:376
+msgid "Image Maximum Dimensions:"
+msgstr "Максимальные размеры изображения:"
+
+#: ../filemanager/view.php:360
+msgid "Import selected images"
+msgstr "Импорт выбранных изображений"
+
+#: ../filemanager/view.php:384
+msgid "Drag files here or click the button below"
+msgstr "Перетащите файлы сюда, или нажмите на кнопку ниже"
+
+#: ../filemanager/view.php:384
+msgid "to upload files"
+msgstr "загрузить файлы"
+
+#: ../filemanager/view.php:456
+msgid "No files to upload"
+msgstr "Нет файлов для загрузки"
+
+#: ../framework/BWGELibrary.php:64
+msgid "You can't delete default theme"
+msgstr "Вы не можете удалить тему по умолчанию"
+
+#: ../framework/BWGELibrary.php:82
+msgid "The item is successfully set as default."
+msgstr "Пункт успешно установлен по умолчанию."
+
+#: ../framework/BWGELibrary.php:88
+msgid "Options Succesfully Saved."
+msgstr "Опции успешно сохранены."
+
+#: ../framework/BWGELibrary.php:124
+msgid "A term with the name provided already exists."
+msgstr "Термин с таким именем уже существует."
+
+#: ../framework/BWGELibrary.php:130
+msgid "Name field is required."
+msgstr "Требуется имя поля."
+
+#: ../framework/BWGELibrary.php:136
+msgid "The slug must be unique."
+msgstr "Слаг должен быть уникальным."
+
+#: ../framework/BWGELibrary.php:142
+msgid "Changes must be saved."
+msgstr "Изменения должны быть сохранены."
+
+#: ../framework/BWGELibrary.php:188 ../framework/BWGELibrary.php:362 ..
+#: /framework/BWGELibrary.php:725 ../framework/BWGELibrary.php:781
+msgid "Search"
+msgstr "Поиск"
+
+#: ../framework/BWGELibrary.php:315 ../framework/BWGELibrary.php:465 ..
+#: /framework/BWGELibrary.php:545
+msgid "of"
+msgstr "из"
+
+#: ../framework/BWGELibrary.php:516
+msgid " item(s)"
+msgstr "предмет(ы)"
+
+#: ../framework/BWGELibrary.php:522
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: ../framework/BWGELibrary.php:523
+msgid "Next"
+msgstr "Следующий"
+
+#: ../framework/BWGELibrary.php:542
+msgid "Go to the first page"
+msgstr "Перейти к первой странице"
+
+#: ../framework/BWGELibrary.php:543
+msgid "Go to the previous page"
+msgstr "Перейти к предыдущей странице"
+
+#: ../framework/BWGELibrary.php:549
+msgid "Go to the next page"
+msgstr "Перейти к следующей странице"
+
+#: ../framework/BWGELibrary.php:550
+msgid "Go to the last page"
+msgstr "Перейти к последней странице"
+
+#: ../framework/BWGELibrary.php:562
+msgid "Load More..."
+msgstr "Загрузить больше..."
+
+#: ../framework/BWGELibrary.php:846
+msgid "Order by: "
+msgstr "Сортировать по:"
+
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:151 ..
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:96
+#: /frontend/views/BWGEViewImage_browser.php:72
+#: ../frontend/views/BWGEViewSlideshow. php:46
+#: ../frontend/views/BWGEViewSlideshow.php:86
+#: /frontend/views/BWGEViewThumbnails.php:153
+msgid "There is no theme selected or the theme was deleted."
+msgstr "Выбранной темы нет или она была удалена."
+
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:158 ..
+#: /frontend/views/BWGEViewAlbum_compact_preview.php:192
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:103
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:137
+msgid "There is no album selected or the album was deleted."
+msgstr "Выбранного альбома нет или он был удален."
+
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:180 ..
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:125
+#: /frontend/views/BWGEViewImage_browser.php:83
+#: ../frontend/views/BWGEViewSlideshow. php:129
+#: ../frontend/views/BWGEViewThumbnails.php:172
+msgid "There are no images in this gallery."
+msgstr "В этой галерее нет изображений."
+
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:626 ..
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:595
+msgid "Album is empty."
+msgstr "Альбом пуст."
+
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:749 ..
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:731
+msgid "Gallery is empty."
+msgstr "Галерея пуста."
+
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:805 ..
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:775
+#: /frontend/views/BWGEViewGalleryBox.php:835
+#: ../frontend/views/BWGEViewGalleryBox. php:2197
+#: ../frontend/views/BWGEViewSlideshow.php:1443
+#: /frontend/views/BWGEViewThumbnails.php:457
+msgid "Play"
+msgstr "Старт"
+
+#: ../frontend/views/BWGEViewAlbum_extended_preview.php:696 ..
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:819
+msgid "More"
+msgstr "Больше"
+
+#: ../frontend/views/BWGEViewAlbum_extended_preview.php:814
+msgid "Hide"
+msgstr "Скрыть"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:815
+msgid "The image has been deleted."
+msgstr "Изображение было удалено."
+
+#: ../frontend/views/BWGEViewGalleryBox.php:839 ..
+#: /frontend/views/BWGEViewGalleryBox.php:1575
+#: ../frontend/views/BWGEViewGalleryBox. php:2029
+#: ../frontend/views/BWGEViewGalleryBox.php:2125
+msgid "Maximize"
+msgstr "Максимизировать"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:843 ..
+#: /frontend/views/BWGEViewGalleryBox.php:1577
+#: ../frontend/views/BWGEViewGalleryBox. php:2127
+msgid "Fullscreen"
+msgstr "Во весь экран"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:845 ..
+#: /frontend/views/BWGEViewGalleryBox.php:1915
+msgid "Show info"
+msgstr "Показать информацию"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:851
+msgid "Open image in original size."
+msgstr "Открыть изображение в оригинальном размере."
+
+#: ../frontend/views/BWGEViewGalleryBox.php:872
+msgid "Download original image"
+msgstr "Скачать исходное изображение"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1723
+msgid "Show Comments"
+msgstr "Показать комментарии"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1766
+msgid "Hide Comments"
+msgstr "Скрыть комментарии"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1911
+msgid "Hide info"
+msgstr "Скрыть информацию"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:2066 ..
+#: /frontend/views/BWGEViewGalleryBox.php:2266
+msgid "Restore"
+msgstr "Восстановить"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:2177
+msgid "Exit Fullscreen"
+msgstr "Выход из полноэкранного вида"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:2191 ..
+#: /frontend/views/BWGEViewGalleryBox.php:2206
+#: ../frontend/views/BWGEViewSlideshow. php:1434
+#: ../frontend/views/BWGEViewSlideshow.php:1452
+msgid "Pause"
+msgstr "Пауза"
+
+#: ../frontend/views/BWGEViewImage_browser.php:77 ..
+#: /frontend/views/BWGEViewSlideshow.php:124
+#: ../frontend/views/BWGEViewThumbnails. php:164
+msgid "There is no gallery selected or the gallery was deleted."
+msgstr "Выбранной галереи нет или она была удалена."

@@ -1,0 +1,4581 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: photo-gallery\n"
+"POT-Creation-Date: 15-10-27 08:11+000\n"
+"PO-Revision-Date: 2015-12-11 11:37+0400\n"
+"Last-Translator: admin < asd@mail.ru >\n"
+"Language-Team: \n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#: ../photo-gallery-notices.php:188
+msgid "Leave A Review?"
+msgstr "Laat een review?"
+
+#: ../photo-gallery-notices.php:189
+#, php-format
+msgid ""
+"We hope you've enjoyed using WordPress %s! Would you consider leaving us a "
+"review on WordPress.org?"
+msgstr ""
+"We hopen dat je hebt genoten van het gebruik van WordPress %s! Zou u "
+"overwegen het verlaten van ons een review op WordPress.org?"
+
+#: ../photo-gallery-notices.php:190
+msgid "Sure! I'd love to!"
+msgstr "Tuurlijk! Ik zou graag willen!"
+
+#: ../photo-gallery-notices.php:191
+msgid "I've already left a review"
+msgstr "Ik heb al een recensie"
+
+#: ../photo-gallery-notices.php:192
+msgid "Maybe Later"
+msgstr "Misschien later"
+
+#: ../photo-gallery-notices.php:193 ../photo-gallery-notices.php:203
+msgid "Never show again"
+msgstr "Meer tonen nooit"
+
+#: ../photo-gallery-notices.php:199
+msgid "Hey! How's It Going?"
+msgstr "Hey! Hoe gaat het?"
+
+#: ../photo-gallery-notices.php:200
+#, php-format
+msgid ""
+"Thank you for using WordPress %s! We hope that you've found everything you "
+"need, but if you have any questions:"
+msgstr ""
+"Dank u voor het gebruiken van WordPress %s! Wij hopen dat u alles wat u "
+"nodig hebt gevonden, maar als je vragen hebt:"
+
+#: ../photo-gallery-notices.php:201
+msgid "Check out User Guide"
+msgstr "Check out Gebruikershandleiding"
+
+#: ../photo-gallery-notices.php:202
+msgid "Get Some Help"
+msgstr "Get Some Help"
+
+#. Name of the plugin
+msgid "Photo Gallery"
+msgstr "Fotogallerij"
+
+#. URI of the plugin
+msgid "https://web-dorado.com/products/wordpress-photo-gallery-plugin.html"
+msgstr "https://web-dorado.com/products/wordpress-photo-gallery-plugin.html"
+
+#. Description of the plugin
+msgid ""
+"This plugin is a fully responsive gallery plugin with advanced "
+"functionality.  It allows having different image galleries for your posts "
+"and pages. You can create unlimited number of galleries, combine them into "
+"albums, and provide descriptions and tags."
+msgstr ""
+"Deze plugin is een volledig responsief galerij plugin met geavanceerde "
+"functionaliteit. Het maakt het mogelijk met verschillende foto albums voor "
+"je berichten en pagina's. U kunt onbeperkt aantal galeries te maken, "
+"combineer ze in albums, en zorgen voor beschrijvingen en labels."
+
+#. Author of the plugin
+msgid "WebDorado"
+msgstr "WebDorado"
+
+#. Author URI of the plugin
+msgid "https://web-dorado.com"
+msgstr "https://web-dorado.com"
+
+#: ../photo-gallery.php:82
+msgid "Add Galleries/Images"
+msgstr "Voeg Galleries / Images"
+
+#: ../photo-gallery.php:87 .. /admin/views/BWGEViewAlbums_bwge.php:47
+msgid "Albums"
+msgstr "Albums"
+
+#: ../photo-gallery.php:92 ../admin/views/BWGEViewAddTags. php:45
+#: ../admin/views/BWGEViewGalleries_bwge.php:939 ..
+#: /admin/views/BWGEViewTags_bwge.php:49
+msgid "Tags"
+msgstr "Tags"
+
+#: ../photo-gallery.php:97
+msgid "Options"
+msgstr "Opties"
+
+#: ../photo-gallery.php:101 .. /admin/views/BWGEViewThemes_bwge.php:45
+msgid "Themes"
+msgstr "Thema's"
+
+#: ../photo-gallery.php:106 .. /admin/views/BWGEViewComments_bwge.php:48
+msgid "Comments"
+msgstr "Opmerkingen"
+
+#: ../photo-gallery.php:111 .. /admin/views/BWGEViewRates_bwge.php:47
+msgid "Ratings"
+msgstr "Waarderingen"
+
+#: ../photo-gallery.php:116
+msgid "Generate Shortcode"
+msgstr "Genereren Shortcode"
+
+#: ../photo-gallery.php:118
+msgid "Featured Plugins"
+msgstr "Aanbevolen Plugins"
+
+#: ../photo-gallery.php:119
+msgid "Featured Themes"
+msgstr "Thema's"
+
+#: ../photo-gallery.php:121
+msgid "Uninstall"
+msgstr "Uninstall"
+
+#: ../photo-gallery.php:125 ../addons/addons.php:30
+msgid "Photo Gallery Add-ons"
+msgstr "Fotogalerij Add-ons"
+
+#: ../photo-gallery.php:2655 ../photo-gallery.php:2823
+msgid "field is required."
+msgstr "veld is verplicht."
+
+#: ../photo-gallery.php:2656
+msgid "You must select an image file."
+msgstr "U moet een image-bestand te selecteren."
+
+#: ../photo-gallery.php:2657
+msgid "You must select an audio file."
+msgstr "U moet een audiobestand te selecteren."
+
+#: ../photo-gallery.php:2658
+msgid ""
+"You do not have Instagram CLIENT_ID. Input its value in Options->Embed "
+"options. "
+msgstr ""
+"Je hoeft niet Instagram CLIENT_ID. Input zijn waarde in opties Opties> "
+"insluiten."
+
+#: ../photo-gallery.php:2659
+msgid "Instagram recent post number must be between 1 and 33."
+msgstr "Instagram recente post nummer moet tussen 1 en 33."
+
+#: ../photo-gallery.php:2660
+msgid "The gallery is not empty. Please delete all the images first."
+msgstr "De galerie is niet leeg. Verwijder eerst alle beelden."
+
+#: ../photo-gallery.php:2661
+msgid "Please enter url to embed."
+msgstr "Vul de url insluiten."
+
+#: ../photo-gallery.php:2662
+msgid "Error: cannot get response from the server."
+msgstr "Fout: kan reactie van de server te krijgen."
+
+#: ../photo-gallery.php:2663
+msgid "Error: something wrong happened at the server."
+msgstr "Fout: iets fout gebeurd bij de server."
+
+#: ../photo-gallery.php:2664
+msgid "Error"
+msgstr "Fout"
+
+#: ../photo-gallery.php:2665
+msgid "Show order column"
+msgstr "Toon ordekolom"
+
+#: ../photo-gallery.php:2666 ../admin/views/BWGEViewAlbums_bwge.php:57 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:56
+#: ../admin/views/BWGEViewGalleries_bwge. php:774
+msgid "Hide order column"
+msgstr "Verbergen ordekolom"
+
+#: ../photo-gallery.php:2667
+msgid "Selected"
+msgstr "Gekozen"
+
+#: ../photo-gallery.php:2668 ../framework/BWGELibrary.php:436
+msgid "item"
+msgstr "item"
+
+#: ../photo-gallery.php:2669
+msgid "Items Succesfully Saved."
+msgstr "Items Succesvol Obwgeslagen."
+
+#: ../photo-gallery.php:2670
+msgid "Item Succesfully Recovered."
+msgstr "Punt Succesvol Hersteld."
+
+#: ../photo-gallery.php:2671
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:953
+#: ../framework/BWGELibrary.php:94
+msgid "Item Succesfully Published."
+msgstr "Punt Succesvol gepubliceerd."
+
+#: ../photo-gallery.php:2672
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:990
+#: ../framework/BWGELibrary.php:106
+msgid "Item Succesfully Unpublished."
+msgstr "Punt Succesvol Onuitgegeven."
+
+#: ../photo-gallery.php:2673
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:908
+#: ../framework/BWGELibrary.php:58
+msgid "Item Succesfully Deleted."
+msgstr "Punt Succesvol Deleted."
+
+#: ../photo-gallery.php:2674
+#: ../admin/controllers/BWGEControllerComments_bwge.php:108
+#: ../admin/controllers/BWGEControllerComments_bwge.php:139 ..
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:944
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:981
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:1018
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:1097
+#: ../framework/BWGELibrary. php:76
+msgid "You must select at least one item."
+msgstr "U moet minstens één item te selecteren."
+
+#: ../photo-gallery.php:2675
+msgid "Items Succesfully resized."
+msgstr "Items Succesvol verkleind."
+
+#: ../photo-gallery.php:2676
+msgid "Watermarks Succesfully Set."
+msgstr "Watermerken Succesvol Set."
+
+#: ../photo-gallery.php:2677
+msgid "Items Succesfully Reset."
+msgstr "Items Succesvol Reset."
+
+#: ../photo-gallery.php:2824 ../frontend/views/BWGEViewGalleryBox.php:1235
+msgid "This is not a valid email address."
+msgstr "Dit is geen geldig emailadres."
+
+#: ../photo-gallery.php:2825
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:1037
+#: ../frontend/views/BWGEViewAlbum_extended_preview.php:1025 ..
+#: /frontend/views/BWGEViewAlbum_masonry_preview.php:584
+msgid "There are no images matching your search."
+msgstr "Er zijn geen beelden die overeenkomen met uw zoekopdracht."
+
+#: ../photo-gallery.php:2828
+msgid "Select Tag."
+msgstr "Selecteer Tag."
+
+#: ../photo-gallery.php:2848
+msgid "Photo gallery plugin autoupdate interval."
+msgstr "Fotogalerij plugin autoupdate interval."
+
+#: ../addons/addons.php:5
+msgid "Photo Gallery Facebook"
+msgstr "Fotogalerij Facebook"
+
+#: ../addons/addons.php:7 ../update/update.php:36
+msgid ""
+"Photo Gallery Facebook is an add-on, which helps to display Facebook photos "
+"and videos within Photo Gallery plugin. You can create Facebook-only "
+"galleries, embed individual images and videos or include Facebook albums "
+"within mixed type albums."
+msgstr ""
+"Fotogalerij Facebook is een add-on, die helpt bij Facebook foto's en video's "
+"binnen Photo Gallery plugin weer te geven. U kunt alleen Facebook-galerijen, "
+"insluiten individuele foto's en video's te maken of onder Facebook-albums in "
+"gemengde albums."
+
+#: ../addons/addons.php:12
+msgid "NextGen Gallery Import to Photo Gallery"
+msgstr "NextGen Gallery importeren naar Photo Gallery"
+
+#: ../addons/addons.php:14
+msgid ""
+"This addon integrates NextGen with Photo Gallery allowing to import images "
+"and related data from NextGen to use with Photo Gallery"
+msgstr ""
+"Deze addon integreert NextGen met Photo Gallery het mogelijk maakt om foto's "
+"en gerelateerde gegevens importeren uit NextGen te gebruiken met Photo "
+"Gallery"
+
+#: ../addons/addons.php:19
+msgid "Photo Gallery Export / Import"
+msgstr "Photo Gallery Export / Import"
+
+#: ../addons/addons.php:21
+msgid ""
+"Photo Gallery Export/Import helps to move created galleries and albums from "
+"one site to another. This way you can save the gallery/album options and "
+"manual modifications."
+msgstr ""
+"Photo Gallery Export / Import helpt gemaakt galerijen en albums van de ene "
+"site naar de andere. Deze manier kunt u de galerie / album opties en "
+"handmatige wijzigingen op te slaan."
+
+#: ../addons/addons.php:63
+msgid "GET THIS ADD ON"
+msgstr "KRIJG DEZE ADD ON"
+
+#: ../admin/controllers/BWGEControllerComments_bwge.php:105 ..
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:978
+#: ../framework/BWGELibrary. php:100
+msgid "Items Succesfully Published."
+msgstr "Items Succesvol gepubliceerd."
+
+#: ../admin/controllers/BWGEControllerComments_bwge.php:136 ..
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:1015
+#: ../framework/BWGELibrary. php:112
+msgid "Items Succesfully Unpublished."
+msgstr "Succesvol gepubliceerde artikelen."
+
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:727 ..
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:868
+#: /admin/controllers/BWGEControllerOptions_bwge.php:384
+#: /admin/views/BWGEViewTags_bwge.php:45 ../framework/BWGELibrary.php:46
+msgid "Item Succesfully Saved."
+msgstr "Punt Succesvol obwgeslagen."
+
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:871 ..
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:911
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:956
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:993
+#: ../framework/BWGELibrary. php:52
+msgid "Error. Please install plugin again."
+msgstr "Fout. Installeer opnieuw plugin."
+
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:894 ..
+#: /framework/BWGELibrary.php:118
+msgid "Ordering Succesfully Saved."
+msgstr "Bestellen Succesvol obwgeslagen."
+
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:941 ..
+#: /framework/BWGELibrary.php:70
+msgid "Items Succesfully Deleted."
+msgstr "Succesvol Verwijderde items."
+
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:1100
+msgid "Thumb Succesfully Resized"
+msgstr "Duim Succesvol Resized"
+
+#: ../admin/models/BWGEModelOptions_bwge.php:78
+msgid "Logout of your app"
+msgstr "Logout van uw app"
+
+#: ../admin/models/BWGEModelOptions_bwge.php:81
+msgid "Log into Facebook with your app"
+msgstr "Log in op Facebook met uw app"
+
+#: ../admin/models/BWGEModelOptions_bwge.php:89
+msgid "View your application's settings."
+msgstr "Bekijk de instellingen van uw toepassing."
+
+#: ../admin/views/BWGEViewAddAlbumsGalleries.php:45
+msgid "Albums/Galleries"
+msgstr "Albums / Galleries"
+
+#: ../admin/views/BWGEViewAddAlbumsGalleries.php:51 ..
+#: /admin/views/BWGEViewAddAlbumsGalleries.php:77 ../admin/views/BWGEViewAddTags.
+#: php:51 ../admin/views/BWGEViewAddTags.php:68
+#: ../admin/views/BWGEViewAlbums_bwge. php:69
+#: ../admin/views/BWGEViewAlbums_bwge.php:90
+#: /admin/views/BWGEViewComments_bwge.php:63
+#: ../admin/views/BWGEViewComments_bwge.php:91
+#: ../admin/views/BWGEViewGalleries_bwge.php:68
+#: /admin/views/BWGEViewGalleries_bwge.php:90
+#: ../admin/views/BWGEViewTags_bwge.php:64 ../admin/views/BWGEViewTags_bwge.php:84
+#: ../admin/views/BWGEViewThemes_bwge.php:77 .
+#: frontend/views/BWGEViewGalleryBox.php:1247
+#: /frontend/views/BWGEViewGalleryBox.php:1275
+#: ../frontend/views/BWGEViewGalleryBox. php:1282
+msgid "Name"
+msgstr "Naam"
+
+#: ../admin/views/BWGEViewAddAlbumsGalleries.php:70 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:214
+msgid "Type"
+msgstr "Type"
+
+#: ../admin/views/BWGEViewAddTags.php:75 ../admin/views/BWGEViewAlbums_bwge.php:98
+#: .. /admin/views/BWGEViewGalleries_bwge.php:98
+#: ../admin/views/BWGEViewTags_bwge.php:92
+msgid "Slug"
+msgstr "Naaktslak"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:40
+msgid "This section allows you to create, edit and delete albums."
+msgstr "Dit gedeelte kunt u maken, bewerken en verwijderen van albums."
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:41
+#: ../admin/views/BWGEViewComments_bwge.php:42
+#: ../admin/views/BWGEViewGalleries_bwge.php:40 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:219 ../admin/views/BWGEViewOptions_bwge.
+#: php:31 ../admin/views/BWGEViewRates_bwge.php:41
+#: ../admin/views/BWGEViewTags_bwge. php:43
+#: ../admin/views/BWGEViewThemes_bwge.php:39
+#: /admin/views/BWGEViewThemes_bwge.php:217
+msgid "Read More in User Manual"
+msgstr "Lees meer in de gebruikershandleiding"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:49 ../admin/views/BWGEViewGalleries_bwge.
+#: php:48 ../admin/views/BWGEViewThemes_bwge.php:47
+msgid "Add new"
+msgstr "Voeg nieuwe"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:51 ../admin/views/BWGEViewGalleries_bwge.
+#: php:50
+msgid "Changes made in this table should be saved."
+msgstr "Wijzigingen in deze tabel moet worden obwgeslagen."
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:55 ../admin/views/BWGEViewGalleries_bwge.
+#: php:54 ../admin/views/BWGEViewGalleries_bwge.php:772
+#: ../filemanager/view.php:268 ../filemanager/view.php:353
+msgid "Select All"
+msgstr "Alles selecteren"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:58 ../admin/views/BWGEViewGalleries_bwge.
+#: php:57
+msgid "Save Order"
+msgstr "Save Bestel"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:59
+#: ../admin/views/BWGEViewComments_bwge.php:51
+#: ../admin/views/BWGEViewGalleries_bwge.php:58 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:790
+msgid "Publish"
+msgstr "Publiceren"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:60
+#: ../admin/views/BWGEViewComments_bwge.php:52
+#: ../admin/views/BWGEViewGalleries_bwge.php:59 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:793
+msgid "Unpublish"
+msgstr "Unpublish"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:61
+#: ../admin/views/BWGEViewComments_bwge.php:53
+#: ../admin/views/BWGEViewGalleries_bwge.php:60 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:794
+#: ../admin/views/BWGEViewRates_bwge.php:50 ../admin/views/BWGEViewTags_bwge.php:56
+#: ../admin/views/BWGEViewThemes_bwge.php:50
+msgid "Do you want to delete selected items?"
+msgstr "Wilt u de geselecteerde items wilt verwijderen?"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:65
+#: ../admin/views/BWGEViewAlbums_bwge.php:127
+#: ../admin/views/BWGEViewAlbums_bwge.php:162 ..
+#: /admin/views/BWGEViewComments_bwge.php:57
+#: ../admin/views/BWGEViewComments_bwge.php:124
+#: ../admin/views/BWGEViewComments_bwge.php:160
+#: /admin/views/BWGEViewGalleries_bwge.php:64
+#: ../admin/views/BWGEViewGalleries_bwge. php:127
+#: ../admin/views/BWGEViewGalleries_bwge.php:174
+#: /admin/views/BWGEViewGalleries_bwge.php:800 php:956
+#: ../admin/views/BWGEViewGalleries_bwge.php:1071
+#: /admin/views/BWGEViewRates_bwge.php:54 ../admin/views/BWGEViewRates_bwge.php:107
+#: /admin/views/BWGEViewRates_bwge.php:137 ../admin/views/BWGEViewTags_bwge.php:56
+#: /admin/views/BWGEViewTags_bwge.php:104 ../admin/views/BWGEViewTags_bwge.php:156
+#: /admin/views/BWGEViewThemes_bwge.php:54
+#: ../admin/views/BWGEViewThemes_bwge.php:87 .
+#: admin/views/BWGEViewThemes_bwge.php:134
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:101 ../admin/views/BWGEViewBWGEShortcode.
+#: php:363 ../admin/views/BWGEViewBWGEShortcode.php:508 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:84
+#: ../admin/views/BWGEViewGalleries_bwge. php:914
+#: ../admin/views/BWGEViewOptions_bwge.php:1014
+#: /admin/views/BWGEViewWidget.php:123
+msgid "Thumbnail"
+msgstr "Miniatuur"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:107 ../admin/views/BWGEViewBWGEShortcode.
+#: php:209 ../admin/views/BWGEViewGalleries_bwge.php:115 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:945
+msgid "Order"
+msgstr "Bestellen"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:115
+#: ../admin/views/BWGEViewGalleries_bwge. php:106
+msgid "Author"
+msgstr "Auteur"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:123 ../admin/views/BWGEViewComments_bwge.
+#: php:121 ../admin/views/BWGEViewGalleries_bwge.php:123 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:953
+msgid "Published"
+msgstr "Gepubliceerd"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:126
+#: ../admin/views/BWGEViewAlbums_bwge.php:149
+#: ../admin/views/BWGEViewAlbums_bwge.php:159 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:126
+#: ../admin/views/BWGEViewGalleries_bwge. php:171
+#: ../admin/views/BWGEViewGalleries_bwge.php:364
+#: /admin/views/BWGEViewGalleries_bwge.php:1013
+#: ../admin/views/BWGEViewTags_bwge.php:103
+#: ../admin/views/BWGEViewTags_bwge.php:136 142
+#: ../admin/views/BWGEViewTags_bwge.php:148 151
+#: ../admin/views/BWGEViewThemes_bwge.php:86 ../admin/views/BWGEViewThemes_bwge.
+#: php:129
+msgid "Edit"
+msgstr "Bewerk"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:195
+msgid "This section allows you to add/edit album."
+msgstr "Dit gedeelte kunt u / bewerken album toe te voegen."
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:196
+msgid "Manual"
+msgstr "Handboek"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:258
+#: ../admin/views/BWGEViewGalleries_bwge. php:536
+#: ../admin/views/BWGEViewOptions_bwge.php:99 ..
+#: /admin/views/BWGEViewTags_bwge.php:51 ../admin/views/BWGEViewThemes_bwge.php:224
+msgid "Save"
+msgstr "Save"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:259
+#: ../admin/views/BWGEViewGalleries_bwge. php:539
+#: ../admin/views/BWGEViewThemes_bwge.php:225
+msgid "Apply"
+msgstr "Solliciteren"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:260
+#: ../admin/views/BWGEViewGalleries_bwge. php:541
+#: ../admin/views/BWGEViewGalleries_bwge.php:807 ..
+#: /admin/views/BWGEViewThemes_bwge.php:226
+msgid "Cancel"
+msgstr "Annuleer"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:265
+#: ../admin/views/BWGEViewGalleries_bwge. php:546
+#: ../admin/views/BWGEViewThemes_bwge.php:253
+msgid "Name:"
+msgstr "Naam:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:269
+#: ../admin/views/BWGEViewGalleries_bwge. php:550
+msgid "Slug:"
+msgstr "Slug:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:273
+msgid "Description:"
+msgstr "Beschrijving:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:292
+#: ../admin/views/BWGEViewGalleries_bwge. php:663
+msgid "Author:"
+msgstr "Auteur:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:296
+msgid "Published:"
+msgstr "Gepubliceerd:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:299 ../admin/views/BWGEViewBWGEShortcode.
+#: php:231 ../admin/views/BWGEViewBWGEShortcode.php:242 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:249 php:290
+#: ../admin/views/BWGEViewBWGEShortcode.php:319
+#: /admin/views/BWGEViewBWGEShortcode.php:389 php:424
+#: ../admin/views/BWGEViewBWGEShortcode.php:468
+#: /admin/views/BWGEViewBWGEShortcode.php:495 php:534
+#: ../admin/views/BWGEViewBWGEShortcode.php:570
+#: /admin/views/BWGEViewBWGEShortcode.php:595 php:602
+#: ../admin/views/BWGEViewBWGEShortcode.php:617
+#: /admin/views/BWGEViewBWGEShortcode.php:628 php:668
+#: ../admin/views/BWGEViewBWGEShortcode.php:675
+#: /admin/views/BWGEViewBWGEShortcode.php:682 php:689
+#: ../admin/views/BWGEViewBWGEShortcode.php:712
+#: /admin/views/BWGEViewBWGEShortcode.php:745 php:752
+#: ../admin/views/BWGEViewBWGEShortcode.php:783
+#: /admin/views/BWGEViewBWGEShortcode.php:810 php:821
+#: ../admin/views/BWGEViewBWGEShortcode.php:835
+#: /admin/views/BWGEViewBWGEShortcode.php:842 php:849
+#: ../admin/views/BWGEViewBWGEShortcode.php:866
+#: /admin/views/BWGEViewBWGEShortcode.php:877 php:907
+#: ../admin/views/BWGEViewBWGEShortcode.php:918
+#: /admin/views/BWGEViewBWGEShortcode.php:929 php:936
+#: ../admin/views/BWGEViewBWGEShortcode.php:945
+#: /admin/views/BWGEViewBWGEShortcode.php:952 php:959
+#: ../admin/views/BWGEViewBWGEShortcode.php:966
+#: /admin/views/BWGEViewBWGEShortcode.php:973 php:980
+#: ../admin/views/BWGEViewBWGEShortcode.php:987
+#: /admin/views/BWGEViewBWGEShortcode.php:994 php:1001
+#: ../admin/views/BWGEViewBWGEShortcode.php:1008
+#: /admin/views/BWGEViewBWGEShortcode.php:1015
+#: ../admin/views/BWGEViewGalleries_bwge. php:629
+#: ../admin/views/BWGEViewGalleries_bwge.php:670
+#: /admin/views/BWGEViewOptions_bwge.php:152
+#: ../admin/views/BWGEViewOptions_bwge.php:162
+#: ../admin/views/BWGEViewOptions_bwge.php:181
+#: /admin/views/BWGEViewOptions_bwge.php:191 201
+#: ../admin/views/BWGEViewOptions_bwge.php:220
+#: /admin/views/BWGEViewOptions_bwge.php:230 240
+#: ../admin/views/BWGEViewOptions_bwge.php:267
+#: /admin/views/BWGEViewOptions_bwge.php:277 287
+#: ../admin/views/BWGEViewOptions_bwge.php:297
+#: /admin/views/BWGEViewOptions_bwge.php:307 634
+#: ../admin/views/BWGEViewOptions_bwge.php:671
+#: /admin/views/BWGEViewOptions_bwge.php:690 709
+#: ../admin/views/BWGEViewOptions_bwge.php:755
+#: /admin/views/BWGEViewOptions_bwge.php:765 775
+#: ../admin/views/BWGEViewOptions_bwge.php:785
+#: /admin/views/BWGEViewOptions_bwge.php:795 811
+#: ../admin/views/BWGEViewOptions_bwge.php:825
+#: /admin/views/BWGEViewOptions_bwge.php:835 845
+#: ../admin/views/BWGEViewOptions_bwge.php:855
+#: /admin/views/BWGEViewOptions_bwge.php:865 875
+#: ../admin/views/BWGEViewOptions_bwge.php:885
+#: /admin/views/BWGEViewOptions_bwge.php:895 905
+#: ../admin/views/BWGEViewOptions_bwge.php:915
+#: /admin/views/BWGEViewOptions_bwge.php:925 935
+#: ../admin/views/BWGEViewOptions_bwge.php:945
+#: /admin/views/BWGEViewOptions_bwge.php:957 1005
+#: ../admin/views/BWGEViewOptions_bwge.php:1037
+#: /admin/views/BWGEViewOptions_bwge.php:1047 1123
+#: ../admin/views/BWGEViewOptions_bwge.php:1133
+#: /admin/views/BWGEViewOptions_bwge.php:1153 1161
+#: ../admin/views/BWGEViewOptions_bwge.php:1182
+#: /admin/views/BWGEViewOptions_bwge.php:1217 1225
+#: ../admin/views/BWGEViewOptions_bwge.php:1260
+#: /admin/views/BWGEViewOptions_bwge.php:1321 1388
+#: ../admin/views/BWGEViewOptions_bwge.php:1398
+#: /admin/views/BWGEViewOptions_bwge.php:1406 1423
+#: ../admin/views/BWGEViewOptions_bwge.php:1431
+#: /admin/views/BWGEViewOptions_bwge.php:1449 1459
+#: ../admin/views/BWGEViewOptions_bwge.php:1478
+#: /admin/views/BWGEViewOptions_bwge.php:1506 1649
+#: ../admin/views/BWGEViewOptions_bwge.php:1659
+#: /admin/views/BWGEViewOptions_bwge.php:1669 1679
+#: ../admin/views/BWGEViewOptions_bwge.php:1689
+#: /admin/views/BWGEViewThemes_bwge.php:342
+#: ../admin/views/BWGEViewThemes_bwge.php:583
+#: ../admin/views/BWGEViewThemes_bwge.php:733 ../admin/views/BWGEViewThemes_bwge.
+#: php:1501 ../admin/views/BWGEViewThemes_bwge.php:1733
+#: /admin/views/BWGEViewThemes_bwge.php:2241 3656
+#: ../admin/views/BWGEViewThemes_bwge.php:3701
+#: /admin/views/BWGEViewWidgetSlideshow.php:147
+#: ../admin/views/BWGEViewWidgetTags. php:125
+#: ../admin/views/BWGEViewWidgetTags.php:146
+msgid "No"
+msgstr "Nee"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:301 ../admin/views/BWGEViewBWGEShortcode.
+#: php:230 ../admin/views/BWGEViewBWGEShortcode.php:241 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:248 php:289
+#: ../admin/views/BWGEViewBWGEShortcode.php:318
+#: /admin/views/BWGEViewBWGEShortcode.php:388 php:423
+#: ../admin/views/BWGEViewBWGEShortcode.php:467
+#: /admin/views/BWGEViewBWGEShortcode.php:494 php:533
+#: ../admin/views/BWGEViewBWGEShortcode.php:569
+#: /admin/views/BWGEViewBWGEShortcode.php:594 php:601
+#: ../admin/views/BWGEViewBWGEShortcode.php:616
+#: /admin/views/BWGEViewBWGEShortcode.php:627 php:667
+#: ../admin/views/BWGEViewBWGEShortcode.php:674
+#: /admin/views/BWGEViewBWGEShortcode.php:681 php:688
+#: ../admin/views/BWGEViewBWGEShortcode.php:711
+#: /admin/views/BWGEViewBWGEShortcode.php:744 php:751
+#: ../admin/views/BWGEViewBWGEShortcode.php:782
+#: /admin/views/BWGEViewBWGEShortcode.php:809 php:820
+#: ../admin/views/BWGEViewBWGEShortcode.php:834
+#: /admin/views/BWGEViewBWGEShortcode.php:841 php:848
+#: ../admin/views/BWGEViewBWGEShortcode.php:865
+#: /admin/views/BWGEViewBWGEShortcode.php:876 php:906
+#: ../admin/views/BWGEViewBWGEShortcode.php:917
+#: /admin/views/BWGEViewBWGEShortcode.php:928 php:935
+#: ../admin/views/BWGEViewBWGEShortcode.php:944
+#: /admin/views/BWGEViewBWGEShortcode.php:951 php:958
+#: ../admin/views/BWGEViewBWGEShortcode.php:965
+#: /admin/views/BWGEViewBWGEShortcode.php:972 php:979
+#: ../admin/views/BWGEViewBWGEShortcode.php:986
+#: /admin/views/BWGEViewBWGEShortcode.php:993 php:1000
+#: ../admin/views/BWGEViewBWGEShortcode.php:1007
+#: /admin/views/BWGEViewBWGEShortcode.php:1014
+#: ../admin/views/BWGEViewGalleries_bwge. php:631
+#: ../admin/views/BWGEViewGalleries_bwge.php:672
+#: /admin/views/BWGEViewOptions_bwge.php:151
+#: ../admin/views/BWGEViewOptions_bwge.php:161
+#: ../admin/views/BWGEViewOptions_bwge.php:180
+#: /admin/views/BWGEViewOptions_bwge.php:190 200
+#: ../admin/views/BWGEViewOptions_bwge.php:219
+#: /admin/views/BWGEViewOptions_bwge.php:229 239
+#: ../admin/views/BWGEViewOptions_bwge.php:266
+#: /admin/views/BWGEViewOptions_bwge.php:276 286
+#: ../admin/views/BWGEViewOptions_bwge.php:296
+#: /admin/views/BWGEViewOptions_bwge.php:306 633
+#: ../admin/views/BWGEViewOptions_bwge.php:670
+#: /admin/views/BWGEViewOptions_bwge.php:689 708
+#: ../admin/views/BWGEViewOptions_bwge.php:741
+#: /admin/views/BWGEViewOptions_bwge.php:764 774
+#: ../admin/views/BWGEViewOptions_bwge.php:784
+#: /admin/views/BWGEViewOptions_bwge.php:794 810
+#: ../admin/views/BWGEViewOptions_bwge.php:822
+#: /admin/views/BWGEViewOptions_bwge.php:834 844
+#: ../admin/views/BWGEViewOptions_bwge.php:854
+#: /admin/views/BWGEViewOptions_bwge.php:864 874
+#: ../admin/views/BWGEViewOptions_bwge.php:884
+#: /admin/views/BWGEViewOptions_bwge.php:894 904
+#: ../admin/views/BWGEViewOptions_bwge.php:914
+#: /admin/views/BWGEViewOptions_bwge.php:924 934
+#: ../admin/views/BWGEViewOptions_bwge.php:944
+#: /admin/views/BWGEViewOptions_bwge.php:955 1004
+#: ../admin/views/BWGEViewOptions_bwge.php:1036
+#: /admin/views/BWGEViewOptions_bwge.php:1046 1122
+#: ../admin/views/BWGEViewOptions_bwge.php:1132
+#: /admin/views/BWGEViewOptions_bwge.php:1152 1160
+#: ../admin/views/BWGEViewOptions_bwge.php:1181
+#: /admin/views/BWGEViewOptions_bwge.php:1216 1224
+#: ../admin/views/BWGEViewOptions_bwge.php:1259
+#: /admin/views/BWGEViewOptions_bwge.php:1322 1387
+#: ../admin/views/BWGEViewOptions_bwge.php:1397
+#: /admin/views/BWGEViewOptions_bwge.php:1405 1422
+#: ../admin/views/BWGEViewOptions_bwge.php:1430
+#: /admin/views/BWGEViewOptions_bwge.php:1448 1458
+#: ../admin/views/BWGEViewOptions_bwge.php:1477
+#: /admin/views/BWGEViewOptions_bwge.php:1505 1648
+#: ../admin/views/BWGEViewOptions_bwge.php:1658
+#: /admin/views/BWGEViewOptions_bwge.php:1668 1678
+#: ../admin/views/BWGEViewOptions_bwge.php:1688
+#: /admin/views/BWGEViewThemes_bwge.php:340
+#: ../admin/views/BWGEViewThemes_bwge.php:581
+#: ../admin/views/BWGEViewThemes_bwge.php:731 ../admin/views/BWGEViewThemes_bwge.
+#: php:1499 ../admin/views/BWGEViewThemes_bwge.php:1731
+#: /admin/views/BWGEViewThemes_bwge.php:2239 3654
+#: ../admin/views/BWGEViewThemes_bwge.php:3699
+#: /admin/views/BWGEViewUninstall_bwge.php:79
+#: ../admin/views/BWGEViewWidgetSlideshow. php:146
+#: ../admin/views/BWGEViewWidgetTags.php:124
+#: /admin/views/BWGEViewWidgetTags.php:145
+msgid "Yes"
+msgstr "Ja"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:305
+#: ../admin/views/BWGEViewGalleries_bwge. php:676
+msgid "Preview image:"
+msgstr "Voorbeeld afbeelding:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:320
+#: ../admin/views/BWGEViewGalleries_bwge. php:690
+msgid "Add Preview Image"
+msgstr "Voeg Voorbeeldweergave"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:331
+msgid "Albums And Galleries:"
+msgstr "Albums en galeries:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:340
+#: ../admin/views/BWGEViewGalleries_bwge. php:756
+#: ../admin/views/BWGEViewGalleries_bwge.php:757
+msgid "Add Images"
+msgstr "Afbeeldingen toevoegen"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:341
+msgid "Add Albums/Galleries"
+msgstr "Voeg Albums / Galleries"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:34
+#: ../admin/views/BWGEViewBWGEShortcode. php:1027
+#: ../admin/views/BWGEViewOptions_bwge.php:328 ..
+#: /admin/views/BWGEViewOptions_bwge.php:481
+#: ../admin/views/BWGEViewThemes_bwge.php:163
+#: ../admin/views/BWGEViewThemes_bwge.php:196
+msgid "None"
+msgstr "Niets"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:35
+msgid "Cube Horizontal"
+msgstr "Kubus Horizontale"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:36
+msgid "Cube Vertical"
+msgstr "Kubus Verticale"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:37
+msgid "Fade"
+msgstr "Vervagen"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:38
+msgid "Slice Horizontal"
+msgstr "Slice Horizontale"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:39
+msgid "Slice Vertical"
+msgstr "Slice Verticale"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:40
+msgid "Slide Horizontal"
+msgstr "Schuif Horizontale"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:41
+msgid "Slide Vertical"
+msgstr "Slide Verticale"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:42
+msgid "Scale Out"
+msgstr "Uitvergroten"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:43
+msgid "Scale In"
+msgstr "Schaal"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:44
+msgid "Block Scale"
+msgstr "Blok Schaal"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:45
+msgid "Kaleidoscope"
+msgstr "Caleidoscoop"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:46
+msgid "Fan"
+msgstr "Ventilator"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:47
+msgid "Blind Horizontal"
+msgstr "Blind Horizontale"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:48
+msgid "Blind Vertical"
+msgstr "Blind Verticale"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:49
+#: ../admin/views/BWGEViewBWGEShortcode. php:216
+#: ../admin/views/BWGEViewWidget.php:151 ../framework/BWGELibrary.php:851
+msgid "Random"
+msgstr "Toevallig"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:97
+msgid "Display"
+msgstr "Beeldscherm"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:116 ../admin/views/BWGEViewThemes_bwge.
+#: php:234
+msgid "Thumbnails"
+msgstr "Miniaturen"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:120
+#: ../admin/views/BWGEViewBWGEShortcode. php:364
+#: ../admin/views/BWGEViewBWGEShortcode.php:509 ..
+#: /admin/views/BWGEViewOptions_bwge.php:1015
+#: ../admin/views/BWGEViewThemes_bwge.php:235
+#: ../admin/views/BWGEViewWidget.php:124
+msgid "Masonry"
+msgstr "Metselwerk"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:124
+#: ../admin/views/BWGEViewBWGEShortcode. php:365
+#: ../admin/views/BWGEViewBWGEShortcode.php:510 ..
+#: /admin/views/BWGEViewOptions_bwge.php:1016
+#: ../admin/views/BWGEViewThemes_bwge.php:236
+msgid "Mosaic"
+msgstr "Mozaïek"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:128
+#: ../admin/views/BWGEViewOptions_bwge. php:114
+#: ../admin/views/BWGEViewThemes_bwge.php:237
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:132 ../admin/views/BWGEViewThemes_bwge.
+#: php:238
+msgid "Image Browser"
+msgstr "Afbeelding Browser"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:136 ../admin/views/BWGEViewThemes_bwge.
+#: php:239
+msgid "Compact Album"
+msgstr "Compacte Album"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:140 ../admin/views/BWGEViewThemes_bwge.
+#: php:240
+msgid "Masonry Album"
+msgstr "Metselwerk Album"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:144 ../admin/views/BWGEViewThemes_bwge.
+#: php:241
+msgid "Extended Album"
+msgstr "Extended Album"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:148 ../admin/views/BWGEViewThemes_bwge.
+#: php:242
+msgid "Blog Style"
+msgstr "Blog Style"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:152
+#: ../admin/views/BWGEViewOptions_bwge. php:118
+#: ../admin/views/BWGEViewThemes_bwge.php:245
+msgid "Carousel"
+msgstr "Carrousel"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:161
+msgid "Theme:"
+msgstr "Thema:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:164
+msgid "Select Theme"
+msgstr "Selecteer Thema"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:176
+msgid "Gallery:"
+msgstr "Gallery:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:179
+#: ../admin/views/BWGEViewWidget.php:128
+#: ../admin/views/BWGEViewWidgetSlideshow.php:109
+msgid "Select Gallery"
+msgstr "Selecteer Galerij"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:191
+msgid "The selected album expanded content will be displayed."
+msgstr "De geselecteerde album uitgebreide inhoud zal worden weergegeven."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:191
+msgid "Album:"
+msgstr "Album:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:194
+#: ../admin/views/BWGEViewWidget.php:140
+msgid "Select Album"
+msgstr "Selecteer Album"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:206
+msgid "Sort images by:"
+msgstr "Beelden sorteren op:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:210 ../admin/views/BWGEViewThemes_bwge.
+#: php:58
+msgid "Title"
+msgstr "Titel"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:211
+#: ../admin/views/BWGEViewRates_bwge.php:104
+msgid "Date"
+msgstr "Datum"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:212
+#: ../admin/views/BWGEViewGalleries_bwge. php:904
+#: ../admin/views/BWGEViewGalleries_bwge.php:920 ../framework/BWGELibrary. php:849
+msgid "Filename"
+msgstr "Bestandsnaam"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:213 ../framework/BWGELibrary.php:850
+msgid "Size"
+msgstr "Grootte"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:215
+msgid "Resolution"
+msgstr "Resolutie"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:221
+msgid "Order images:"
+msgstr "Bestelt beelden:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:223
+msgid "Ascending"
+msgstr "Oplopend"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:224
+msgid "Descending"
+msgstr "Aflopend"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:228
+#: ../admin/views/BWGEViewOptions_bwge. php:158
+msgid "Show search box:"
+msgstr "Toon zoekvak:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:235
+#: ../admin/views/BWGEViewOptions_bwge. php:168
+msgid "Search box width:"
+msgstr "Zoekvak breedte:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:239
+#: ../admin/views/BWGEViewOptions_bwge. php:187
+msgid "Show tag box:"
+msgstr "Toon tag doos:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:246
+#: ../admin/views/BWGEViewOptions_bwge. php:177
+msgid "Show \"Order by\" dropdown list:"
+msgstr "Toon Order door keuzelijst:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:254
+#: ../admin/views/BWGEViewOptions_bwge. php:1298
+msgid "Masonry:"
+msgstr "Metselwerk:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:257
+#: ../admin/views/BWGEViewBWGEShortcode. php:273
+#: ../admin/views/BWGEViewBWGEShortcode.php:372 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:461
+msgid "Image thumbnail width:"
+msgstr "Miniatuur breedte:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:260
+#: ../admin/views/BWGEViewBWGEShortcode. php:276
+#: ../admin/views/BWGEViewBWGEShortcode.php:375 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:520
+#: ../admin/views/BWGEViewOptions_bwge.php:1301
+#: ../admin/views/BWGEViewOptions_bwge.php:1311
+msgid "Vertical"
+msgstr "Verticaal"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:261
+#: ../admin/views/BWGEViewBWGEShortcode. php:277
+#: ../admin/views/BWGEViewBWGEShortcode.php:376
+msgid "Max. number of image columns: "
+msgstr "Max. aantal image kolommen:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:265
+#: ../admin/views/BWGEViewBWGEShortcode. php:281
+#: ../admin/views/BWGEViewBWGEShortcode.php:380 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:525
+#: ../admin/views/BWGEViewOptions_bwge.php:1302
+#: ../admin/views/BWGEViewOptions_bwge.php:1312
+msgid "Horizontal"
+msgstr "Horizontaal"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:270
+#: ../admin/views/BWGEViewBWGEShortcode. php:369
+#: ../admin/views/BWGEViewBWGEShortcode.php:514 ..
+#: /admin/views/BWGEViewOptions_bwge.php:1308
+msgid "Mosaic:"
+msgstr "Mosaic:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:287
+#: ../admin/views/BWGEViewBWGEShortcode. php:386
+#: ../admin/views/BWGEViewBWGEShortcode.php:531
+msgid ""
+"Mosaic thumbnails do not have fixed size, but are proportional to the width "
+"of the parent container. This option keeps thumbs to look nice when viewed "
+"with very large or very small screen. Prevents zooming of thumbs."
+msgstr ""
+"Mosaic thumbnails hebben geen vaste grootte, maar zijn evenredig met de "
+"breedte van het bovenliggende container. Deze optie houdt duimen er leuk "
+"uitzien wanneer bekeken met een zeer grote of zeer kleine scherm. Voorkomt "
+"zoomen van de duimen."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:287
+#: ../admin/views/BWGEViewBWGEShortcode. php:386
+msgid "Resizable mosaic"
+msgstr "Resizable mozaïek"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:295
+#: ../admin/views/BWGEViewBWGEShortcode. php:394
+#: ../admin/views/BWGEViewBWGEShortcode.php:540
+msgid "Percentage of container's width"
+msgstr "Percentage van de breedte container"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:295
+#: ../admin/views/BWGEViewBWGEShortcode. php:540
+#: ../admin/views/BWGEViewOptions_bwge.php:1328
+msgid "Total width of mosaic:"
+msgstr "Totale breedte van mozaïek:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:300
+#: ../admin/views/BWGEViewBWGEShortcode. php:398
+#: ../admin/views/BWGEViewBWGEShortcode.php:452 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:521 php:544
+#: ../admin/views/BWGEViewBWGEShortcode.php:2323
+msgid "Max. number of image columns:"
+msgstr "Max. aantal image kolommen:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:304
+#: ../admin/views/BWGEViewBWGEShortcode. php:402
+#: ../admin/views/BWGEViewBWGEShortcode.php:456 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:548 php:621
+msgid ""
+"If you want to display all images you should leave it blank or insert 0."
+msgstr ""
+"Als u alle afbeeldingen weer te geven moet u het leeg te verlaten of plaats "
+"0."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:304
+#: ../admin/views/BWGEViewBWGEShortcode. php:402
+#: ../admin/views/BWGEViewBWGEShortcode.php:456 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:548 php:621
+#: ../admin/views/BWGEViewOptions_bwge.php:1346
+msgid "Images per page:"
+msgstr "Afbeeldingen per pagina:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:308
+#: ../admin/views/BWGEViewBWGEShortcode. php:406
+#: ../admin/views/BWGEViewBWGEShortcode.php:552
+msgid "Image title:"
+msgstr "Afbeelding titel:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:310
+#: ../admin/views/BWGEViewBWGEShortcode. php:348
+#: ../admin/views/BWGEViewBWGEShortcode.php:408 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:554
+#: ../admin/views/BWGEViewOptions_bwge.php:1025
+#: ../admin/views/BWGEViewOptions_bwge.php:1378
+msgid "Show on hover"
+msgstr "Toon op hover"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:311
+#: ../admin/views/BWGEViewBWGEShortcode. php:349
+#: ../admin/views/BWGEViewBWGEShortcode.php:409 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:555
+#: ../admin/views/BWGEViewOptions_bwge.php:1026
+#: ../admin/views/BWGEViewOptions_bwge.php:1379
+msgid "Always show"
+msgstr "Tonen altijd"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:312
+#: ../admin/views/BWGEViewBWGEShortcode. php:350
+#: ../admin/views/BWGEViewBWGEShortcode.php:410 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:556
+#: ../admin/views/BWGEViewOptions_bwge.php:1027
+#: ../admin/views/BWGEViewOptions_bwge.php:1380
+msgid "Don't show"
+msgstr "Niet tonen"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:316
+#: ../admin/views/BWGEViewBWGEShortcode. php:421
+#: ../admin/views/BWGEViewBWGEShortcode.php:465 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:567 php:625
+#: ../admin/views/BWGEViewOptions_bwge.php:1001
+msgid "Enable pagination:"
+msgstr "Enable paginering:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:320
+#: ../admin/views/BWGEViewBWGEShortcode. php:425
+#: ../admin/views/BWGEViewBWGEShortcode.php:469 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:571
+msgid "Load More"
+msgstr "Meer laden"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:321
+#: ../admin/views/BWGEViewBWGEShortcode. php:426
+#: ../admin/views/BWGEViewBWGEShortcode.php:470 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:572 php:630
+msgid "Scroll Load"
+msgstr "Scroll Load"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:325
+#: ../admin/views/BWGEViewBWGEShortcode. php:434
+#: ../admin/views/BWGEViewBWGEShortcode.php:478 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:580 php:634
+msgid "Images per load:"
+msgstr "Beelden per lading:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:329
+msgid "Maximum values for thumbnail dimension."
+msgstr "Maximale waarden voor verkleinde dimensie."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:329
+#: ../admin/views/BWGEViewBWGEShortcode. php:560
+msgid "Image Thumbnail dimensions:"
+msgstr "Thumbnail image afmetingen:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:338
+#: ../admin/views/BWGEViewBWGEShortcode. php:440
+msgid "Max. number of album columns:"
+msgstr "Max. aantal album kolommen:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:342
+#: ../admin/views/BWGEViewBWGEShortcode. php:430
+#: ../admin/views/BWGEViewBWGEShortcode.php:444 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:474 php:484
+#: ../admin/views/BWGEViewBWGEShortcode.php:576
+msgid ""
+"If you want to display all albums you should leave it blank or insert 0."
+msgstr ""
+"Als u alle albums weer te geven moet u het leeg te verlaten of plaats 0."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:342
+#: ../admin/views/BWGEViewBWGEShortcode. php:444
+#: ../admin/views/BWGEViewBWGEShortcode.php:484 ..
+#: /admin/views/BWGEViewOptions_bwge.php:992
+msgid "Albums per page:"
+msgstr "Albums per pagina:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:346
+msgid "Album title:"
+msgstr "Albumtitel:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:354
+#: ../admin/views/BWGEViewBWGEShortcode. php:499
+msgid "Maximum values for album thumb width and height."
+msgstr "Maximale waarden voor album duim breedte en hoogte."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:354
+msgid "Album Thumbnail dimensions:"
+msgstr "Album Thumbnail afmetingen:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:361
+#: ../admin/views/BWGEViewBWGEShortcode. php:506
+msgid "The gallery images view type in the album."
+msgstr "De galerie afbeeldingen weer te geven soort in het album."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:361
+#: ../admin/views/BWGEViewBWGEShortcode. php:506
+#: ../admin/views/BWGEViewOptions_bwge.php:1011
+msgid "Album view type:"
+msgstr "Album view soort:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:395
+#: ../admin/views/BWGEViewBWGEShortcode. php:541
+msgid "percent"
+msgstr "procent"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:414
+#: ../admin/views/BWGEViewBWGEShortcode. php:560
+msgid "Maximum values for thumbnail width and height."
+msgstr "Maximale waarden voor verkleinde breedte en hoogte."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:414
+#: ../admin/views/BWGEViewBWGEShortcode. php:2321
+msgid "Image thumbnail dimensions:"
+msgstr "Miniatuur afmetingen:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:430
+#: ../admin/views/BWGEViewBWGEShortcode. php:474
+#: ../admin/views/BWGEViewBWGEShortcode.php:576
+msgid "Albums per load:"
+msgstr "Albums per lading:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:448
+msgid "Maximum value for album thumbnail width."
+msgstr "Maximale waarde voor album thumbnail breedte."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:448
+msgid "Album Thumbnail width:"
+msgstr "Album Thumbnail breedte:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:461
+msgid "Maximum value for thumbnail width."
+msgstr "Maximale waarde voor de miniatuur breedte."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:488
+msgid "Album row height:"
+msgstr "Album rijhoogte:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:492
+msgid ""
+"If you disable description only the title of the album will be displayed."
+msgstr ""
+"Als u beschrijving uitschakelen alleen de titel van het album wordt "
+"weergegeven."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:492
+msgid "Enable album description:"
+msgstr "Enable album beschrijving:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:499
+#: ../admin/views/BWGEViewOptions_bwge. php:1053
+msgid "Album thumbnail dimensions:"
+msgstr "Album thumbnail afmetingen:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:517
+#: ../admin/views/BWGEViewBWGEShortcode. php:2322
+msgid "Image thumbnail width: "
+msgstr "Miniatuur breedte:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:531
+#: ../admin/views/BWGEViewOptions_bwge. php:1318
+msgid "Resizable mosaic:"
+msgstr "Resizable mozaïek:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:586
+#: ../admin/views/BWGEViewBWGEShortcode. php:608
+msgid "Maximum value for image width."
+msgstr "Maximale waarde voor het breedte."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:586
+#: ../admin/views/BWGEViewBWGEShortcode. php:608
+msgid "Image width:"
+msgstr "Image width:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:592
+#: ../admin/views/BWGEViewBWGEShortcode. php:614
+#: ../admin/views/BWGEViewOptions_bwge.php:1179 ..
+#: /admin/views/BWGEViewOptions_bwge.php:1646
+msgid "Enable image title:"
+msgstr "Enable image title:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:599
+#: ../admin/views/BWGEViewOptions_bwge. php:1222
+msgid "Enable image description:"
+msgstr "Enable image description:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:629
+msgid "Load more"
+msgstr "Meer laden"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:640
+msgid "Slideshow Effect:"
+msgstr "Slideshow Effect:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:654
+#: ../admin/views/BWGEViewBWGEShortcode. php:814
+#: ../admin/views/BWGEViewBWGEShortcode.php:911
+msgid "Interval between two images."
+msgstr "Interval tussen twee beelden."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:654
+#: ../admin/views/BWGEViewBWGEShortcode. php:814
+#: ../admin/views/BWGEViewBWGEShortcode.php:911 ..
+#: /admin/views/BWGEViewOptions_bwge.php:677
+#: ../admin/views/BWGEViewOptions_bwge.php:1100
+#: ../admin/views/BWGEViewOptions_bwge.php:1596
+#: /admin/views/BWGEViewWidgetSlideshow.php:141
+msgid "Time interval:"
+msgstr "Tijdsinterval:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:658
+msgid "Maximum values for slideshow width and height."
+msgstr "Maximale waarden voor slideshow breedte en hoogte."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:658
+msgid "Slideshow dimensions: "
+msgstr "Slideshow afmetingen:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:665
+#: ../admin/views/BWGEViewBWGEShortcode. php:807
+msgid "Enable Autoplay:"
+msgstr "Inschakelen Automatisch afspelen:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:672
+msgid "Enable Shuffle:"
+msgstr "Enable Shuffle:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:679
+#: ../admin/views/BWGEViewBWGEShortcode. php:933
+#: ../admin/views/BWGEViewOptions_bwge.php:725 ..
+#: /admin/views/BWGEViewOptions_bwge.php:1149
+msgid "Enable control buttons:"
+msgstr "Enable bedieningsknoppen:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:686
+msgid "Enable slideshow filmstrip view"
+msgstr "Enable slideshow filmstrip view"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:686
+#: ../admin/views/BWGEViewOptions_bwge. php:1158
+msgid "Enable slideshow filmstrip:"
+msgstr "Enable slideshow filmstrip:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:693
+msgid "Slideshow Filmstrip size:"
+msgstr "Slideshow filmstrip grootte:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:698
+msgid "Max. number of carousel images:"
+msgstr "Max. aantal carrousel beelden:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:709
+#: ../admin/views/BWGEViewBWGEShortcode. php:818
+msgid "Enable Image Title:"
+msgstr "Enable Afbeelding Titel:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:716
+#: ../admin/views/BWGEViewOptions_bwge. php:1208
+msgid "Image title position on slideshow"
+msgstr "Afbeelding titel positie op slideshow"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:716
+msgid "Title Position:"
+msgstr "Titel Positie:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:740
+#: ../admin/views/BWGEViewOptions_bwge. php:1218
+msgid "Display image title based on the slideshow dimensions."
+msgstr "Beeldweergave titel op basis van de diavoorstelling dimensies."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:741
+#: ../admin/views/BWGEViewOptions_bwge. php:1213
+msgid "Full width title:"
+msgstr "Volle breedte titel:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:749
+msgid "Enable Image Description:"
+msgstr "Enable Afbeelding Omschrijving:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:756
+#: ../admin/views/BWGEViewOptions_bwge. php:1251
+msgid "Image description position on slideshow"
+msgstr "Image description positie op slideshow"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:756
+msgid "Description Position:"
+msgstr "Beschrijving Positie:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:780
+msgid "Enable Slideshow Music:"
+msgstr "Enable Slideshow Music:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:787
+msgid "Enter absolute audio file url or add file from Options page."
+msgstr "Voer absolute audiobestand url of voeg bestand vanaf pagina Opties."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:788
+#: ../admin/views/BWGEViewOptions_bwge. php:1266
+msgid "Music url:"
+msgstr "Muziek url:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:796
+#: ../admin/views/BWGEViewBWGEShortcode. php:825
+msgid "Maximum values for carousel width and height."
+msgstr "Maximale waarden voor carrousel breedte en hoogte."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:796
+msgid "Carousel dimensions:"
+msgstr "Carrousel afmetingen:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:803
+#: ../admin/views/BWGEViewOptions_bwge. php:1614
+msgid "Carousel image ratio:"
+msgstr "Carrousel beeldverhouding:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:825
+#: ../admin/views/BWGEViewOptions_bwge. php:1633
+msgid "Fixed width:"
+msgstr "Vaste breedte:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:832
+#: ../admin/views/BWGEViewOptions_bwge. php:1665
+msgid "Container fit:"
+msgstr "Container fit:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:839
+#: ../admin/views/BWGEViewOptions_bwge. php:1675
+msgid "Next/Previous buttons:"
+msgstr "Volgende / vorige knoppen:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:846
+#: ../admin/views/BWGEViewOptions_bwge. php:1685
+msgid "Play/Pause button:"
+msgstr "Play-knop / Pauze:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:855
+msgid "Thumb click action:"
+msgstr "Thumb klik actie:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:857
+#: ../admin/views/BWGEViewOptions_bwge. php:1413
+msgid "Open lightbox"
+msgstr "Open lichttafel"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:858
+#: ../admin/views/BWGEViewOptions_bwge. php:1414
+msgid "Redirect to url"
+msgstr "Redirect naar URL"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:859
+#: ../admin/views/BWGEViewOptions_bwge. php:1415
+msgid "Do Nothing"
+msgstr "Niets doen"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:863
+msgid "Open new window when redirecting."
+msgstr "Opent nieuw venster wanneer omgeleid."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:863
+msgid "Open in new window:"
+msgstr "Opent in een nieuw venster:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:872
+#: ../admin/views/BWGEViewOptions_bwge. php:635
+msgid "Enable full width feature for the lightbox."
+msgstr "Enable volle breedte-functie voor de lichtbak."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:873
+#: ../admin/views/BWGEViewOptions_bwge. php:630
+msgid "Full width lightbox:"
+msgstr "Volle breedte lichttafel:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:881
+msgid "Maximum values for lightbox width and height."
+msgstr "Maximale waarden voor lichttafel breedte en hoogte."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:881
+#: ../admin/views/BWGEViewOptions_bwge. php:640
+msgid "Lightbox dimensions:"
+msgstr "Lightbox afmetingen:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:888
+msgid "Lightbox slideshow effect."
+msgstr "Lightbox slideshow effect."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:888
+#: ../admin/views/BWGEViewOptions_bwge. php:650
+msgid "Lightbox effect:"
+msgstr "Lightbox effect:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:903
+#: ../admin/views/BWGEViewOptions_bwge. php:667
+msgid "Lightbox autoplay:"
+msgstr "Lightbox autoplay:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:915
+msgid "Enable filmstrip view for images"
+msgstr "Inschakelen filmstrip weergave voor afbeeldingen"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:915
+msgid "Enable filmstrip in lightbox:"
+msgstr "Inschakelen filmstrip in lichttafel:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:922
+#: ../admin/views/BWGEViewOptions_bwge. php:696
+msgid "Filmstrip size:"
+msgstr "Filmstrip grootte:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:926
+#: ../admin/views/BWGEViewOptions_bwge. php:705
+msgid "Display hit counter:"
+msgstr "Weer te geven hit counter:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:933
+msgid "Enable control buttons in lightbox"
+msgstr "Inschakelen bedieningsknoppen in lightbox"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:942
+msgid "Enable fullscreen view for images"
+msgstr "Inschakelen fullscreen weergave voor afbeeldingen"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:942
+#: ../admin/views/BWGEViewOptions_bwge. php:761
+msgid "Enable fullscreen:"
+msgstr "Enable fullscreen:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:949
+msgid "Enable title, description for images"
+msgstr "Enable titel, beschrijving voor afbeeldingen"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:949
+#: ../admin/views/BWGEViewOptions_bwge. php:771
+msgid "Enable info:"
+msgstr "Enable info:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:956
+#: ../admin/views/BWGEViewOptions_bwge. php:781
+msgid "Display info by default:"
+msgstr "Tonen info standaard:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:963
+#: ../admin/views/BWGEViewOptions_bwge. php:796
+msgid "Display image information based on the lightbox dimensions."
+msgstr "Beeldweergave informatie op basis van de lichtbak dimensies."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:963
+#: ../admin/views/BWGEViewOptions_bwge. php:791
+msgid "Full width info:"
+msgstr "Volle breedte info:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:970
+msgid "Enable rating for images"
+msgstr "Inschakelen waardering voor afbeeldingen"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:970
+#: ../admin/views/BWGEViewOptions_bwge. php:807
+msgid "Enable rating:"
+msgstr "Enable cijfer:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:977
+msgid "Enable comments for images"
+msgstr "Inschakelen opmerkingen voor afbeeldingen"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:977
+#: ../admin/views/BWGEViewOptions_bwge. php:817
+msgid "Enable comments:"
+msgstr "Enable opmerkingen:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:984
+msgid "Enable Facebook share button for images"
+msgstr "Facebook Share knop om foto's te schakelen"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:984
+#: ../admin/views/BWGEViewOptions_bwge. php:881
+msgid "Enable Facebook button:"
+msgstr "Enable Facebook-knop:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:991
+msgid "Enable Twitter share button for images"
+msgstr "Twitter Share knop om foto's te schakelen"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:991
+#: ../admin/views/BWGEViewOptions_bwge. php:891
+msgid "Enable Twitter button:"
+msgstr "Enable Twitter-knop:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:998
+msgid "Enable Google+ share button for images"
+msgstr "Google+ Share knop om foto's te schakelen"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:998
+#: ../admin/views/BWGEViewOptions_bwge. php:901
+msgid "Enable Google+ button:"
+msgstr "Enable Google+ knop:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1005
+msgid "Enable Pinterest share button for images"
+msgstr "Pinterest Share knop om foto's te schakelen"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1005
+#: ../admin/views/BWGEViewOptions_bwge. php:911
+msgid "Enable Pinterest button:"
+msgstr "Enable Pinterest knop:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1012
+msgid "Enable Tumblr share button for images"
+msgstr "Tumblr Share knop om foto's te schakelen"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1012
+#: ../admin/views/BWGEViewOptions_bwge. php:921
+msgid "Enable Tumblr button:"
+msgstr "Enable Tumblr knop:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1025
+msgid "Advertisement Type:"
+msgstr "Advertentie Type:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1028
+#: ../admin/views/BWGEViewOptions_bwge. php:330
+#: ../admin/views/BWGEViewOptions_bwge.php:483 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3708
+#: ../admin/views/BWGEViewWidgetTags.php:118
+msgid "Text"
+msgstr "Tekst"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1029
+#: ../admin/views/BWGEViewComments_bwge. php:62
+#: ../admin/views/BWGEViewComments_bwge.php:83 ..
+#: /admin/views/BWGEViewOptions_bwge.php:332
+#: ../admin/views/BWGEViewOptions_bwge.php:485
+#: ../admin/views/BWGEViewRates_bwge.php:59 ../admin/views/BWGEViewRates_bwge.php:
+#: 80 ../admin/views/BWGEViewWidgetTags.php:119
+msgid "Image"
+msgstr "Afbeelding"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1033
+msgid "Enter absolute url"
+msgstr "Voer absolute url"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1034
+#: ../admin/views/BWGEViewOptions_bwge. php:522
+msgid "Advertisement link:"
+msgstr "Advertentie link:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1041
+msgid "Enter absolute image file url or add file from Options page."
+msgstr "Voer absolute beeldbestand url of voeg bestand vanaf pagina Opties."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1042
+#: ../admin/views/BWGEViewOptions_bwge. php:491
+msgid "Advertisement url:"
+msgstr "Advertentie url:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1049
+#: ../admin/views/BWGEViewOptions_bwge. php:536
+msgid "Maximum values for watermark image width and height."
+msgstr "Maximale waarden voor het watermerk breedte en hoogte."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1049
+#: ../admin/views/BWGEViewOptions_bwge. php:531
+msgid "Advertisement dimensions:"
+msgstr "Advertentie afmetingen:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1056
+#: ../admin/views/BWGEViewOptions_bwge. php:513
+msgid "Advertisement text:"
+msgstr "Advertentie tekst:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1062
+#: ../admin/views/BWGEViewOptions_bwge. php:541
+msgid "Advertisement font size:"
+msgstr "Advertentie lettergrootte:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1068
+msgid "Advertisement font style:"
+msgstr "Advertentie lettertype:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1082
+#: ../admin/views/BWGEViewOptions_bwge. php:567
+msgid "Advertisement color:"
+msgstr "Advertentie kleur:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1088
+#: ../admin/views/BWGEViewOptions_bwge. php:580
+#: ../admin/views/BWGEViewThemes_bwge.php:363 ..
+#: /admin/views/BWGEViewThemes_bwge.php:376
+#: ../admin/views/BWGEViewThemes_bwge.php:520
+#: ../admin/views/BWGEViewThemes_bwge.php:533 ../admin/views/BWGEViewThemes_bwge.
+#: php:670 ../admin/views/BWGEViewThemes_bwge.php:683
+#: /admin/views/BWGEViewThemes_bwge.php:826 981
+#: ../admin/views/BWGEViewThemes_bwge.php:1067 php:1120
+#: ../admin/views/BWGEViewThemes_bwge.php:1189
+#: /admin/views/BWGEViewThemes_bwge.php:1302 1520
+#: ../admin/views/BWGEViewThemes_bwge.php:1533
+#: /admin/views/BWGEViewThemes_bwge.php:1754 1794
+#: ../admin/views/BWGEViewThemes_bwge.php:1873
+#: /admin/views/BWGEViewThemes_bwge.php:2260 2396
+#: ../admin/views/BWGEViewThemes_bwge.php:2567
+#: /admin/views/BWGEViewThemes_bwge.php:2603 2656
+#: ../admin/views/BWGEViewThemes_bwge.php:2683
+#: /admin/views/BWGEViewThemes_bwge.php:2968 3090
+#: ../admin/views/BWGEViewThemes_bwge.php:3220
+#: /admin/views/BWGEViewThemes_bwge.php:3647 3733
+#: ../admin/views/BWGEViewThemes_bwge.php:3758
+#: /admin/views/BWGEViewThemes_bwge.php:3890
+msgid "Value must be between 0 to 100."
+msgstr "Waarde moet tussen 0 en 100."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1088
+msgid "Advertisement opacity: "
+msgstr "Advertentie ondoorzichtigheid:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1094
+msgid "Advertisement Position: "
+msgstr "Advertentie Positie:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1147
+msgid "Generate"
+msgstr "Genereren"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1148
+msgid "Import"
+msgstr "Import"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1151
+msgid "Shortcode"
+msgstr "Korte code"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1155
+msgid "PHP function"
+msgstr "PHP functie"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1200
+msgid "There is no shortcode with such ID!"
+msgstr "Er is geen shortcode met zo'n ID!"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:2324
+msgid "Image thumbnail height:"
+msgstr "Miniatuur hoogte:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:2325
+msgid "Number of image rows:"
+msgstr "Aantal image rijen:"
+
+#: ../admin/views/BWGEViewComments_bwge.php:41
+msgid "This section allows you to manage the image comments."
+msgstr "Deze sectie stelt u in staat om het beeld opmerkingen beheren."
+
+#: ../admin/views/BWGEViewComments_bwge.php:61
+#: ../admin/views/BWGEViewRates_bwge.php:58 ../admin/views/BWGEViewWidget.php:119
+msgid "Gallery"
+msgstr "Galerij"
+
+#: ../admin/views/BWGEViewComments_bwge.php:99
+#: ../frontend/views/BWGEViewGalleryBox. php:1260
+#: ../frontend/views/BWGEViewGalleryBox.php:1275 ..
+#: /frontend/views/BWGEViewGalleryBox.php:1282
+msgid "Comment"
+msgstr "Commentaar"
+
+#: ../admin/views/BWGEViewComments_bwge.php:110
+#: ../frontend/views/BWGEViewGalleryBox. php:1253
+#: ../frontend/views/BWGEViewGalleryBox.php:1275 ..
+#: /frontend/views/BWGEViewGalleryBox.php:1282
+msgid "Email"
+msgstr "E-mail"
+
+#: ../admin/views/BWGEViewEditThumb.php:183
+msgid "You can't crop this type of image."
+msgstr "U kunt niet bijsnijden dit type beeld."
+
+#: ../admin/views/BWGEViewEditThumb.php:252
+msgid "The thumbnail successfully croped."
+msgstr "De miniatuur succes croped."
+
+#: ../admin/views/BWGEViewEditThumb.php:255
+msgid "Select the area for the thumbnail."
+msgstr "Selecteer het gebied voor de miniatuur."
+
+#: ../admin/views/BWGEViewEditThumb.php:268
+msgid "Keep aspect ratio"
+msgstr "Keep aspect ratio"
+
+#: ../admin/views/BWGEViewEditThumb.php:741
+msgid "Grayscale"
+msgstr "Grijstinten"
+
+#: ../admin/views/BWGEViewEditThumb.php:745
+msgid "Negative"
+msgstr "Negatief"
+
+#: ../admin/views/BWGEViewEditThumb.php:749
+msgid "Removal"
+msgstr "Verwijdering"
+
+#: ../admin/views/BWGEViewEditThumb.php:753
+msgid "Sepia"
+msgstr "Sepia"
+
+#: ../admin/views/BWGEViewEditThumb.php:757
+msgid "Slate"
+msgstr "Leisteen"
+
+#: ../admin/views/BWGEViewEditThumb.php:761
+msgid "Saturate"
+msgstr "Verzadigen"
+
+#: ../admin/views/BWGEViewEditThumb.php:765
+msgid "Do you want to reset the image?"
+msgstr "Wilt u het beeld opnieuw in te stellen?"
+
+#: ../admin/views/BWGEViewEditThumb.php:765
+msgid "Reset image"
+msgstr "Reset image"
+
+#: ../admin/views/BWGEViewEditThumb.php:791
+msgid "Brightness"
+msgstr "Helderheid"
+
+#: ../admin/views/BWGEViewEditThumb.php:793
+#: ../admin/views/BWGEViewEditThumb.php:818
+msgid "Press for result"
+msgstr "Pers voor resultaat"
+
+#: ../admin/views/BWGEViewEditThumb.php:816
+msgid "Contrast"
+msgstr "Contrast"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:39
+msgid "This section allows you to create, edit and delete galleries."
+msgstr "Dit gedeelte kunt u maken, bewerken en verwijderen galeries."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:46
+msgid "Galleries"
+msgstr "Galeries"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:109
+msgid "Images count"
+msgstr "Afbeeldingen tellen"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:205
+msgid "Edit gallery"
+msgstr "Galerij bewerken"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:205
+msgid "Create new gallery"
+msgstr "Maak een nieuwe galerie"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:218
+msgid "This section allows you to add/edit gallery."
+msgstr "Dit gedeelte kunt u / bewerken galerie toevoegen."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:355 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:1005
+msgid "Crop"
+msgstr "Gewas"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:372 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:782
+#: ../admin/views/BWGEViewGalleries_bwge. php:1019
+#: ../admin/views/BWGEViewThemes_bwge.php:231 ../framework/BWGELibrary.php:189
+#: ../framework/BWGELibrary.php:363 ../framework/BWGELibrary.php:722
+#: /framework/BWGELibrary.php:784
+msgid "Reset"
+msgstr "Reset"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:554
+msgid "Gallery content type:"
+msgstr "Gallery content type:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:557
+msgid "Mixed"
+msgstr "Gemengd"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:558
+msgid "Instagram only"
+msgstr "Alleen Instagram"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:560
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:570
+msgid "Instagram username:"
+msgstr "Instagram gebruikersnaam:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:575 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:852
+msgid "Number of Instagram recent posts to add to gallery:"
+msgstr "Aantal Instagram recente berichten toe te voegen aan galerie:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:579
+msgid "Instagram embed type: "
+msgstr "Instagram soort embed:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:582 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:859
+msgid "Content"
+msgstr "Inhoud"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:584 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:861
+msgid "Whole post"
+msgstr "Hele bericht"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:588
+msgid "Gallery autoupdate option:"
+msgstr "Gallery autoupdate optie:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:591
+msgid "No update"
+msgstr "Er geen update"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:593
+msgid "Add new media, keep old ones published."
+msgstr "Voeg nieuwe media, blijven oude gepubliceerd."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:595
+msgid "Add new media, unpublish old ones."
+msgstr "Voeg nieuwe media, Unpublish oude."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:609
+msgid "Facebook album url: "
+msgstr "Facebook album url:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:613
+msgid "Images limit: "
+msgstr "Beelden te beperken:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:626
+msgid "Gallery autoupdate option: "
+msgstr "Gallery autoupdate optie:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:644
+msgid "Description: "
+msgstr "Beschrijving:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:667
+msgid "Published: "
+msgstr "Gepubliceerd:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:766
+msgid "Embed Media"
+msgstr "Embed Media"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:767
+msgid "Bulk Embed"
+msgstr "Bulk insluiten"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:777
+msgid "Set Watermark"
+msgstr "Stel Watermark"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:778
+msgid "Resize"
+msgstr "Resize"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:779
+msgid "Recreate Thumbnail"
+msgstr "Recreëren Thumbnail"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:787 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:1046
+msgid "Add tag"
+msgstr "Tag toe te voegen"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:806
+msgid "Add to gallery"
+msgstr "Voeg toe aan galerie"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:809
+msgid ""
+"Enter YouTube, Vimeo, Instagram, Facebook, Flickr or Dailymotion URL here."
+msgstr ""
+"Voer YouTube, Vimeo, Instagram, Facebook, Flickr of Dailymotion URL hier."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:809
+msgid "Help"
+msgstr "Helpen"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:812
+msgid "Close"
+msgstr "Dicht"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:813 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:814
+#: ../admin/views/BWGEViewGalleries_bwge. php:815
+#: ../admin/views/BWGEViewGalleries_bwge.php:824
+msgid "example:"
+msgstr "voorbeeld:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:815 ../filemanager/view.php:275
+msgid "Add"
+msgstr "Toevoegen"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:815
+msgid "post"
+msgstr "post"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:815
+msgid ""
+"to the end of URL if you want to embed the whole Instagram post, not only "
+"its content."
+msgstr ""
+"aan het einde van de URL als u de hele Instagram post, niet alleen de inhoud "
+"insluiten."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:817
+msgid "Photo URL example:"
+msgstr "Foto URL Bijvoorbeeld:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:818
+msgid "Video URL example:"
+msgstr "Video-URL Bijvoorbeeld:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:822
+msgid "Note that media must have public privacy."
+msgstr "Merk op dat de media de publieke privacy moet hebben."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:825
+msgid "URL example:"
+msgstr "URL voorbeeld:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:836
+msgid "Bulk embed from:"
+msgstr "Bulk embed uit:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:848
+msgid "username:"
+msgstr "gebruikersnaam:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:856
+msgid "embed type:"
+msgstr "embed soort:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:869
+msgid "album url:"
+msgstr "album url:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:873
+msgid "Images limit:"
+msgstr "Beelden te beperken:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:892
+msgid "Resize images to: "
+msgstr "Resize beelden aan:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:900
+msgid "The maximum size of resized image."
+msgstr "De maximale grootte van de gewijzigde beelden."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:928
+msgid "Alt/Title"
+msgstr "Alt / Titel"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:928
+msgid "Redirect"
+msgstr "Redirect"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:936
+msgid "Description"
+msgstr "Beschrijving"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:30
+msgid ""
+"This section allows you to change settings for different views and general "
+"options."
+msgstr ""
+"Dit gedeelte kunt u de instellingen voor de verschillende standpunten en de "
+"algemene opties te wijzigen."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:96
+msgid "Edit options"
+msgstr "Opties bewerken"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:104
+msgid "Reset all options"
+msgstr "Reset alle opties"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:109
+msgid "Global options"
+msgstr "Globale opties"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:110
+msgid "Watermark"
+msgstr "Watermerk"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:111
+msgid "Advertisement"
+msgstr "Advertentie"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:112
+#: ../admin/views/BWGEViewThemes_bwge.php:243
+msgid "Lightbox"
+msgstr "Lichtbak"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:113
+msgid "Album options"
+msgstr "Album opties"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:115
+msgid "Thumbnail options"
+msgstr "Miniatuur opties"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:116
+msgid "Image options"
+msgstr "Afbeelding opties"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:117
+msgid "Social options"
+msgstr "Sociale opties"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:128
+msgid "Images directory:"
+msgstr "Afbeeldingen overzicht:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:133
+msgid ""
+"Input an existing directory inside the Wordpress directory to store uploaded "
+"images.<br />Old directory content will be moved to the new one."
+msgstr ""
+"Ingang van een bestaande map in de Wordpress directory om geüploade "
+"afbeeldingen op te slaan. <br /> Oude directory inhoud zal naar de nieuwe "
+"worden verplaatst."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:138 ../admin/views/BWGEViewOptions_bwge.
+#: php:1623
+msgid "Image dimensions:"
+msgstr "Afbeelding afmetingen:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:143
+msgid "The maximum size of the uploaded image (0 for original size)."
+msgstr ""
+"De maximale grootte van de geüploade afbeelding (0 voor originele grootte)."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:148
+msgid "Right click protection:"
+msgstr "Klik met de rechtermuisknop bescherming:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:153
+msgid "Disable image right click possibility."
+msgstr "Het uitschakelen rechts klikken mogelijkheid."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:197
+msgid "Preload images:"
+msgstr "Preload beelden:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:207
+msgid "Count of images:"
+msgstr "Telling van beelden:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:211
+msgid "Count of images to preload (0 for all)."
+msgstr "Telling van de afbeeldingen om preload (0 voor iedereen)."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:216
+msgid "Import from Media Library:"
+msgstr "Importeren vanuit Media Library:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:221
+msgid "Enable import from Media Library in file manager."
+msgstr "Enable import van Media Library in file manager."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:226
+msgid "Enable href attribute:"
+msgstr "Enable href attribuut:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:231
+msgid "Disable this option only if it conflicts with your theme."
+msgstr "Schakel deze optie alleen als het in strijd is met uw thema."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:236
+msgid "Meta auto-fill:"
+msgstr "Meta auto-fill:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:241
+msgid ""
+"Enabling this option the meta description of the image will be automatically "
+"filled in image description field."
+msgstr ""
+"Het inschakelen van deze optie de meta description van het beeld automatisch "
+"worden ingevuld image description veld."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:246
+msgid "Roles:"
+msgstr "Rollen:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:258
+msgid "Choose a user type who can add/edit galleries, images, albums and tags."
+msgstr ""
+"Kies een gebruiker type die galeries / bewerken, foto's, albums en tags "
+"kunnen toevoegen."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:263
+msgid "Gallery role:"
+msgstr "Gallery rol:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:268
+msgid "Only author can change a gallery."
+msgstr "Alleen auteur kan een galerie veranderen."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:273
+msgid "Album role:"
+msgstr "Album rol:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:278
+msgid "Only author can change an album."
+msgstr "Alleen auteur kan een album veranderen."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:283
+msgid "Image role:"
+msgstr "Afbeelding rol:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:288
+msgid "Only author can change an image."
+msgstr "Alleen auteur kan een beeld wijzigen."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:293
+msgid "Show/hide custom post types:"
+msgstr "Toon / verberg aangepaste bericht typen:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:303
+msgid "Show/hide comments for custom post types:"
+msgstr "Show / hide opmerkingen voor aangepaste bericht typen:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:324
+msgid "Watermark type: "
+msgstr "Watermerk soort:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:338
+msgid "Watermark url: "
+msgstr "Watermerk url:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:351 ../admin/views/BWGEViewOptions_bwge.
+#: php:506
+msgid "Add Image"
+msgstr "Afbeelding toevoegen"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:353
+msgid "Only .png format is supported."
+msgstr "Alleen PNG-formaat wordt ondersteund."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:358
+msgid "Watermark text: "
+msgstr "Watermerk tekst:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:367
+msgid "Watermark size: "
+msgstr "Watermerk grootte:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:371
+msgid "Enter size of watermark in percents according to image."
+msgstr "Voer grootte van watermerk in procenten volgens de afbeelding."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:376
+msgid "Watermark font size:"
+msgstr "Watermerk lettergrootte:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:385
+msgid "Watermark font style: "
+msgstr "Watermerk lettertype:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:414
+msgid "Watermark color:"
+msgstr "Watermerk kleur:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:423
+msgid "Watermark opacity:"
+msgstr "Watermerk ondoorzichtigheid:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:427
+msgid "Opacity value must be in the range of 0 to 100."
+msgstr "Opacity waarde moet in het bereik van 0-100."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:432
+msgid "Watermark position:"
+msgstr "Watermerk positie:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:477
+msgid "Advertisement type:"
+msgstr "Advertentie Type:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:508
+msgid ""
+"Enter absolute image file url or add file from Options page. (.jpg,.jpeg,."
+"png,.gif formats are supported)"
+msgstr ""
+"Voer absolute beeldbestand url of voeg bestand vanaf pagina Opties. (.jpg, ."
+"jpeg, .png, .gif formaten worden ondersteund)"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:526
+msgid "Enter a URL to open when the advertisement banner is clicked."
+msgstr "Voer een URL te openen wanneer de advertentie banner wordt geklikt."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:550
+msgid "dvertisement font style:"
+msgstr "dvertisement lettertype:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:576
+msgid "Advertisement opacity:"
+msgstr "Advertentie ondoorzichtigheid:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:585
+msgid "Advertisement position:"
+msgstr "Advertentie positie:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:686
+msgid "Enable filmstrip:"
+msgstr "Enable filmstrip:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:715 ../admin/views/BWGEViewOptions_bwge.
+#: php:1139
+msgid "Show Next / Previous buttons:"
+msgstr "Toon volgende / vorige knoppen:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:718 ../admin/views/BWGEViewOptions_bwge.
+#: php:1142
+msgid "On hover"
+msgstr "Op Hover"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:719 ../admin/views/BWGEViewOptions_bwge.
+#: php:1143
+msgid "Always"
+msgstr "Altijd"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:831
+msgid "Enable comments moderation:"
+msgstr "Enable reacties matiging:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:841
+msgid "Enable Email for comments:"
+msgstr "Enable E-mail voor commentaar:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:851
+msgid "Enable Captcha for comments:"
+msgstr "Inschakelen Captcha voor commentaar:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:861
+msgid "Enable original image display button:"
+msgstr "Enable originele beeldweergave knop:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:871
+msgid "Enable download button:"
+msgstr "Enable download knop:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:931
+msgid "Show images count:"
+msgstr "Toon afbeeldingen te tellen:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:941
+msgid "Enable loop:"
+msgstr "Enable lus:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:951
+msgid "Enable AddThis:"
+msgstr "Enable AddThis:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:963
+msgid "profile id:"
+msgstr "Gebruikers-ID:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:967
+msgid "Create an account"
+msgstr "Maak een account"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:967
+msgid "here"
+msgstr "hier"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:983
+msgid "Number of album columns:"
+msgstr "Aantal album kolommen:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1017
+msgid "he gallery images view type in the album."
+msgstr "Hij gallery images soort foto in het album."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1022
+msgid "Show title:"
+msgstr "Toon titel:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1033
+msgid "Show album/gallery name:"
+msgstr "Toon album / galerie naam:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1043
+msgid "Enable extended album description:"
+msgstr "Enable uitgebreide album beschrijving:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1063
+msgid "Extended album height:"
+msgstr "Uitgebreid album hoogte:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1083 ..
+#: /admin/views/BWGEViewWidgetSlideshow.php:129
+msgid "Slideshow effect:"
+msgstr "Slideshow-effect:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1109
+msgid "Slideshow dimensions:"
+msgstr "Slideshow afmetingen:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1119
+#: ../admin/views/BWGEViewOptions_bwge. php:1655
+msgid "Enable autoplay:"
+msgstr "Enable autoplay:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1129 ..
+#: /admin/views/BWGEViewWidgetSlideshow.php:145
+msgid "Enable shuffle:"
+msgstr "Enable shuffle:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1166
+msgid "Slideshow filmstrip size:"
+msgstr "Slideshow filmstrip grootte:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1187 ../admin/views/BWGEViewThemes_bwge.
+#: php:400 ../admin/views/BWGEViewThemes_bwge.php:1557
+msgid "Title position:"
+msgstr "Titel functie:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1230
+msgid "Description position:"
+msgstr "Omschrijving positie:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1256
+msgid "Enable slideshow Music:"
+msgstr "Enable slideshow Muziek:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1280
+msgid "Add Music"
+msgstr "Add Music"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1282
+msgid "Only"
+msgstr "Alleen"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1282
+msgid "formats are supported."
+msgstr "formaten worden ondersteund."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1332
+msgid "Width of mosaic as a percentage of container's width."
+msgstr "Breedte mozaïek als percentage van de breedte container."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1337
+msgid "Number of image columns:"
+msgstr "Aantal image kolommen:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1355
+msgid "Generated thumbnail dimensions:"
+msgstr "Aangemaakte miniatuur afmetingen:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1360
+msgid ""
+"The maximum size of the generated thumbnail. Its dimensions should be larger "
+"than the ones of the frontend thumbnail."
+msgstr ""
+"De maximale grootte van de gegenereerde miniatuur. De afmetingen moet groter "
+"zijn dan die van de frontend miniatuur zijn."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1365
+msgid "Frontend thumbnail dimensions:"
+msgstr "Frontend thumbnail afmetingen:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1370
+msgid ""
+"The default size of the thumbnail which will be displayed in the website."
+msgstr ""
+"De standaard grootte van de miniatuur die zal worden getoond op de website."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1375
+msgid "Show image title:"
+msgstr "Toon afbeelding titel:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1385
+msgid "Show gallery name:"
+msgstr "Toon galerij Naam:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1394
+msgid "Show description in Vertical Masonry view:"
+msgstr "Toon beschrijving in Verticale Metselwerk view:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1403
+msgid "Enable image pagination:"
+msgstr "Enable image paginering:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1411
+msgid "Thumbnail click action:"
+msgstr "Miniatuur klik actie:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1420
+msgid "pen in a new window:"
+msgstr "pen in een nieuw venster:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1428
+msgid "Play icon over the video thumbnail:"
+msgstr "Speel icoon over de video thumbnail:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1445
+msgid "Enable image title for Image Browser view:"
+msgstr "Inschakelen image titel voor Image Browser view:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1455
+msgid "Enable image description for Image Browser view:"
+msgstr "Inschakelen image description voor Image Browser view:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1465
+msgid "Image width for Image Browser view:"
+msgstr "Afbeelding breedte voor afbeelding Browser view:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1474
+msgid "Enable image title for Blog Style view:"
+msgstr "Inschakelen image titel voor Blog Stijl bekijken:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1484
+msgid "Image width for Blog Style view:"
+msgstr "Afbeelding breedte voor Blog Stijl bekijken:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1493
+msgid "Images per page in Blog Style view:"
+msgstr "Beelden per pagina in Blog Stijl view:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1502
+msgid "Enable pagination for Blog Style view:"
+msgstr "Inschakelen paginering voor Blog Stijl bekijken:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1521
+msgid "Gallery autoupdate interval:"
+msgstr "Gallery autoupdate interval:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1525
+msgid "hour"
+msgstr "uur"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1527
+msgid "min"
+msgstr "min"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1528
+msgid "Minimum 1 min."
+msgstr "Minimaal 1 min."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1543
+msgid "Enable creating Instagram galleries."
+msgstr "In staat het creëren van Instagram galeries."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1557
+msgid "app Id"
+msgstr "app Id"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1566
+msgid "app Secret:"
+msgstr "app Secret:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1575
+msgid "login / logout:"
+msgstr "login / logout:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1605
+msgid "Max. number of images:"
+msgstr "Max. aantal beelden:"
+
+#: ../admin/views/BWGEViewRates_bwge.php:40
+msgid "This section allows you to manage the image ratings."
+msgstr "Dit gedeelte kunt u de afbeelding ratings te beheren."
+
+#: ../admin/views/BWGEViewRates_bwge.php:88
+msgid "Rating"
+msgstr "Rating"
+
+#: ../admin/views/BWGEViewRates_bwge.php:96
+msgid "IP"
+msgstr "IP"
+
+#: ../admin/views/BWGEViewTags_bwge.php:42
+msgid "This section allows you to create, edit and delete tags."
+msgstr "Dit gedeelte kunt u maken, bewerken en verwijderen van labels."
+
+#: ../admin/views/BWGEViewTags_bwge.php:100
+msgid "Count"
+msgstr "Tellen"
+
+#: ../admin/views/BWGEViewTags_bwge.php:119
+msgid "Add Tag "
+msgstr "Tag toevoegen"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:38
+msgid "This section allows you to create, edit and delete themes."
+msgstr "Deze sectie maakt het mogelijk om, themas bewerken en verwijderen."
+
+#: ../admin/views/BWGEViewThemes_bwge.php:84 ../framework/BWGELibrary.php:848
+msgid "Default"
+msgstr "Standaard"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:160
+msgid "Edit theme "
+msgstr "Thema bewerken"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:160
+msgid "Create new theme"
+msgstr "Maak nieuw thema"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:164
+msgid "Solid"
+msgstr "Solide"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:165
+msgid "Dotted"
+msgstr "Stippel"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:166
+msgid "Dashed"
+msgstr "Binnen"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:167
+#: ../admin/views/BWGEViewThemes_bwge.php:204
+msgid "Double"
+msgstr "Dubbele"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:168
+msgid "Groove"
+msgstr "Groef"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:169
+msgid "Ridge"
+msgstr "Nok"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:170
+msgid "Inset"
+msgstr "Inzet"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:171
+msgid "Outset"
+msgstr "Begin"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:186
+#: ../admin/views/BWGEViewThemes_bwge.php:920
+#: ../admin/views/BWGEViewThemes_bwge.php:2908 ../admin/views/BWGEViewThemes_bwge.
+#: php:3362
+msgid "Left"
+msgstr "Links"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:187
+msgid "Center"
+msgstr "Centrum"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:188
+#: ../admin/views/BWGEViewThemes_bwge.php:918
+#: ../admin/views/BWGEViewThemes_bwge.php:2906 ../admin/views/BWGEViewThemes_bwge.
+#: php:3364
+msgid "Right"
+msgstr "Rechts"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:191
+msgid "Lighter"
+msgstr "Aansteker"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:192
+msgid "Normal"
+msgstr "Normaal"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:193
+msgid "Bold"
+msgstr "Stoutmoedig"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:197
+msgid "Rotate"
+msgstr "Roteren"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:198
+msgid "Scale"
+msgstr "Schaal"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:199
+msgid "Skew"
+msgstr "Scheef"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:202
+msgid "Chevron"
+msgstr "Chevron"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:203
+msgid "Angle"
+msgstr "Hoek"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:207
+msgid "Star"
+msgstr "Ster"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:208
+msgid "Bell"
+msgstr "Bel"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:209
+msgid "Circle"
+msgstr "Cirkel"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:210
+msgid "Flag"
+msgstr "Vlag"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:211
+msgid "Heart"
+msgstr "Hart"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:212
+msgid "Square"
+msgstr "Plein"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:216
+msgid "This section allows you to add/edit theme."
+msgstr "Dit gedeelte kunt u / bewerken thema toe te voegen."
+
+#: ../admin/views/BWGEViewThemes_bwge.php:227
+msgid "Do you want to reset to default?"
+msgstr "Wilt u terugzetten naar standaard?"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:244
+msgid "Page Navigation"
+msgstr "Pagina Navigatie"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:249
+msgid "Parameters"
+msgstr "Parameters"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:264
+#: ../admin/views/BWGEViewThemes_bwge.php:1246
+#: ../admin/views/BWGEViewThemes_bwge.php:1428 ..
+#: /admin/views/BWGEViewThemes_bwge.php:1851 2414
+#: ../admin/views/BWGEViewThemes_bwge.php:3624
+msgid "Margin:"
+msgstr "Margin:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:270
+#: ../admin/views/BWGEViewThemes_bwge.php:472
+#: ../admin/views/BWGEViewThemes_bwge.php:622 ../admin/views/BWGEViewThemes_bwge.
+#: php:1253 ../admin/views/BWGEViewThemes_bwge.php:1421 ..
+#: /admin/views/BWGEViewThemes_bwge.php:1858 2421
+#: ../admin/views/BWGEViewThemes_bwge.php:3631
+msgid "Padding:"
+msgstr "Padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:276
+#: ../admin/views/BWGEViewThemes_bwge.php:478
+#: ../admin/views/BWGEViewThemes_bwge.php:628 ../admin/views/BWGEViewThemes_bwge.
+#: php:1260 ../admin/views/BWGEViewThemes_bwge.php:1435 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2182 2467
+#: ../admin/views/BWGEViewThemes_bwge.php:3585
+msgid "Border width:"
+msgstr "Border width:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:282
+#: ../admin/views/BWGEViewThemes_bwge.php:484
+#: ../admin/views/BWGEViewThemes_bwge.php:634 ../admin/views/BWGEViewThemes_bwge.
+#: php:1266 ../admin/views/BWGEViewThemes_bwge.php:1441 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2188 2473
+#: ../admin/views/BWGEViewThemes_bwge.php:3591
+msgid "Border style:"
+msgstr "Border stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:296
+#: ../admin/views/BWGEViewThemes_bwge.php:498
+#: ../admin/views/BWGEViewThemes_bwge.php:648 ../admin/views/BWGEViewThemes_bwge.
+#: php:1280 ../admin/views/BWGEViewThemes_bwge.php:1455 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2202 2487
+#: ../admin/views/BWGEViewThemes_bwge.php:3605
+msgid "Border color:"
+msgstr "Border kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:302
+#: ../admin/views/BWGEViewThemes_bwge.php:504
+#: ../admin/views/BWGEViewThemes_bwge.php:654 ../admin/views/BWGEViewThemes_bwge.
+#: php:1286 ../admin/views/BWGEViewThemes_bwge.php:1461 ..
+#: /admin/views/BWGEViewThemes_bwge.php:1877 2208
+#: ../admin/views/BWGEViewThemes_bwge.php:2493
+#: /admin/views/BWGEViewThemes_bwge.php:3611
+msgid "Border radius:"
+msgstr "Grens straal:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:305
+#: ../admin/views/BWGEViewThemes_bwge.php:312
+#: ../admin/views/BWGEViewThemes_bwge.php:452 ../admin/views/BWGEViewThemes_bwge.
+#: php:459 ../admin/views/BWGEViewThemes_bwge.php:507 ..
+#: /admin/views/BWGEViewThemes_bwge.php:657 780
+#: ../admin/views/BWGEViewThemes_bwge.php:787 php:883
+#: ../admin/views/BWGEViewThemes_bwge.php:904
+#: /admin/views/BWGEViewThemes_bwge.php:928 962
+#: ../admin/views/BWGEViewThemes_bwge.php:1018 php:1074
+#: ../admin/views/BWGEViewThemes_bwge.php:1081
+#: /admin/views/BWGEViewThemes_bwge.php:1127 1134
+#: ../admin/views/BWGEViewThemes_bwge.php:1176
+#: /admin/views/BWGEViewThemes_bwge.php:1196 1249
+#: ../admin/views/BWGEViewThemes_bwge.php:1256
+#: /admin/views/BWGEViewThemes_bwge.php:1289 1309
+#: ../admin/views/BWGEViewThemes_bwge.php:1362
+#: /admin/views/BWGEViewThemes_bwge.php:1369 1402
+#: ../admin/views/BWGEViewThemes_bwge.php:1424
+#: /admin/views/BWGEViewThemes_bwge.php:1431 1464
+#: ../admin/views/BWGEViewThemes_bwge.php:1471
+#: /admin/views/BWGEViewThemes_bwge.php:1609 1616
+#: ../admin/views/BWGEViewThemes_bwge.php:1663
+#: /admin/views/BWGEViewThemes_bwge.php:1717 1724
+#: ../admin/views/BWGEViewThemes_bwge.php:1807
+#: /admin/views/BWGEViewThemes_bwge.php:1847 1854
+#: ../admin/views/BWGEViewThemes_bwge.php:1880
+#: /admin/views/BWGEViewThemes_bwge.php:1913 1966
+#: ../admin/views/BWGEViewThemes_bwge.php:1999
+#: /admin/views/BWGEViewThemes_bwge.php:2018 2091
+#: ../admin/views/BWGEViewThemes_bwge.php:2211
+#: /admin/views/BWGEViewThemes_bwge.php:2327 2374
+#: ../admin/views/BWGEViewThemes_bwge.php:2417
+#: /admin/views/BWGEViewThemes_bwge.php:2424 2431
+#: ../admin/views/BWGEViewThemes_bwge.php:2496
+#: /admin/views/BWGEViewThemes_bwge.php:2509 2554
+#: ../admin/views/BWGEViewThemes_bwge.php:2649
+#: /admin/views/BWGEViewThemes_bwge.php:2703 2736
+#: ../admin/views/BWGEViewThemes_bwge.php:2835
+#: /admin/views/BWGEViewThemes_bwge.php:2872 2916
+#: ../admin/views/BWGEViewThemes_bwge.php:2949
+#: /admin/views/BWGEViewThemes_bwge.php:3054 3123
+#: ../admin/views/BWGEViewThemes_bwge.php:3130
+#: /admin/views/BWGEViewThemes_bwge.php:3137 3253
+#: ../admin/views/BWGEViewThemes_bwge.php:3260
+#: /admin/views/BWGEViewThemes_bwge.php:3267 3454
+#: ../admin/views/BWGEViewThemes_bwge.php:3473
+#: /admin/views/BWGEViewThemes_bwge.php:3506 3614
+#: ../admin/views/BWGEViewThemes_bwge.php:3627
+#: /admin/views/BWGEViewThemes_bwge.php:3634 3663
+#: ../admin/views/BWGEViewThemes_bwge.php:3815
+#: /admin/views/BWGEViewThemes_bwge.php:3897
+msgid "Use CSS type values."
+msgstr "Gebruik CSS soort waarden."
+
+#: ../admin/views/BWGEViewThemes_bwge.php:309
+#: ../admin/views/BWGEViewThemes_bwge.php:1468
+msgid "Shadow:"
+msgstr "Shadow:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:316
+#: ../admin/views/BWGEViewThemes_bwge.php:557
+#: ../admin/views/BWGEViewThemes_bwge.php:707 ../admin/views/BWGEViewThemes_bwge.
+#: php:1475 ../admin/views/BWGEViewThemes_bwge.php:2215
+msgid "Hover effect:"
+msgstr "Hover effect:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:330
+#: ../admin/views/BWGEViewThemes_bwge.php:571
+#: ../admin/views/BWGEViewThemes_bwge.php:721 ../admin/views/BWGEViewThemes_bwge.
+#: php:1489 ../admin/views/BWGEViewThemes_bwge.php:1772 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2229
+msgid "Hover effect value:"
+msgstr "Hover effect waarde:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:333
+#: ../admin/views/BWGEViewThemes_bwge.php:574
+#: ../admin/views/BWGEViewThemes_bwge.php:724 ../admin/views/BWGEViewThemes_bwge.
+#: php:1492 ../admin/views/BWGEViewThemes_bwge.php:1775 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2232
+msgid "E.g. Rotate: 10deg, Scale: 1.5, Skew: 10deg."
+msgstr "Bijv. Roteren: 10deg, Schaal: 1.5, Skew: 10deg."
+
+#: ../admin/views/BWGEViewThemes_bwge.php:337
+#: ../admin/views/BWGEViewThemes_bwge.php:578
+#: ../admin/views/BWGEViewThemes_bwge.php:728
+msgid "Transition:"
+msgstr "Transition:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:353
+#: ../admin/views/BWGEViewThemes_bwge.php:1511
+#: ../admin/views/BWGEViewThemes_bwge.php:1779
+msgid "Thumbnail background color:"
+msgstr "Miniatuur achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:360
+#: ../admin/views/BWGEViewThemes_bwge.php:1517
+#: ../admin/views/BWGEViewThemes_bwge.php:1751
+msgid "Thumbnail transparency:"
+msgstr "Miniatuur transparantie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:367
+#: ../admin/views/BWGEViewThemes_bwge.php:1180
+#: ../admin/views/BWGEViewThemes_bwge.php:1524 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2251
+msgid "Full background color:"
+msgstr "Full achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:373
+#: ../admin/views/BWGEViewThemes_bwge.php:1186
+#: ../admin/views/BWGEViewThemes_bwge.php:1530 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2257
+msgid "Full background transparency:"
+msgstr "Volledige achtergrond transparantie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:380
+#: ../admin/views/BWGEViewThemes_bwge.php:537
+#: ../admin/views/BWGEViewThemes_bwge.php:687 ../admin/views/BWGEViewThemes_bwge.
+#: php:1232 ../admin/views/BWGEViewThemes_bwge.php:1537 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2264 2400
+#: ../admin/views/BWGEViewThemes_bwge.php:3682
+msgid "Alignment:"
+msgstr "Uitlijning:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:403
+#: ../admin/views/BWGEViewThemes_bwge.php:917
+#: ../admin/views/BWGEViewThemes_bwge.php:1560 ../admin/views/BWGEViewThemes_bwge.
+#: php:2634 ../admin/views/BWGEViewThemes_bwge.php:2905 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2993 3061
+#: ../admin/views/BWGEViewThemes_bwge.php:3191
+#: /admin/views/BWGEViewThemes_bwge.php:3676
+msgid "Top"
+msgstr "Top"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:405
+#: ../admin/views/BWGEViewThemes_bwge.php:919
+#: ../admin/views/BWGEViewThemes_bwge.php:1562 ../admin/views/BWGEViewThemes_bwge.
+#: php:2636 ../admin/views/BWGEViewThemes_bwge.php:2907 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2995 3063
+#: ../admin/views/BWGEViewThemes_bwge.php:3193
+#: /admin/views/BWGEViewThemes_bwge.php:3678
+msgid "Bottom"
+msgstr "Bodem"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:409
+#: ../admin/views/BWGEViewThemes_bwge.php:737
+#: ../admin/views/BWGEViewThemes_bwge.php:1566 ../admin/views/BWGEViewThemes_bwge.
+#: php:2048 ../admin/views/BWGEViewThemes_bwge.php:2284 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3305 3928
+msgid "Title font size:"
+msgstr "Titel lettergrootte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:415
+#: ../admin/views/BWGEViewThemes_bwge.php:743
+#: ../admin/views/BWGEViewThemes_bwge.php:1572 ../admin/views/BWGEViewThemes_bwge.
+#: php:2054 ../admin/views/BWGEViewThemes_bwge.php:2290 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3271
+msgid "Title font color:"
+msgstr "Titel font color:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:421
+#: ../admin/views/BWGEViewThemes_bwge.php:749
+#: ../admin/views/BWGEViewThemes_bwge.php:1097 ../admin/views/BWGEViewThemes_bwge.
+#: php:1578 ../admin/views/BWGEViewThemes_bwge.php:2060 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2296 3277
+msgid "Title font family:"
+msgstr "Titel lettertype familie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:435
+#: ../admin/views/BWGEViewThemes_bwge.php:763
+#: ../admin/views/BWGEViewThemes_bwge.php:1592 ../admin/views/BWGEViewThemes_bwge.
+#: php:2074 ../admin/views/BWGEViewThemes_bwge.php:2310 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3291 3941
+msgid "Title font weight:"
+msgstr "Titel lettertype gewicht:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:449
+#: ../admin/views/BWGEViewThemes_bwge.php:777
+#: ../admin/views/BWGEViewThemes_bwge.php:1606 ../admin/views/BWGEViewThemes_bwge.
+#: php:2324
+msgid "Title box shadow:"
+msgstr "Titel box schaduw:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:456
+#: ../admin/views/BWGEViewThemes_bwge.php:784
+#: ../admin/views/BWGEViewThemes_bwge.php:1613 ../admin/views/BWGEViewThemes_bwge.
+#: php:2009 ../admin/views/BWGEViewThemes_bwge.php:3902
+msgid "Title margin:"
+msgstr "Titel margin:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:517
+msgid "Transparency:"
+msgstr "Transparantie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:524
+#: ../admin/views/BWGEViewThemes_bwge.php:674
+#: ../admin/views/BWGEViewThemes_bwge.php:799 ../admin/views/BWGEViewThemes_bwge.
+#: php:1293 ../admin/views/BWGEViewThemes_bwge.php:1864 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2387 3724
+msgid "Background color:"
+msgstr "Achtergrond kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:530
+#: ../admin/views/BWGEViewThemes_bwge.php:1299
+#: ../admin/views/BWGEViewThemes_bwge.php:1870 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2393
+msgid "Background transparency:"
+msgstr "Achtergrond transparantie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:587
+#: ../admin/views/BWGEViewThemes_bwge.php:1138
+#: ../admin/views/BWGEViewThemes_bwge.php:2121 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3346
+msgid "Description font size:"
+msgstr "Beschrijving lettergrootte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:593
+#: ../admin/views/BWGEViewThemes_bwge.php:2127
+#: ../admin/views/BWGEViewThemes_bwge.php:3312
+msgid "Description font color:"
+msgstr "Beschrijving font color:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:599
+#: ../admin/views/BWGEViewThemes_bwge.php:1150
+#: ../admin/views/BWGEViewThemes_bwge.php:2133 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3318
+msgid "Description font family:"
+msgstr "Beschrijving lettertype:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:667
+msgid "Opacity:"
+msgstr "Ondoorzichtigheid:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:680
+msgid "Background opacity:"
+msgstr "Achtergrond dekking:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:805
+#: ../admin/views/BWGEViewThemes_bwge.php:2851
+#: ../admin/views/BWGEViewThemes_bwge.php:3737
+msgid "Right, left buttons size:"
+msgstr "Rechts, links knoppen grootte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:811
+#: ../admin/views/BWGEViewThemes_bwge.php:3743
+msgid "Play, pause buttons size:"
+msgstr "Play, pauze knoppen grootte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:817
+#: ../admin/views/BWGEViewThemes_bwge.php:2519
+#: ../admin/views/BWGEViewThemes_bwge.php:3749
+msgid "Buttons color:"
+msgstr "Kleur knopen:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:823
+#: ../admin/views/BWGEViewThemes_bwge.php:3755
+msgid "Buttons transparency:"
+msgstr "Knoppen transparantie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:830
+#: ../admin/views/BWGEViewThemes_bwge.php:3762
+msgid "Buttons hover color:"
+msgstr "Toetsen zweven kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:836
+#: ../admin/views/BWGEViewThemes_bwge.php:2845
+#: ../admin/views/BWGEViewThemes_bwge.php:3768
+msgid "Right, left buttons width:"
+msgstr "Rechts, links knoppen Breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:842
+#: ../admin/views/BWGEViewThemes_bwge.php:2839
+#: ../admin/views/BWGEViewThemes_bwge.php:3774
+msgid "Right, left buttons height:"
+msgstr "Rechts, links knoppen hoogte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:848
+#: ../admin/views/BWGEViewThemes_bwge.php:2820
+#: ../admin/views/BWGEViewThemes_bwge.php:3780
+msgid "Right, left buttons background color:"
+msgstr "Rechts, links knoppen achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:854
+#: ../admin/views/BWGEViewThemes_bwge.php:2876
+#: ../admin/views/BWGEViewThemes_bwge.php:3786
+msgid "Right, left buttons border width:"
+msgstr "Rechts, links knoppen grens breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:860
+#: ../admin/views/BWGEViewThemes_bwge.php:2882
+#: ../admin/views/BWGEViewThemes_bwge.php:3792
+msgid "Right, left buttons border style:"
+msgstr "Rechts, links knoppen grens stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:874
+#: ../admin/views/BWGEViewThemes_bwge.php:2896
+#: ../admin/views/BWGEViewThemes_bwge.php:3806
+msgid "Right, left buttons border color:"
+msgstr "Rechts, links knoppen grens kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:880
+#: ../admin/views/BWGEViewThemes_bwge.php:2869
+#: ../admin/views/BWGEViewThemes_bwge.php:3812
+msgid "Right, left buttons border radius:"
+msgstr "Rechts, links knoppen grens radius:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:887
+#: ../admin/views/BWGEViewThemes_bwge.php:2806
+#: ../admin/views/BWGEViewThemes_bwge.php:3819
+msgid "Right, left buttons style:"
+msgstr "Rechts, links knoppen stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:901
+#: ../admin/views/BWGEViewThemes_bwge.php:2832
+msgid "Right, left buttons box shadow:"
+msgstr "Rechts, doos links knoppen shadow:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:914
+msgid "Filmstrip/Slider bullet position:"
+msgstr "Filmstrip / Slider kogel positie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:925
+msgid "Filmstrip margin:"
+msgstr "Filmstrip margin:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:932
+msgid "Filmstrip border width:"
+msgstr "Filmstrip border width:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:938
+msgid "Filmstrip border style:"
+msgstr "Filmstrip grens stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:953
+msgid "Filmstrip border color:"
+msgstr "Filmstrip grens kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:959
+msgid "Filmstrip border radius:"
+msgstr "Filmstrip grens radius:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:966
+msgid "Filmstrip active border width:"
+msgstr "Filmstrip actieve grens breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:972
+msgid "Filmstrip active border color:"
+msgstr "Filmstrip actieve grens kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:978
+msgid "Filmstrip deactive transparency: "
+msgstr "Filmstrip deactive transparantie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:985
+msgid "Filmstrip right, left buttons background color: "
+msgstr "Filmstrip rechts, links knoppen achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:991
+#: ../admin/views/BWGEViewThemes_bwge.php:2978
+msgid "Filmstrip right, left buttons color:"
+msgstr "Filmstrip rechts, links kleur knopen:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:997
+#: ../admin/views/BWGEViewThemes_bwge.php:2972
+msgid "Filmstrip right, left buttons size:"
+msgstr "Filmstrip rechts, links knoppen grootte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1003
+msgid "Slider bullet width: "
+msgstr "Slider bullet breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1009
+msgid "Slider bullet height:"
+msgstr "Slider bullet hoogte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1015
+msgid "Slider bullet border radius: "
+msgstr "Slider kogel grens radius:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1022
+msgid "Slider bullet background color:"
+msgstr "Schuifknop kogel achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1028
+msgid "Slider bullet margin:"
+msgstr "Slider bullet margin:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1034
+msgid "Slider bullet active background color: "
+msgstr "Slider kogel actief achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1040
+msgid "Slider bullet active border width:"
+msgstr "Slider kogel actieve grens breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1046
+msgid "Slider bullet active border color: "
+msgstr "Slider kogel actieve grens kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1058
+msgid "Title background color: "
+msgstr "Titel achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1064
+msgid "Title transparency: "
+msgstr "Titel transparantie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1071
+#: ../admin/views/BWGEViewThemes_bwge.php:3894
+msgid "Title border radius:"
+msgstr "Titel grens radius:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1078
+msgid "Title padding: "
+msgstr "Titel padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1085
+msgid "Title font size: "
+msgstr "Titel lettergrootte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1091
+msgid "Title color: "
+msgstr "Titel kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1111
+#: ../admin/views/BWGEViewThemes_bwge.php:1406
+msgid "Description background color:"
+msgstr "Beschrijving achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1117
+msgid "Description transparency:"
+msgstr "Beschrijving transparantie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1124
+#: ../admin/views/BWGEViewThemes_bwge.php:1399
+msgid "Description border radius:"
+msgstr "Beschrijving grens radius:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1131
+#: ../admin/views/BWGEViewThemes_bwge.php:1366
+#: ../admin/views/BWGEViewThemes_bwge.php:2088
+msgid "Description padding:"
+msgstr "Beschrijving padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1144
+msgid "Description color:"
+msgstr "Beschrijving kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1173
+msgid "Full padding:"
+msgstr "Full padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1193
+msgid "Full border radius:"
+msgstr "Volledige grens radius:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1200
+msgid "Full border width:"
+msgstr "Volle breedte van de rand:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1206
+msgid "Full border style:"
+msgstr "Volledige grens stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1220
+msgid "Full border color:"
+msgstr "Full grens kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1306
+#: ../admin/views/BWGEViewThemes_bwge.php:2428
+#: ../admin/views/BWGEViewThemes_bwge.php:3660
+msgid "Box shadow:"
+msgstr "Box shadow:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1319
+msgid "Title alignment:"
+msgstr "Titel uitlijning:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1333
+#: ../admin/views/BWGEViewThemes_bwge.php:1620
+#: ../admin/views/BWGEViewThemes_bwge.php:2331 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2455 3545
+msgid "Font size:"
+msgstr "Letter grootte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1339
+#: ../admin/views/BWGEViewThemes_bwge.php:1626
+#: ../admin/views/BWGEViewThemes_bwge.php:2337 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2461 3551
+msgid "Font color:"
+msgstr "Font color:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1345
+#: ../admin/views/BWGEViewThemes_bwge.php:1632
+#: ../admin/views/BWGEViewThemes_bwge.php:2343 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2441 3557
+msgid "Font family:"
+msgstr "Lettertype familie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1359
+msgid "Description margin:"
+msgstr "Beschrijving margin:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1373
+#: ../admin/views/BWGEViewThemes_bwge.php:2095
+msgid "Description border width:"
+msgstr "Beschrijving border width:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1379
+#: ../admin/views/BWGEViewThemes_bwge.php:2101
+msgid "Description border style:"
+msgstr "Beschrijving border stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1393
+#: ../admin/views/BWGEViewThemes_bwge.php:2115
+msgid "Description border color:"
+msgstr "Beschrijving border kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1496
+#: ../admin/views/BWGEViewThemes_bwge.php:1728
+#: ../admin/views/BWGEViewThemes_bwge.php:2236
+msgid "Thumbnail transition:"
+msgstr "Miniatuur overgang:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1646
+#: ../admin/views/BWGEViewThemes_bwge.php:2357
+#: ../admin/views/BWGEViewThemes_bwge.php:3571
+msgid "Font weight:"
+msgstr "Lettertype gewicht:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1660
+#: ../admin/views/BWGEViewThemes_bwge.php:1910
+#: ../admin/views/BWGEViewThemes_bwge.php:2371
+msgid "Back padding:"
+msgstr "Rugleuning:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1676
+msgid "Thumbnail margin:"
+msgstr "Verkleinde de marge:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1682
+msgid "Thumbnail padding:"
+msgstr "Miniatuur padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1688
+msgid "Thumbnail border width:"
+msgstr "Miniatuur border width:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1694
+msgid "Thumbnail border style:"
+msgstr "Miniatuur grens stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1708
+msgid "Thumbnail border color:"
+msgstr "Miniatuur grens kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1714
+msgid "Thumbnail border radius:"
+msgstr "Miniatuur grens radius:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1721
+msgid "Thumbnail box shadow:"
+msgstr "Miniatuur doos schaduw:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1737
+msgid "Thumbnail alignment:"
+msgstr "Miniatuur uitlijning:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1758
+msgid "Thumbnail hover effect:"
+msgstr "Miniatuur hover effect:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1785
+msgid "Thumbnails background color:"
+msgstr "Miniaturen achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1791
+msgid "Thumbnail background transparency:"
+msgstr "Miniatuur achtergrond transparantie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1804
+msgid "Thumbnail div padding:"
+msgstr "Miniatuur div padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1811
+msgid "Thumbnail div background color:"
+msgstr "Miniatuur div achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1817
+msgid "Thumbnail div border width:"
+msgstr "Miniatuur div border breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1824
+msgid "humbnail div border style:"
+msgstr "humbnail div grens stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1838
+msgid "Thumbnail div border color:"
+msgstr "Miniatuur div grens kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1844
+msgid "Thumbnail div border radius:"
+msgstr "Miniatuur div grens radius:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1884
+msgid "Separator width:"
+msgstr "Separator breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1890
+msgid "Separator style:"
+msgstr "Separator stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1904
+msgid "Separator color:"
+msgstr "Separator kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1917
+msgid "Back font size:"
+msgstr "Terug lettergrootte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1923
+msgid "Back font color:"
+msgstr "Terug font color:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1929
+msgid "Back font family:"
+msgstr "Terug lettertype familie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1943
+msgid "Back font weight:"
+msgstr "Terug lettertype gewicht:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1963
+msgid "Text div padding:"
+msgstr "Tekst div padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1970
+msgid "Text div border width:"
+msgstr "Tekst div border breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1976
+msgid "Text border style:"
+msgstr "Tekst grens stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1990
+msgid "Text border color:"
+msgstr "Tekst grens kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1996
+msgid "Text div border radius:"
+msgstr "Tekst div grens radius:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2003
+msgid "Text background color:"
+msgstr "Tekst achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2015
+#: ../admin/views/BWGEViewThemes_bwge.php:3908
+msgid "Title padding:"
+msgstr "Titel padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2022
+msgid "Title border width:"
+msgstr "Titel border width:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2028
+msgid "Title border style:"
+msgstr "Titel grens stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2042
+msgid "Title border color:"
+msgstr "Titel grens kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2147
+#: ../admin/views/BWGEViewThemes_bwge.php:3332
+msgid "Description font weight:"
+msgstr "Beschrijving Lettertype gewicht:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2161
+msgid "Description more size:"
+msgstr "Beschrijving meer grootte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2167
+msgid "Description more color:"
+msgstr "Beschrijving meer kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2506
+msgid "Buttons and title margin:"
+msgstr "Knoppen en de titel margin:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2513
+msgid "Buttons size:"
+msgstr "Knoppen Grootte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2525
+msgid "Buttons and title border width:"
+msgstr "Knoppen en titel grens breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2531
+msgid "Buttons and title border style:"
+msgstr "Knoppen en titel grens stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2545
+msgid "Buttons and title border color:"
+msgstr "Knoppen en titel grens kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2551
+msgid "Buttons and title border radius:"
+msgstr "Knoppen en titel grens radius:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2558
+msgid "Buttons and title background color:"
+msgstr "Knoppen en titel achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2564
+msgid "Buttons and title background transparency:"
+msgstr "Knoppen en titel achtergrond transparantie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2571
+msgid "Buttons or title alignment:"
+msgstr "Toetsen of de titel uitlijning:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2594
+msgid "Overlay background color:"
+msgstr "Overlay achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2600
+msgid "Overlay background transparency:"
+msgstr "Overlay achtergrond transparantie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2607
+msgid "Lightbox background color:"
+msgstr "Lightbox achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2613
+msgid "Control buttons height:"
+msgstr "Bedieningsknoppen hoogte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2619
+msgid "Control buttons margin (top):"
+msgstr "Bedieningsknoppen marge (boven):"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2625
+msgid "Control buttons margin (left):"
+msgstr "Bedieningsknoppen marge (links):"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2631
+msgid "Control buttons position:"
+msgstr "Bedieningsknoppen positie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2640
+msgid "Control buttons background color:"
+msgstr "Bedieningsknoppen achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2646
+msgid "Control buttons container border radius:"
+msgstr "Bedieningsknoppen container grens radius:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2653
+msgid "Control buttons container background transparency:"
+msgstr "Bedieningsknoppen container achtergrond transparantie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2660
+msgid "Control buttons alignment:"
+msgstr "Bedieningsknoppen uitlijning:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2674
+msgid "Control buttons color:"
+msgstr "Bedieningsknoppen kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2680
+msgid "Control buttons transparency:"
+msgstr "Knoppen transparantie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2687
+msgid "Toggle button height:"
+msgstr "Schakelknop hoogte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2693
+msgid "Toggle button width:"
+msgstr "Schakelknop breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2699
+msgid "Close button border radius:"
+msgstr "Sluitknop grens radius:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2707
+msgid "Close button border width:"
+msgstr "Sluitknop border breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2713
+msgid "Close button border style:"
+msgstr "Sluitknop grens stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2727
+msgid "Close button border color:"
+msgstr "Sluitknop border kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2733
+msgid "Close button box shadow:"
+msgstr "Sluitknop doos schaduw:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2740
+msgid "Close button background color:"
+msgstr "Sluitknop achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2746
+msgid "Close button transparency:"
+msgstr "Sluitknop transparantie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2752
+msgid "Close button width:"
+msgstr "Sluitknop breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2758
+msgid "Close button height:"
+msgstr "Sluitknop hoogte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2764
+msgid "Close button top:"
+msgstr "Sluitknop top:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2770
+msgid "Close button right:"
+msgstr "Sluitknop rechts:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2776
+msgid "Close button size:"
+msgstr "Sluitknop grootte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2782
+msgid "Close button color:"
+msgstr "Sluitknop kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2788
+msgid "Fullscreen close button color:"
+msgstr "Fullscreen sluitknop kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2794
+msgid "Share buttons color:"
+msgstr "Share kleur knopen:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2826
+msgid "Right, left buttons transparency:"
+msgstr "Rechts, links knoppen transparantie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2857
+msgid "Right, left, close buttons hover color:"
+msgstr "Rechts, links, sluitknoppen zweven kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2863
+msgid "Right, left buttons color:"
+msgstr "Rechts, links kleur knopen:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2902
+msgid "Filmstrip position:"
+msgstr "Filmstrip positie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2913
+msgid "Filmstrip thumbnail margin:"
+msgstr "Filmstrip verkleinde de marge:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2920
+msgid "Filmstrip thumbnail border width:"
+msgstr "Filmstrip verkleinde border breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2926
+msgid "Filmstrip thumbnail border style:"
+msgstr "Filmstrip verkleinde grens stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2940
+msgid "Filmstrip thumbnail border color:"
+msgstr "Filmstrip thumbnail randkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2946
+msgid "Filmstrip thumbnail border radius:"
+msgstr "Filmstrip verkleinde grens radius:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2953
+msgid "Filmstrip thumbnail active border width:"
+msgstr "Filmstrip verkleinde actieve grens breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2959
+msgid "Filmstrip thumbnail active border color:"
+msgstr "Filmstrip verkleinde actieve grens kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2965
+msgid "Filmstrip thumbnail deactive transparency:"
+msgstr "Filmstrip verkleinde deactive transparantie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2984
+msgid "Filmstrip right, left button background color:"
+msgstr "Filmstrip rechts, links knop achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2990
+msgid "Rating position:"
+msgstr "Rating positie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2999
+msgid "Rating alignment:"
+msgstr "Rating uitlijning:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3013
+msgid "Rating icon:"
+msgstr "Rating icoon:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3027
+msgid "Rating color:"
+msgstr "Rating kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3033
+msgid "Rating hover color:"
+msgstr "Rating hover kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3039
+msgid "Rating size:"
+msgstr "Rating grootte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3045
+msgid "Rating icon count:"
+msgstr "Score icon tellen:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3051
+msgid "Rating padding:"
+msgstr "Rating padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3058
+msgid "Hit counter position:"
+msgstr "Hit tellerstand:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3067
+msgid "Hit counter alignment:"
+msgstr "Hit counter uitlijning:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3081
+msgid "Hit counter background color:"
+msgstr "Hit counter achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3087
+msgid "Hit counter background transparency:"
+msgstr "Hit counter achtergrond transparantie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3094
+msgid "Hit counter border width:"
+msgstr "Hit counter border breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3100
+msgid "Hit counter border style:"
+msgstr "Hit counter grens stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3114
+msgid "Hit counter border color:"
+msgstr "Hit counter grens kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3120
+msgid "Hit counter border radius:"
+msgstr "Hit counter grens radius:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3127
+msgid "Hit counter padding:"
+msgstr "Hit counter padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3134
+msgid "Hit counter margin:"
+msgstr "Hit counter margin:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3141
+msgid "Hit counter font color:"
+msgstr "Hit counter font color:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3147
+msgid "Hit counter font family:"
+msgstr "Hit counter lettertype:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3161
+msgid "Hit counter font weight:"
+msgstr "Hit counter lettertype gewicht:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3175
+msgid "Hit counter font size:"
+msgstr "Hit counter lettergrootte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3188
+msgid "Info position:"
+msgstr "Info position:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3197
+msgid "Info alignment:"
+msgstr "Info uitlijning:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3211
+msgid "Info background color:"
+msgstr "Info achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3217
+msgid "Info background transparency:"
+msgstr "Info achtergrond transparantie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3224
+msgid "Info border width:"
+msgstr "Info border width:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3230
+msgid "Info border style:"
+msgstr "Info grens stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3244
+msgid "Info border color:"
+msgstr "Info grens kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3250
+msgid "Info border radius:"
+msgstr "Info grens radius:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3257
+msgid "Info padding:"
+msgstr "Info padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3264
+msgid "Info margin:"
+msgstr "Info margin:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3353
+msgid "Comments Width:"
+msgstr "Reacties Breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3359
+msgid "Comments position:"
+msgstr "Reacties positie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3368
+msgid "Comments background color:"
+msgstr "Reacties achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3374
+msgid "Comments font size:"
+msgstr "Reacties lettergrootte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3380
+msgid "Comments font color:"
+msgstr "Reacties font color:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3386
+msgid "Comments font family:"
+msgstr "Reacties lettertype familie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3400
+msgid "Comments author font size:"
+msgstr "Reacties auteur lettergrootte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3407
+msgid "Comments date font size:"
+msgstr "Reacties datum lettergrootte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3413
+msgid "Comments body font size:"
+msgstr "Reacties lichaam lettergrootte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3419
+msgid "Comment input border width:"
+msgstr "Commentaar ingang border breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3425
+msgid "omment input border style:"
+msgstr "omment ingang grens stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3439
+msgid "Comment input border color:"
+msgstr "Commentaar ingang grens kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3445
+msgid "Comment input border radius:"
+msgstr "Commentaar ingang grens radius:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3451
+msgid "Comment input padding:"
+msgstr "Commentaar ingang padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3458
+msgid "Comment input background color:"
+msgstr "Commentaar ingang achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3464
+msgid "Comment button background color:"
+msgstr "Commentaar knop achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3470
+msgid "Comment button padding:"
+msgstr "Commentaar padding knop:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3477
+msgid "Comment button border width:"
+msgstr "Commentaar knop border breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3483
+msgid "Comment button border style:"
+msgstr "Commentaar knop border stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3497
+msgid "Comment button border color:"
+msgstr "Commentaar knop border kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3503
+msgid "omment button border radius:"
+msgstr "omment knop grens radius:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3510
+msgid "Comment separator width:"
+msgstr "Commentaar separator breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3516
+msgid "Comment separator style:"
+msgstr "Commentaar separator stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3530
+msgid "Comment separator color:"
+msgstr "Commentaar separator kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3638
+msgid "Button background color:"
+msgstr "Knoop achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3644
+msgid "Button background transparency:"
+msgstr "Knopachtergrond transparantie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3651
+msgid "Button transition:"
+msgstr "Knoop overgang:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3673
+msgid "Position:"
+msgstr "Positie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3696
+msgid "Numbering:"
+msgstr "Nummering:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3705
+msgid "Button text:"
+msgstr "Knop tekst:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3710
+msgid "Arrow"
+msgstr "Pijl"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3711
+msgid "Next, previous buttons values."
+msgstr "Volgende, vorige knoppen waarden."
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3730
+msgid "Container opacity:"
+msgstr "Container dekking:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3840
+msgid "Carousel margin:"
+msgstr "Carrousel margin:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3846
+msgid "Image border width:"
+msgstr "Afbeelding grens breedte:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3853
+msgid "Image border style:"
+msgstr "Beeld De grens stijl:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3868
+msgid "Image border color:"
+msgstr "Afbeelding grens kleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3880
+msgid "Title background color:"
+msgstr "Titel achtergrondkleur:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3887
+msgid "Title opacity:"
+msgstr "Titel ondoorzichtigheid:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3915
+msgid "Title Font family:"
+msgstr "Titel Font familie:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3934
+msgid "Title color:"
+msgstr "Titel kleur:"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:33
+#: ../admin/views/BWGEViewUninstall_bwge. php:155
+msgid "Uninstall Photo Gallery"
+msgstr "Uninstall Photo Gallery"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:35
+msgid ""
+"Deactivating Photo Gallery plugin does not remove any data that may have "
+"been created. To completely remove this plugin, you can uninstall it here."
+msgstr ""
+"Deactiveren Fotogalerij plugin bevat geen gegevens die mogelijk zijn gemaakt "
+"verwijderen. Om deze plugin volledig te verwijderen, kunt u deze hier "
+"verwijderen."
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:38
+msgid "WARNING:"
+msgstr "WAARSCHUWING:"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:39
+msgid ""
+"Once uninstalled, this can't be undone. You should use a Database Backup "
+"plugin of WordPress to back up all the data first."
+msgstr ""
+"Eenmaal verwijderd, kan dit niet ongedaan worden gemaakt. Je moet een "
+"Database Backup plugin van WordPress gebruiken om eerst een back-up van alle "
+"gegevens."
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:42
+msgid "The following Database Tables will be deleted:"
+msgstr "De volgende database tabellen zullen worden verwijderd:"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:47
+msgid "Database Tables"
+msgstr "Database Tables"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:70
+msgid "Delete the folder containing uploaded images."
+msgstr "Verwijder de map met geüploade afbeeldingen."
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:76
+msgid "Do you really want to uninstall Photo Gallery?"
+msgstr "Wil je echt wilt Photo Gallery verwijderen?"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:83
+msgid ""
+"You are About to Uninstall Photo Gallery from WordPress.\\nThis Action Is "
+"Not Reversible."
+msgstr ""
+"Je gaat verwijderen Fotogalerij van WordPress. \\n Dit actie is niet "
+"omkeerbaar."
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:133
+msgid "The following Database Tables successfully deleted:"
+msgstr "De volgende database tabellen succesvol verwijderd:"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:156
+msgid "Click Here"
+msgstr "Klik hier"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:156
+msgid ""
+"To Finish the Uninstallation and Photo Gallery will be Deactivated "
+"Automatically."
+msgstr ""
+"Om het verwijderen te voltooien en Photo Gallery zal automatisch "
+"gedeactiveerd."
+
+#: ../admin/views/BWGEViewWidget.php:115
+#: ../admin/views/BWGEViewWidgetSlideshow.php:104
+#: ../admin/views/BWGEViewWidgetTags.php:114
+msgid "Title:"
+msgstr "Titel:"
+
+#: ../admin/views/BWGEViewWidget.php:120
+msgid "Album"
+msgstr "Album"
+
+#: ../admin/views/BWGEViewWidget.php:152 ../framework/BWGELibrary.php:521
+msgid "First"
+msgstr "Eerste"
+
+#: ../admin/views/BWGEViewWidget.php:153 ../framework/BWGELibrary.php:524
+msgid "Last"
+msgstr "Laatste"
+
+#: ../admin/views/BWGEViewWidget.php:157
+msgid "Count:"
+msgstr "Count:"
+
+#: ../admin/views/BWGEViewWidget.php:161
+#: ../admin/views/BWGEViewWidgetSlideshow.php:120
+#: ../admin/views/BWGEViewWidgetTags.php:139
+msgid "Dimensions:"
+msgstr "Afmetingen:"
+
+#: ../admin/views/BWGEViewWidgetSlideshow.php:125
+msgid "Filmstrip height:"
+msgstr "Filmstrip hoogte:"
+
+#: ../admin/views/BWGEViewWidgetTags.php:123
+msgid "Show Tag Names:"
+msgstr "Toon Tag Namen:"
+
+#: ../admin/views/BWGEViewWidgetTags.php:129
+msgid "Open in: "
+msgstr "Open in:"
+
+#: ../admin/views/BWGEViewWidgetTags.php:130
+msgid "page"
+msgstr "pagina"
+
+#: ../admin/views/BWGEViewWidgetTags.php:131
+msgid "lightbox"
+msgstr "lichtbak"
+
+#: ../admin/views/BWGEViewWidgetTags.php:135
+msgid "Number (0 for all):"
+msgstr "Number (0 voor):"
+
+#: ../admin/views/BWGEViewWidgetTags.php:144
+msgid "Transparent Background:"
+msgstr "Transparante achtergrond:"
+
+#: ../admin/views/BWGEViewWidgetTags.php:150
+msgid "Background Color:"
+msgstr "Achtergrond kleur:"
+
+#: ../admin/views/BWGEViewWidgetTags.php:154
+msgid "Text Color:"
+msgstr "Tekst Kleur:"
+
+#. Author of the plugin
+msgid "Rob"
+msgstr "Beroven"
+
+#: ../filemanager/view.php:63
+msgid "File loading failed"
+msgstr "Laden van het bestand is mislukt"
+
+#: ../filemanager/view.php:65
+msgid "Are you sure you want to permanently remove selected items?"
+msgstr "Bent u zeker dat u de geselecteerde items permanent verwijderen?"
+
+#: ../filemanager/view.php:66
+msgid "This will cancel uploads. Continue?"
+msgstr "Dit zal uploads annuleren. Doorgaan?"
+
+#: ../filemanager/view.php:68
+msgid "Enter directory name"
+msgstr "Voer mapnaam"
+
+#: ../filemanager/view.php:69
+msgid "Enter new name"
+msgstr "Voer nieuwe naam"
+
+#: ../filemanager/view.php:70
+msgid "Processing uploaded files..."
+msgstr "Verwerking geüploade bestanden ..."
+
+#: ../filemanager/view.php:118
+msgid "Up"
+msgstr "Omhoog"
+
+#: ../filemanager/view.php:119
+msgid "Make a directory"
+msgstr "Maak een directory"
+
+#: ../filemanager/view.php:120
+msgid "Rename item"
+msgstr "Hernoemen punt"
+
+#: ../filemanager/view.php:122
+msgid "Copy"
+msgstr "Exemplaar"
+
+#: ../filemanager/view.php:123
+msgid "Cut"
+msgstr "Gesneden"
+
+#: ../filemanager/view.php:124
+msgid "Paste"
+msgstr "Pasta"
+
+#: ../filemanager/view.php:125
+msgid "Remove items"
+msgstr "Items verwijderen"
+
+#: ../filemanager/view.php:128
+msgid "Upload files"
+msgstr "Upload bestanden"
+
+#: ../filemanager/view.php:133
+msgid "Media library"
+msgstr "Mediatheek"
+
+#: ../filemanager/view.php:142
+msgid "View thumbs"
+msgstr "Bekijk duimen"
+
+#: ../filemanager/view.php:143
+msgid "View list"
+msgstr "Bekijk lijst"
+
+#: ../filemanager/view.php:150
+msgid "To change upload directory go to Options page."
+msgstr "Veranderen uploadmap ga naar pagina Opties."
+
+#: ../filemanager/view.php:275
+msgid "Add selected images to gallery"
+msgstr "Voeg geselecteerde afbeeldingen naar galerij"
+
+#: ../filemanager/view.php:285 ../filemanager/view.php:368
+msgid "Thumbnail Maximum Dimensions:"
+msgstr "Miniatuur maximale afmetingen:"
+
+#: ../filemanager/view.php:290 ../filemanager/view.php:373 ..
+#: /frontend/views/BWGEViewAlbum_compact_preview.php:896
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:883
+#: /frontend/views/BWGEViewAlbum_masonry_preview.php:454
+#: /frontend/views/BWGEViewAlbum_masonry_preview.php:495
+msgid "Back"
+msgstr "Terug"
+
+#: ../filemanager/view.php:293 ../filemanager/view.php:376
+msgid "Image Maximum Dimensions:"
+msgstr "Afbeelding maximale afmetingen:"
+
+#: ../filemanager/view.php:360
+msgid "Import selected images"
+msgstr "Images import geselecteerd"
+
+#: ../filemanager/view.php:384
+msgid "Drag files here or click the button below"
+msgstr "Sleep bestanden hier of klik op de knop"
+
+#: ../filemanager/view.php:384
+msgid "to upload files"
+msgstr "om bestanden te uploaden"
+
+#: ../filemanager/view.php:456
+msgid "No files to upload"
+msgstr "Geen bestanden te uploaden"
+
+#: ../framework/BWGELibrary.php:64
+msgid "You can't delete default theme"
+msgstr "U kunt standaard thema niet verwijderen"
+
+#: ../framework/BWGELibrary.php:82
+msgid "The item is successfully set as default."
+msgstr "Het item is succesvol ingesteld als standaard."
+
+#: ../framework/BWGELibrary.php:88
+msgid "Options Succesfully Saved."
+msgstr "Opties Succesvol obwgeslagen."
+
+#: ../framework/BWGELibrary.php:124
+msgid "A term with the name provided already exists."
+msgstr "Een term met de naam reeds bestaat."
+
+#: ../framework/BWGELibrary.php:130
+msgid "Name field is required."
+msgstr "Naam veld is verplicht."
+
+#: ../framework/BWGELibrary.php:136
+msgid "The slug must be unique."
+msgstr "De slak moet uniek zijn."
+
+#: ../framework/BWGELibrary.php:142
+msgid "Changes must be saved."
+msgstr "Wijzigingen moeten worden obwgeslagen."
+
+#: ../framework/BWGELibrary.php:188 ../framework/BWGELibrary.php:362 ..
+#: /framework/BWGELibrary.php:725 ../framework/BWGELibrary.php:781
+msgid "Search"
+msgstr "Zoeken"
+
+#: ../framework/BWGELibrary.php:315 ../framework/BWGELibrary.php:465 ..
+#: /framework/BWGELibrary.php:545
+msgid "of"
+msgstr "van"
+
+#: ../framework/BWGELibrary.php:516
+msgid " item(s)"
+msgstr "artikel (en)"
+
+#: ../framework/BWGELibrary.php:522
+msgid "Previous"
+msgstr "Vorig"
+
+#: ../framework/BWGELibrary.php:523
+msgid "Next"
+msgstr "Volgende"
+
+#: ../framework/BWGELibrary.php:542
+msgid "Go to the first page"
+msgstr "Ga naar de eerste pagina"
+
+#: ../framework/BWGELibrary.php:543
+msgid "Go to the previous page"
+msgstr "Ga naar de vorige pagina"
+
+#: ../framework/BWGELibrary.php:549
+msgid "Go to the next page"
+msgstr "Ga naar de volgende pagina"
+
+#: ../framework/BWGELibrary.php:550
+msgid "Go to the last page"
+msgstr "Ga naar de laatste pagina"
+
+#: ../framework/BWGELibrary.php:562
+msgid "Load More..."
+msgstr "Meer laden..."
+
+#: ../framework/BWGELibrary.php:846
+msgid "Order by: "
+msgstr "Bestelling door:"
+
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:160 ..
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:105
+#: /frontend/views/BWGEViewAlbum_masonry_preview.php:137
+#: /frontend/views/BWGEViewBlog_style.php:33
+#: ../frontend/views/BWGEViewCarousel.php:47
+#: ../frontend/views/BWGEViewImage_browser.php:72
+#: /frontend/views/BWGEViewSlideshow.php:47
+#: ../frontend/views/BWGEViewSlideshow.php:106
+#: ../frontend/views/BWGEViewThumbnails.php:153
+#: /frontend/views/BWGEViewThumbnails_masonry.php:156
+#: /frontend/views/BWGEViewThumbnails_mosaic.php:161
+msgid "There is no theme selected or the theme was deleted."
+msgstr "Er is geen thema geselecteerd of het thema is verwijderd."
+
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:167 ..
+#: /frontend/views/BWGEViewAlbum_compact_preview.php:201
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:112
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:146
+#: /frontend/views/BWGEViewAlbum_masonry_preview.php:142
+#: /frontend/views/BWGEViewAlbum_masonry_preview.php:176
+msgid "There is no album selected or the album was deleted."
+msgstr "Er is geen album geselecteerd of het album is verwijderd."
+
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:189 ..
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:134
+#: /frontend/views/BWGEViewAlbum_masonry_preview.php:164
+#: /frontend/views/BWGEViewBlog_style.php:106 ../frontend/views/BWGEViewCarousel.
+#: php:79 ../frontend/views/BWGEViewImage_browser.php:83
+#: /frontend/views/BWGEViewSlideshow.php:168
+#: ../frontend/views/BWGEViewThumbnails. php:172
+#: ../frontend/views/BWGEViewThumbnails_masonry.php:169
+#: /frontend/views/BWGEViewThumbnails_mosaic.php:174
+msgid "There are no images in this gallery."
+msgstr "Er zijn geen afbeeldingen in deze galerij."
+
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:919 ..
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:894
+#: /frontend/views/BWGEViewAlbum_masonry_preview.php:511
+msgid "Album is empty."
+msgstr "Album is leeg."
+
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:1042 ..
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:1030
+#: /frontend/views/BWGEViewAlbum_masonry_preview.php:589
+msgid "Gallery is empty."
+msgstr "Galerij is leeg."
+
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:1098 ..
+#: /frontend/views/BWGEViewAlbum_compact_preview.php:1148
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:1078
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:1127
+#: /frontend/views/BWGEViewCarousel.php:543 ../frontend/views/BWGEViewGalleryBox.
+#: php:888 ../frontend/views/BWGEViewGalleryBox.php:2769
+#: /frontend/views/BWGEViewSlideshow.php:1654
+#: ../frontend/views/BWGEViewThumbnails. php:455
+#: ../frontend/views/BWGEViewThumbnails_mosaic.php:398
+msgid "Play"
+msgstr "Spelen"
+
+#: ../frontend/views/BWGEViewAlbum_extended_preview.php:995 ..
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:1159
+msgid "More"
+msgstr "Meer"
+
+#: ../frontend/views/BWGEViewAlbum_extended_preview.php:1154
+msgid "Hide"
+msgstr "Verbergen"
+
+#: ../frontend/views/BWGEViewBlog_style.php:98
+#: ../frontend/views/BWGEViewCarousel. php:74
+#: ../frontend/views/BWGEViewImage_browser.php:77 ..
+#: /frontend/views/BWGEViewSlideshow.php:163
+#: ../frontend/views/BWGEViewThumbnails. php:164
+#: ../frontend/views/BWGEViewThumbnails_masonry.php:161
+#: /frontend/views/BWGEViewThumbnails_mosaic.php:166
+msgid "There is no gallery selected or the gallery was deleted."
+msgstr "Er is geen galerij geselecteerd of de galerie is verwijderd."
+
+#: ../frontend/views/BWGEViewBlog_style.php:548 ..
+#: /frontend/views/BWGEViewGalleryBox.php:900
+msgid "Show comments"
+msgstr "Toon reacties"
+
+#: ../frontend/views/BWGEViewBlog_style.php:554 ..
+#: /frontend/views/BWGEViewBlog_style.php:555
+#: ../frontend/views/BWGEViewGalleryBox. php:908
+#: ../frontend/views/BWGEViewGalleryBox.php:909
+msgid "Share on Facebook"
+msgstr "Delen op Facebook"
+
+#: ../frontend/views/BWGEViewBlog_style.php:561 ..
+#: /frontend/views/BWGEViewBlog_style.php:562
+#: ../frontend/views/BWGEViewGalleryBox. php:915
+#: ../frontend/views/BWGEViewGalleryBox.php:916
+msgid "Share on Twitter"
+msgstr "Delen op Twitter"
+
+#: ../frontend/views/BWGEViewBlog_style.php:568 ..
+#: /frontend/views/BWGEViewBlog_style.php:569
+#: ../frontend/views/BWGEViewGalleryBox. php:922
+#: ../frontend/views/BWGEViewGalleryBox.php:923
+msgid "Share on Google+"
+msgstr "Delen op Google+"
+
+#: ../frontend/views/BWGEViewBlog_style.php:575 ..
+#: /frontend/views/BWGEViewBlog_style.php:576
+#: ../frontend/views/BWGEViewGalleryBox. php:929
+#: ../frontend/views/BWGEViewGalleryBox.php:930
+msgid "Share on Pinterest"
+msgstr "Share on Pinterest"
+
+#: ../frontend/views/BWGEViewBlog_style.php:582 ..
+#: /frontend/views/BWGEViewBlog_style.php:583
+#: ../frontend/views/BWGEViewGalleryBox. php:936
+#: ../frontend/views/BWGEViewGalleryBox.php:937
+msgid "Share on Tumblr"
+msgstr "Share on Tumblr"
+
+#: ../frontend/views/BWGEViewCarousel.php:531 ../frontend/views/BWGEViewCarousel.
+#: php:537 ../frontend/views/BWGEViewGalleryBox.php:2763 ..
+#: /frontend/views/BWGEViewGalleryBox.php:2778
+#: ../frontend/views/BWGEViewSlideshow. php:1645
+#: ../frontend/views/BWGEViewSlideshow.php:1663
+msgid "Pause"
+msgstr "Pauze"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:867
+msgid "The image has been deleted."
+msgstr "De afbeelding is verwijderd."
+
+#: ../frontend/views/BWGEViewGalleryBox.php:892 ..
+#: /frontend/views/BWGEViewGalleryBox.php:2052
+#: ../frontend/views/BWGEViewGalleryBox. php:2598
+#: ../frontend/views/BWGEViewGalleryBox.php:2694
+msgid "Maximize"
+msgstr "Maximaliseren"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:896 ..
+#: /frontend/views/BWGEViewGalleryBox.php:2054
+#: ../frontend/views/BWGEViewGalleryBox. php:2696
+msgid "Fullscreen"
+msgstr "Volledig scherm"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:898 ..
+#: /frontend/views/BWGEViewGalleryBox.php:2433
+msgid "Show info"
+msgstr "Toon info"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:902 ..
+#: /frontend/views/BWGEViewGalleryBox.php:2444
+msgid "Show rating"
+msgstr "Toon waardering"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:944
+msgid "Open image in original size."
+msgstr "Open afbeelding in oorspronkelijke grootte."
+
+#: ../frontend/views/BWGEViewGalleryBox.php:965
+msgid "Download original image"
+msgstr "Download originele foto"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1075
+msgid "Hits: "
+msgstr "Hits:"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1086
+msgid "Rated."
+msgstr "Beoordeeld."
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1090 ..
+#: /frontend/views/BWGEViewGalleryBox.php:1107
+msgid "Not rated yet."
+msgstr "Nog niet beoordeeld."
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1093 ..
+#: /frontend/views/BWGEViewGalleryBox.php:1129
+msgid "Votes: "
+msgstr "Stemmen:"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1127
+msgid "Cancel your rating."
+msgstr "Annuleren je rating."
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1129
+msgid "You have already rated."
+msgstr "Je hebt al beoordeeld."
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1228
+msgid "Error. Incorrect Verification Code."
+msgstr "Fout. Onjuiste Verificatie Code."
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1243 ..
+#: /frontend/views/BWGEViewGalleryBox.php:2261
+msgid "Hide Comments"
+msgstr "Verbergen Reacties"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1265
+msgid "Verification Code"
+msgstr "Verificatie code"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1288
+msgid "Submit"
+msgstr "Voorleggen"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1289
+msgid "Your comment is awaiting moderation"
+msgstr "je commentaar wacht op aanpassing"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1318
+msgid "Delete Comment"
+msgstr "Reactie verwijderen"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:2216
+msgid "Show Comments"
+msgstr "Toon commentaren"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:2429
+msgid "Hide info"
+msgstr "Verberg info"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:2440
+msgid "Hide rating"
+msgstr "Verbergen cijfer"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:2635 ..
+#: /frontend/views/BWGEViewGalleryBox.php:2844
+msgid "Restore"
+msgstr "Herstellen"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:2749
+msgid "Exit Fullscreen"
+msgstr "Exit Fullscreen"
+
+#: ../update/update.php:22
+msgid ""
+"Advanced  plugin to create unlimited galleries and albums with all modern "
+"gallery view options."
+msgstr ""
+"Geavanceerde plugin om onbeperkt galeries en albums met alle moderne galerij "
+"weergave-opties te creëren."
+
+#: ../update/update.php:81
+msgid "Updates"
+msgstr "Updates"
+
+#: ../update/update.php:119
+#, php-format
+msgid ""
+"You can download the latest version of your plugins from your %s account.\n"
+"            After deactivate and delete the current version.\n"
+"            Install the downloaded latest version of the plugin."
+msgstr ""
+"U kunt de nieuwste versie van uw plug-ins n te downloaden van uw %s account. "
+"n Na het deactiveren en de huidige versie te verwijderen. \\ Installeer de "
+"gedownloade laatste versie van de plugin."
+
+#: ../update/update.php:155
+#, php-format
+msgid "Current version %s"
+msgstr "Huidige versie %s"
+
+#: ../update/update.php:161 ../update/update.php:233
+#, php-format
+msgid "There is a new %s version"
+msgstr "Er is een nieuwe %s versie"
+
+#: ../update/update.php:163 ../update/update.php:215
+msgid "What's new:"
+msgstr "Wat is er nieuw:"
+
+#: ../update/update.php:180 ../update/update.php:256
+msgid "More updates"
+msgstr "Meer updates"
+
+#: ../update/update.php:185 ../update/update.php:220
+#, php-format
+msgid "%s is up to date."
+msgstr "%s is up-to-date."
+
+#: ../update/update.php:253
+msgid "Show less"
+msgstr "Toon minder"

@@ -1,0 +1,4590 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: photo-gallery\n"
+"POT-Creation-Date: 15-10-27 08:28+000\n"
+"PO-Revision-Date: 2015-12-11 11:37+0400\n"
+"Last-Translator: admin < asd@mail.ru >\n"
+"Language-Team: \n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#: ../photo-gallery-notices.php:188
+msgid "Leave A Review?"
+msgstr "Bir Yorum bırakın?"
+
+#: ../photo-gallery-notices.php:189
+#, php-format
+msgid ""
+"We hope you've enjoyed using WordPress %s! Would you consider leaving us a "
+"review on WordPress.org?"
+msgstr ""
+"Biz WordPress %s kullanılarak memnun kaldım umut! Bize WordPress.org "
+"üzerinde bir inceleme bırakarak düşünür müsünüz?"
+
+#: ../photo-gallery-notices.php:190
+msgid "Sure! I'd love to!"
+msgstr "Tabii! Ben isterdim!"
+
+#: ../photo-gallery-notices.php:191
+msgid "I've already left a review"
+msgstr "Zaten bir inceleme bıraktım"
+
+#: ../photo-gallery-notices.php:192
+msgid "Maybe Later"
+msgstr "Belki daha sonra"
+
+#: ../photo-gallery-notices.php:193 ../photo-gallery-notices.php:203
+msgid "Never show again"
+msgstr "Bir daha asla göstermek"
+
+#: ../photo-gallery-notices.php:199
+msgid "Hey! How's It Going?"
+msgstr "Hey! Nasıl gidiyor?"
+
+#: ../photo-gallery-notices.php:200
+#, php-format
+msgid ""
+"Thank you for using WordPress %s! We hope that you've found everything you "
+"need, but if you have any questions:"
+msgstr ""
+"WordPress %s kullandığınız için teşekkür ederiz! Eğer herhangi bir sorunuz "
+"varsa biz size ihtiyacınız olan her şeyi buldum umuyoruz, ancak:"
+
+#: ../photo-gallery-notices.php:201
+msgid "Check out User Guide"
+msgstr "Kullanıcı Kılavuzuna göz atın"
+
+#: ../photo-gallery-notices.php:202
+msgid "Get Some Help"
+msgstr "Bazı Yardım Alın"
+
+#. Name of the plugin
+msgid "Photo Gallery"
+msgstr "Fotoğraf Galerisi"
+
+#. URI of the plugin
+msgid "https://web-dorado.com/products/wordpress-photo-gallery-plugin.html"
+msgstr "https://web-dorado.com/products/wordpress-photo-gallery-plugin.html"
+
+#. Description of the plugin
+msgid ""
+"This plugin is a fully responsive gallery plugin with advanced "
+"functionality.  It allows having different image galleries for your posts "
+"and pages. You can create unlimited number of galleries, combine them into "
+"albums, and provide descriptions and tags."
+msgstr ""
+"Bu eklenti, gelişmiş işlevsellik ile tam yanıt galeri eklentisi. Bu sizin "
+"mesaj ve sayfalar için farklı bir resim galerileri sahip verir. Sen, "
+"galeriler sınırsız sayıda oluşturmak albümler halinde bunları birleştirmek "
+"ve açıklamaları ve etiketleri sağlayabilir."
+
+#. Author of the plugin
+msgid "WebDorado"
+msgstr "WebDorado"
+
+#. Author URI of the plugin
+msgid "https://web-dorado.com"
+msgstr "https://web-dorado.com"
+
+#: ../photo-gallery.php:82
+msgid "Add Galleries/Images"
+msgstr "Galeriler / Görüntüleri ekle"
+
+#: ../photo-gallery.php:87 .. /admin/views/BWGEViewAlbums_bwge.php:47
+msgid "Albums"
+msgstr "Albümler"
+
+#: ../photo-gallery.php:92 ../admin/views/BWGEViewAddTags. php:45
+#: ../admin/views/BWGEViewGalleries_bwge.php:939 ..
+#: /admin/views/BWGEViewTags_bwge.php:49
+msgid "Tags"
+msgstr "Etiketler"
+
+#: ../photo-gallery.php:97
+msgid "Options"
+msgstr "Seçenekler"
+
+#: ../photo-gallery.php:101 .. /admin/views/BWGEViewThemes_bwge.php:45
+msgid "Themes"
+msgstr "Temalar"
+
+#: ../photo-gallery.php:106 .. /admin/views/BWGEViewComments_bwge.php:48
+msgid "Comments"
+msgstr "Yorumlar"
+
+#: ../photo-gallery.php:111 .. /admin/views/BWGEViewRates_bwge.php:47
+msgid "Ratings"
+msgstr "Puanlar"
+
+#: ../photo-gallery.php:116
+msgid "Generate Shortcode"
+msgstr "Kısa kod üret"
+
+#: ../photo-gallery.php:118
+msgid "Featured Plugins"
+msgstr "Sunulan Eklentiler"
+
+#: ../photo-gallery.php:119
+msgid "Featured Themes"
+msgstr "Sunulan Temalar"
+
+#: ../photo-gallery.php:121
+msgid "Uninstall"
+msgstr "Kaldırma"
+
+#: ../photo-gallery.php:125 ../addons/addons.php:30
+msgid "Photo Gallery Add-ons"
+msgstr "Foto Galeri Eklentiler"
+
+#: ../photo-gallery.php:2655 ../photo-gallery.php:2823
+msgid "field is required."
+msgstr "alan gereklidir."
+
+#: ../photo-gallery.php:2656
+msgid "You must select an image file."
+msgstr "Sen bir görüntü dosyası seçmeniz gerekir."
+
+#: ../photo-gallery.php:2657
+msgid "You must select an audio file."
+msgstr "Sen bir ses dosyası seçmelisiniz."
+
+#: ../photo-gallery.php:2658
+msgid ""
+"You do not have Instagram CLIENT_ID. Input its value in Options->Embed "
+"options. "
+msgstr ""
+"Sen Instagram client_id yok. Seçenekleri-> Embed seçenekleri Girdi değeri."
+
+#: ../photo-gallery.php:2659
+msgid "Instagram recent post number must be between 1 and 33."
+msgstr "Instagram son yazılan sayısı 1 ve 33 arasında olmalıdır."
+
+#: ../photo-gallery.php:2660
+msgid "The gallery is not empty. Please delete all the images first."
+msgstr "Galeri boş değil. İlk tüm görüntüleri silin."
+
+#: ../photo-gallery.php:2661
+msgid "Please enter url to embed."
+msgstr "Embed url girin."
+
+#: ../photo-gallery.php:2662
+msgid "Error: cannot get response from the server."
+msgstr "Hata: Sunucudan cevabı alamıyor."
+
+#: ../photo-gallery.php:2663
+msgid "Error: something wrong happened at the server."
+msgstr "Hata: yanlış bir şey sunucusunda oldu."
+
+#: ../photo-gallery.php:2664
+msgid "Error"
+msgstr "Hata"
+
+#: ../photo-gallery.php:2665
+msgid "Show order column"
+msgstr "Göster sipariş sütunu"
+
+#: ../photo-gallery.php:2666 ../admin/views/BWGEViewAlbums_bwge.php:57 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:56
+#: ../admin/views/BWGEViewGalleries_bwge. php:774
+msgid "Hide order column"
+msgstr "Hide sipariş sütunu"
+
+#: ../photo-gallery.php:2667
+msgid "Selected"
+msgstr "Seçilmiş"
+
+#: ../photo-gallery.php:2668 ../framework/BWGELibrary.php:436
+msgid "item"
+msgstr "kalem"
+
+#: ../photo-gallery.php:2669
+msgid "Items Succesfully Saved."
+msgstr "Öğeler birini başarıyla kaydedildi."
+
+#: ../photo-gallery.php:2670
+msgid "Item Succesfully Recovered."
+msgstr "Öğe birini başarıyla Kurtarılan."
+
+#: ../photo-gallery.php:2671
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:953
+#: ../framework/BWGELibrary.php:94
+msgid "Item Succesfully Published."
+msgstr "Öğe birini başarıyla Yayınlandı."
+
+#: ../photo-gallery.php:2672
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:990
+#: ../framework/BWGELibrary.php:106
+msgid "Item Succesfully Unpublished."
+msgstr "Öğe birini başarıyla Yayınlanmamış."
+
+#: ../photo-gallery.php:2673
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:908
+#: ../framework/BWGELibrary.php:58
+msgid "Item Succesfully Deleted."
+msgstr "Öğe birini başarıyla silinmiş."
+
+#: ../photo-gallery.php:2674
+#: ../admin/controllers/BWGEControllerComments_bwge.php:108
+#: ../admin/controllers/BWGEControllerComments_bwge.php:139 ..
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:944
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:981
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:1018
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:1097
+#: ../framework/BWGELibrary. php:76
+msgid "You must select at least one item."
+msgstr "En az bir öğe seçmelisiniz."
+
+#: ../photo-gallery.php:2675
+msgid "Items Succesfully resized."
+msgstr "Öğeler birini başarıyla resized."
+
+#: ../photo-gallery.php:2676
+msgid "Watermarks Succesfully Set."
+msgstr "Filigran birini başarıyla Seti."
+
+#: ../photo-gallery.php:2677
+msgid "Items Succesfully Reset."
+msgstr "Öğeler birini başarıyla sıfırlayın."
+
+#: ../photo-gallery.php:2824 ../frontend/views/BWGEViewGalleryBox.php:1235
+msgid "This is not a valid email address."
+msgstr "Bu geçerli bir email adresi değil."
+
+#: ../photo-gallery.php:2825
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:1037
+#: ../frontend/views/BWGEViewAlbum_extended_preview.php:1025 ..
+#: /frontend/views/BWGEViewAlbum_masonry_preview.php:584
+msgid "There are no images matching your search."
+msgstr "Aramanızla eşleşen resim yok."
+
+#: ../photo-gallery.php:2828
+msgid "Select Tag."
+msgstr "Seçin Etiket."
+
+#: ../photo-gallery.php:2848
+msgid "Photo gallery plugin autoupdate interval."
+msgstr "Autoupdate aralığını eklentisi Fotoğraf galerisi."
+
+#: ../addons/addons.php:5
+msgid "Photo Gallery Facebook"
+msgstr "Foto Galeri Facebook"
+
+#: ../addons/addons.php:7 ../update/update.php:36
+msgid ""
+"Photo Gallery Facebook is an add-on, which helps to display Facebook photos "
+"and videos within Photo Gallery plugin. You can create Facebook-only "
+"galleries, embed individual images and videos or include Facebook albums "
+"within mixed type albums."
+msgstr ""
+"Foto Galeri Facebook bir eklenti, Foto Galeri eklenti içinde Facebook "
+"fotoğraflarınızı ve videolarınızı görüntülemek için yardımcı olur. Sen "
+"Facebook sadece galerileri, embed bireysel görüntüleri ve videoları "
+"oluşturmak ya da karışık tip albümleri içinde Facebook albümleri içerebilir."
+
+#: ../addons/addons.php:12
+msgid "NextGen Gallery Import to Photo Gallery"
+msgstr "Fotoğraf albümüne NextGen Gallery İthalat"
+
+#: ../addons/addons.php:14
+msgid ""
+"This addon integrates NextGen with Photo Gallery allowing to import images "
+"and related data from NextGen to use with Photo Gallery"
+msgstr ""
+"Bu addon Fotoğraf Galerisi Fotoğraf Galerisi ile kullanmak için NextGen "
+"görüntüleri ve ilgili veri almak için izin ile entegre NextGen"
+
+#: ../addons/addons.php:19
+msgid "Photo Gallery Export / Import"
+msgstr "Foto Galeri İhracat / İthalat"
+
+#: ../addons/addons.php:21
+msgid ""
+"Photo Gallery Export/Import helps to move created galleries and albums from "
+"one site to another. This way you can save the gallery/album options and "
+"manual modifications."
+msgstr ""
+"Foto Galeri İhracat / İthalat başka bir siteden oluşturulan galerileri ve "
+"albümleri taşımak için yardımcı olur. Bu şekilde galeri / albüm seçenekleri "
+"ve manuel değişiklikleri kaydedebilirsiniz."
+
+#: ../addons/addons.php:63
+msgid "GET THIS ADD ON"
+msgstr "BU ADD ON GET"
+
+#: ../admin/controllers/BWGEControllerComments_bwge.php:105 ..
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:978
+#: ../framework/BWGELibrary. php:100
+msgid "Items Succesfully Published."
+msgstr "Öğeler birini başarıyla Yayınlandı."
+
+#: ../admin/controllers/BWGEControllerComments_bwge.php:136 ..
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:1015
+#: ../framework/BWGELibrary. php:112
+msgid "Items Succesfully Unpublished."
+msgstr "Öğeler birini başarıyla Yayınlanmamış."
+
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:727 ..
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:868
+#: /admin/controllers/BWGEControllerOptions_bwge.php:384
+#: /admin/views/BWGEViewTags_bwge.php:45 ../framework/BWGELibrary.php:46
+msgid "Item Succesfully Saved."
+msgstr "Öğe birini başarıyla Kaydedildi."
+
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:871 ..
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:911
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:956
+#: /admin/controllers/BWGEControllerGalleries_bwge.php:993
+#: ../framework/BWGELibrary. php:52
+msgid "Error. Please install plugin again."
+msgstr "Hata. Tekrar eklentisi kurun."
+
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:894 ..
+#: /framework/BWGELibrary.php:118
+msgid "Ordering Succesfully Saved."
+msgstr "Birini başarıyla Kaydedildi Sipariş."
+
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:941 ..
+#: /framework/BWGELibrary.php:70
+msgid "Items Succesfully Deleted."
+msgstr "Öğeler birini başarıyla silinmiş."
+
+#: ../admin/controllers/BWGEControllerGalleries_bwge.php:1100
+msgid "Thumb Succesfully Resized"
+msgstr "Başparmak birini başarıyla yeniden boyutlandırılmış"
+
+#: ../admin/models/BWGEModelOptions_bwge.php:78
+msgid "Logout of your app"
+msgstr "Uygulamanızın Çıkış"
+
+#: ../admin/models/BWGEModelOptions_bwge.php:81
+msgid "Log into Facebook with your app"
+msgstr "App ile Facebook oturum açın"
+
+#: ../admin/models/BWGEModelOptions_bwge.php:89
+msgid "View your application's settings."
+msgstr "Uygulamanın ayarlarını görüntüleyin."
+
+#: ../admin/views/BWGEViewAddAlbumsGalleries.php:45
+msgid "Albums/Galleries"
+msgstr "Albümler / Galeriler"
+
+#: ../admin/views/BWGEViewAddAlbumsGalleries.php:51 ..
+#: /admin/views/BWGEViewAddAlbumsGalleries.php:77 ../admin/views/BWGEViewAddTags.
+#: php:51 ../admin/views/BWGEViewAddTags.php:68
+#: ../admin/views/BWGEViewAlbums_bwge. php:69
+#: ../admin/views/BWGEViewAlbums_bwge.php:90
+#: /admin/views/BWGEViewComments_bwge.php:63
+#: ../admin/views/BWGEViewComments_bwge.php:91
+#: ../admin/views/BWGEViewGalleries_bwge.php:68
+#: /admin/views/BWGEViewGalleries_bwge.php:90
+#: ../admin/views/BWGEViewTags_bwge.php:64 ../admin/views/BWGEViewTags_bwge.php:84
+#: ../admin/views/BWGEViewThemes_bwge.php:77 .
+#: frontend/views/BWGEViewGalleryBox.php:1247
+#: /frontend/views/BWGEViewGalleryBox.php:1275
+#: ../frontend/views/BWGEViewGalleryBox. php:1282
+msgid "Name"
+msgstr "Isim"
+
+#: ../admin/views/BWGEViewAddAlbumsGalleries.php:70 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:214
+msgid "Type"
+msgstr "Tip"
+
+#: ../admin/views/BWGEViewAddTags.php:75 ../admin/views/BWGEViewAlbums_bwge.php:98
+#: .. /admin/views/BWGEViewGalleries_bwge.php:98
+#: ../admin/views/BWGEViewTags_bwge.php:92
+msgid "Slug"
+msgstr "Sahte jeton"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:40
+msgid "This section allows you to create, edit and delete albums."
+msgstr "Bu bölümde, oluşturduğunuz albümleri düzenleyebilir ve silebilirsiniz."
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:41
+#: ../admin/views/BWGEViewComments_bwge.php:42
+#: ../admin/views/BWGEViewGalleries_bwge.php:40 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:219 ../admin/views/BWGEViewOptions_bwge.
+#: php:31 ../admin/views/BWGEViewRates_bwge.php:41
+#: ../admin/views/BWGEViewTags_bwge. php:43
+#: ../admin/views/BWGEViewThemes_bwge.php:39
+#: /admin/views/BWGEViewThemes_bwge.php:217
+msgid "Read More in User Manual"
+msgstr "Kullanım Kılavuzunda Devamı"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:49 ../admin/views/BWGEViewGalleries_bwge.
+#: php:48 ../admin/views/BWGEViewThemes_bwge.php:47
+msgid "Add new"
+msgstr "Yeni ekle"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:51 ../admin/views/BWGEViewGalleries_bwge.
+#: php:50
+msgid "Changes made in this table should be saved."
+msgstr "Bu tabloda yapılan değişiklikler kaydedilmiş olmalıdır."
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:55 ../admin/views/BWGEViewGalleries_bwge.
+#: php:54 ../admin/views/BWGEViewGalleries_bwge.php:772
+#: ../filemanager/view.php:268 ../filemanager/view.php:353
+msgid "Select All"
+msgstr "Hepsini seç"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:58 ../admin/views/BWGEViewGalleries_bwge.
+#: php:57
+msgid "Save Order"
+msgstr "Kaydet Sipariş"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:59
+#: ../admin/views/BWGEViewComments_bwge.php:51
+#: ../admin/views/BWGEViewGalleries_bwge.php:58 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:790
+msgid "Publish"
+msgstr "Yayınla"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:60
+#: ../admin/views/BWGEViewComments_bwge.php:52
+#: ../admin/views/BWGEViewGalleries_bwge.php:59 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:793
+msgid "Unpublish"
+msgstr "Yayından"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:61
+#: ../admin/views/BWGEViewComments_bwge.php:53
+#: ../admin/views/BWGEViewGalleries_bwge.php:60 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:794
+#: ../admin/views/BWGEViewRates_bwge.php:50 ../admin/views/BWGEViewTags_bwge.php:56
+#: ../admin/views/BWGEViewThemes_bwge.php:50
+msgid "Do you want to delete selected items?"
+msgstr "Seçili öğeleri silmek istiyor musunuz?"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:65
+#: ../admin/views/BWGEViewAlbums_bwge.php:127
+#: ../admin/views/BWGEViewAlbums_bwge.php:162 ..
+#: /admin/views/BWGEViewComments_bwge.php:57
+#: ../admin/views/BWGEViewComments_bwge.php:124
+#: ../admin/views/BWGEViewComments_bwge.php:160
+#: /admin/views/BWGEViewGalleries_bwge.php:64
+#: ../admin/views/BWGEViewGalleries_bwge. php:127
+#: ../admin/views/BWGEViewGalleries_bwge.php:174
+#: /admin/views/BWGEViewGalleries_bwge.php:800 php:956
+#: ../admin/views/BWGEViewGalleries_bwge.php:1071
+#: /admin/views/BWGEViewRates_bwge.php:54 ../admin/views/BWGEViewRates_bwge.php:107
+#: /admin/views/BWGEViewRates_bwge.php:137 ../admin/views/BWGEViewTags_bwge.php:56
+#: /admin/views/BWGEViewTags_bwge.php:104 ../admin/views/BWGEViewTags_bwge.php:156
+#: /admin/views/BWGEViewThemes_bwge.php:54
+#: ../admin/views/BWGEViewThemes_bwge.php:87 .
+#: admin/views/BWGEViewThemes_bwge.php:134
+msgid "Delete"
+msgstr "Silmek"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:101 ../admin/views/BWGEViewBWGEShortcode.
+#: php:363 ../admin/views/BWGEViewBWGEShortcode.php:508 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:84
+#: ../admin/views/BWGEViewGalleries_bwge. php:914
+#: ../admin/views/BWGEViewOptions_bwge.php:1014
+#: /admin/views/BWGEViewWidget.php:123
+msgid "Thumbnail"
+msgstr "Başparmak tırnağı"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:107 ../admin/views/BWGEViewBWGEShortcode.
+#: php:209 ../admin/views/BWGEViewGalleries_bwge.php:115 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:945
+msgid "Order"
+msgstr "Sipariş"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:115
+#: ../admin/views/BWGEViewGalleries_bwge. php:106
+msgid "Author"
+msgstr "Yazar"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:123 ../admin/views/BWGEViewComments_bwge.
+#: php:121 ../admin/views/BWGEViewGalleries_bwge.php:123 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:953
+msgid "Published"
+msgstr "Yayınlandı"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:126
+#: ../admin/views/BWGEViewAlbums_bwge.php:149
+#: ../admin/views/BWGEViewAlbums_bwge.php:159 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:126
+#: ../admin/views/BWGEViewGalleries_bwge. php:171
+#: ../admin/views/BWGEViewGalleries_bwge.php:364
+#: /admin/views/BWGEViewGalleries_bwge.php:1013
+#: ../admin/views/BWGEViewTags_bwge.php:103
+#: ../admin/views/BWGEViewTags_bwge.php:136 142
+#: ../admin/views/BWGEViewTags_bwge.php:148 151
+#: ../admin/views/BWGEViewThemes_bwge.php:86 ../admin/views/BWGEViewThemes_bwge.
+#: php:129
+msgid "Edit"
+msgstr "Düzenleme"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:195
+msgid "This section allows you to add/edit album."
+msgstr "Bu bölüm / düzenleme albümü eklemenize olanak verir."
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:196
+msgid "Manual"
+msgstr "Manuel"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:258
+#: ../admin/views/BWGEViewGalleries_bwge. php:536
+#: ../admin/views/BWGEViewOptions_bwge.php:99 ..
+#: /admin/views/BWGEViewTags_bwge.php:51 ../admin/views/BWGEViewThemes_bwge.php:224
+msgid "Save"
+msgstr "Kaydet"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:259
+#: ../admin/views/BWGEViewGalleries_bwge. php:539
+#: ../admin/views/BWGEViewThemes_bwge.php:225
+msgid "Apply"
+msgstr "Uygulamak"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:260
+#: ../admin/views/BWGEViewGalleries_bwge. php:541
+#: ../admin/views/BWGEViewGalleries_bwge.php:807 ..
+#: /admin/views/BWGEViewThemes_bwge.php:226
+msgid "Cancel"
+msgstr "Iptal etmek"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:265
+#: ../admin/views/BWGEViewGalleries_bwge. php:546
+#: ../admin/views/BWGEViewThemes_bwge.php:253
+msgid "Name:"
+msgstr "Adı:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:269
+#: ../admin/views/BWGEViewGalleries_bwge. php:550
+msgid "Slug:"
+msgstr "Slug:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:273
+msgid "Description:"
+msgstr "Açıklama:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:292
+#: ../admin/views/BWGEViewGalleries_bwge. php:663
+msgid "Author:"
+msgstr "Yazar:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:296
+msgid "Published:"
+msgstr "Yayın:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:299 ../admin/views/BWGEViewBWGEShortcode.
+#: php:231 ../admin/views/BWGEViewBWGEShortcode.php:242 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:249 php:290
+#: ../admin/views/BWGEViewBWGEShortcode.php:319
+#: /admin/views/BWGEViewBWGEShortcode.php:389 php:424
+#: ../admin/views/BWGEViewBWGEShortcode.php:468
+#: /admin/views/BWGEViewBWGEShortcode.php:495 php:534
+#: ../admin/views/BWGEViewBWGEShortcode.php:570
+#: /admin/views/BWGEViewBWGEShortcode.php:595 php:602
+#: ../admin/views/BWGEViewBWGEShortcode.php:617
+#: /admin/views/BWGEViewBWGEShortcode.php:628 php:668
+#: ../admin/views/BWGEViewBWGEShortcode.php:675
+#: /admin/views/BWGEViewBWGEShortcode.php:682 php:689
+#: ../admin/views/BWGEViewBWGEShortcode.php:712
+#: /admin/views/BWGEViewBWGEShortcode.php:745 php:752
+#: ../admin/views/BWGEViewBWGEShortcode.php:783
+#: /admin/views/BWGEViewBWGEShortcode.php:810 php:821
+#: ../admin/views/BWGEViewBWGEShortcode.php:835
+#: /admin/views/BWGEViewBWGEShortcode.php:842 php:849
+#: ../admin/views/BWGEViewBWGEShortcode.php:866
+#: /admin/views/BWGEViewBWGEShortcode.php:877 php:907
+#: ../admin/views/BWGEViewBWGEShortcode.php:918
+#: /admin/views/BWGEViewBWGEShortcode.php:929 php:936
+#: ../admin/views/BWGEViewBWGEShortcode.php:945
+#: /admin/views/BWGEViewBWGEShortcode.php:952 php:959
+#: ../admin/views/BWGEViewBWGEShortcode.php:966
+#: /admin/views/BWGEViewBWGEShortcode.php:973 php:980
+#: ../admin/views/BWGEViewBWGEShortcode.php:987
+#: /admin/views/BWGEViewBWGEShortcode.php:994 php:1001
+#: ../admin/views/BWGEViewBWGEShortcode.php:1008
+#: /admin/views/BWGEViewBWGEShortcode.php:1015
+#: ../admin/views/BWGEViewGalleries_bwge. php:629
+#: ../admin/views/BWGEViewGalleries_bwge.php:670
+#: /admin/views/BWGEViewOptions_bwge.php:152
+#: ../admin/views/BWGEViewOptions_bwge.php:162
+#: ../admin/views/BWGEViewOptions_bwge.php:181
+#: /admin/views/BWGEViewOptions_bwge.php:191 201
+#: ../admin/views/BWGEViewOptions_bwge.php:220
+#: /admin/views/BWGEViewOptions_bwge.php:230 240
+#: ../admin/views/BWGEViewOptions_bwge.php:267
+#: /admin/views/BWGEViewOptions_bwge.php:277 287
+#: ../admin/views/BWGEViewOptions_bwge.php:297
+#: /admin/views/BWGEViewOptions_bwge.php:307 634
+#: ../admin/views/BWGEViewOptions_bwge.php:671
+#: /admin/views/BWGEViewOptions_bwge.php:690 709
+#: ../admin/views/BWGEViewOptions_bwge.php:755
+#: /admin/views/BWGEViewOptions_bwge.php:765 775
+#: ../admin/views/BWGEViewOptions_bwge.php:785
+#: /admin/views/BWGEViewOptions_bwge.php:795 811
+#: ../admin/views/BWGEViewOptions_bwge.php:825
+#: /admin/views/BWGEViewOptions_bwge.php:835 845
+#: ../admin/views/BWGEViewOptions_bwge.php:855
+#: /admin/views/BWGEViewOptions_bwge.php:865 875
+#: ../admin/views/BWGEViewOptions_bwge.php:885
+#: /admin/views/BWGEViewOptions_bwge.php:895 905
+#: ../admin/views/BWGEViewOptions_bwge.php:915
+#: /admin/views/BWGEViewOptions_bwge.php:925 935
+#: ../admin/views/BWGEViewOptions_bwge.php:945
+#: /admin/views/BWGEViewOptions_bwge.php:957 1005
+#: ../admin/views/BWGEViewOptions_bwge.php:1037
+#: /admin/views/BWGEViewOptions_bwge.php:1047 1123
+#: ../admin/views/BWGEViewOptions_bwge.php:1133
+#: /admin/views/BWGEViewOptions_bwge.php:1153 1161
+#: ../admin/views/BWGEViewOptions_bwge.php:1182
+#: /admin/views/BWGEViewOptions_bwge.php:1217 1225
+#: ../admin/views/BWGEViewOptions_bwge.php:1260
+#: /admin/views/BWGEViewOptions_bwge.php:1321 1388
+#: ../admin/views/BWGEViewOptions_bwge.php:1398
+#: /admin/views/BWGEViewOptions_bwge.php:1406 1423
+#: ../admin/views/BWGEViewOptions_bwge.php:1431
+#: /admin/views/BWGEViewOptions_bwge.php:1449 1459
+#: ../admin/views/BWGEViewOptions_bwge.php:1478
+#: /admin/views/BWGEViewOptions_bwge.php:1506 1649
+#: ../admin/views/BWGEViewOptions_bwge.php:1659
+#: /admin/views/BWGEViewOptions_bwge.php:1669 1679
+#: ../admin/views/BWGEViewOptions_bwge.php:1689
+#: /admin/views/BWGEViewThemes_bwge.php:342
+#: ../admin/views/BWGEViewThemes_bwge.php:583
+#: ../admin/views/BWGEViewThemes_bwge.php:733 ../admin/views/BWGEViewThemes_bwge.
+#: php:1501 ../admin/views/BWGEViewThemes_bwge.php:1733
+#: /admin/views/BWGEViewThemes_bwge.php:2241 3656
+#: ../admin/views/BWGEViewThemes_bwge.php:3701
+#: /admin/views/BWGEViewWidgetSlideshow.php:147
+#: ../admin/views/BWGEViewWidgetTags. php:125
+#: ../admin/views/BWGEViewWidgetTags.php:146
+msgid "No"
+msgstr "Hayır"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:301 ../admin/views/BWGEViewBWGEShortcode.
+#: php:230 ../admin/views/BWGEViewBWGEShortcode.php:241 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:248 php:289
+#: ../admin/views/BWGEViewBWGEShortcode.php:318
+#: /admin/views/BWGEViewBWGEShortcode.php:388 php:423
+#: ../admin/views/BWGEViewBWGEShortcode.php:467
+#: /admin/views/BWGEViewBWGEShortcode.php:494 php:533
+#: ../admin/views/BWGEViewBWGEShortcode.php:569
+#: /admin/views/BWGEViewBWGEShortcode.php:594 php:601
+#: ../admin/views/BWGEViewBWGEShortcode.php:616
+#: /admin/views/BWGEViewBWGEShortcode.php:627 php:667
+#: ../admin/views/BWGEViewBWGEShortcode.php:674
+#: /admin/views/BWGEViewBWGEShortcode.php:681 php:688
+#: ../admin/views/BWGEViewBWGEShortcode.php:711
+#: /admin/views/BWGEViewBWGEShortcode.php:744 php:751
+#: ../admin/views/BWGEViewBWGEShortcode.php:782
+#: /admin/views/BWGEViewBWGEShortcode.php:809 php:820
+#: ../admin/views/BWGEViewBWGEShortcode.php:834
+#: /admin/views/BWGEViewBWGEShortcode.php:841 php:848
+#: ../admin/views/BWGEViewBWGEShortcode.php:865
+#: /admin/views/BWGEViewBWGEShortcode.php:876 php:906
+#: ../admin/views/BWGEViewBWGEShortcode.php:917
+#: /admin/views/BWGEViewBWGEShortcode.php:928 php:935
+#: ../admin/views/BWGEViewBWGEShortcode.php:944
+#: /admin/views/BWGEViewBWGEShortcode.php:951 php:958
+#: ../admin/views/BWGEViewBWGEShortcode.php:965
+#: /admin/views/BWGEViewBWGEShortcode.php:972 php:979
+#: ../admin/views/BWGEViewBWGEShortcode.php:986
+#: /admin/views/BWGEViewBWGEShortcode.php:993 php:1000
+#: ../admin/views/BWGEViewBWGEShortcode.php:1007
+#: /admin/views/BWGEViewBWGEShortcode.php:1014
+#: ../admin/views/BWGEViewGalleries_bwge. php:631
+#: ../admin/views/BWGEViewGalleries_bwge.php:672
+#: /admin/views/BWGEViewOptions_bwge.php:151
+#: ../admin/views/BWGEViewOptions_bwge.php:161
+#: ../admin/views/BWGEViewOptions_bwge.php:180
+#: /admin/views/BWGEViewOptions_bwge.php:190 200
+#: ../admin/views/BWGEViewOptions_bwge.php:219
+#: /admin/views/BWGEViewOptions_bwge.php:229 239
+#: ../admin/views/BWGEViewOptions_bwge.php:266
+#: /admin/views/BWGEViewOptions_bwge.php:276 286
+#: ../admin/views/BWGEViewOptions_bwge.php:296
+#: /admin/views/BWGEViewOptions_bwge.php:306 633
+#: ../admin/views/BWGEViewOptions_bwge.php:670
+#: /admin/views/BWGEViewOptions_bwge.php:689 708
+#: ../admin/views/BWGEViewOptions_bwge.php:741
+#: /admin/views/BWGEViewOptions_bwge.php:764 774
+#: ../admin/views/BWGEViewOptions_bwge.php:784
+#: /admin/views/BWGEViewOptions_bwge.php:794 810
+#: ../admin/views/BWGEViewOptions_bwge.php:822
+#: /admin/views/BWGEViewOptions_bwge.php:834 844
+#: ../admin/views/BWGEViewOptions_bwge.php:854
+#: /admin/views/BWGEViewOptions_bwge.php:864 874
+#: ../admin/views/BWGEViewOptions_bwge.php:884
+#: /admin/views/BWGEViewOptions_bwge.php:894 904
+#: ../admin/views/BWGEViewOptions_bwge.php:914
+#: /admin/views/BWGEViewOptions_bwge.php:924 934
+#: ../admin/views/BWGEViewOptions_bwge.php:944
+#: /admin/views/BWGEViewOptions_bwge.php:955 1004
+#: ../admin/views/BWGEViewOptions_bwge.php:1036
+#: /admin/views/BWGEViewOptions_bwge.php:1046 1122
+#: ../admin/views/BWGEViewOptions_bwge.php:1132
+#: /admin/views/BWGEViewOptions_bwge.php:1152 1160
+#: ../admin/views/BWGEViewOptions_bwge.php:1181
+#: /admin/views/BWGEViewOptions_bwge.php:1216 1224
+#: ../admin/views/BWGEViewOptions_bwge.php:1259
+#: /admin/views/BWGEViewOptions_bwge.php:1322 1387
+#: ../admin/views/BWGEViewOptions_bwge.php:1397
+#: /admin/views/BWGEViewOptions_bwge.php:1405 1422
+#: ../admin/views/BWGEViewOptions_bwge.php:1430
+#: /admin/views/BWGEViewOptions_bwge.php:1448 1458
+#: ../admin/views/BWGEViewOptions_bwge.php:1477
+#: /admin/views/BWGEViewOptions_bwge.php:1505 1648
+#: ../admin/views/BWGEViewOptions_bwge.php:1658
+#: /admin/views/BWGEViewOptions_bwge.php:1668 1678
+#: ../admin/views/BWGEViewOptions_bwge.php:1688
+#: /admin/views/BWGEViewThemes_bwge.php:340
+#: ../admin/views/BWGEViewThemes_bwge.php:581
+#: ../admin/views/BWGEViewThemes_bwge.php:731 ../admin/views/BWGEViewThemes_bwge.
+#: php:1499 ../admin/views/BWGEViewThemes_bwge.php:1731
+#: /admin/views/BWGEViewThemes_bwge.php:2239 3654
+#: ../admin/views/BWGEViewThemes_bwge.php:3699
+#: /admin/views/BWGEViewUninstall_bwge.php:79
+#: ../admin/views/BWGEViewWidgetSlideshow. php:146
+#: ../admin/views/BWGEViewWidgetTags.php:124
+#: /admin/views/BWGEViewWidgetTags.php:145
+msgid "Yes"
+msgstr "Evet"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:305
+#: ../admin/views/BWGEViewGalleries_bwge. php:676
+msgid "Preview image:"
+msgstr "Önizleme görüntüsü:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:320
+#: ../admin/views/BWGEViewGalleries_bwge. php:690
+msgid "Add Preview Image"
+msgstr "Önizleme Resim Ekle"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:331
+msgid "Albums And Galleries:"
+msgstr "Albümler Ve Galeriler:"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:340
+#: ../admin/views/BWGEViewGalleries_bwge. php:756
+#: ../admin/views/BWGEViewGalleries_bwge.php:757
+msgid "Add Images"
+msgstr "Görüntüler ekle"
+
+#: ../admin/views/BWGEViewAlbums_bwge.php:341
+msgid "Add Albums/Galleries"
+msgstr "Albümler / Galeriler ekle"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:34
+#: ../admin/views/BWGEViewBWGEShortcode. php:1027
+#: ../admin/views/BWGEViewOptions_bwge.php:328 ..
+#: /admin/views/BWGEViewOptions_bwge.php:481
+#: ../admin/views/BWGEViewThemes_bwge.php:163
+#: ../admin/views/BWGEViewThemes_bwge.php:196
+msgid "None"
+msgstr "Hiçbiri"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:35
+msgid "Cube Horizontal"
+msgstr "Küp Yatay"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:36
+msgid "Cube Vertical"
+msgstr "Küp Dikey"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:37
+msgid "Fade"
+msgstr "Fade"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:38
+msgid "Slice Horizontal"
+msgstr "Dilim Yatay"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:39
+msgid "Slice Vertical"
+msgstr "Dilim Dikey"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:40
+msgid "Slide Horizontal"
+msgstr "Yatay Slide"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:41
+msgid "Slide Vertical"
+msgstr "Dikey Slide"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:42
+msgid "Scale Out"
+msgstr "Ölçeklendirme"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:43
+msgid "Scale In"
+msgstr "In Scale"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:44
+msgid "Block Scale"
+msgstr "Blok Ölçeği"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:45
+msgid "Kaleidoscope"
+msgstr "Çiçek dürbünü"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:46
+msgid "Fan"
+msgstr "Fan"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:47
+msgid "Blind Horizontal"
+msgstr "Kör Yatay"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:48
+msgid "Blind Vertical"
+msgstr "Kör Dikey"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:49
+#: ../admin/views/BWGEViewBWGEShortcode. php:216
+#: ../admin/views/BWGEViewWidget.php:151 ../framework/BWGELibrary.php:851
+msgid "Random"
+msgstr "Rasgele"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:97
+msgid "Display"
+msgstr "Ekran"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:116 ../admin/views/BWGEViewThemes_bwge.
+#: php:234
+msgid "Thumbnails"
+msgstr "Minyatür"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:120
+#: ../admin/views/BWGEViewBWGEShortcode. php:364
+#: ../admin/views/BWGEViewBWGEShortcode.php:509 ..
+#: /admin/views/BWGEViewOptions_bwge.php:1015
+#: ../admin/views/BWGEViewThemes_bwge.php:235
+#: ../admin/views/BWGEViewWidget.php:124
+msgid "Masonry"
+msgstr "Duvarcılık"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:124
+#: ../admin/views/BWGEViewBWGEShortcode. php:365
+#: ../admin/views/BWGEViewBWGEShortcode.php:510 ..
+#: /admin/views/BWGEViewOptions_bwge.php:1016
+#: ../admin/views/BWGEViewThemes_bwge.php:236
+msgid "Mosaic"
+msgstr "Mozaik"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:128
+#: ../admin/views/BWGEViewOptions_bwge. php:114
+#: ../admin/views/BWGEViewThemes_bwge.php:237
+msgid "Slideshow"
+msgstr "Slayt gösterisi"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:132 ../admin/views/BWGEViewThemes_bwge.
+#: php:238
+msgid "Image Browser"
+msgstr "Resim tarayıcı "
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:136 ../admin/views/BWGEViewThemes_bwge.
+#: php:239
+msgid "Compact Album"
+msgstr "Kompakt Albüm"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:140 ../admin/views/BWGEViewThemes_bwge.
+#: php:240
+msgid "Masonry Album"
+msgstr "Yığma Albüm"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:144 ../admin/views/BWGEViewThemes_bwge.
+#: php:241
+msgid "Extended Album"
+msgstr "Geniş. Albüm"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:148 ../admin/views/BWGEViewThemes_bwge.
+#: php:242
+msgid "Blog Style"
+msgstr "Blog Stili"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:152
+#: ../admin/views/BWGEViewOptions_bwge. php:118
+#: ../admin/views/BWGEViewThemes_bwge.php:245
+msgid "Carousel"
+msgstr "Atlıkarınca"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:161
+msgid "Theme:"
+msgstr "Tema:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:164
+msgid "Select Theme"
+msgstr "Seç Tema"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:176
+msgid "Gallery:"
+msgstr "Galeri:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:179
+#: ../admin/views/BWGEViewWidget.php:128
+#: ../admin/views/BWGEViewWidgetSlideshow.php:109
+msgid "Select Gallery"
+msgstr "Seçin Galeri"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:191
+msgid "The selected album expanded content will be displayed."
+msgstr "Seçilen albüm genişletilmiş içeriği görüntülenir."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:191
+msgid "Album:"
+msgstr "Albüm:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:194
+#: ../admin/views/BWGEViewWidget.php:140
+msgid "Select Album"
+msgstr "Albüm Seçin"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:206
+msgid "Sort images by:"
+msgstr "Görüntüleri göre sıralamak:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:210 ../admin/views/BWGEViewThemes_bwge.
+#: php:58
+msgid "Title"
+msgstr "Başlık"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:211
+#: ../admin/views/BWGEViewRates_bwge.php:104
+msgid "Date"
+msgstr "Tarih"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:212
+#: ../admin/views/BWGEViewGalleries_bwge. php:904
+#: ../admin/views/BWGEViewGalleries_bwge.php:920 ../framework/BWGELibrary. php:849
+msgid "Filename"
+msgstr "Dosya adı"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:213 ../framework/BWGELibrary.php:850
+msgid "Size"
+msgstr "Boyut"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:215
+msgid "Resolution"
+msgstr "Çözünürlük"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:221
+msgid "Order images:"
+msgstr "Görüntüleri Sipariş:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:223
+msgid "Ascending"
+msgstr "Yükselen"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:224
+msgid "Descending"
+msgstr "Azalan"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:228
+#: ../admin/views/BWGEViewOptions_bwge. php:158
+msgid "Show search box:"
+msgstr "Arama kutusunu göster:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:235
+#: ../admin/views/BWGEViewOptions_bwge. php:168
+msgid "Search box width:"
+msgstr "Arama kutusu genişliği:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:239
+#: ../admin/views/BWGEViewOptions_bwge. php:187
+msgid "Show tag box:"
+msgstr "Etiket kutusunu göster:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:246
+#: ../admin/views/BWGEViewOptions_bwge. php:177
+msgid "Show \"Order by\" dropdown list:"
+msgstr "Göster-açılır listeden-Sıralama:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:254
+#: ../admin/views/BWGEViewOptions_bwge. php:1298
+msgid "Masonry:"
+msgstr "Yığma:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:257
+#: ../admin/views/BWGEViewBWGEShortcode. php:273
+#: ../admin/views/BWGEViewBWGEShortcode.php:372 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:461
+msgid "Image thumbnail width:"
+msgstr "Görüntü küçük genişliği:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:260
+#: ../admin/views/BWGEViewBWGEShortcode. php:276
+#: ../admin/views/BWGEViewBWGEShortcode.php:375 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:520
+#: ../admin/views/BWGEViewOptions_bwge.php:1301
+#: ../admin/views/BWGEViewOptions_bwge.php:1311
+msgid "Vertical"
+msgstr "Dikey"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:261
+#: ../admin/views/BWGEViewBWGEShortcode. php:277
+#: ../admin/views/BWGEViewBWGEShortcode.php:376
+msgid "Max. number of image columns: "
+msgstr "Max. Görüntü sütun sayısı:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:265
+#: ../admin/views/BWGEViewBWGEShortcode. php:281
+#: ../admin/views/BWGEViewBWGEShortcode.php:380 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:525
+#: ../admin/views/BWGEViewOptions_bwge.php:1302
+#: ../admin/views/BWGEViewOptions_bwge.php:1312
+msgid "Horizontal"
+msgstr "Yatay"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:270
+#: ../admin/views/BWGEViewBWGEShortcode. php:369
+#: ../admin/views/BWGEViewBWGEShortcode.php:514 ..
+#: /admin/views/BWGEViewOptions_bwge.php:1308
+msgid "Mosaic:"
+msgstr "Mozaik:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:287
+#: ../admin/views/BWGEViewBWGEShortcode. php:386
+#: ../admin/views/BWGEViewBWGEShortcode.php:531
+msgid ""
+"Mosaic thumbnails do not have fixed size, but are proportional to the width "
+"of the parent container. This option keeps thumbs to look nice when viewed "
+"with very large or very small screen. Prevents zooming of thumbs."
+msgstr ""
+"Mozaik tanesinden sabit boyuta sahiptir, ancak ana kabın genişliğine "
+"orantılı değildir. Bu seçenek, çok büyük ya da çok küçük ekran ile "
+"bakıldığında güzel görünmek için başparmak tutar. Başparmak yakınlaştırma "
+"önler."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:287
+#: ../admin/views/BWGEViewBWGEShortcode. php:386
+msgid "Resizable mosaic"
+msgstr "Boyutlandırılabilir mozaik"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:295
+#: ../admin/views/BWGEViewBWGEShortcode. php:394
+#: ../admin/views/BWGEViewBWGEShortcode.php:540
+msgid "Percentage of container's width"
+msgstr "Konteynerin genişliği yüzdesi"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:295
+#: ../admin/views/BWGEViewBWGEShortcode. php:540
+#: ../admin/views/BWGEViewOptions_bwge.php:1328
+msgid "Total width of mosaic:"
+msgstr "Mozaiğin Toplam genişlik:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:300
+#: ../admin/views/BWGEViewBWGEShortcode. php:398
+#: ../admin/views/BWGEViewBWGEShortcode.php:452 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:521 php:544
+#: ../admin/views/BWGEViewBWGEShortcode.php:2323
+msgid "Max. number of image columns:"
+msgstr "Max. Görüntü sütun sayısı:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:304
+#: ../admin/views/BWGEViewBWGEShortcode. php:402
+#: ../admin/views/BWGEViewBWGEShortcode.php:456 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:548 php:621
+msgid ""
+"If you want to display all images you should leave it blank or insert 0."
+msgstr ""
+"Tüm görüntüleri görüntülemek istiyorsanız boş bırakın veya 0 eklemeniz "
+"gerekir."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:304
+#: ../admin/views/BWGEViewBWGEShortcode. php:402
+#: ../admin/views/BWGEViewBWGEShortcode.php:456 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:548 php:621
+#: ../admin/views/BWGEViewOptions_bwge.php:1346
+msgid "Images per page:"
+msgstr "Sayfa başına Görü.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:308
+#: ../admin/views/BWGEViewBWGEShortcode. php:406
+#: ../admin/views/BWGEViewBWGEShortcode.php:552
+msgid "Image title:"
+msgstr "Resim başlığı:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:310
+#: ../admin/views/BWGEViewBWGEShortcode. php:348
+#: ../admin/views/BWGEViewBWGEShortcode.php:408 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:554
+#: ../admin/views/BWGEViewOptions_bwge.php:1025
+#: ../admin/views/BWGEViewOptions_bwge.php:1378
+msgid "Show on hover"
+msgstr "Vurgulu göster"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:311
+#: ../admin/views/BWGEViewBWGEShortcode. php:349
+#: ../admin/views/BWGEViewBWGEShortcode.php:409 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:555
+#: ../admin/views/BWGEViewOptions_bwge.php:1026
+#: ../admin/views/BWGEViewOptions_bwge.php:1379
+msgid "Always show"
+msgstr "Her zaman göster"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:312
+#: ../admin/views/BWGEViewBWGEShortcode. php:350
+#: ../admin/views/BWGEViewBWGEShortcode.php:410 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:556
+#: ../admin/views/BWGEViewOptions_bwge.php:1027
+#: ../admin/views/BWGEViewOptions_bwge.php:1380
+msgid "Don't show"
+msgstr "Gösterme"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:316
+#: ../admin/views/BWGEViewBWGEShortcode. php:421
+#: ../admin/views/BWGEViewBWGEShortcode.php:465 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:567 php:625
+#: ../admin/views/BWGEViewOptions_bwge.php:1001
+msgid "Enable pagination:"
+msgstr "Sayfalama etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:320
+#: ../admin/views/BWGEViewBWGEShortcode. php:425
+#: ../admin/views/BWGEViewBWGEShortcode.php:469 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:571
+msgid "Load More"
+msgstr "Daha fazla yükle"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:321
+#: ../admin/views/BWGEViewBWGEShortcode. php:426
+#: ../admin/views/BWGEViewBWGEShortcode.php:470 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:572 php:630
+msgid "Scroll Load"
+msgstr "Kaydırma Yük"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:325
+#: ../admin/views/BWGEViewBWGEShortcode. php:434
+#: ../admin/views/BWGEViewBWGEShortcode.php:478 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:580 php:634
+msgid "Images per load:"
+msgstr "Yük başına Görüntüler:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:329
+msgid "Maximum values for thumbnail dimension."
+msgstr "Küçük resim boyut için maksimum değerleri."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:329
+#: ../admin/views/BWGEViewBWGEShortcode. php:560
+msgid "Image Thumbnail dimensions:"
+msgstr "Resim Küçük boyutları:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:338
+#: ../admin/views/BWGEViewBWGEShortcode. php:440
+msgid "Max. number of album columns:"
+msgstr "Max. Albüm sütun sayısı:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:342
+#: ../admin/views/BWGEViewBWGEShortcode. php:430
+#: ../admin/views/BWGEViewBWGEShortcode.php:444 ..
+#: /admin/views/BWGEViewBWGEShortcode.php:474 php:484
+#: ../admin/views/BWGEViewBWGEShortcode.php:576
+msgid ""
+"If you want to display all albums you should leave it blank or insert 0."
+msgstr ""
+"Tüm albümleri görüntülemek istiyorsanız boş bırakın veya 0 eklemeniz gerekir."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:342
+#: ../admin/views/BWGEViewBWGEShortcode. php:444
+#: ../admin/views/BWGEViewBWGEShortcode.php:484 ..
+#: /admin/views/BWGEViewOptions_bwge.php:992
+msgid "Albums per page:"
+msgstr "Sayfa başına Albümler:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:346
+msgid "Album title:"
+msgstr "Albüm başlığı:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:354
+#: ../admin/views/BWGEViewBWGEShortcode. php:499
+msgid "Maximum values for album thumb width and height."
+msgstr "Albüm başparmak genişliği ve yüksekliği maksimum değerler."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:354
+msgid "Album Thumbnail dimensions:"
+msgstr "Albüm Küçük boyutları:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:361
+#: ../admin/views/BWGEViewBWGEShortcode. php:506
+msgid "The gallery images view type in the album."
+msgstr "Galeri görüntüleri albümünde türünü görüntülemek."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:361
+#: ../admin/views/BWGEViewBWGEShortcode. php:506
+#: ../admin/views/BWGEViewOptions_bwge.php:1011
+msgid "Album view type:"
+msgstr "Albüm görünümü türü:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:395
+#: ../admin/views/BWGEViewBWGEShortcode. php:541
+msgid "percent"
+msgstr "yüzde"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:414
+#: ../admin/views/BWGEViewBWGEShortcode. php:560
+msgid "Maximum values for thumbnail width and height."
+msgstr "Küçük resim genişlik ve yükseklik için maksimum değerleri."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:414
+#: ../admin/views/BWGEViewBWGEShortcode. php:2321
+msgid "Image thumbnail dimensions:"
+msgstr "Görüntü minik boyutları:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:430
+#: ../admin/views/BWGEViewBWGEShortcode. php:474
+#: ../admin/views/BWGEViewBWGEShortcode.php:576
+msgid "Albums per load:"
+msgstr "Yük başına Albümler:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:448
+msgid "Maximum value for album thumbnail width."
+msgstr "Albüm küçük resim genişliği için maksimum değeri."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:448
+msgid "Album Thumbnail width:"
+msgstr "Albüm Küçük genişliği:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:461
+msgid "Maximum value for thumbnail width."
+msgstr "Küçük resim genişliği için maksimum değeri."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:488
+msgid "Album row height:"
+msgstr "Albüm satır yüksekliği:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:492
+msgid ""
+"If you disable description only the title of the album will be displayed."
+msgstr ""
+"Eğer açıklamayı devre dışı bırakırsanız, sadece albümünün başlığı "
+"görüntülenir."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:492
+msgid "Enable album description:"
+msgstr "Albüm açıklamasını etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:499
+#: ../admin/views/BWGEViewOptions_bwge. php:1053
+msgid "Album thumbnail dimensions:"
+msgstr "Albüm minik boyutları:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:517
+#: ../admin/views/BWGEViewBWGEShortcode. php:2322
+msgid "Image thumbnail width: "
+msgstr "Görüntü küçük genişliği:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:531
+#: ../admin/views/BWGEViewOptions_bwge. php:1318
+msgid "Resizable mosaic:"
+msgstr "Boyutlandırılabilir mozaik:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:586
+#: ../admin/views/BWGEViewBWGEShortcode. php:608
+msgid "Maximum value for image width."
+msgstr "Görüntü genişliği maksimum değer."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:586
+#: ../admin/views/BWGEViewBWGEShortcode. php:608
+msgid "Image width:"
+msgstr "Görüntü genişliği:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:592
+#: ../admin/views/BWGEViewBWGEShortcode. php:614
+#: ../admin/views/BWGEViewOptions_bwge.php:1179 ..
+#: /admin/views/BWGEViewOptions_bwge.php:1646
+msgid "Enable image title:"
+msgstr "Görüntü başlığını etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:599
+#: ../admin/views/BWGEViewOptions_bwge. php:1222
+msgid "Enable image description:"
+msgstr "Görüntü açıklamasını etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:629
+msgid "Load more"
+msgstr "Daha fazla yükle"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:640
+msgid "Slideshow Effect:"
+msgstr "Slayt gösterisi Etkisi:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:654
+#: ../admin/views/BWGEViewBWGEShortcode. php:814
+#: ../admin/views/BWGEViewBWGEShortcode.php:911
+msgid "Interval between two images."
+msgstr "İki resim arasındaki aralık."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:654
+#: ../admin/views/BWGEViewBWGEShortcode. php:814
+#: ../admin/views/BWGEViewBWGEShortcode.php:911 ..
+#: /admin/views/BWGEViewOptions_bwge.php:677
+#: ../admin/views/BWGEViewOptions_bwge.php:1100
+#: ../admin/views/BWGEViewOptions_bwge.php:1596
+#: /admin/views/BWGEViewWidgetSlideshow.php:141
+msgid "Time interval:"
+msgstr "Zaman aralığı:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:658
+msgid "Maximum values for slideshow width and height."
+msgstr "Slayt genişlik ve yükseklik için maksimum değerleri."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:658
+msgid "Slideshow dimensions: "
+msgstr "Slayt gösterisi boyutları:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:665
+#: ../admin/views/BWGEViewBWGEShortcode. php:807
+msgid "Enable Autoplay:"
+msgstr "Autoplay etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:672
+msgid "Enable Shuffle:"
+msgstr "Shuffle etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:679
+#: ../admin/views/BWGEViewBWGEShortcode. php:933
+#: ../admin/views/BWGEViewOptions_bwge.php:725 ..
+#: /admin/views/BWGEViewOptions_bwge.php:1149
+msgid "Enable control buttons:"
+msgstr "Kontrol düğmeleri etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:686
+msgid "Enable slideshow filmstrip view"
+msgstr "Slayt film şeridi görünümü etkinleştir"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:686
+#: ../admin/views/BWGEViewOptions_bwge. php:1158
+msgid "Enable slideshow filmstrip:"
+msgstr "Slayt film şeridini etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:693
+msgid "Slideshow Filmstrip size:"
+msgstr "Slayt gösterisi Film şeridi boyutu:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:698
+msgid "Max. number of carousel images:"
+msgstr "Max. atlıkarınca görüntü sayısı:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:709
+#: ../admin/views/BWGEViewBWGEShortcode. php:818
+msgid "Enable Image Title:"
+msgstr "Resim başlığı etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:716
+#: ../admin/views/BWGEViewOptions_bwge. php:1208
+msgid "Image title position on slideshow"
+msgstr "Slayt üzerinde Resim başlığı pozisyonu"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:716
+msgid "Title Position:"
+msgstr "Başlık Seviyesi:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:740
+#: ../admin/views/BWGEViewOptions_bwge. php:1218
+msgid "Display image title based on the slideshow dimensions."
+msgstr "Slayt gösterisi boyutlarına dayalı Ekran görüntüsü başlık."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:741
+#: ../admin/views/BWGEViewOptions_bwge. php:1213
+msgid "Full width title:"
+msgstr "Tam genişlikte title:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:749
+msgid "Enable Image Description:"
+msgstr "Resim Açıklaması etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:756
+#: ../admin/views/BWGEViewOptions_bwge. php:1251
+msgid "Image description position on slideshow"
+msgstr "Slayt Görüntü açıklaması pozisyonu"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:756
+msgid "Description Position:"
+msgstr "Açıklama pozisyonu:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:780
+msgid "Enable Slideshow Music:"
+msgstr "Slayt gösterisi Müzik etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:787
+msgid "Enter absolute audio file url or add file from Options page."
+msgstr ""
+"Mutlak ses dosyası url girin veya Seçenekler sayfasından dosyası ekleyin."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:788
+#: ../admin/views/BWGEViewOptions_bwge. php:1266
+msgid "Music url:"
+msgstr "Müzik url:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:796
+#: ../admin/views/BWGEViewBWGEShortcode. php:825
+msgid "Maximum values for carousel width and height."
+msgstr "Atlıkarınca genişlik ve yükseklik için maksimum değerleri."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:796
+msgid "Carousel dimensions:"
+msgstr "Carousel boyutlar:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:803
+#: ../admin/views/BWGEViewOptions_bwge. php:1614
+msgid "Carousel image ratio:"
+msgstr "Carousel görüntü oranı:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:825
+#: ../admin/views/BWGEViewOptions_bwge. php:1633
+msgid "Fixed width:"
+msgstr "Sabit genişlik:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:832
+#: ../admin/views/BWGEViewOptions_bwge. php:1665
+msgid "Container fit:"
+msgstr "Konteyner fit:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:839
+#: ../admin/views/BWGEViewOptions_bwge. php:1675
+msgid "Next/Previous buttons:"
+msgstr "Önceki / Sonraki düğmeleri:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:846
+#: ../admin/views/BWGEViewOptions_bwge. php:1685
+msgid "Play/Pause button:"
+msgstr "/ Pause düğmesine Oynat:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:855
+msgid "Thumb click action:"
+msgstr "Başparmak tıklama eylem:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:857
+#: ../admin/views/BWGEViewOptions_bwge. php:1413
+msgid "Open lightbox"
+msgstr "Açık lightbox"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:858
+#: ../admin/views/BWGEViewOptions_bwge. php:1414
+msgid "Redirect to url"
+msgstr "Url için yönlendir"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:859
+#: ../admin/views/BWGEViewOptions_bwge. php:1415
+msgid "Do Nothing"
+msgstr "Hiçbirşey yapma"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:863
+msgid "Open new window when redirecting."
+msgstr "Yönlendirme yaparken yeni bir pencere açın."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:863
+msgid "Open in new window:"
+msgstr "Yeni pencerede aç:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:872
+#: ../admin/views/BWGEViewOptions_bwge. php:635
+msgid "Enable full width feature for the lightbox."
+msgstr "Lightbox için tam genişlikte özelliğini etkinleştirin."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:873
+#: ../admin/views/BWGEViewOptions_bwge. php:630
+msgid "Full width lightbox:"
+msgstr "Tam genişlikte lightbox:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:881
+msgid "Maximum values for lightbox width and height."
+msgstr "Lightbox genişlik ve yükseklik için maksimum değerleri."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:881
+#: ../admin/views/BWGEViewOptions_bwge. php:640
+msgid "Lightbox dimensions:"
+msgstr "Lightbox boyutları:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:888
+msgid "Lightbox slideshow effect."
+msgstr "Lightbox slayt etkisi."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:888
+#: ../admin/views/BWGEViewOptions_bwge. php:650
+msgid "Lightbox effect:"
+msgstr "Lightbox efekti:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:903
+#: ../admin/views/BWGEViewOptions_bwge. php:667
+msgid "Lightbox autoplay:"
+msgstr "Lightbox autoplay:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:915
+msgid "Enable filmstrip view for images"
+msgstr "Görüntüler için film şeridi görünümü etkinleştir"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:915
+msgid "Enable filmstrip in lightbox:"
+msgstr "Lightbox olarak film şeridini etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:922
+#: ../admin/views/BWGEViewOptions_bwge. php:696
+msgid "Filmstrip size:"
+msgstr "Film şeridi boyutu:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:926
+#: ../admin/views/BWGEViewOptions_bwge. php:705
+msgid "Display hit counter:"
+msgstr "Hit counter Display:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:933
+msgid "Enable control buttons in lightbox"
+msgstr "Lightbox kontrol düğmeleri etkinleştirin"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:942
+msgid "Enable fullscreen view for images"
+msgstr "Görüntüler için tam ekran görünümü etkinleştirmek"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:942
+#: ../admin/views/BWGEViewOptions_bwge. php:761
+msgid "Enable fullscreen:"
+msgstr "Tam ekran etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:949
+msgid "Enable title, description for images"
+msgstr "Görüntüler için başlık, açıklama Enable"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:949
+#: ../admin/views/BWGEViewOptions_bwge. php:771
+msgid "Enable info:"
+msgstr "Bilgi etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:956
+#: ../admin/views/BWGEViewOptions_bwge. php:781
+msgid "Display info by default:"
+msgstr "Vars. olarak bilgi ekranı:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:963
+#: ../admin/views/BWGEViewOptions_bwge. php:796
+msgid "Display image information based on the lightbox dimensions."
+msgstr "Lightbox boyutlarına dayalı Ekran görüntüsü bilgileri."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:963
+#: ../admin/views/BWGEViewOptions_bwge. php:791
+msgid "Full width info:"
+msgstr "Tam genişlikte bilgi:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:970
+msgid "Enable rating for images"
+msgstr "Görüntüler için notunu etkinleştirme"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:970
+#: ../admin/views/BWGEViewOptions_bwge. php:807
+msgid "Enable rating:"
+msgstr "Reyting etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:977
+msgid "Enable comments for images"
+msgstr "Görüntüler için yorum etkinleştirme"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:977
+#: ../admin/views/BWGEViewOptions_bwge. php:817
+msgid "Enable comments:"
+msgstr "Yorum etkin."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:984
+msgid "Enable Facebook share button for images"
+msgstr "Görüntüler için Facebook düğmesini etkinleştirmek"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:984
+#: ../admin/views/BWGEViewOptions_bwge. php:881
+msgid "Enable Facebook button:"
+msgstr "Facebook düğ. etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:991
+msgid "Enable Twitter share button for images"
+msgstr "Görüntüler için Twitter paylaşım düğmesini etkinleştirmek"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:991
+#: ../admin/views/BWGEViewOptions_bwge. php:891
+msgid "Enable Twitter button:"
+msgstr "Twitter düğ. etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:998
+msgid "Enable Google+ share button for images"
+msgstr "Görüntüler için Google+ paylaşım düğmesini etkinleştirmek"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:998
+#: ../admin/views/BWGEViewOptions_bwge. php:901
+msgid "Enable Google+ button:"
+msgstr "Google+ düğ. etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1005
+msgid "Enable Pinterest share button for images"
+msgstr "Görüntüler için Pinterest paylaşım düğmesini etkinleştirmek"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1005
+#: ../admin/views/BWGEViewOptions_bwge. php:911
+msgid "Enable Pinterest button:"
+msgstr "Pinterest düğ. etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1012
+msgid "Enable Tumblr share button for images"
+msgstr "Görüntüler için Tumblr paylaşım düğmesini etkinleştirmek"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1012
+#: ../admin/views/BWGEViewOptions_bwge. php:921
+msgid "Enable Tumblr button:"
+msgstr "Tumblr düğ. etkin.:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1025
+msgid "Advertisement Type:"
+msgstr "Reklam Türü:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1028
+#: ../admin/views/BWGEViewOptions_bwge. php:330
+#: ../admin/views/BWGEViewOptions_bwge.php:483 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3708
+#: ../admin/views/BWGEViewWidgetTags.php:118
+msgid "Text"
+msgstr "Metin"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1029
+#: ../admin/views/BWGEViewComments_bwge. php:62
+#: ../admin/views/BWGEViewComments_bwge.php:83 ..
+#: /admin/views/BWGEViewOptions_bwge.php:332
+#: ../admin/views/BWGEViewOptions_bwge.php:485
+#: ../admin/views/BWGEViewRates_bwge.php:59 ../admin/views/BWGEViewRates_bwge.php:
+#: 80 ../admin/views/BWGEViewWidgetTags.php:119
+msgid "Image"
+msgstr "Resim"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1033
+msgid "Enter absolute url"
+msgstr "Mutlak url girin"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1034
+#: ../admin/views/BWGEViewOptions_bwge. php:522
+msgid "Advertisement link:"
+msgstr "Reklam link:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1041
+msgid "Enter absolute image file url or add file from Options page."
+msgstr ""
+"Mutlak görüntü dosyası url girin veya Seçenekler sayfasından dosyası ekleyin."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1042
+#: ../admin/views/BWGEViewOptions_bwge. php:491
+msgid "Advertisement url:"
+msgstr "Reklam url:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1049
+#: ../admin/views/BWGEViewOptions_bwge. php:536
+msgid "Maximum values for watermark image width and height."
+msgstr "Filigran görüntü genişlik ve yükseklik için maksimum değerleri."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1049
+#: ../admin/views/BWGEViewOptions_bwge. php:531
+msgid "Advertisement dimensions:"
+msgstr "Reklam boyutlar:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1056
+#: ../admin/views/BWGEViewOptions_bwge. php:513
+msgid "Advertisement text:"
+msgstr "Reklam metni:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1062
+#: ../admin/views/BWGEViewOptions_bwge. php:541
+msgid "Advertisement font size:"
+msgstr "Reklam font boyutu:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1068
+msgid "Advertisement font style:"
+msgstr "Reklam yazı stili:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1082
+#: ../admin/views/BWGEViewOptions_bwge. php:567
+msgid "Advertisement color:"
+msgstr "Reklam Renk:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1088
+#: ../admin/views/BWGEViewOptions_bwge. php:580
+#: ../admin/views/BWGEViewThemes_bwge.php:363 ..
+#: /admin/views/BWGEViewThemes_bwge.php:376
+#: ../admin/views/BWGEViewThemes_bwge.php:520
+#: ../admin/views/BWGEViewThemes_bwge.php:533 ../admin/views/BWGEViewThemes_bwge.
+#: php:670 ../admin/views/BWGEViewThemes_bwge.php:683
+#: /admin/views/BWGEViewThemes_bwge.php:826 981
+#: ../admin/views/BWGEViewThemes_bwge.php:1067 php:1120
+#: ../admin/views/BWGEViewThemes_bwge.php:1189
+#: /admin/views/BWGEViewThemes_bwge.php:1302 1520
+#: ../admin/views/BWGEViewThemes_bwge.php:1533
+#: /admin/views/BWGEViewThemes_bwge.php:1754 1794
+#: ../admin/views/BWGEViewThemes_bwge.php:1873
+#: /admin/views/BWGEViewThemes_bwge.php:2260 2396
+#: ../admin/views/BWGEViewThemes_bwge.php:2567
+#: /admin/views/BWGEViewThemes_bwge.php:2603 2656
+#: ../admin/views/BWGEViewThemes_bwge.php:2683
+#: /admin/views/BWGEViewThemes_bwge.php:2968 3090
+#: ../admin/views/BWGEViewThemes_bwge.php:3220
+#: /admin/views/BWGEViewThemes_bwge.php:3647 3733
+#: ../admin/views/BWGEViewThemes_bwge.php:3758
+#: /admin/views/BWGEViewThemes_bwge.php:3890
+msgid "Value must be between 0 to 100."
+msgstr "Değer 0 ile 100 arasında olmalıdır."
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1088
+msgid "Advertisement opacity: "
+msgstr "Reklam donukluk:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1094
+msgid "Advertisement Position: "
+msgstr "Reklam Seviyesi:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1147
+msgid "Generate"
+msgstr "Üretmek"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1148
+msgid "Import"
+msgstr "İthalat"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1151
+msgid "Shortcode"
+msgstr "Kısa kod"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1155
+msgid "PHP function"
+msgstr "PHP işlevi"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:1200
+msgid "There is no shortcode with such ID!"
+msgstr "Böyle kimliği ile hiçbir shortcode var!"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:2324
+msgid "Image thumbnail height:"
+msgstr "Görüntü küçük yüksekliği:"
+
+#: ../admin/views/BWGEViewBWGEShortcode.php:2325
+msgid "Number of image rows:"
+msgstr "Görüntü satır sayısı:"
+
+#: ../admin/views/BWGEViewComments_bwge.php:41
+msgid "This section allows you to manage the image comments."
+msgstr "Bu bölümde resim yorumlarınızı yönetmenize olanak sağlar."
+
+#: ../admin/views/BWGEViewComments_bwge.php:61
+#: ../admin/views/BWGEViewRates_bwge.php:58 ../admin/views/BWGEViewWidget.php:119
+msgid "Gallery"
+msgstr "Galeri"
+
+#: ../admin/views/BWGEViewComments_bwge.php:99
+#: ../frontend/views/BWGEViewGalleryBox. php:1260
+#: ../frontend/views/BWGEViewGalleryBox.php:1275 ..
+#: /frontend/views/BWGEViewGalleryBox.php:1282
+msgid "Comment"
+msgstr "Yorum"
+
+#: ../admin/views/BWGEViewComments_bwge.php:110
+#: ../frontend/views/BWGEViewGalleryBox. php:1253
+#: ../frontend/views/BWGEViewGalleryBox.php:1275 ..
+#: /frontend/views/BWGEViewGalleryBox.php:1282
+msgid "Email"
+msgstr "E-posta"
+
+#: ../admin/views/BWGEViewEditThumb.php:183
+msgid "You can't crop this type of image."
+msgstr "Görüntünün bu tür kırpmak olamaz."
+
+#: ../admin/views/BWGEViewEditThumb.php:252
+msgid "The thumbnail successfully croped."
+msgstr "Küçük resim başarıyla croped."
+
+#: ../admin/views/BWGEViewEditThumb.php:255
+msgid "Select the area for the thumbnail."
+msgstr "Thumbnail alanı seçin."
+
+#: ../admin/views/BWGEViewEditThumb.php:268
+msgid "Keep aspect ratio"
+msgstr "En-boy oranını koru"
+
+#: ../admin/views/BWGEViewEditThumb.php:741
+msgid "Grayscale"
+msgstr "Grayscale"
+
+#: ../admin/views/BWGEViewEditThumb.php:745
+msgid "Negative"
+msgstr "Negatif"
+
+#: ../admin/views/BWGEViewEditThumb.php:749
+msgid "Removal"
+msgstr "Kaldırma"
+
+#: ../admin/views/BWGEViewEditThumb.php:753
+msgid "Sepia"
+msgstr "Sepya"
+
+#: ../admin/views/BWGEViewEditThumb.php:757
+msgid "Slate"
+msgstr "Arduvaz"
+
+#: ../admin/views/BWGEViewEditThumb.php:761
+msgid "Saturate"
+msgstr "Doyurmak"
+
+#: ../admin/views/BWGEViewEditThumb.php:765
+msgid "Do you want to reset the image?"
+msgstr "Görüntüyü sıfırlamak istiyor musunuz?"
+
+#: ../admin/views/BWGEViewEditThumb.php:765
+msgid "Reset image"
+msgstr "Reset görüntü"
+
+#: ../admin/views/BWGEViewEditThumb.php:791
+msgid "Brightness"
+msgstr "Parlaklık"
+
+#: ../admin/views/BWGEViewEditThumb.php:793
+#: ../admin/views/BWGEViewEditThumb.php:818
+msgid "Press for result"
+msgstr "Sonuç için tuşuna basın"
+
+#: ../admin/views/BWGEViewEditThumb.php:816
+msgid "Contrast"
+msgstr "Tezat"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:39
+msgid "This section allows you to create, edit and delete galleries."
+msgstr "Bu bölümde, oluşturmak galerileri düzenlemek ve silmenizi sağlar."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:46
+msgid "Galleries"
+msgstr "Galeriler"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:109
+msgid "Images count"
+msgstr "Görüntüler saymak"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:205
+msgid "Edit gallery"
+msgstr "Düzenleme galerisi"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:205
+msgid "Create new gallery"
+msgstr "Yeni galeri oluştur"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:218
+msgid "This section allows you to add/edit gallery."
+msgstr "Bu bölüm / düzenleme galeri eklemenize olanak verir."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:355 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:1005
+msgid "Crop"
+msgstr "Mahsul"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:372 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:782
+#: ../admin/views/BWGEViewGalleries_bwge. php:1019
+#: ../admin/views/BWGEViewThemes_bwge.php:231 ../framework/BWGELibrary.php:189
+#: ../framework/BWGELibrary.php:363 ../framework/BWGELibrary.php:722
+#: /framework/BWGELibrary.php:784
+msgid "Reset"
+msgstr "Reset"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:554
+msgid "Gallery content type:"
+msgstr "Galeri içerik türü:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:557
+msgid "Mixed"
+msgstr "Karışmış"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:558
+msgid "Instagram only"
+msgstr "Instagram, sadece"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:560
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:570
+msgid "Instagram username:"
+msgstr "Instagram kullanıcı adı:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:575 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:852
+msgid "Number of Instagram recent posts to add to gallery:"
+msgstr "Instagram son mesajların sayısı galerisine eklemek için:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:579
+msgid "Instagram embed type: "
+msgstr "Instagram embed türü:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:582 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:859
+msgid "Content"
+msgstr "İçerik"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:584 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:861
+msgid "Whole post"
+msgstr "Tüm sonrası"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:588
+msgid "Gallery autoupdate option:"
+msgstr "Galeri autoupdate seçeneği:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:591
+msgid "No update"
+msgstr "Hiçbir güncelleme"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:593
+msgid "Add new media, keep old ones published."
+msgstr "Yeni ortam eklerken, yayınlanan eskilerini tutmak."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:595
+msgid "Add new media, unpublish old ones."
+msgstr "Yeni medya, yayından eskileri ekleyin."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:609
+msgid "Facebook album url: "
+msgstr "Facebook albüm url:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:613
+msgid "Images limit: "
+msgstr "Görüntüler sınırı:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:626
+msgid "Gallery autoupdate option: "
+msgstr "Galeri autoupdate seçeneği:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:644
+msgid "Description: "
+msgstr "Açıklama:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:667
+msgid "Published: "
+msgstr "Yayın:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:766
+msgid "Embed Media"
+msgstr "Göm Medya"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:767
+msgid "Bulk Embed"
+msgstr "Toplu Göm"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:777
+msgid "Set Watermark"
+msgstr "Filigran Set"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:778
+msgid "Resize"
+msgstr "Yeniden boyutlandırma"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:779
+msgid "Recreate Thumbnail"
+msgstr "Minik yeniden"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:787 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:1046
+msgid "Add tag"
+msgstr "Etiket ekle"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:806
+msgid "Add to gallery"
+msgstr "Galeriye Ekle"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:809
+msgid ""
+"Enter YouTube, Vimeo, Instagram, Facebook, Flickr or Dailymotion URL here."
+msgstr ""
+"Burada YouTube, Vimeo, Instagram, Facebook, Flickr veya Dailymotion URL'yi "
+"girin."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:809
+msgid "Help"
+msgstr "Yardım Edin"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:812
+msgid "Close"
+msgstr "Kapat"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:813 ..
+#: /admin/views/BWGEViewGalleries_bwge.php:814
+#: ../admin/views/BWGEViewGalleries_bwge. php:815
+#: ../admin/views/BWGEViewGalleries_bwge.php:824
+msgid "example:"
+msgstr "Örnek:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:815 ../filemanager/view.php:275
+msgid "Add"
+msgstr "Eklemek"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:815
+msgid "post"
+msgstr "sonrası"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:815
+msgid ""
+"to the end of URL if you want to embed the whole Instagram post, not only "
+"its content."
+msgstr ""
+"URL'nin sonuna Eğer bütün Instagram yazı, sadece içeriğini gömmek istiyorum."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:817
+msgid "Photo URL example:"
+msgstr "Fotoğraf URL örneği:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:818
+msgid "Video URL example:"
+msgstr "Video URL'si örneği:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:822
+msgid "Note that media must have public privacy."
+msgstr "Medya kamu gizlilik olması gerektiğini unutmayın."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:825
+msgid "URL example:"
+msgstr "URL örnek:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:836
+msgid "Bulk embed from:"
+msgstr "Toplu embed gelen:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:848
+msgid "username:"
+msgstr "kullanıcı adı:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:856
+msgid "embed type:"
+msgstr "embed türü:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:869
+msgid "album url:"
+msgstr "Albüm url:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:873
+msgid "Images limit:"
+msgstr "Görüntüler sınırı:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:892
+msgid "Resize images to: "
+msgstr "Görüntüleri için yeniden boyutlandırma:"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:900
+msgid "The maximum size of resized image."
+msgstr "Yeniden boyutlandırılmış resmin maksimum boyutu."
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:928
+msgid "Alt/Title"
+msgstr "Alt / Başlık"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:928
+msgid "Redirect"
+msgstr "Redirect"
+
+#: ../admin/views/BWGEViewGalleries_bwge.php:936
+msgid "Description"
+msgstr "Açıklama"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:30
+msgid ""
+"This section allows you to change settings for different views and general "
+"options."
+msgstr ""
+"Bu bölümde, farklı görüş ve genel seçenekleri için ayarları değiştirmenizi "
+"sağlar."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:96
+msgid "Edit options"
+msgstr "Düzenleme seçenekleri"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:104
+msgid "Reset all options"
+msgstr "Tüm seçenekleri sıfırla"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:109
+msgid "Global options"
+msgstr "Küresel seçenekleri"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:110
+msgid "Watermark"
+msgstr "Filigran"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:111
+msgid "Advertisement"
+msgstr "Reklâm"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:112
+#: ../admin/views/BWGEViewThemes_bwge.php:243
+msgid "Lightbox"
+msgstr "Hafif kutu"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:113
+msgid "Album options"
+msgstr "Albüm seçenekleri"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:115
+msgid "Thumbnail options"
+msgstr "Küçük resim seçen."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:116
+msgid "Image options"
+msgstr "Görüntü seçenekleri"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:117
+msgid "Social options"
+msgstr "Sosyal seçenekleri"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:128
+msgid "Images directory:"
+msgstr "Görüntüler dizin:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:133
+msgid ""
+"Input an existing directory inside the Wordpress directory to store uploaded "
+"images.<br />Old directory content will be moved to the new one."
+msgstr ""
+"Giriş Wordpress dizin içinde varolan bir dizin. Yüklenen görüntüleri "
+"saklamak /> Eski dizin içeriği yenisiyle taşınacaktır <br için."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:138 ../admin/views/BWGEViewOptions_bwge.
+#: php:1623
+msgid "Image dimensions:"
+msgstr "Resim boyutları:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:143
+msgid "The maximum size of the uploaded image (0 for original size)."
+msgstr "Yüklenen görüntünün maksimum boyutu (orijinal boyutu için 0)."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:148
+msgid "Right click protection:"
+msgstr "Sağ tıklama koruma:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:153
+msgid "Disable image right click possibility."
+msgstr "Devre Dışı Bırak görüntü sağ olasılığını tıklayın."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:197
+msgid "Preload images:"
+msgstr "Görüntüleri önyükle:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:207
+msgid "Count of images:"
+msgstr "Görüntülerin Sayısı:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:211
+msgid "Count of images to preload (0 for all)."
+msgstr "Görüntülerin Kont (hepsi için 0) önceden yüklemek için."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:216
+msgid "Import from Media Library:"
+msgstr "Ortam Kitaplığı ithalat:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:221
+msgid "Enable import from Media Library in file manager."
+msgstr "Dosya yöneticisi Ortam Kitaplığı ithalat etkinleştirin."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:226
+msgid "Enable href attribute:"
+msgstr "Href niteliğini etkin.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:231
+msgid "Disable this option only if it conflicts with your theme."
+msgstr "Sizin tema ile çakışan yalnızca bu seçeneği devre dışı."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:236
+msgid "Meta auto-fill:"
+msgstr "Meta otomatik doldurma:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:241
+msgid ""
+"Enabling this option the meta description of the image will be automatically "
+"filled in image description field."
+msgstr ""
+"Görüntünün meta açıklaması otomatik olarak görüntü açıklama alanında dolacak "
+"bu seçeneğin etkinleştirilmesi."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:246
+msgid "Roles:"
+msgstr "Roller:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:258
+msgid "Choose a user type who can add/edit galleries, images, albums and tags."
+msgstr ""
+"/ Edit galerileri, resimler, albümler ve etiket ekleyebilirsiniz Bir "
+"kullanıcı türü seçin."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:263
+msgid "Gallery role:"
+msgstr "Galeri rolü:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:268
+msgid "Only author can change a gallery."
+msgstr "Sadece yazar bir galeri değiştirebilirsiniz."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:273
+msgid "Album role:"
+msgstr "Albüm rolü:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:278
+msgid "Only author can change an album."
+msgstr "Sadece yazar bir albüm değiştirebilirsiniz."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:283
+msgid "Image role:"
+msgstr "Görüntü rolü:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:288
+msgid "Only author can change an image."
+msgstr "Sadece yazar bir görüntüyü değiştirebilirsiniz."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:293
+msgid "Show/hide custom post types:"
+msgstr "Show / hide özel mesaj türleri:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:303
+msgid "Show/hide comments for custom post types:"
+msgstr "Özel mesaj türleri için göster / gizle yorumlar:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:324
+msgid "Watermark type: "
+msgstr "Filigran türü:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:338
+msgid "Watermark url: "
+msgstr "Filigran url:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:351 ../admin/views/BWGEViewOptions_bwge.
+#: php:506
+msgid "Add Image"
+msgstr "Resim Ekle"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:353
+msgid "Only .png format is supported."
+msgstr "Sadece .png biçiminde desteklenir."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:358
+msgid "Watermark text: "
+msgstr "Filigran metni:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:367
+msgid "Watermark size: "
+msgstr "Filigran boyutu:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:371
+msgid "Enter size of watermark in percents according to image."
+msgstr "Resme göre yüzdeleri filigran boyutunu girin."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:376
+msgid "Watermark font size:"
+msgstr "Filigran yazı tipi boyutu:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:385
+msgid "Watermark font style: "
+msgstr "Filigran yazı stili:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:414
+msgid "Watermark color:"
+msgstr "Filigran Renk:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:423
+msgid "Watermark opacity:"
+msgstr "Filigran donukluk:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:427
+msgid "Opacity value must be in the range of 0 to 100."
+msgstr "Opaklık değeri 0 ila 100 aralığında olması gerekmektedir."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:432
+msgid "Watermark position:"
+msgstr "Filigran pozisyonlar:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:477
+msgid "Advertisement type:"
+msgstr "Reklam türü:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:508
+msgid ""
+"Enter absolute image file url or add file from Options page. (.jpg,.jpeg,."
+"png,.gif formats are supported)"
+msgstr ""
+"Mutlak görüntü dosyası url girin veya Seçenekler sayfasından dosyası "
+"ekleyin. (.jpg, .jpeg, .png, biçimleri desteklenir .gif)"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:526
+msgid "Enter a URL to open when the advertisement banner is clicked."
+msgstr "Reklam afiş tıklandığında açmak için bir URL girin."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:550
+msgid "dvertisement font style:"
+msgstr "Yazı tipi stilini dvertisement:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:576
+msgid "Advertisement opacity:"
+msgstr "Reklam donukluk:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:585
+msgid "Advertisement position:"
+msgstr "Reklam pozisyonlar:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:686
+msgid "Enable filmstrip:"
+msgstr "Film şeridini etkin.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:715 ../admin/views/BWGEViewOptions_bwge.
+#: php:1139
+msgid "Show Next / Previous buttons:"
+msgstr "Önceki / Sonraki düğmeleri göster:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:718 ../admin/views/BWGEViewOptions_bwge.
+#: php:1142
+msgid "On hover"
+msgstr "Hover üzerinde"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:719 ../admin/views/BWGEViewOptions_bwge.
+#: php:1143
+msgid "Always"
+msgstr "Hep"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:831
+msgid "Enable comments moderation:"
+msgstr "Yorum ılımlılık etkin.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:841
+msgid "Enable Email for comments:"
+msgstr "Yorumlar için e-posta etkin.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:851
+msgid "Enable Captcha for comments:"
+msgstr "Captcha yorumlar için etkin.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:861
+msgid "Enable original image display button:"
+msgstr "Orijinal resim görüntüleme düğmesi etkin.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:871
+msgid "Enable download button:"
+msgstr "Indirme düğmesini etkin.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:931
+msgid "Show images count:"
+msgstr "Göster görüntüleri saymak:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:941
+msgid "Enable loop:"
+msgstr "Döngü etkin.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:951
+msgid "Enable AddThis:"
+msgstr "AddThis etkin.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:963
+msgid "profile id:"
+msgstr "Profil id:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:967
+msgid "Create an account"
+msgstr "Bir hesap oluşturun"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:967
+msgid "here"
+msgstr "İşte"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:983
+msgid "Number of album columns:"
+msgstr "Albüm sütun sayısı:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1017
+msgid "he gallery images view type in the album."
+msgstr "O galeri görüntüleri albümünde türünü görüntülemek."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1022
+msgid "Show title:"
+msgstr "Başlığı göster:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1033
+msgid "Show album/gallery name:"
+msgstr "Albüm / galeri adını göster:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1043
+msgid "Enable extended album description:"
+msgstr "Geniş. albüm açıklamasını etkin.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1063
+msgid "Extended album height:"
+msgstr "Geniş. albüm yüksekliği:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1083 ..
+#: /admin/views/BWGEViewWidgetSlideshow.php:129
+msgid "Slideshow effect:"
+msgstr "Slayt gösterisi etkisi:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1109
+msgid "Slideshow dimensions:"
+msgstr "Slayt gösterisi boyutları:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1119
+#: ../admin/views/BWGEViewOptions_bwge. php:1655
+msgid "Enable autoplay:"
+msgstr "Autoplay etkin.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1129 ..
+#: /admin/views/BWGEViewWidgetSlideshow.php:145
+msgid "Enable shuffle:"
+msgstr "Shuffle etkin.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1166
+msgid "Slideshow filmstrip size:"
+msgstr "Slayt film şeridi boyutu:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1187 ../admin/views/BWGEViewThemes_bwge.
+#: php:400 ../admin/views/BWGEViewThemes_bwge.php:1557
+msgid "Title position:"
+msgstr "Başlık pozisyonlar:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1230
+msgid "Description position:"
+msgstr "Açıklama pozisyonlar:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1256
+msgid "Enable slideshow Music:"
+msgstr "Slayt Müzik etkin.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1280
+msgid "Add Music"
+msgstr "Müzik Ekle"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1282
+msgid "Only"
+msgstr "Sadece"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1282
+msgid "formats are supported."
+msgstr "formatları destekleniyor."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1332
+msgid "Width of mosaic as a percentage of container's width."
+msgstr "Konteynerin genişliğinin yüzdesi olarak mozaik genişliği."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1337
+msgid "Number of image columns:"
+msgstr "Görüntü sütun sayısı:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1355
+msgid "Generated thumbnail dimensions:"
+msgstr "Oluşturulan küçük boyutlar:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1360
+msgid ""
+"The maximum size of the generated thumbnail. Its dimensions should be larger "
+"than the ones of the frontend thumbnail."
+msgstr ""
+"Oluşturulan Küçük resmin maksimum boyutu. Onun boyutları önyüz thumbnail "
+"olanlardan daha büyük olmalıdır."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1365
+msgid "Frontend thumbnail dimensions:"
+msgstr "Önuç minik boyutları:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1370
+msgid ""
+"The default size of the thumbnail which will be displayed in the website."
+msgstr "Web sitesinde görüntülenecektir thumbnail varsayılan boyutu."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1375
+msgid "Show image title:"
+msgstr "Görüntü başlığını göster:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1385
+msgid "Show gallery name:"
+msgstr "Galeri adını göster:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1394
+msgid "Show description in Vertical Masonry view:"
+msgstr "Dikey Duvar görünümünde açıklamasına göster:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1403
+msgid "Enable image pagination:"
+msgstr "Görüntü sayfalama etkin.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1411
+msgid "Thumbnail click action:"
+msgstr "Küçük resim tıklama eylem:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1420
+msgid "pen in a new window:"
+msgstr "yeni bir pencerede kalem:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1428
+msgid "Play icon over the video thumbnail:"
+msgstr "Video küçük resmin üzerine simgeyi oyna:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1445
+msgid "Enable image title for Image Browser view:"
+msgstr "Resim tarayıcı görünümü için görüntü başlığını etkin.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1455
+msgid "Enable image description for Image Browser view:"
+msgstr "Resim tarayıcı görünümü için görüntü açıklamasını etkin.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1465
+msgid "Image width for Image Browser view:"
+msgstr "Resim tarayıcı görünümü için Görüntü genişliği:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1474
+msgid "Enable image title for Blog Style view:"
+msgstr "Blog Stili görünüm için görüntü başlığını etkin.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1484
+msgid "Image width for Blog Style view:"
+msgstr "Blog Stili görünüm için Görüntü genişliği:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1493
+msgid "Images per page in Blog Style view:"
+msgstr "Blog Stil görünümünde Sayfa başına Görün.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1502
+msgid "Enable pagination for Blog Style view:"
+msgstr "Blog Stili görünüm için sayfalama etkin.:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1521
+msgid "Gallery autoupdate interval:"
+msgstr "Galeri autoupdate aralığı:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1525
+msgid "hour"
+msgstr "saat"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1527
+msgid "min"
+msgstr "dk"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1528
+msgid "Minimum 1 min."
+msgstr "Minimum 1 dak."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1543
+msgid "Enable creating Instagram galleries."
+msgstr "Instagram galerileri oluşturmak etkinleştirin."
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1557
+msgid "app Id"
+msgstr "app Kimliği"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1566
+msgid "app Secret:"
+msgstr "app Secret:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1575
+msgid "login / logout:"
+msgstr "/ logout giriş:"
+
+#: ../admin/views/BWGEViewOptions_bwge.php:1605
+msgid "Max. number of images:"
+msgstr "Max. görüntü sayısı:"
+
+#: ../admin/views/BWGEViewRates_bwge.php:40
+msgid "This section allows you to manage the image ratings."
+msgstr "Bu bölümde resim derecelendirme yönetmenize olanak sağlar."
+
+#: ../admin/views/BWGEViewRates_bwge.php:88
+msgid "Rating"
+msgstr "Puanlama"
+
+#: ../admin/views/BWGEViewRates_bwge.php:96
+msgid "IP"
+msgstr "IP"
+
+#: ../admin/views/BWGEViewTags_bwge.php:42
+msgid "This section allows you to create, edit and delete tags."
+msgstr "Bu bölümde, oluşturmak etiketlerini düzenleyebilir ve silebilirsiniz."
+
+#: ../admin/views/BWGEViewTags_bwge.php:100
+msgid "Count"
+msgstr "Saymak"
+
+#: ../admin/views/BWGEViewTags_bwge.php:119
+msgid "Add Tag "
+msgstr "Etiket Ekle"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:38
+msgid "This section allows you to create, edit and delete themes."
+msgstr "Bu bölümde, oluşturmak temaları düzenlemek ve silmenizi sağlar."
+
+#: ../admin/views/BWGEViewThemes_bwge.php:84 ../framework/BWGELibrary.php:848
+msgid "Default"
+msgstr "Standart"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:160
+msgid "Edit theme "
+msgstr "Düzenleme teması"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:160
+msgid "Create new theme"
+msgstr "Yeni tema oluştur"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:164
+msgid "Solid"
+msgstr "Katı"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:165
+msgid "Dotted"
+msgstr "Noktalı"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:166
+msgid "Dashed"
+msgstr "Kesik"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:167
+#: ../admin/views/BWGEViewThemes_bwge.php:204
+msgid "Double"
+msgstr "Çifte"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:168
+msgid "Groove"
+msgstr "Oluk"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:169
+msgid "Ridge"
+msgstr "Sırt"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:170
+msgid "Inset"
+msgstr "Ankastre"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:171
+msgid "Outset"
+msgstr "Başlangıç"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:186
+#: ../admin/views/BWGEViewThemes_bwge.php:920
+#: ../admin/views/BWGEViewThemes_bwge.php:2908 ../admin/views/BWGEViewThemes_bwge.
+#: php:3362
+msgid "Left"
+msgstr "Sol"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:187
+msgid "Center"
+msgstr "Merkez"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:188
+#: ../admin/views/BWGEViewThemes_bwge.php:918
+#: ../admin/views/BWGEViewThemes_bwge.php:2906 ../admin/views/BWGEViewThemes_bwge.
+#: php:3364
+msgid "Right"
+msgstr "Sağ"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:191
+msgid "Lighter"
+msgstr "Çakmak"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:192
+msgid "Normal"
+msgstr "Normal"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:193
+msgid "Bold"
+msgstr "Cesur"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:197
+msgid "Rotate"
+msgstr "Döndür"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:198
+msgid "Scale"
+msgstr "Ölçek"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:199
+msgid "Skew"
+msgstr "Çarpıklık"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:202
+msgid "Chevron"
+msgstr "Chevron"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:203
+msgid "Angle"
+msgstr "Açı"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:207
+msgid "Star"
+msgstr "Star"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:208
+msgid "Bell"
+msgstr "Çan"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:209
+msgid "Circle"
+msgstr "Çember"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:210
+msgid "Flag"
+msgstr "Bayrak"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:211
+msgid "Heart"
+msgstr "Kalp"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:212
+msgid "Square"
+msgstr "Kare şeklinde"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:216
+msgid "This section allows you to add/edit theme."
+msgstr "Bu bölüm / düzenleme tema eklemenizi sağlar."
+
+#: ../admin/views/BWGEViewThemes_bwge.php:227
+msgid "Do you want to reset to default?"
+msgstr "Eğer varsayılan sıfırlamak istiyor musunuz?"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:244
+msgid "Page Navigation"
+msgstr "Sayfa Gezinme"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:249
+msgid "Parameters"
+msgstr "Parametreler"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:264
+#: ../admin/views/BWGEViewThemes_bwge.php:1246
+#: ../admin/views/BWGEViewThemes_bwge.php:1428 ..
+#: /admin/views/BWGEViewThemes_bwge.php:1851 2414
+#: ../admin/views/BWGEViewThemes_bwge.php:3624
+msgid "Margin:"
+msgstr "Marj:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:270
+#: ../admin/views/BWGEViewThemes_bwge.php:472
+#: ../admin/views/BWGEViewThemes_bwge.php:622 ../admin/views/BWGEViewThemes_bwge.
+#: php:1253 ../admin/views/BWGEViewThemes_bwge.php:1421 ..
+#: /admin/views/BWGEViewThemes_bwge.php:1858 2421
+#: ../admin/views/BWGEViewThemes_bwge.php:3631
+msgid "Padding:"
+msgstr "Dolgu:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:276
+#: ../admin/views/BWGEViewThemes_bwge.php:478
+#: ../admin/views/BWGEViewThemes_bwge.php:628 ../admin/views/BWGEViewThemes_bwge.
+#: php:1260 ../admin/views/BWGEViewThemes_bwge.php:1435 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2182 2467
+#: ../admin/views/BWGEViewThemes_bwge.php:3585
+msgid "Border width:"
+msgstr "Sınır genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:282
+#: ../admin/views/BWGEViewThemes_bwge.php:484
+#: ../admin/views/BWGEViewThemes_bwge.php:634 ../admin/views/BWGEViewThemes_bwge.
+#: php:1266 ../admin/views/BWGEViewThemes_bwge.php:1441 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2188 2473
+#: ../admin/views/BWGEViewThemes_bwge.php:3591
+msgid "Border style:"
+msgstr "Sınır stili:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:296
+#: ../admin/views/BWGEViewThemes_bwge.php:498
+#: ../admin/views/BWGEViewThemes_bwge.php:648 ../admin/views/BWGEViewThemes_bwge.
+#: php:1280 ../admin/views/BWGEViewThemes_bwge.php:1455 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2202 2487
+#: ../admin/views/BWGEViewThemes_bwge.php:3605
+msgid "Border color:"
+msgstr "Sınır rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:302
+#: ../admin/views/BWGEViewThemes_bwge.php:504
+#: ../admin/views/BWGEViewThemes_bwge.php:654 ../admin/views/BWGEViewThemes_bwge.
+#: php:1286 ../admin/views/BWGEViewThemes_bwge.php:1461 ..
+#: /admin/views/BWGEViewThemes_bwge.php:1877 2208
+#: ../admin/views/BWGEViewThemes_bwge.php:2493
+#: /admin/views/BWGEViewThemes_bwge.php:3611
+msgid "Border radius:"
+msgstr "Sınır yarıçapı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:305
+#: ../admin/views/BWGEViewThemes_bwge.php:312
+#: ../admin/views/BWGEViewThemes_bwge.php:452 ../admin/views/BWGEViewThemes_bwge.
+#: php:459 ../admin/views/BWGEViewThemes_bwge.php:507 ..
+#: /admin/views/BWGEViewThemes_bwge.php:657 780
+#: ../admin/views/BWGEViewThemes_bwge.php:787 php:883
+#: ../admin/views/BWGEViewThemes_bwge.php:904
+#: /admin/views/BWGEViewThemes_bwge.php:928 962
+#: ../admin/views/BWGEViewThemes_bwge.php:1018 php:1074
+#: ../admin/views/BWGEViewThemes_bwge.php:1081
+#: /admin/views/BWGEViewThemes_bwge.php:1127 1134
+#: ../admin/views/BWGEViewThemes_bwge.php:1176
+#: /admin/views/BWGEViewThemes_bwge.php:1196 1249
+#: ../admin/views/BWGEViewThemes_bwge.php:1256
+#: /admin/views/BWGEViewThemes_bwge.php:1289 1309
+#: ../admin/views/BWGEViewThemes_bwge.php:1362
+#: /admin/views/BWGEViewThemes_bwge.php:1369 1402
+#: ../admin/views/BWGEViewThemes_bwge.php:1424
+#: /admin/views/BWGEViewThemes_bwge.php:1431 1464
+#: ../admin/views/BWGEViewThemes_bwge.php:1471
+#: /admin/views/BWGEViewThemes_bwge.php:1609 1616
+#: ../admin/views/BWGEViewThemes_bwge.php:1663
+#: /admin/views/BWGEViewThemes_bwge.php:1717 1724
+#: ../admin/views/BWGEViewThemes_bwge.php:1807
+#: /admin/views/BWGEViewThemes_bwge.php:1847 1854
+#: ../admin/views/BWGEViewThemes_bwge.php:1880
+#: /admin/views/BWGEViewThemes_bwge.php:1913 1966
+#: ../admin/views/BWGEViewThemes_bwge.php:1999
+#: /admin/views/BWGEViewThemes_bwge.php:2018 2091
+#: ../admin/views/BWGEViewThemes_bwge.php:2211
+#: /admin/views/BWGEViewThemes_bwge.php:2327 2374
+#: ../admin/views/BWGEViewThemes_bwge.php:2417
+#: /admin/views/BWGEViewThemes_bwge.php:2424 2431
+#: ../admin/views/BWGEViewThemes_bwge.php:2496
+#: /admin/views/BWGEViewThemes_bwge.php:2509 2554
+#: ../admin/views/BWGEViewThemes_bwge.php:2649
+#: /admin/views/BWGEViewThemes_bwge.php:2703 2736
+#: ../admin/views/BWGEViewThemes_bwge.php:2835
+#: /admin/views/BWGEViewThemes_bwge.php:2872 2916
+#: ../admin/views/BWGEViewThemes_bwge.php:2949
+#: /admin/views/BWGEViewThemes_bwge.php:3054 3123
+#: ../admin/views/BWGEViewThemes_bwge.php:3130
+#: /admin/views/BWGEViewThemes_bwge.php:3137 3253
+#: ../admin/views/BWGEViewThemes_bwge.php:3260
+#: /admin/views/BWGEViewThemes_bwge.php:3267 3454
+#: ../admin/views/BWGEViewThemes_bwge.php:3473
+#: /admin/views/BWGEViewThemes_bwge.php:3506 3614
+#: ../admin/views/BWGEViewThemes_bwge.php:3627
+#: /admin/views/BWGEViewThemes_bwge.php:3634 3663
+#: ../admin/views/BWGEViewThemes_bwge.php:3815
+#: /admin/views/BWGEViewThemes_bwge.php:3897
+msgid "Use CSS type values."
+msgstr "CSS türü değerlerini kullanın."
+
+#: ../admin/views/BWGEViewThemes_bwge.php:309
+#: ../admin/views/BWGEViewThemes_bwge.php:1468
+msgid "Shadow:"
+msgstr "Gölge:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:316
+#: ../admin/views/BWGEViewThemes_bwge.php:557
+#: ../admin/views/BWGEViewThemes_bwge.php:707 ../admin/views/BWGEViewThemes_bwge.
+#: php:1475 ../admin/views/BWGEViewThemes_bwge.php:2215
+msgid "Hover effect:"
+msgstr "Etkisi Hover:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:330
+#: ../admin/views/BWGEViewThemes_bwge.php:571
+#: ../admin/views/BWGEViewThemes_bwge.php:721 ../admin/views/BWGEViewThemes_bwge.
+#: php:1489 ../admin/views/BWGEViewThemes_bwge.php:1772 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2229
+msgid "Hover effect value:"
+msgstr "Etki değeri gezdirin:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:333
+#: ../admin/views/BWGEViewThemes_bwge.php:574
+#: ../admin/views/BWGEViewThemes_bwge.php:724 ../admin/views/BWGEViewThemes_bwge.
+#: php:1492 ../admin/views/BWGEViewThemes_bwge.php:1775 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2232
+msgid "E.g. Rotate: 10deg, Scale: 1.5, Skew: 10deg."
+msgstr "Örneğin Döndür: 10deg, Ölçek: 1.5, Eğrilti: 10deg."
+
+#: ../admin/views/BWGEViewThemes_bwge.php:337
+#: ../admin/views/BWGEViewThemes_bwge.php:578
+#: ../admin/views/BWGEViewThemes_bwge.php:728
+msgid "Transition:"
+msgstr "Geçiş:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:353
+#: ../admin/views/BWGEViewThemes_bwge.php:1511
+#: ../admin/views/BWGEViewThemes_bwge.php:1779
+msgid "Thumbnail background color:"
+msgstr "Küçük resim arka plan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:360
+#: ../admin/views/BWGEViewThemes_bwge.php:1517
+#: ../admin/views/BWGEViewThemes_bwge.php:1751
+msgid "Thumbnail transparency:"
+msgstr "Küçük resim şeffaflık:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:367
+#: ../admin/views/BWGEViewThemes_bwge.php:1180
+#: ../admin/views/BWGEViewThemes_bwge.php:1524 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2251
+msgid "Full background color:"
+msgstr "Tam arka plan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:373
+#: ../admin/views/BWGEViewThemes_bwge.php:1186
+#: ../admin/views/BWGEViewThemes_bwge.php:1530 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2257
+msgid "Full background transparency:"
+msgstr "Tam plan şeffaflığı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:380
+#: ../admin/views/BWGEViewThemes_bwge.php:537
+#: ../admin/views/BWGEViewThemes_bwge.php:687 ../admin/views/BWGEViewThemes_bwge.
+#: php:1232 ../admin/views/BWGEViewThemes_bwge.php:1537 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2264 2400
+#: ../admin/views/BWGEViewThemes_bwge.php:3682
+msgid "Alignment:"
+msgstr "Hizalama:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:403
+#: ../admin/views/BWGEViewThemes_bwge.php:917
+#: ../admin/views/BWGEViewThemes_bwge.php:1560 ../admin/views/BWGEViewThemes_bwge.
+#: php:2634 ../admin/views/BWGEViewThemes_bwge.php:2905 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2993 3061
+#: ../admin/views/BWGEViewThemes_bwge.php:3191
+#: /admin/views/BWGEViewThemes_bwge.php:3676
+msgid "Top"
+msgstr "En"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:405
+#: ../admin/views/BWGEViewThemes_bwge.php:919
+#: ../admin/views/BWGEViewThemes_bwge.php:1562 ../admin/views/BWGEViewThemes_bwge.
+#: php:2636 ../admin/views/BWGEViewThemes_bwge.php:2907 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2995 3063
+#: ../admin/views/BWGEViewThemes_bwge.php:3193
+#: /admin/views/BWGEViewThemes_bwge.php:3678
+msgid "Bottom"
+msgstr "Alt"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:409
+#: ../admin/views/BWGEViewThemes_bwge.php:737
+#: ../admin/views/BWGEViewThemes_bwge.php:1566 ../admin/views/BWGEViewThemes_bwge.
+#: php:2048 ../admin/views/BWGEViewThemes_bwge.php:2284 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3305 3928
+msgid "Title font size:"
+msgstr "Başlık font boyutu:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:415
+#: ../admin/views/BWGEViewThemes_bwge.php:743
+#: ../admin/views/BWGEViewThemes_bwge.php:1572 ../admin/views/BWGEViewThemes_bwge.
+#: php:2054 ../admin/views/BWGEViewThemes_bwge.php:2290 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3271
+msgid "Title font color:"
+msgstr "Başlık font color:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:421
+#: ../admin/views/BWGEViewThemes_bwge.php:749
+#: ../admin/views/BWGEViewThemes_bwge.php:1097 ../admin/views/BWGEViewThemes_bwge.
+#: php:1578 ../admin/views/BWGEViewThemes_bwge.php:2060 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2296 3277
+msgid "Title font family:"
+msgstr "Başlık yazı ailesi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:435
+#: ../admin/views/BWGEViewThemes_bwge.php:763
+#: ../admin/views/BWGEViewThemes_bwge.php:1592 ../admin/views/BWGEViewThemes_bwge.
+#: php:2074 ../admin/views/BWGEViewThemes_bwge.php:2310 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3291 3941
+msgid "Title font weight:"
+msgstr "Başlık yazı ağırlığı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:449
+#: ../admin/views/BWGEViewThemes_bwge.php:777
+#: ../admin/views/BWGEViewThemes_bwge.php:1606 ../admin/views/BWGEViewThemes_bwge.
+#: php:2324
+msgid "Title box shadow:"
+msgstr "Başlık kutusu gölge:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:456
+#: ../admin/views/BWGEViewThemes_bwge.php:784
+#: ../admin/views/BWGEViewThemes_bwge.php:1613 ../admin/views/BWGEViewThemes_bwge.
+#: php:2009 ../admin/views/BWGEViewThemes_bwge.php:3902
+msgid "Title margin:"
+msgstr "Başlık marjı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:517
+msgid "Transparency:"
+msgstr "Şeffaflık:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:524
+#: ../admin/views/BWGEViewThemes_bwge.php:674
+#: ../admin/views/BWGEViewThemes_bwge.php:799 ../admin/views/BWGEViewThemes_bwge.
+#: php:1293 ../admin/views/BWGEViewThemes_bwge.php:1864 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2387 3724
+msgid "Background color:"
+msgstr "Arka plan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:530
+#: ../admin/views/BWGEViewThemes_bwge.php:1299
+#: ../admin/views/BWGEViewThemes_bwge.php:1870 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2393
+msgid "Background transparency:"
+msgstr "Arka plan şeffaflığı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:587
+#: ../admin/views/BWGEViewThemes_bwge.php:1138
+#: ../admin/views/BWGEViewThemes_bwge.php:2121 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3346
+msgid "Description font size:"
+msgstr "Açıklama font boyutu:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:593
+#: ../admin/views/BWGEViewThemes_bwge.php:2127
+#: ../admin/views/BWGEViewThemes_bwge.php:3312
+msgid "Description font color:"
+msgstr "Açıklama font color:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:599
+#: ../admin/views/BWGEViewThemes_bwge.php:1150
+#: ../admin/views/BWGEViewThemes_bwge.php:2133 ..
+#: /admin/views/BWGEViewThemes_bwge.php:3318
+msgid "Description font family:"
+msgstr "Açıklama yazı ailesi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:667
+msgid "Opacity:"
+msgstr "Saydamlık:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:680
+msgid "Background opacity:"
+msgstr "Arkaplan donukluk:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:805
+#: ../admin/views/BWGEViewThemes_bwge.php:2851
+#: ../admin/views/BWGEViewThemes_bwge.php:3737
+msgid "Right, left buttons size:"
+msgstr "Sağ, sol tuşları boyutu:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:811
+#: ../admin/views/BWGEViewThemes_bwge.php:3743
+msgid "Play, pause buttons size:"
+msgstr "Düğmeleri boyutunu duraklatma, Çal:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:817
+#: ../admin/views/BWGEViewThemes_bwge.php:2519
+#: ../admin/views/BWGEViewThemes_bwge.php:3749
+msgid "Buttons color:"
+msgstr "Düğmeler color:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:823
+#: ../admin/views/BWGEViewThemes_bwge.php:3755
+msgid "Buttons transparency:"
+msgstr "Düğmeler şeffaflık:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:830
+#: ../admin/views/BWGEViewThemes_bwge.php:3762
+msgid "Buttons hover color:"
+msgstr "Düğmeler renk hover:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:836
+#: ../admin/views/BWGEViewThemes_bwge.php:2845
+#: ../admin/views/BWGEViewThemes_bwge.php:3768
+msgid "Right, left buttons width:"
+msgstr "Sağ, sol düğmeler genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:842
+#: ../admin/views/BWGEViewThemes_bwge.php:2839
+#: ../admin/views/BWGEViewThemes_bwge.php:3774
+msgid "Right, left buttons height:"
+msgstr "Doğru, düğme yüksekliği sol:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:848
+#: ../admin/views/BWGEViewThemes_bwge.php:2820
+#: ../admin/views/BWGEViewThemes_bwge.php:3780
+msgid "Right, left buttons background color:"
+msgstr "Doğru, düğmeleri arka plan rengini sol:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:854
+#: ../admin/views/BWGEViewThemes_bwge.php:2876
+#: ../admin/views/BWGEViewThemes_bwge.php:3786
+msgid "Right, left buttons border width:"
+msgstr "Doğru, düğmeleri sınır genişliği sol:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:860
+#: ../admin/views/BWGEViewThemes_bwge.php:2882
+#: ../admin/views/BWGEViewThemes_bwge.php:3792
+msgid "Right, left buttons border style:"
+msgstr "Doğru, düğmeleri kenarlık stilini sol:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:874
+#: ../admin/views/BWGEViewThemes_bwge.php:2896
+#: ../admin/views/BWGEViewThemes_bwge.php:3806
+msgid "Right, left buttons border color:"
+msgstr "Doğru, düğmeleri sınır rengini sol:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:880
+#: ../admin/views/BWGEViewThemes_bwge.php:2869
+#: ../admin/views/BWGEViewThemes_bwge.php:3812
+msgid "Right, left buttons border radius:"
+msgstr "Doğru, düğmeleri sınır yarıçapı sol:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:887
+#: ../admin/views/BWGEViewThemes_bwge.php:2806
+#: ../admin/views/BWGEViewThemes_bwge.php:3819
+msgid "Right, left buttons style:"
+msgstr "Doğru, düğme stili sol:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:901
+#: ../admin/views/BWGEViewThemes_bwge.php:2832
+msgid "Right, left buttons box shadow:"
+msgstr "Sağ, sol düğmeleri gölge kutusu:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:914
+msgid "Filmstrip/Slider bullet position:"
+msgstr "Film Şeridi / kaymak bullet pozisyonlar:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:925
+msgid "Filmstrip margin:"
+msgstr "Film şeridi margin:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:932
+msgid "Filmstrip border width:"
+msgstr "Film karesi sınır genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:938
+msgid "Filmstrip border style:"
+msgstr "Film karesi Sınır stili:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:953
+msgid "Filmstrip border color:"
+msgstr "Film karesi sınır rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:959
+msgid "Filmstrip border radius:"
+msgstr "Film karesi sınır yarıçapı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:966
+msgid "Filmstrip active border width:"
+msgstr "Film Şeridi aktif sınır genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:972
+msgid "Filmstrip active border color:"
+msgstr "Film Şeridi aktif sınır rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:978
+msgid "Filmstrip deactive transparency: "
+msgstr "Film Şeridi deactive şeffaflık:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:985
+msgid "Filmstrip right, left buttons background color: "
+msgstr "Film karesi sağ, sol tuşları arka plan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:991
+#: ../admin/views/BWGEViewThemes_bwge.php:2978
+msgid "Filmstrip right, left buttons color:"
+msgstr "Film karesi sağ, sol tuşları rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:997
+#: ../admin/views/BWGEViewThemes_bwge.php:2972
+msgid "Filmstrip right, left buttons size:"
+msgstr "Film karesi sağ, sol tuşları boyutu:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1003
+msgid "Slider bullet width: "
+msgstr "Slider bullet genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1009
+msgid "Slider bullet height:"
+msgstr "Slider bullet yüksekliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1015
+msgid "Slider bullet border radius: "
+msgstr "Slider bullet sınır yarıçapı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1022
+msgid "Slider bullet background color:"
+msgstr "Slider bullet arka plan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1028
+msgid "Slider bullet margin:"
+msgstr "Slider bullet marjı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1034
+msgid "Slider bullet active background color: "
+msgstr "Slider kurşun aktif arka plan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1040
+msgid "Slider bullet active border width:"
+msgstr "Slider kurşun aktif sınır genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1046
+msgid "Slider bullet active border color: "
+msgstr "Slider kurşun aktif sınır rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1058
+msgid "Title background color: "
+msgstr "Başlık arka plan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1064
+msgid "Title transparency: "
+msgstr "Başlık şeffaflık:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1071
+#: ../admin/views/BWGEViewThemes_bwge.php:3894
+msgid "Title border radius:"
+msgstr "Başlık sınır yarıçapı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1078
+msgid "Title padding: "
+msgstr "Başlık padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1085
+msgid "Title font size: "
+msgstr "Başlık font boyutu:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1091
+msgid "Title color: "
+msgstr "Başlık rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1111
+#: ../admin/views/BWGEViewThemes_bwge.php:1406
+msgid "Description background color:"
+msgstr "Açıklama arka plan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1117
+msgid "Description transparency:"
+msgstr "Açıklama şeffaflık:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1124
+#: ../admin/views/BWGEViewThemes_bwge.php:1399
+msgid "Description border radius:"
+msgstr "Açıklama sınır yarıçapı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1131
+#: ../admin/views/BWGEViewThemes_bwge.php:1366
+#: ../admin/views/BWGEViewThemes_bwge.php:2088
+msgid "Description padding:"
+msgstr "Açıklama padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1144
+msgid "Description color:"
+msgstr "Açıklama rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1173
+msgid "Full padding:"
+msgstr "Tam padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1193
+msgid "Full border radius:"
+msgstr "Tam sınır yarıçapı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1200
+msgid "Full border width:"
+msgstr "Tam sınır genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1206
+msgid "Full border style:"
+msgstr "Tam sınır stili:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1220
+msgid "Full border color:"
+msgstr "Tam sınır rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1306
+#: ../admin/views/BWGEViewThemes_bwge.php:2428
+#: ../admin/views/BWGEViewThemes_bwge.php:3660
+msgid "Box shadow:"
+msgstr "Kutu gölge:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1319
+msgid "Title alignment:"
+msgstr "Başlık hizalama:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1333
+#: ../admin/views/BWGEViewThemes_bwge.php:1620
+#: ../admin/views/BWGEViewThemes_bwge.php:2331 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2455 3545
+msgid "Font size:"
+msgstr "Yazı Boyutu:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1339
+#: ../admin/views/BWGEViewThemes_bwge.php:1626
+#: ../admin/views/BWGEViewThemes_bwge.php:2337 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2461 3551
+msgid "Font color:"
+msgstr "Yazı rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1345
+#: ../admin/views/BWGEViewThemes_bwge.php:1632
+#: ../admin/views/BWGEViewThemes_bwge.php:2343 ..
+#: /admin/views/BWGEViewThemes_bwge.php:2441 3557
+msgid "Font family:"
+msgstr "Font ailesi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1359
+msgid "Description margin:"
+msgstr "Açıklama marjı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1373
+#: ../admin/views/BWGEViewThemes_bwge.php:2095
+msgid "Description border width:"
+msgstr "Açıklama sınır genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1379
+#: ../admin/views/BWGEViewThemes_bwge.php:2101
+msgid "Description border style:"
+msgstr "Açıklama Sınır stili:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1393
+#: ../admin/views/BWGEViewThemes_bwge.php:2115
+msgid "Description border color:"
+msgstr "Açıklama sınır rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1496
+#: ../admin/views/BWGEViewThemes_bwge.php:1728
+#: ../admin/views/BWGEViewThemes_bwge.php:2236
+msgid "Thumbnail transition:"
+msgstr "Küçük resim geçiş:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1646
+#: ../admin/views/BWGEViewThemes_bwge.php:2357
+#: ../admin/views/BWGEViewThemes_bwge.php:3571
+msgid "Font weight:"
+msgstr "Yazı ağırlığı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1660
+#: ../admin/views/BWGEViewThemes_bwge.php:1910
+#: ../admin/views/BWGEViewThemes_bwge.php:2371
+msgid "Back padding:"
+msgstr "Arka padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1676
+msgid "Thumbnail margin:"
+msgstr "Küçük resim margin:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1682
+msgid "Thumbnail padding:"
+msgstr "Küçük resim padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1688
+msgid "Thumbnail border width:"
+msgstr "Küçük resim sınır genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1694
+msgid "Thumbnail border style:"
+msgstr "Küçük resim Sınır tarzı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1708
+msgid "Thumbnail border color:"
+msgstr "Küçük resim sınır rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1714
+msgid "Thumbnail border radius:"
+msgstr "Küçük resim sınır yarıçapı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1721
+msgid "Thumbnail box shadow:"
+msgstr "Küçük resim kutu gölge:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1737
+msgid "Thumbnail alignment:"
+msgstr "Küçük resim hizalama:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1758
+msgid "Thumbnail hover effect:"
+msgstr "Küçük resim hover efekti:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1785
+msgid "Thumbnails background color:"
+msgstr "Minyatür arkaplan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1791
+msgid "Thumbnail background transparency:"
+msgstr "Küçük resim arkaplan şeffaflık:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1804
+msgid "Thumbnail div padding:"
+msgstr "Küçük resim div padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1811
+msgid "Thumbnail div background color:"
+msgstr "Küçük Resim div arka plan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1817
+msgid "Thumbnail div border width:"
+msgstr "Küçük Resim div sınır genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1824
+msgid "humbnail div border style:"
+msgstr "div kenarlık stilini humbnail:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1838
+msgid "Thumbnail div border color:"
+msgstr "Küçük Resim div kenarlık rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1844
+msgid "Thumbnail div border radius:"
+msgstr "Küçük Resim div sınır yarıçapı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1884
+msgid "Separator width:"
+msgstr "Ayırıcı genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1890
+msgid "Separator style:"
+msgstr "Ayırıcı stili:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1904
+msgid "Separator color:"
+msgstr "Ayırıcı rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1917
+msgid "Back font size:"
+msgstr "Geri font boyutu:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1923
+msgid "Back font color:"
+msgstr "Geri font color:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1929
+msgid "Back font family:"
+msgstr "Arka yazı ailesi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1943
+msgid "Back font weight:"
+msgstr "Arka yazı ağırlığı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1963
+msgid "Text div padding:"
+msgstr "Metin div padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1970
+msgid "Text div border width:"
+msgstr "Metin div sınır genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1976
+msgid "Text border style:"
+msgstr "Metin Sınır stili:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1990
+msgid "Text border color:"
+msgstr "Metin sınır rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:1996
+msgid "Text div border radius:"
+msgstr "Metin div sınır yarıçapı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2003
+msgid "Text background color:"
+msgstr "Metin arka plan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2015
+#: ../admin/views/BWGEViewThemes_bwge.php:3908
+msgid "Title padding:"
+msgstr "Başlık padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2022
+msgid "Title border width:"
+msgstr "Başlık sınır genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2028
+msgid "Title border style:"
+msgstr "Başlık Sınır stili:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2042
+msgid "Title border color:"
+msgstr "Başlık sınır rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2147
+#: ../admin/views/BWGEViewThemes_bwge.php:3332
+msgid "Description font weight:"
+msgstr "Açıklama yazı ağırlığı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2161
+msgid "Description more size:"
+msgstr "Açıklama fazla boyutu:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2167
+msgid "Description more color:"
+msgstr "Açıklama daha fazla renk:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2506
+msgid "Buttons and title margin:"
+msgstr "Düğmeler ve başlık marjı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2513
+msgid "Buttons size:"
+msgstr "Düğmeler boyutu:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2525
+msgid "Buttons and title border width:"
+msgstr "Düğmeler ve başlık sınır genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2531
+msgid "Buttons and title border style:"
+msgstr "Düğmeler ve başlık Sınır tarzı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2545
+msgid "Buttons and title border color:"
+msgstr "Düğmeler ve başlık sınır rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2551
+msgid "Buttons and title border radius:"
+msgstr "Düğmeler ve başlık sınır yarıçapı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2558
+msgid "Buttons and title background color:"
+msgstr "Düğmeler ve başlık arka plan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2564
+msgid "Buttons and title background transparency:"
+msgstr "Düğmeler ve başlık arka plan saydamlığı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2571
+msgid "Buttons or title alignment:"
+msgstr "Düğmeler veya başlık hizalama:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2594
+msgid "Overlay background color:"
+msgstr "Yerleşimi arkaplan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2600
+msgid "Overlay background transparency:"
+msgstr "Yerleşimi arkaplan şeffaflık:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2607
+msgid "Lightbox background color:"
+msgstr "Lightbox arka plan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2613
+msgid "Control buttons height:"
+msgstr "Kontrol düğmeleri yüksekliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2619
+msgid "Control buttons margin (top):"
+msgstr "Kontrol düğmeleri marjı (üst):"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2625
+msgid "Control buttons margin (left):"
+msgstr "Kontrol düğmeleri marjı (solda):"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2631
+msgid "Control buttons position:"
+msgstr "Kontrol düğmeleri pozisyonlar:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2640
+msgid "Control buttons background color:"
+msgstr "Kontrol düğmeleri arka plan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2646
+msgid "Control buttons container border radius:"
+msgstr "Kontrol düğmeleri konteyner sınır yarıçapı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2653
+msgid "Control buttons container background transparency:"
+msgstr "Kontrol düğmeleri konteyner arka plan saydamlığı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2660
+msgid "Control buttons alignment:"
+msgstr "Kontrol düğmeleri hizalama:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2674
+msgid "Control buttons color:"
+msgstr "Kontrol düğmeleri Renk:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2680
+msgid "Control buttons transparency:"
+msgstr "Kontrol düğmeleri şeffaflık:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2687
+msgid "Toggle button height:"
+msgstr "Geçiş düğme yüksekliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2693
+msgid "Toggle button width:"
+msgstr "Geçiş düğme genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2699
+msgid "Close button border radius:"
+msgstr "Kapat düğmesi sınır yarıçapı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2707
+msgid "Close button border width:"
+msgstr "Kapat düğmesi sınır genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2713
+msgid "Close button border style:"
+msgstr "Kapat düğmesi Sınır stili:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2727
+msgid "Close button border color:"
+msgstr "Kapat düğmesi sınır rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2733
+msgid "Close button box shadow:"
+msgstr "Kapat düğmesi kutusu gölge:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2740
+msgid "Close button background color:"
+msgstr "Kapat düğmesi arka plan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2746
+msgid "Close button transparency:"
+msgstr "Kapat düğmesi şeffaflık:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2752
+msgid "Close button width:"
+msgstr "Kapat düğmesi genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2758
+msgid "Close button height:"
+msgstr "Kapat düğmesi yüksekliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2764
+msgid "Close button top:"
+msgstr "Kapat düğmesi top:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2770
+msgid "Close button right:"
+msgstr "Kapat düğmesi sağ:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2776
+msgid "Close button size:"
+msgstr "Kapat düğmesi boyutu:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2782
+msgid "Close button color:"
+msgstr "Kapat düğmesi Renk:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2788
+msgid "Fullscreen close button color:"
+msgstr "Tam ekran kapatma düğmesi Renk:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2794
+msgid "Share buttons color:"
+msgstr "Hisse düğmeleri Renk:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2826
+msgid "Right, left buttons transparency:"
+msgstr "Doğru, düğmeler şeffaflık sol:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2857
+msgid "Right, left, close buttons hover color:"
+msgstr "Sağ, sol, yakın düğmeleri renk hover:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2863
+msgid "Right, left buttons color:"
+msgstr "Doğru, düğme rengi sol:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2902
+msgid "Filmstrip position:"
+msgstr "Film şeridi pozisyonlar:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2913
+msgid "Filmstrip thumbnail margin:"
+msgstr "Film karesi küçük marjı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2920
+msgid "Filmstrip thumbnail border width:"
+msgstr "Film karesi küçük sınır genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2926
+msgid "Filmstrip thumbnail border style:"
+msgstr "Film karesi küçük Sınır stili:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2940
+msgid "Filmstrip thumbnail border color:"
+msgstr "Film karesi küçük sınır rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2946
+msgid "Filmstrip thumbnail border radius:"
+msgstr "Film karesi küçük sınır yarıçapı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2953
+msgid "Filmstrip thumbnail active border width:"
+msgstr "Film karesi küçük aktif sınır genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2959
+msgid "Filmstrip thumbnail active border color:"
+msgstr "Film karesi küçük aktif sınır rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2965
+msgid "Filmstrip thumbnail deactive transparency:"
+msgstr "Film karesi küçük deaktiv şeffaflık:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2984
+msgid "Filmstrip right, left button background color:"
+msgstr "Film karesi sağ, sol düğme arka plan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2990
+msgid "Rating position:"
+msgstr "Değerlendirme pozisyonlar:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:2999
+msgid "Rating alignment:"
+msgstr "Değerlendirme hizalama:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3013
+msgid "Rating icon:"
+msgstr "Değerlendirme simgesi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3027
+msgid "Rating color:"
+msgstr "Değerlendirme rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3033
+msgid "Rating hover color:"
+msgstr "Değerlendirme hover rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3039
+msgid "Rating size:"
+msgstr "Değerlendirme boyutu:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3045
+msgid "Rating icon count:"
+msgstr "Derecelendirme simgesi saymak:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3051
+msgid "Rating padding:"
+msgstr "Değerlendirme padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3058
+msgid "Hit counter position:"
+msgstr "Sayaç konumunu Hit:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3067
+msgid "Hit counter alignment:"
+msgstr "Sayaç hizalama Hit:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3081
+msgid "Hit counter background color:"
+msgstr "Sayaç arka plan rengini Hit:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3087
+msgid "Hit counter background transparency:"
+msgstr "Sayaç arka plan saydamlığı Hit:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3094
+msgid "Hit counter border width:"
+msgstr "Sayaç sınır genişliği Hit:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3100
+msgid "Hit counter border style:"
+msgstr "Sayaç kenarlık stilini Hit:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3114
+msgid "Hit counter border color:"
+msgstr "Sayaç sınır rengini Hit:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3120
+msgid "Hit counter border radius:"
+msgstr "Sayaç sınır yarıçapı Hit:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3127
+msgid "Hit counter padding:"
+msgstr "Sayaç doldurma Hit:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3134
+msgid "Hit counter margin:"
+msgstr "Sayaç marjı Hit:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3141
+msgid "Hit counter font color:"
+msgstr "Sayaç font color Hit:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3147
+msgid "Hit counter font family:"
+msgstr "Sayaç font ailesi Hit:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3161
+msgid "Hit counter font weight:"
+msgstr "Sayaç yazı ağırlık Hit:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3175
+msgid "Hit counter font size:"
+msgstr "Hit counter font boyutu:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3188
+msgid "Info position:"
+msgstr "Bilgi pozisyonlar:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3197
+msgid "Info alignment:"
+msgstr "Bilgi hizalama:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3211
+msgid "Info background color:"
+msgstr "Bilgi arkaplan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3217
+msgid "Info background transparency:"
+msgstr "Bilgi Arka plan şeffaflığı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3224
+msgid "Info border width:"
+msgstr "Bilgi sınır genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3230
+msgid "Info border style:"
+msgstr "Bilgi Sınır stili:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3244
+msgid "Info border color:"
+msgstr "Bilgi sınır rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3250
+msgid "Info border radius:"
+msgstr "Bilgi sınır yarıçapı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3257
+msgid "Info padding:"
+msgstr "Bilgi padding:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3264
+msgid "Info margin:"
+msgstr "Bilgi marjı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3353
+msgid "Comments Width:"
+msgstr "Yorumlar Genişlik:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3359
+msgid "Comments position:"
+msgstr "Yorumlar pozisyonlar:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3368
+msgid "Comments background color:"
+msgstr "Yorumlar arka plan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3374
+msgid "Comments font size:"
+msgstr "Yorumlar font boyutu:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3380
+msgid "Comments font color:"
+msgstr "Yorumlar tipi rengini:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3386
+msgid "Comments font family:"
+msgstr "Yorumlar yazı ailesi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3400
+msgid "Comments author font size:"
+msgstr "Yorumlar Yazar font boyutu:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3407
+msgid "Comments date font size:"
+msgstr "Yorumlar tarih font boyutu:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3413
+msgid "Comments body font size:"
+msgstr "Yorumlar vücut font boyutu:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3419
+msgid "Comment input border width:"
+msgstr "Giriş sınır genişliği Yorum:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3425
+msgid "omment input border style:"
+msgstr "omment giriş Sınır stili:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3439
+msgid "Comment input border color:"
+msgstr "Giriş kenarlık rengi Yorum:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3445
+msgid "Comment input border radius:"
+msgstr "Giriş sınır yarıçapı Yorum:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3451
+msgid "Comment input padding:"
+msgstr "Giriş doldurma Yorum:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3458
+msgid "Comment input background color:"
+msgstr "Giriş arka plan rengini Yorum:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3464
+msgid "Comment button background color:"
+msgstr "Düğme arka plan rengini Yorum:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3470
+msgid "Comment button padding:"
+msgstr "Düğme doldurma Yorum:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3477
+msgid "Comment button border width:"
+msgstr "Düğme sınır genişliği Yorum:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3483
+msgid "Comment button border style:"
+msgstr "Düğme kenarlık stilini Yorum:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3497
+msgid "Comment button border color:"
+msgstr "Düğme kenarlık rengi Yorum:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3503
+msgid "omment button border radius:"
+msgstr "omment düğme sınır yarıçapı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3510
+msgid "Comment separator width:"
+msgstr "Ayırıcı genişliğini Yorum:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3516
+msgid "Comment separator style:"
+msgstr "Ayırıcı stilini Yorum:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3530
+msgid "Comment separator color:"
+msgstr "Ayırıcı rengi Yorum:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3638
+msgid "Button background color:"
+msgstr "Düğme arka plan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3644
+msgid "Button background transparency:"
+msgstr "Düğme arka plan saydamlığı:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3651
+msgid "Button transition:"
+msgstr "Düğme geçiş:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3673
+msgid "Position:"
+msgstr "Pozisyon:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3696
+msgid "Numbering:"
+msgstr "Numaralandırma:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3705
+msgid "Button text:"
+msgstr "Düğme metni:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3710
+msgid "Arrow"
+msgstr "Arrow"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3711
+msgid "Next, previous buttons values."
+msgstr "Ardından, önceki düğmeleri değerleri."
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3730
+msgid "Container opacity:"
+msgstr "Konteyner donukluk:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3840
+msgid "Carousel margin:"
+msgstr "Carousel margin:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3846
+msgid "Image border width:"
+msgstr "Görüntü sınır genişliği:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3853
+msgid "Image border style:"
+msgstr "Görüntü Sınır stili:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3868
+msgid "Image border color:"
+msgstr "Görüntü sınır rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3880
+msgid "Title background color:"
+msgstr "Başlık arka plan rengi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3887
+msgid "Title opacity:"
+msgstr "Başlık donukluk:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3915
+msgid "Title Font family:"
+msgstr "Başlık Yazı tipi ailesi:"
+
+#: ../admin/views/BWGEViewThemes_bwge.php:3934
+msgid "Title color:"
+msgstr "Başlık rengi:"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:33
+#: ../admin/views/BWGEViewUninstall_bwge. php:155
+msgid "Uninstall Photo Gallery"
+msgstr "Kaldırma Foto Galeri"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:35
+msgid ""
+"Deactivating Photo Gallery plugin does not remove any data that may have "
+"been created. To completely remove this plugin, you can uninstall it here."
+msgstr ""
+"Foto Galeri eklentisi devre dışı bırakılması oluşturulmuş olabilir herhangi "
+"bir veriyi silmez. Tamamen bu eklentiyi kaldırmak için, buradan "
+"kaldırabilirsiniz."
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:38
+msgid "WARNING:"
+msgstr "UYARI:"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:39
+msgid ""
+"Once uninstalled, this can't be undone. You should use a Database Backup "
+"plugin of WordPress to back up all the data first."
+msgstr ""
+"Kaldırdıktan sonra, bu geri alınamaz. Önce tüm verileri yedeklemek için "
+"WordPress bir Veritabanı Yedekleme eklentisi kullanmalısınız."
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:42
+msgid "The following Database Tables will be deleted:"
+msgstr "Aşağıdaki Veritabanı Tabloları silinecek:"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:47
+msgid "Database Tables"
+msgstr "Veritabanı Tabloları"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:70
+msgid "Delete the folder containing uploaded images."
+msgstr "Yüklenen görüntüleri içeren klasörü silin."
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:76
+msgid "Do you really want to uninstall Photo Gallery?"
+msgstr "Gerçekten Fotoğraf Galerisi kaldırmak istiyor musunuz?"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:83
+msgid ""
+"You are About to Uninstall Photo Gallery from WordPress.\\nThis Action Is "
+"Not Reversible."
+msgstr ""
+"Sen WordPress Fotoğraf Galerisi kaldırmak üzeresiniz. \\\\\\\\\\\\\\\\\\\\\\"
+"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+"\\\\\\\\\\\\\\ NBu Eylem geri dönüşü yoktur."
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:133
+msgid "The following Database Tables successfully deleted:"
+msgstr "Aşağıdaki Veritabanı Tabloları başarıyla silindi:"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:156
+msgid "Click Here"
+msgstr "Buraya Tıkla"
+
+#: ../admin/views/BWGEViewUninstall_bwge.php:156
+msgid ""
+"To Finish the Uninstallation and Photo Gallery will be Deactivated "
+"Automatically."
+msgstr ""
+"Kaldırmayı tamamlamak için ve Foto Galeri otomatik olarak etkisizleştirmek "
+"olacaktır."
+
+#: ../admin/views/BWGEViewWidget.php:115
+#: ../admin/views/BWGEViewWidgetSlideshow.php:104
+#: ../admin/views/BWGEViewWidgetTags.php:114
+msgid "Title:"
+msgstr "Başlık:"
+
+#: ../admin/views/BWGEViewWidget.php:120
+msgid "Album"
+msgstr "Albüm"
+
+#: ../admin/views/BWGEViewWidget.php:152 ../framework/BWGELibrary.php:521
+msgid "First"
+msgstr "Ilk olarak"
+
+#: ../admin/views/BWGEViewWidget.php:153 ../framework/BWGELibrary.php:524
+msgid "Last"
+msgstr "Geçen"
+
+#: ../admin/views/BWGEViewWidget.php:157
+msgid "Count:"
+msgstr "Sayısı:"
+
+#: ../admin/views/BWGEViewWidget.php:161
+#: ../admin/views/BWGEViewWidgetSlideshow.php:120
+#: ../admin/views/BWGEViewWidgetTags.php:139
+msgid "Dimensions:"
+msgstr "Boyutlar:"
+
+#: ../admin/views/BWGEViewWidgetSlideshow.php:125
+msgid "Filmstrip height:"
+msgstr "Film şeridi yüksekliği:"
+
+#: ../admin/views/BWGEViewWidgetTags.php:123
+msgid "Show Tag Names:"
+msgstr "Etiket Adları Göster:"
+
+#: ../admin/views/BWGEViewWidgetTags.php:129
+msgid "Open in: "
+msgstr "Açılmak:"
+
+#: ../admin/views/BWGEViewWidgetTags.php:130
+msgid "page"
+msgstr "sayfa"
+
+#: ../admin/views/BWGEViewWidgetTags.php:131
+msgid "lightbox"
+msgstr "hafif kutu"
+
+#: ../admin/views/BWGEViewWidgetTags.php:135
+msgid "Number (0 for all):"
+msgstr "Sayı (hepsi için 0):"
+
+#: ../admin/views/BWGEViewWidgetTags.php:144
+msgid "Transparent Background:"
+msgstr "Şeffaf Arkaplan:"
+
+#: ../admin/views/BWGEViewWidgetTags.php:150
+msgid "Background Color:"
+msgstr "Arka plan rengi:"
+
+#: ../admin/views/BWGEViewWidgetTags.php:154
+msgid "Text Color:"
+msgstr "Metin Rengi:"
+
+#. Author of the plugin
+msgid "Rob"
+msgstr "Soymak"
+
+#: ../filemanager/view.php:63
+msgid "File loading failed"
+msgstr "Dosya yükleme başarısız"
+
+#: ../filemanager/view.php:65
+msgid "Are you sure you want to permanently remove selected items?"
+msgstr "Kalıcı Seçili öğeleri kaldırmak istediğinizden emin misiniz?"
+
+#: ../filemanager/view.php:66
+msgid "This will cancel uploads. Continue?"
+msgstr "Bu yüklenenler iptal edilecektir. Devam?"
+
+#: ../filemanager/view.php:68
+msgid "Enter directory name"
+msgstr "Dizin adını girin"
+
+#: ../filemanager/view.php:69
+msgid "Enter new name"
+msgstr "Yeni bir ad girin"
+
+#: ../filemanager/view.php:70
+msgid "Processing uploaded files..."
+msgstr "İşleme yüklenen dosyalar ..."
+
+#: ../filemanager/view.php:118
+msgid "Up"
+msgstr "Yukarı"
+
+#: ../filemanager/view.php:119
+msgid "Make a directory"
+msgstr "Bir dizin yapın"
+
+#: ../filemanager/view.php:120
+msgid "Rename item"
+msgstr "Öğeyi yeniden adlandırma"
+
+#: ../filemanager/view.php:122
+msgid "Copy"
+msgstr "Kopya"
+
+#: ../filemanager/view.php:123
+msgid "Cut"
+msgstr "Kesilmiş"
+
+#: ../filemanager/view.php:124
+msgid "Paste"
+msgstr "Yapıştır"
+
+#: ../filemanager/view.php:125
+msgid "Remove items"
+msgstr "Öğeleri kaldırın"
+
+#: ../filemanager/view.php:128
+msgid "Upload files"
+msgstr "Dosyaları yükle"
+
+#: ../filemanager/view.php:133
+msgid "Media library"
+msgstr "Medya kütüphanesi"
+
+#: ../filemanager/view.php:142
+msgid "View thumbs"
+msgstr "Görünüm başparmak"
+
+#: ../filemanager/view.php:143
+msgid "View list"
+msgstr "Görünüm listesi"
+
+#: ../filemanager/view.php:150
+msgid "To change upload directory go to Options page."
+msgstr "Yükleme dizini Seçenekleri sayfasına gidin değiştirin."
+
+#: ../filemanager/view.php:275
+msgid "Add selected images to gallery"
+msgstr "Galeriye Seçilen görüntüleri ekle"
+
+#: ../filemanager/view.php:285 ../filemanager/view.php:368
+msgid "Thumbnail Maximum Dimensions:"
+msgstr "Küçük resim Maksimum Boyutlar:"
+
+#: ../filemanager/view.php:290 ../filemanager/view.php:373 ..
+#: /frontend/views/BWGEViewAlbum_compact_preview.php:896
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:883
+#: /frontend/views/BWGEViewAlbum_masonry_preview.php:454
+#: /frontend/views/BWGEViewAlbum_masonry_preview.php:495
+msgid "Back"
+msgstr "Sırt"
+
+#: ../filemanager/view.php:293 ../filemanager/view.php:376
+msgid "Image Maximum Dimensions:"
+msgstr "Resim Maksimum Boyutlar:"
+
+#: ../filemanager/view.php:360
+msgid "Import selected images"
+msgstr "İthalat Seçilen görüntüler"
+
+#: ../filemanager/view.php:384
+msgid "Drag files here or click the button below"
+msgstr "Burada dosyaları sürükleyin ya da aşağıdaki butonuna tıklayınız"
+
+#: ../filemanager/view.php:384
+msgid "to upload files"
+msgstr "dosya yüklemek için"
+
+#: ../filemanager/view.php:456
+msgid "No files to upload"
+msgstr "Hiçbir dosya upload"
+
+#: ../framework/BWGELibrary.php:64
+msgid "You can't delete default theme"
+msgstr "Varsayılan temayı silemezsiniz"
+
+#: ../framework/BWGELibrary.php:82
+msgid "The item is successfully set as default."
+msgstr "Öğe başarıyla varsayılan olarak ayarlanır."
+
+#: ../framework/BWGELibrary.php:88
+msgid "Options Succesfully Saved."
+msgstr "Seçenekler birini başarıyla Kaydedildi."
+
+#: ../framework/BWGELibrary.php:124
+msgid "A term with the name provided already exists."
+msgstr "Zaten verilen isimde bir terim vardır."
+
+#: ../framework/BWGELibrary.php:130
+msgid "Name field is required."
+msgstr "Ad alanı gereklidir."
+
+#: ../framework/BWGELibrary.php:136
+msgid "The slug must be unique."
+msgstr "Sülük benzersiz olmalıdır."
+
+#: ../framework/BWGELibrary.php:142
+msgid "Changes must be saved."
+msgstr "Değişiklikler kaydedilmesi gerekir."
+
+#: ../framework/BWGELibrary.php:188 ../framework/BWGELibrary.php:362 ..
+#: /framework/BWGELibrary.php:725 ../framework/BWGELibrary.php:781
+msgid "Search"
+msgstr "Aramak"
+
+#: ../framework/BWGELibrary.php:315 ../framework/BWGELibrary.php:465 ..
+#: /framework/BWGELibrary.php:545
+msgid "of"
+msgstr "arasında"
+
+#: ../framework/BWGELibrary.php:516
+msgid " item(s)"
+msgstr "kalem (ler)"
+
+#: ../framework/BWGELibrary.php:522
+msgid "Previous"
+msgstr "Geçmiş"
+
+#: ../framework/BWGELibrary.php:523
+msgid "Next"
+msgstr "Sonraki"
+
+#: ../framework/BWGELibrary.php:542
+msgid "Go to the first page"
+msgstr "İlk sayfaya git"
+
+#: ../framework/BWGELibrary.php:543
+msgid "Go to the previous page"
+msgstr "Önceki sayfaya git"
+
+#: ../framework/BWGELibrary.php:549
+msgid "Go to the next page"
+msgstr "Bir sonraki sayfaya git"
+
+#: ../framework/BWGELibrary.php:550
+msgid "Go to the last page"
+msgstr "Son sayfaya git"
+
+#: ../framework/BWGELibrary.php:562
+msgid "Load More..."
+msgstr "Daha fazla yükle..."
+
+#: ../framework/BWGELibrary.php:846
+msgid "Order by: "
+msgstr "Tarafından sipariş:"
+
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:160 ..
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:105
+#: /frontend/views/BWGEViewAlbum_masonry_preview.php:137
+#: /frontend/views/BWGEViewBlog_style.php:33
+#: ../frontend/views/BWGEViewCarousel.php:47
+#: ../frontend/views/BWGEViewImage_browser.php:72
+#: /frontend/views/BWGEViewSlideshow.php:47
+#: ../frontend/views/BWGEViewSlideshow.php:106
+#: ../frontend/views/BWGEViewThumbnails.php:153
+#: /frontend/views/BWGEViewThumbnails_masonry.php:156
+#: /frontend/views/BWGEViewThumbnails_mosaic.php:161
+msgid "There is no theme selected or the theme was deleted."
+msgstr "Orada seçilen herhangi bir tema ya da tema silindi."
+
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:167 ..
+#: /frontend/views/BWGEViewAlbum_compact_preview.php:201
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:112
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:146
+#: /frontend/views/BWGEViewAlbum_masonry_preview.php:142
+#: /frontend/views/BWGEViewAlbum_masonry_preview.php:176
+msgid "There is no album selected or the album was deleted."
+msgstr "Orada seçilen herhangi bir albüm ya da albüm silindi."
+
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:189 ..
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:134
+#: /frontend/views/BWGEViewAlbum_masonry_preview.php:164
+#: /frontend/views/BWGEViewBlog_style.php:106 ../frontend/views/BWGEViewCarousel.
+#: php:79 ../frontend/views/BWGEViewImage_browser.php:83
+#: /frontend/views/BWGEViewSlideshow.php:168
+#: ../frontend/views/BWGEViewThumbnails. php:172
+#: ../frontend/views/BWGEViewThumbnails_masonry.php:169
+#: /frontend/views/BWGEViewThumbnails_mosaic.php:174
+msgid "There are no images in this gallery."
+msgstr "Bu galeride resim yok."
+
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:919 ..
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:894
+#: /frontend/views/BWGEViewAlbum_masonry_preview.php:511
+msgid "Album is empty."
+msgstr "Albüm boş."
+
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:1042 ..
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:1030
+#: /frontend/views/BWGEViewAlbum_masonry_preview.php:589
+msgid "Gallery is empty."
+msgstr "Galeri boştur."
+
+#: ../frontend/views/BWGEViewAlbum_compact_preview.php:1098 ..
+#: /frontend/views/BWGEViewAlbum_compact_preview.php:1148
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:1078
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:1127
+#: /frontend/views/BWGEViewCarousel.php:543 ../frontend/views/BWGEViewGalleryBox.
+#: php:888 ../frontend/views/BWGEViewGalleryBox.php:2769
+#: /frontend/views/BWGEViewSlideshow.php:1654
+#: ../frontend/views/BWGEViewThumbnails. php:455
+#: ../frontend/views/BWGEViewThumbnails_mosaic.php:398
+msgid "Play"
+msgstr "Oyna"
+
+#: ../frontend/views/BWGEViewAlbum_extended_preview.php:995 ..
+#: /frontend/views/BWGEViewAlbum_extended_preview.php:1159
+msgid "More"
+msgstr "Daha"
+
+#: ../frontend/views/BWGEViewAlbum_extended_preview.php:1154
+msgid "Hide"
+msgstr "Gizlemek"
+
+#: ../frontend/views/BWGEViewBlog_style.php:98
+#: ../frontend/views/BWGEViewCarousel. php:74
+#: ../frontend/views/BWGEViewImage_browser.php:77 ..
+#: /frontend/views/BWGEViewSlideshow.php:163
+#: ../frontend/views/BWGEViewThumbnails. php:164
+#: ../frontend/views/BWGEViewThumbnails_masonry.php:161
+#: /frontend/views/BWGEViewThumbnails_mosaic.php:166
+msgid "There is no gallery selected or the gallery was deleted."
+msgstr "Orada seçili galeri veya galeri silindi."
+
+#: ../frontend/views/BWGEViewBlog_style.php:548 ..
+#: /frontend/views/BWGEViewGalleryBox.php:900
+msgid "Show comments"
+msgstr "Göster yorumlar"
+
+#: ../frontend/views/BWGEViewBlog_style.php:554 ..
+#: /frontend/views/BWGEViewBlog_style.php:555
+#: ../frontend/views/BWGEViewGalleryBox. php:908
+#: ../frontend/views/BWGEViewGalleryBox.php:909
+msgid "Share on Facebook"
+msgstr "Facebook ta Paylaş"
+
+#: ../frontend/views/BWGEViewBlog_style.php:561 ..
+#: /frontend/views/BWGEViewBlog_style.php:562
+#: ../frontend/views/BWGEViewGalleryBox. php:915
+#: ../frontend/views/BWGEViewGalleryBox.php:916
+msgid "Share on Twitter"
+msgstr "Twitter da paylaş"
+
+#: ../frontend/views/BWGEViewBlog_style.php:568 ..
+#: /frontend/views/BWGEViewBlog_style.php:569
+#: ../frontend/views/BWGEViewGalleryBox. php:922
+#: ../frontend/views/BWGEViewGalleryBox.php:923
+msgid "Share on Google+"
+msgstr "Google + da Paylaş"
+
+#: ../frontend/views/BWGEViewBlog_style.php:575 ..
+#: /frontend/views/BWGEViewBlog_style.php:576
+#: ../frontend/views/BWGEViewGalleryBox. php:929
+#: ../frontend/views/BWGEViewGalleryBox.php:930
+msgid "Share on Pinterest"
+msgstr "Pinterest Share"
+
+#: ../frontend/views/BWGEViewBlog_style.php:582 ..
+#: /frontend/views/BWGEViewBlog_style.php:583
+#: ../frontend/views/BWGEViewGalleryBox. php:936
+#: ../frontend/views/BWGEViewGalleryBox.php:937
+msgid "Share on Tumblr"
+msgstr "Tumblr Paylaş"
+
+#: ../frontend/views/BWGEViewCarousel.php:531 ../frontend/views/BWGEViewCarousel.
+#: php:537 ../frontend/views/BWGEViewGalleryBox.php:2763 ..
+#: /frontend/views/BWGEViewGalleryBox.php:2778
+#: ../frontend/views/BWGEViewSlideshow. php:1645
+#: ../frontend/views/BWGEViewSlideshow.php:1663
+msgid "Pause"
+msgstr "Pause"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:867
+msgid "The image has been deleted."
+msgstr "Görüntü silindi."
+
+#: ../frontend/views/BWGEViewGalleryBox.php:892 ..
+#: /frontend/views/BWGEViewGalleryBox.php:2052
+#: ../frontend/views/BWGEViewGalleryBox. php:2598
+#: ../frontend/views/BWGEViewGalleryBox.php:2694
+msgid "Maximize"
+msgstr "Özdeyiş"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:896 ..
+#: /frontend/views/BWGEViewGalleryBox.php:2054
+#: ../frontend/views/BWGEViewGalleryBox. php:2696
+msgid "Fullscreen"
+msgstr "Tam ekran"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:898 ..
+#: /frontend/views/BWGEViewGalleryBox.php:2433
+msgid "Show info"
+msgstr "Bilgi göster"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:902 ..
+#: /frontend/views/BWGEViewGalleryBox.php:2444
+msgid "Show rating"
+msgstr "Göster değerlendirmesi"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:944
+msgid "Open image in original size."
+msgstr "Orijinal boyutunda aç görüntü."
+
+#: ../frontend/views/BWGEViewGalleryBox.php:965
+msgid "Download original image"
+msgstr "Orijinal resim dosyasını indirin"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1075
+msgid "Hits: "
+msgstr "Hits:"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1086
+msgid "Rated."
+msgstr "Anma."
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1090 ..
+#: /frontend/views/BWGEViewGalleryBox.php:1107
+msgid "Not rated yet."
+msgstr "Henüz Oylanmadı."
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1093 ..
+#: /frontend/views/BWGEViewGalleryBox.php:1129
+msgid "Votes: "
+msgstr "Oy:"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1127
+msgid "Cancel your rating."
+msgstr "Senin notunu iptal."
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1129
+msgid "You have already rated."
+msgstr "Zaten puan var."
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1228
+msgid "Error. Incorrect Verification Code."
+msgstr "Hata. Yanlış Doğrulama Kodu."
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1243 ..
+#: /frontend/views/BWGEViewGalleryBox.php:2261
+msgid "Hide Comments"
+msgstr "Yorumlar gizle"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1265
+msgid "Verification Code"
+msgstr "Doğrulama kodu"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1288
+msgid "Submit"
+msgstr "Gönder"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1289
+msgid "Your comment is awaiting moderation"
+msgstr "Yorumunuz onay bekliyor"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:1318
+msgid "Delete Comment"
+msgstr "Yorum sil"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:2216
+msgid "Show Comments"
+msgstr "Yorumları Göster"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:2429
+msgid "Hide info"
+msgstr "Bilgi gizleme"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:2440
+msgid "Hide rating"
+msgstr "Hide değerlendirmesi"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:2635 ..
+#: /frontend/views/BWGEViewGalleryBox.php:2844
+msgid "Restore"
+msgstr "Restore"
+
+#: ../frontend/views/BWGEViewGalleryBox.php:2749
+msgid "Exit Fullscreen"
+msgstr "Çık Tam Ekran"
+
+#: ../update/update.php:22
+msgid ""
+"Advanced  plugin to create unlimited galleries and albums with all modern "
+"gallery view options."
+msgstr ""
+"Gelişmiş eklenti tüm modern galeri görünümü seçenekleri ile sınırsız "
+"galerileri ve albümleri oluşturmak için."
+
+#: ../update/update.php:81
+msgid "Updates"
+msgstr "Güncellemeler"
+
+#: ../update/update.php:119
+#, php-format
+msgid ""
+"You can download the latest version of your plugins from your %s account.\n"
+"            After deactivate and delete the current version.\n"
+"            Install the downloaded latest version of the plugin."
+msgstr ""
+"Siz \\n devre dışı sonra %s hesabınızdan eklentileri son sürümünü indirmek "
+"ve güncel sürümünü silin. \\ N eklentinin indirilen son sürümünü yükleyin "
+"olabilir."
+
+#: ../update/update.php:155
+#, php-format
+msgid "Current version %s"
+msgstr "Güncel sürüm %s"
+
+#: ../update/update.php:161 ../update/update.php:233
+#, php-format
+msgid "There is a new %s version"
+msgstr "Yeni %s sürümü var"
+
+#: ../update/update.php:163 ../update/update.php:215
+msgid "What's new:"
+msgstr "Naber:"
+
+#: ../update/update.php:180 ../update/update.php:256
+msgid "More updates"
+msgstr "Daha güncellemeler"
+
+#: ../update/update.php:185 ../update/update.php:220
+#, php-format
+msgid "%s is up to date."
+msgstr "%s güncel olduğunu."
+
+#: ../update/update.php:253
+msgid "Show less"
+msgstr "Daha az göster"
